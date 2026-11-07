@@ -128,7 +128,6 @@ Fazer o mesmo com `Math.min` para "mais curta" e checar pistas lexicais. Editar 
 ```bash
 node tools/merge-kit.js "$SCRATCH/<id>.json"     # atualiza dados/anatopato.json e index.html
 node tools/verify-kit.js dados/anatopato.json    # todos os kits devem passar
-cp "$SCRATCH/<id>.json" "C:/Users/Perdido/Downloads/<id>.json"   # arquivo para download
 ```
 - `anatopato.json` e o bloco do `index.html` usam JSON com indent de **1 espaço** e **CRLF**, sem newline final. O `merge-kit.js` preserva isso, então o diff fica só com o kit novo. Rodar duas vezes não muda nada.
 - Atualizar a tabela "Conteúdo atual" do `README.md` (Tema | Arquivo | Questões).
@@ -145,4 +144,4 @@ cp "$SCRATCH/<id>.json" "C:/Users/Perdido/Downloads/<id>.json"   # arquivo para 
 `python -m http.server 8765 --bind 127.0.0.1` em background e abrir `http://localhost:8765/`. A porta **8080 está ocupada/bloqueada** nesta máquina (WinError 10013). Alternativa sem servidor: abrir o `index.html` com duplo clique.
 
 ## Resumo final para o usuário
-Entregar: caminho do arquivo em Downloads, tabela de questões por bloco, resultado da verificação (posições, % mais longa/curta, duplicadas, complemento, INCORRECTA, níveis) e o que ficou de fora e por quê.
+Entregar: tabela de questões por bloco, resultado da verificação (posições, % mais longa/curta, duplicadas, complemento, INCORRECTA, níveis) e o que ficou de fora e por quê.
