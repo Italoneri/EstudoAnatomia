@@ -14,6 +14,7 @@ App de estudo para **Anatomía Patológica**: estudo inteligente com níveis, fl
 | Neoplasia | 3 – Aspectos clínicos y ejemplos | 83 |
 | Vasos sanguíneos | 1 – HTA, aterosclerosis, aneurismas y disección | 104 |
 | Vasos sanguíneos | 2 – Vasculitis, enfermedades venosas y linfáticas, y tumores vasculares | 132 |
+| Vasos sanguíneos | 3 – Vasculitis: cuadro comparativo, detalles y tumores vasculares (Vasculitis.pdf) | 45 |
 
 Os cards "<Tema> – todos" e "Geral" são gerados automaticamente a partir do campo `tema` de cada kit.
 
