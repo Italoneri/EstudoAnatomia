@@ -7167,6 +7167,2605 @@
      "tipo": "ppt"
     }
    ]
+  },
+  {
+   "id": "vasos-sanguineos-2",
+   "tema": "Vasos sanguíneos",
+   "titulo": "Vasos sanguíneos 2 – Vasculitis, enfermedades venosas y linfáticas, y tumores vasculares",
+   "icone": "hospital",
+   "materiais": [
+    {
+     "nome": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf",
+     "tipo": "ppt"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "¿Cómo se define la vasculitis?",
+     "opcoes": [
+      "Trombosis sin inflamación",
+      "Inflamación de las paredes vasculares",
+      "Dilatación localizada y permanente de la pared arterial",
+      "Depósito de lípidos y colesterol en la íntima arterial"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La vasculitis se define como la inflamación de las paredes vasculares.",
+      "Sus características clínicas varían según el lecho vascular afectado (SNC, corazón, intestino delgado).",
+      "La dilatación localizada corresponde a un aneurisma y el depósito lipídico a la aterosclerosis, no a una vasculitis."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 2",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿De qué depende principalmente la variabilidad de las manifestaciones clínicas de las vasculitis?",
+     "opcoes": [
+      "De la edad del paciente en el momento del diagnóstico",
+      "Del lecho vascular afectado (SNC, corazón, intestino)",
+      "De la presencia o ausencia de granulomas en la biopsia",
+      "Del tipo de autoanticuerpo que se detecta en el suero"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las características clínicas de la vasculitis dependen del lecho vascular afectado.",
+      "La isquemia o hemorragia del órgano irrigado (SNC, corazón, intestino delgado) determina los síntomas focales.",
+      "Los autoanticuerpos y granulomas sirven para clasificar las vasculitis, pero no explican por sí solos la variabilidad clínica."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 2",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué conjunto de síntomas inespecíficos es habitual en las vasculitis?",
+     "opcoes": [
+      "Claudicación intermitente y fenómeno de Raynaud por frío",
+      "Úlceras orales y genitales de repetición con uveítis",
+      "Hemoptisis, hematuria y púrpura cutánea palpable",
+      "Fiebre, mialgias, artralgias y malestar general"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Las vasculitis suelen acompañarse de signos y síntomas inespecíficos: fiebre, mialgias, artralgias y malestar general.",
+      "Estos síntomas reflejan la inflamación sistémica, mientras que los signos focales dependen del órgano afectado.",
+      "Hemoptisis con hematuria, claudicación o la tríada oral-genital-ocular son cuadros específicos de vasculitis concretas."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 2",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Respecto a la distribución de las vasculitis, ¿qué afirmación es correcta?",
+     "opcoes": [
+      "La mayoría compromete solo la aorta y sus grandes ramas",
+      "Afectan en forma exclusiva a arterias de mediano calibre renales",
+      "La mayoría compromete vasos pequeños de casi cualquier órgano",
+      "Se limitan casi siempre a las venas de los miembros inferiores"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Pueden afectarse vasos de cualquier tipo en prácticamente todos los órganos, aunque la mayoría afecta vasos pequeños.",
+      "Se reconocen unas 20 formas principales, que comprometen capilares, arteriolas o vénulas.",
+      "La afectación aórtica es propia solo de algunas formas (células gigantes, Takayasu); no es la regla."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 3",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA respecto a los criterios con los que se clasifican las vasculitis:",
+     "opcoes": [
+      "La formación de granulomas",
+      "La presencia de autoanticuerpos específicos",
+      "El diámetro de los vasos afectados",
+      "La respuesta al tratamiento anticoagulante"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La respuesta a anticoagulantes no figura entre los criterios de clasificación.",
+      "Se agrupan por diámetro de los vasos, papel de los inmunocomplejos, autoanticuerpos, granulomas, especificidad de órgano y demografía.",
+      "Diámetro, autoanticuerpos y granulomas sí son criterios clásicos, por eso son las alternativas correctas que no se piden."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 4",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuáles son los dos mecanismos patógenos comunes en las vasculitis?",
+     "opcoes": [
+      "Estasis venosa y trombosis por inmovilización",
+      "Hipertensión crónica y necrosis quística de la media",
+      "Inmunomediada e invasión infecciosa directa",
+      "Depósito de lípidos y calcificación de la capa media"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Los dos mecanismos comunes son la inflamación inmunomediada y la invasión directa de la pared por patógenos infecciosos.",
+      "Esta distinción guía el tratamiento: inmunodepresor en la inmunomediada y dirigido al patógeno en la infecciosa.",
+      "Depósito lipídico y estasis venosa explican aterosclerosis y trombosis venosa, no vasculitis."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 7",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Antes de iniciar tratamiento en un paciente con vasculitis, ¿por qué es crucial distinguir el mecanismo inmunomediado del infeccioso?",
+     "opcoes": [
+      "Porque la infecciosa responde solo a corticoides en dosis altas",
+      "Porque la inmunomediada requiere siempre resección del vaso",
+      "Porque la terapia adecuada difiere en cada caso",
+      "Porque ambas se tratan igual y solo cambia el pronóstico"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El tratamiento de la vasculitis inmunomediada es inmunodepresor; el de la infecciosa depende del tipo de patógeno.",
+      "Inmunodeprimir a un paciente con invasión infecciosa de la pared favorecería la diseminación del agente.",
+      "Ninguna de las dos se trata 'siempre' con cirugía y no se manejan igual: el mecanismo cambia la terapia."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 7",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "¿Cuál de los siguientes es un mecanismo de lesión en las vasculitis NO infecciosas?",
+     "opcoes": [
+      "Linfocitos T autorreactivos",
+      "Depósito de LDL oxidadas en la íntima",
+      "Necrosis quística medial",
+      "Invasión de la pared por Aspergillus"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En las vasculitis no infecciosas la lesión inmunitaria puede deberse a linfocitos T autorreactivos.",
+      "Los otros mecanismos son depósito de inmunocomplejos, ANCA y anticuerpos contra células endoteliales.",
+      "La invasión por Aspergillus define una vasculitis infecciosa, no inmunomediada."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 8",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En el esquema de vasculitis de vasos pequeños, ¿qué grupo se caracteriza por escasez de inmunocomplejos y, a menudo, ANCA?",
+     "opcoes": [
+      "LES, púrpura de Henoch-Schönlein y crioglobulinemia",
+      "Arteritis de células gigantes y arteritis de Takayasu",
+      "Panarteritis nudosa y enfermedad de Kawasaki",
+      "Polivasculitis microscópica, Wegener y Churg-Strauss"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Polivasculitis microscópica, granulomatosis de Wegener y Churg-Strauss forman el grupo pauciinmune, a menudo con ANCA.",
+      "Se diferencian entre sí por la presencia de asma y granulomas (Churg-Strauss), granulomas sin asma (Wegener) o ninguno (polivasculitis).",
+      "LES, Henoch-Schönlein y crioglobulinemia son vasculitis de vasos pequeños mediadas por inmunocomplejos."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 6",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué enfermedad se cita como ejemplo de vasculitis asociada a inmunocomplejos?",
+     "opcoes": [
+      "Granulomatosis con polivasculitis",
+      "Lupus eritematoso sistémico",
+      "Tromboangitis obliterante",
+      "Arteritis de Takayasu"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El LES es el ejemplo de vasculitis por inmunocomplejos citado en el material.",
+      "En trastornos inmunitarios sistémicos se producen inmunocomplejos que se depositan en los vasos.",
+      "La granulomatosis con polivasculitis es pauciinmune y se asocia a ANCA, no a depósito de inmunocomplejos."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 9",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En la vasculitis por hipersensibilidad a fármacos, ¿cómo participa el medicamento en la lesión?",
+     "opcoes": [
+      "Induce ANCA dirigidos contra la proteinasa 3 del neutrófilo",
+      "Actúa como hapteno y forma inmunocomplejos",
+      "Activa linfocitos T que forman granulomas en la media",
+      "Lesiona directamente el endotelio por toxicidad química"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los fármacos actúan como haptenos o sustancias extrañas y la vasculitis se relaciona con depósito de inmunocomplejos.",
+      "La manifestación clínica va de leve a grave según la intensidad de la respuesta.",
+      "La toxicidad endotelial directa se plantea en la tromboangitis por tabaco, no en la hipersensibilidad a fármacos."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 11",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Varón con hepatitis B crónica desarrolla una vasculitis de arterias de mediano calibre. ¿Qué mecanismo se asocia a este cuadro?",
+     "opcoes": [
+      "Invasión directa de la pared por el virus",
+      "Depósito de inmunocomplejos HBsAg–anti-HBsAg",
+      "Anticuerpos ANCA-MPO contra el neutrófilo",
+      "Anticuerpos contra las células endoteliales"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La vasculitis secundaria a infecciones se produce por anticuerpos contra constituyentes microbianos; el ejemplo es la PAN con HBsAg/anti-HBsAg.",
+      "Los inmunocomplejos formados con el antígeno viral se depositan en la pared y activan la inflamación.",
+      "No es una vasculitis infecciosa por invasión directa: el daño es inmunitario."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 11",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Contra qué estructuras se dirigen los ANCA?",
+     "opcoes": [
+      "Componentes de neutrófilos, monocitos y endotelio",
+      "Antígenos de superficie del virus de la hepatitis B",
+      "Colágeno de la membrana basal del glomérulo renal",
+      "Núcleos de linfocitos B y de células plasmáticas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Los ANCA son un grupo heterogéneo de autoanticuerpos contra componentes del neutrófilo, monocitos y células endoteliales.",
+      "Se clasifican por su especificidad antigénica (PR3 o MPO) y sirven como marcadores diagnósticos y de recidiva.",
+      "Los anticuerpos contra el HBsAg participan en la PAN asociada a hepatitis, no son ANCA."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 12",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Los ANCA antimieloperoxidasa (ANCA-MPO, antes ANCA-p) se asocian principalmente a:",
+     "opcoes": [
+      "Tromboangitis obliterante y enfermedad de Behçet",
+      "Enfermedad de Kawasaki y panarteritis nudosa",
+      "Arteritis de células gigantes y de Takayasu",
+      "Polivasculitis microscópica y Churg-Strauss"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El ANCA-MPO se asocia a la polivasculitis microscópica y al síndrome de Churg-Strauss.",
+      "La clasificación de los ANCA se basa en su especificidad antigénica: proteinasa 3 o mieloperoxidasa.",
+      "Kawasaki se asocia a anticuerpos contra células endoteliales, y la PAN no se relaciona con ANCA."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 12",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué cuadro ejemplifica la vasculitis por anticuerpos contra células endoteliales?",
+     "opcoes": [
+      "El lupus eritematoso sistémico",
+      "La púrpura de Henoch-Schönlein",
+      "El síndrome de Churg-Strauss",
+      "La enfermedad de Kawasaki"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Los anticuerpos contra células endoteliales se ejemplifican en la enfermedad de Kawasaki.",
+      "Son inducidos por anomalías en la regulación inmunitaria.",
+      "LES y Henoch-Schönlein son vasculitis por inmunocomplejos; Churg-Strauss se vincula a ANCA."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 13",
+     "bloco": "Vasculitis: concepto, clasificación y patogenia",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es un sinónimo de la arteritis de células gigantes?",
+     "opcoes": [
+      "Enfermedad de Horton",
+      "Enfermedad de Milroy",
+      "Enfermedad sin pulso",
+      "Enfermedad de Buerger"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La arteritis de células gigantes también se denomina arteritis de la temporal o enfermedad de Horton.",
+      "Su nombre refleja la inflamación granulomatosa con células gigantes en las arterias craneales.",
+      "'Enfermedad sin pulso' es la arteritis de Takayasu, otra vasculitis granulomatosa de grandes vasos."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 14",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Por qué la arteritis de células gigantes se considera una urgencia médica?",
+     "opcoes": [
+      "Porque causa infarto de miocardio en la mayoría de casos",
+      "Porque produce glomerulonefritis rápidamente progresiva",
+      "Porque suele provocar rotura de la aorta abdominal",
+      "Porque puede causar ceguera al afectar la oftálmica"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La afectación de la arteria oftálmica puede producir ceguera, por eso es una urgencia.",
+      "El engrosamiento de la íntima y la trombosis reducen la luz y causan isquemia del nervio óptico.",
+      "La glomerulonefritis rápidamente progresiva es típica de vasculitis de vasos pequeños, no de esta arteritis craneal."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 15",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "¿Qué tipo de respuesta inmunitaria se asocia a la arteritis de células gigantes?",
+     "opcoes": [
+      "Depósito de inmunocomplejos con HBsAg",
+      "Anticuerpos contra las células endoteliales",
+      "Mediada por linfocitos T",
+      "Anticuerpos ANCA contra la proteinasa 3"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La arteritis de células gigantes se asocia a una respuesta inmunitaria mediada por linfocitos T.",
+      "Esto explica el infiltrado de linfocitos T (CD4+ > CD8+) y macrófagos con inflamación granulomatosa.",
+      "Los inmunocomplejos con HBsAg se relacionan con la PAN, no con la arteritis temporal."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 15",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En la arteritis de células gigantes, ¿dónde se centra la inflamación granulomatosa?",
+     "opcoes": [
+      "En el endotelio de los capilares",
+      "En las vénulas poscapilares",
+      "En la adventicia y los vasa vasorum",
+      "En la lámina elástica interna"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La inflamación granulomatosa se centra en la lámina elástica interna.",
+      "Se acompaña de engrosamiento de la íntima que reduce la luz y, ocasionalmente, trombosis.",
+      "Los manguitos alrededor de los vasa vasorum y el infiltrado adventicial son propios de Takayasu."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 19",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En una biopsia de arteria temporal con arteritis de células gigantes activa, ¿qué infiltrado se espera?",
+     "opcoes": [
+      "Linfocitos T CD4+ > CD8+ y macrófagos",
+      "Neutrófilos y eosinófilos con necrosis fibrinoide",
+      "Linfocitos T CD8+ > CD4+ y neutrófilos",
+      "Linfocitos B y plasmocitos en folículos"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El infiltrado de la arteritis temporal está formado por linfocitos T, con CD4+ mayor que CD8+, y macrófagos.",
+      "Corresponde a la respuesta mediada por linfocitos T que genera inflamación granulomatosa en la elástica interna.",
+      "El infiltrado mixto con neutrófilos, eosinófilos y necrosis fibrinoide describe la fase aguda de la PAN."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 19",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué hallazgo corresponde a la fase de curación de la arteritis de células gigantes?",
+     "opcoes": [
+      "Fibrosis de la adventicia",
+      "Necrosis fibrinoide transmural",
+      "Leucocitoclasia",
+      "Microabscesos con granulomas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la fase de curación hay engrosamiento de la íntima, fragmentación del tejido elástico residual y fibrosis de la adventicia.",
+      "La inflamación activa da paso a cicatrización, que mantiene la reducción de la luz.",
+      "La necrosis fibrinoide transmural es característica de la PAN; los microabscesos con granulomas, de Buerger."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 19",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué dato epidemiológico caracteriza a la arteritis de células gigantes?",
+     "opcoes": [
+      "Predomina en adultos jóvenes",
+      "Es típica de lactantes menores de 4 años",
+      "Es infrecuente antes de los 50 años",
+      "Predomina en fumadores menores de 35 años"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La arteritis de células gigantes es infrecuente antes de los 50 años y más común en personas de edad avanzada.",
+      "Por eso el material usa el corte de 50 años para separar la aortitis de células gigantes de la de Takayasu.",
+      "Los lactantes corresponden a Kawasaki y los fumadores jóvenes a la tromboangitis obliterante."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 21",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Mujer de 72 años con cefalea intensa a lo largo de la arteria temporal superficial, fiebre, pérdida de peso y diplopía. ¿Diagnóstico más probable?",
+     "opcoes": [
+      "Arteritis de células gigantes",
+      "Arteritis de Takayasu",
+      "Granulomatosis con polivasculitis",
+      "Panarteritis nudosa"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Edad mayor de 50 años, cefalea en el trayecto temporal, síntomas generales y diplopía configuran la arteritis de células gigantes.",
+      "La afectación de arterias craneales y oftálmicas explica la cefalea y los trastornos visuales.",
+      "Takayasu afecta el cayado aórtico con pulsos débiles en los brazos y, en el material, se reserva para menores de 50 años."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 21",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Sobre la biopsia de arteria temporal, ¿qué afirmación es correcta?",
+     "opcoes": [
+      "Basta un fragmento de 2-3 mm para el diagnóstico",
+      "Debe obtenerse de la arteria oftálmica afectada",
+      "Un resultado negativo descarta siempre la enfermedad",
+      "Un resultado negativo no descarta el diagnóstico"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Una biopsia negativa no descarta la arteritis de células gigantes.",
+      "Para que sea adecuada se requiere un segmento de al menos 1 cm.",
+      "Afirmar que descarta 'siempre' es falso: una muestra corta o un segmento no afectado puede dar falsos negativos."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 22",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "¿Qué tratamientos suelen ser eficaces en la arteritis de células gigantes?",
+     "opcoes": [
+      "Inmunoglobulina IV y aspirina",
+      "Abandono del consumo de tabaco",
+      "Antibióticos según el cultivo",
+      "Corticoesteroides o anti-TNF"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Los corticoesteroides o los tratamientos anti-TNF suelen ser eficaces; la respuesta a corticoides es rápida.",
+      "Al ser una respuesta mediada por linfocitos T, responde a la inmunosupresión.",
+      "Inmunoglobulina IV con ácido acetilsalicílico es el tratamiento de la enfermedad de Kawasaki."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 21",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Por qué la arteritis de Takayasu se denomina 'enfermedad sin pulso'?",
+     "opcoes": [
+      "Por la pérdida del pulso pedio por oclusión de las tibiales",
+      "Por la trombosis de las venas profundas de las piernas",
+      "Por la rotura de aneurismas en las arterias coronarias",
+      "Por el debilitamiento del pulso en las extremidades superiores"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Takayasu se caracteriza por molestias oculares y debilitamiento del pulso en las extremidades superiores.",
+      "El engrosamiento fibroso transmural del cayado y de sus grandes ramas produce estenosis luminal importante.",
+      "La oclusión de tibiales y radiales es propia de la tromboangitis obliterante (Buerger)."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 23",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué segmento vascular afecta clásicamente la arteritis de Takayasu?",
+     "opcoes": [
+      "Las arterias craneales, sobre todo la temporal",
+      "Las vénulas poscapilares de la piel",
+      "El cayado aórtico y sus grandes ramas",
+      "Las arterias tibiales y radiales distales"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Takayasu afecta clásicamente al cayado aórtico y a los grandes vasos.",
+      "También puede comprometer arterias pulmonares, coronarias y renales.",
+      "Las arterias craneales son el blanco típico de la arteritis de células gigantes."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 25",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente de 58 años con aortitis granulomatosa del cayado aórtico. Según el criterio del material, ¿cómo se denomina?",
+     "opcoes": [
+      "Aortitis de células gigantes",
+      "Aortitis reumatoide",
+      "Aortitis de Takayasu",
+      "Aortitis por enfermedad de Behçet"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En personas de más de 50 años el diagnóstico es aortitis de células gigantes.",
+      "Ambas son vasculitis granulomatosas de grandes vasos y la edad es el criterio que las separa.",
+      "En menores de 50 años el mismo cuadro se denomina aortitis de Takayasu."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 25",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué hallazgo histológico es característico de la arteritis de Takayasu?",
+     "opcoes": [
+      "Necrosis fibrinoide con neutrófilos y eosinófilos abundantes",
+      "Neutrófilos en vénulas poscapilares con apoptosis",
+      "Manguitos perivasculares mononucleares en los vasa vasorum",
+      "Microabscesos rodeados de inflamación granulomatosa"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "En Takayasu hay infiltrados mononucleares en la adventicia con manguitos perivasculares en los vasa vasorum.",
+      "La media muestra inflamación mononuclear o granulomatosa con células gigantes y necrosis parcheada.",
+      "La necrosis fibrinoide con infiltrado mixto es de la PAN aguda; los microabscesos, de Buerger."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 27",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué ocurre en la pared vascular con la progresión de la arteritis de Takayasu?",
+     "opcoes": [
+      "Dilatación tortuosa de la pared por válvulas incompetentes",
+      "Formación de aneurismas micóticos por invasión de hongos",
+      "Cicatrización colágena en las tres capas",
+      "Regresión completa de las lesiones sin fibrosis residual"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Con la progresión se produce cicatrización colágena en las tres capas, con infiltrados inflamatorios crónicos.",
+      "Esta fibrosis transmural explica el engrosamiento irregular y la estenosis de las ramas principales.",
+      "Los aneurismas micóticos se deben a vasculitis infecciosas, no a Takayasu."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 28",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Mujer de 28 años con fatiga, fiebre, pulsos radiales débiles, presión arterial disminuida en los brazos y alteraciones visuales. ¿Diagnóstico más probable?",
+     "opcoes": [
+      "Tromboangitis obliterante",
+      "Enfermedad de Kawasaki",
+      "Arteritis de Takayasu",
+      "Arteritis de células gigantes"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Pulsos débiles y presión baja en extremidades superiores con alteraciones visuales en menor de 50 años sugieren Takayasu.",
+      "La estenosis del cayado y de los grandes vasos reduce el flujo a brazos, carótidas y territorio ocular.",
+      "La arteritis de células gigantes es infrecuente antes de los 50 años."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 30",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre las características clínicas de la arteritis de Takayasu:",
+     "opcoes": [
+      "Anomalías visuales y neurológicas",
+      "Hipertensión sistémica y pulmonar",
+      "Debilidad de pulsos carotídeos y braquiales",
+      "Claudicación del empeine con flebitis nodular"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La claudicación del empeine con flebitis nodular superficial es propia de la tromboangitis obliterante.",
+      "Takayasu cursa con fatiga, fiebre, pulsos débiles en carótidas y brazos, alteraciones visuales y neurológicas, IAM e HTA.",
+      "Las otras tres alternativas sí figuran entre sus manifestaciones."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 30",
+     "bloco": "Vasculitis de grandes vasos: células gigantes y Takayasu",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué vasos afecta la panarteritis nudosa?",
+     "opcoes": [
+      "Arterias pequeñas y medianas viscerales",
+      "La aorta y sus ramas de gran calibre",
+      "Capilares, arteriolas y vénulas de la piel",
+      "Arterias pulmonares y bronquiales"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La PAN es una vasculitis sistémica de arterias de tamaño pequeño e intermedio, renales y viscerales.",
+      "Respeta la circulación pulmonar y no se relaciona con ANCA.",
+      "Capilares, arteriolas y vénulas son el blanco de la polivasculitis microscópica."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 31",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre la panarteritis nudosa:",
+     "opcoes": [
+      "Es una vasculitis sistémica",
+      "Respeta la circulación pulmonar",
+      "Su causa no se conoce",
+      "Se asocia típicamente a ANCA-MPO"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La PAN no está relacionada con ANCA.",
+      "Es una vasculitis sistémica de arterias pequeñas e intermedias que no afecta la circulación pulmonar y de causa desconocida.",
+      "El ANCA-MPO se asocia a la polivasculitis microscópica y al síndrome de Churg-Strauss."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 31",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué formas clínico-etiológicas de panarteritis nudosa se distinguen?",
+     "opcoes": [
+      "Primaria, congénita simple y heredofamiliar",
+      "Capilar, cavernosa y lobulillar inflamada",
+      "Clásica, africana endémica y asociada a trasplante",
+      "Clásica, cutánea y asociada a hepatitis crónica"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Se distinguen la PAN idiopática clásica, las formas cutáneas y la PAN asociada a hepatitis crónica.",
+      "En un 30 % de los casos se encuentran complejos HBsAg–HBsAb, lo que vincula la forma asociada a hepatitis con inmunocomplejos.",
+      "'Clásica, africana y trasplante' son formas del sarcoma de Kaposi."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 32",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Según el orden de frecuencia del material, ¿qué órgano afecta más la panarteritis nudosa?",
+     "opcoes": [
+      "Corazón",
+      "Riñones",
+      "Hígado",
+      "Tubo digestivo"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El orden de frecuencia es riñones, corazón, hígado y tubo digestivo.",
+      "La afectación de la arteria renal explica la hipertensión rápidamente acelerada.",
+      "El corazón ocupa el segundo lugar, no el primero."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 33",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la lesión morfológica básica de la panarteritis nudosa?",
+     "opcoes": [
+      "Inflamación granulomatosa en la elástica interna",
+      "Fibrosis difusa de las tres capas de la aorta",
+      "Inflamación necrosante transmural segmentaria",
+      "Vasculitis leucocitoclástica de vénulas"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La PAN produce inflamación necrosante transmural segmentaria de arterias pequeñas o intermedias.",
+      "La necrosis de toda la pared la debilita y favorece aneurismas o rotura.",
+      "La inflamación granulomatosa en la elástica interna define la arteritis de células gigantes."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 33",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Por qué la panarteritis nudosa puede producir aneurismas o rotura arterial?",
+     "opcoes": [
+      "Porque la hipertensión portal dilata las arterias",
+      "Porque hay necrosis quística congénita de la media",
+      "Porque la inflamación debilita la pared arterial",
+      "Porque hongos invaden la pared arterial por vía hematógena"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El proceso inflamatorio debilita la pared arterial y causa aneurismas o rotura.",
+      "La necrosis transmural destruye el soporte de la pared en los segmentos afectados.",
+      "La invasión por hongos genera aneurismas micóticos en las vasculitis infecciosas, no en la PAN."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 34",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál se cuenta entre los primeros signos de la panarteritis nudosa?",
+     "opcoes": [
+      "Mala perfusión con úlceras o infartos",
+      "Granulomas necrosantes de las vías respiratorias",
+      "Aneurismas coronarios gigantes",
+      "Asma, rinitis alérgica e hipereosinofilia periférica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Entre los primeros signos está el deterioro de la perfusión con úlceras, infartos, atrofia isquémica o hemorragias.",
+      "La inflamación necrosante reduce la luz o rompe la pared, generando isquemia distal.",
+      "Los aneurismas coronarios gigantes son secuela de la enfermedad de Kawasaki."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 34",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué se observa en la fase aguda de la panarteritis nudosa?",
+     "opcoes": [
+      "Collares de células glómicas en estroma",
+      "Infiltrado mononuclear solo adventicial",
+      "Linfocitos T CD4+ con células gigantes",
+      "Infiltrado mixto con necrosis fibrinoide"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "En la fase aguda hay infiltrado mixto con neutrófilos, eosinófilos y mononucleares, acompañado de necrosis fibrinoide.",
+      "En la fase crónica aparece engrosamiento fibroso del vaso que se extiende a la adventicia.",
+      "Linfocitos T CD4+ con células gigantes corresponden a la arteritis de células gigantes."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 36",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Biopsia renal de PAN: algunas arterias muestran necrosis fibrinoide activa y otras engrosamiento fibroso. ¿Qué explica este hallazgo?",
+     "opcoes": [
+      "Indica transformación a granulomatosis con polivasculitis",
+      "Hay sobreinfección de la pared por Pseudomonas",
+      "Todas las lesiones tienen la misma antigüedad",
+      "La PAN presenta lesiones en curso y recidivantes"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "En la PAN pueden coexistir lesiones en curso (agudas) y recidivantes (crónicas).",
+      "La fase aguda tiene necrosis fibrinoide y la crónica engrosamiento fibroso con extensión a la adventicia.",
+      "Que todas las lesiones tengan la misma antigüedad es propio de la polivasculitis microscópica."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 38",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿En qué grupo de edad es propia la panarteritis nudosa?",
+     "opcoes": [
+      "Lactantes y niños pequeños",
+      "Mayores de 50 años",
+      "Ancianos",
+      "Adultos jóvenes"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La PAN es una enfermedad propia de adultos jóvenes.",
+      "Su evolución suele ser episódica y remitente.",
+      "Los lactantes corresponden a Kawasaki y los mayores de 50 años a la arteritis de células gigantes."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 39",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Varón de 30 años con hipertensión rápidamente acelerada, dolor abdominal, heces sanguinolentas, mialgias difusas y neuritis periférica motora. ¿Diagnóstico más probable?",
+     "opcoes": [
+      "Panarteritis nudosa",
+      "Enfermedad de Behçet",
+      "Polivasculitis microscópica",
+      "Arteritis de Takayasu"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Es la presentación clásica de la PAN: HTA acelerada, dolor abdominal con heces sanguinolentas, mialgias y neuritis periférica.",
+      "Cada síntoma refleja la afectación de arterias renales, digestivas, musculares y de los vasa nervorum.",
+      "La polivasculitis microscópica cursa con hemoptisis, hematuria y púrpura palpable, sin HTA renovascular típica."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 39",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "En la panarteritis nudosa, ¿a qué se debe la hipertensión rápidamente acelerada?",
+     "opcoes": [
+      "A la glomerulonefritis con semilunas",
+      "A la afectación de la arteria renal",
+      "A la estenosis del cayado aórtico",
+      "Al depósito mesangial de IgA"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hipertensión rápidamente acelerada se debe a la afectación de la arteria renal.",
+      "El riñón es el órgano más afectado y la isquemia renal activa mecanismos presores.",
+      "La glomerulonefritis con semilunas es propia de la granulomatosis con polivasculitis."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 39",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "¿Cómo responde la panarteritis nudosa a la inmunodepresión?",
+     "opcoes": [
+      "Empeora la evolución por mayor riesgo de rotura",
+      "Induce remisión o curación en un 90 % de los casos",
+      "Es ineficaz; solo responde a tratamiento antiviral",
+      "Induce remisión en menos del 20 % de los pacientes"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La inmunodepresión induce remisiones o curación en un 90 % de los casos.",
+      "Al ser una lesión inmunomediada, frenar la inflamación detiene la necrosis de la pared.",
+      "Sin tratamiento la evolución es episódica y remitente, con riesgo de daño isquémico progresivo."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 40",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En el diagnóstico diferencial con la PAN, ¿qué caracteriza histológicamente a la enfermedad de Kawasaki?",
+     "opcoes": [
+      "Más edema mural y monocitos, menos necrosis",
+      "Más necrosis fibrinoide y neutrófilos que la PAN",
+      "Granulomas necrosantes con patrón geográfico",
+      "Inflamación limitada a la lámina elástica interna"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Kawasaki muestra más edema mural y monocitos infiltrantes, con menos necrosis fibrinoide que la PAN.",
+      "Su morfología es un denso infiltrado transmural con necrosis fibrinoide menos manifiesta.",
+      "Los granulomas con necrosis geográfica son de la granulomatosis con polivasculitis."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 40",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la principal causa de cardiopatía adquirida en niños según el material?",
+     "opcoes": [
+      "Enfermedad de Kawasaki",
+      "Arteritis de Takayasu",
+      "Panarteritis nudosa",
+      "Síndrome de Churg-Strauss"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La enfermedad de Kawasaki es la principal causa de cardiopatía adquirida en niños.",
+      "Es una patología febril aguda de la lactancia y la infancia: el 80 % tiene 4 años o menos.",
+      "Takayasu también puede afectar coronarias, pero no es la causa principal en la infancia."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 41",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Por qué la enfermedad de Kawasaki puede causar infarto de miocardio?",
+     "opcoes": [
+      "Por miocardiopatía con infiltrado de eosinófilos",
+      "Por estenosis fibrosa del cayado aórtico",
+      "Por embolia desde una trombosis venosa",
+      "Por aneurismas coronarios que se rompen o trombosan"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Kawasaki tiene predilección por la arteria coronaria, donde forma aneurismas que se rompen o trombosan.",
+      "La trombosis del aneurisma ocluye la coronaria y produce IAM o muerte súbita.",
+      "La miocardiopatía con infiltrado eosinófilo corresponde al síndrome de Churg-Strauss."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 42",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué células median sobre todo el daño vascular en la enfermedad de Kawasaki?",
+     "opcoes": [
+      "Eosinófilos en pacientes con atopia",
+      "Linfocitos T y macrófagos activados",
+      "Linfocitos B productores de IgA",
+      "Neutrófilos activados por ANCA-PR3"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El daño vascular en Kawasaki está mediado sobre todo por linfocitos T y monocitos/macrófagos activados.",
+      "Diversos agentes infecciosos, sobre todo víricos, se han implicado como desencadenantes.",
+      "Los eosinófilos con atopia son característicos del síndrome de Churg-Strauss."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 42",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Niño de 3 años con fiebre, eritema conjuntival y oral, edema y eritema de palmas y plantas, exantema descamativo y adenopatía cervical. ¿Qué complicación debe vigilarse?",
+     "opcoes": [
+      "Glomerulonefritis necrosante con semilunas",
+      "Ceguera por arteritis oftálmica",
+      "Aneurismas de las arterias coronarias",
+      "Hemorragia digestiva por varices esofágicas"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El cuadro corresponde a enfermedad de Kawasaki, cuya complicación temida son los aneurismas coronarios.",
+      "Un 20 % de los no tratados desarrolla secuelas cardiovasculares: arteritis, ectasia o aneurismas gigantes con riesgo de IAM.",
+      "La ceguera por arteria oftálmica es complicación de la arteritis de células gigantes en ancianos."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 46",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el tratamiento de la enfermedad de Kawasaki citado en el material?",
+     "opcoes": [
+      "Inmunoglobulina intravenosa y ácido acetilsalicílico",
+      "Corticoesteroides en dosis altas o tratamientos anti-TNF",
+      "Abandono del tabaco en etapas iniciales",
+      "Antibióticos dirigidos según cultivo"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Kawasaki se trata con inmunoglobulina intravenosa y ácido acetilsalicílico.",
+      "El objetivo es prevenir las secuelas coronarias, que aparecen en un 20 % de los no tratados.",
+      "Corticoides o anti-TNF son el tratamiento citado para la arteritis de células gigantes."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 47",
+     "bloco": "Panarteritis nudosa y enfermedad de Kawasaki",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Con qué otros nombres se conoce la polivasculitis microscópica?",
+     "opcoes": [
+      "Enfermedad sin pulso",
+      "Vasculitis por hipersensibilidad o leucocitoclástica",
+      "Granulomatosis y vasculitis alérgica con hipereosinofilia",
+      "Síndrome de ganglios linfáticos mucocutáneos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La polivasculitis microscópica también se denomina vasculitis por hipersensibilidad o leucocitoclástica.",
+      "Es una vasculitis necrosante de capilares, arteriolas y vénulas.",
+      "'Granulomatosis y vasculitis alérgica' es el síndrome de Churg-Strauss."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 48",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué vasos afecta generalmente la polivasculitis microscópica?",
+     "opcoes": [
+      "Arterias craneales y oftálmicas",
+      "La aorta y sus grandes ramas",
+      "Capilares, arteriolas y vénulas",
+      "Arterias renales de mediano calibre"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Es una vasculitis necrosante que suele afectar capilares, arteriolas y vénulas.",
+      "Como no afecta vasos medianos ni grandes, los infartos son poco frecuentes.",
+      "Las arterias renales de mediano calibre son blanco de la PAN."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 48",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué rasgo histológico distingue a la polivasculitis microscópica de la panarteritis nudosa?",
+     "opcoes": [
+      "Respeta siempre el riñón y el pulmón",
+      "Sus lesiones coexisten en distintas fases",
+      "Todas sus lesiones tienen la misma antigüedad",
+      "Se asocia a HBsAg en un tercio de casos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "En la polivasculitis microscópica todas las lesiones muestran la misma antigüedad.",
+      "Su distribución es más amplia: piel, mucosas, pulmón, encéfalo, corazón, tubo digestivo, riñón y músculo.",
+      "La coexistencia de lesiones en curso y recidivantes es propia de la PAN."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 49",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué lesiones son particularmente frecuentes en la polivasculitis microscópica?",
+     "opcoes": [
+      "Aneurismas coronarios y miocarditis transmural",
+      "Úlceras orales aftosas y uveítis de repetición",
+      "Granulomas necrosantes de los senos paranasales y del oído",
+      "Glomerulonefritis necrosante y capilaritis pulmonar"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La glomerulonefritis necrosante (90 % de los pacientes) y la capilaritis pulmonar son particularmente frecuentes.",
+      "Ambas reflejan la afectación de capilares glomerulares y alveolares.",
+      "Los granulomas de senos paranasales son de la granulomatosis con polivasculitis."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 50",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué trastorno inmunitario asociado a la polivasculitis microscópica se demuestra con inmunofluorescencia anti-IgA?",
+     "opcoes": [
+      "Síndrome de Churg-Strauss",
+      "Púrpura de Schönlein-Henoch",
+      "Enfermedad de Kawasaki infantil",
+      "Tromboangitis obliterante"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La polivasculitis microscópica se asocia a la púrpura de Schönlein-Henoch, demostrable con anticuerpos anti-IgA marcados.",
+      "Otros trastornos asociados son la crioglobulinemia mixta esencial y las alteraciones del tejido conjuntivo.",
+      "Kawasaki se vincula a anticuerpos antiendoteliales, no a depósitos de IgA."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 50",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿A qué autoanticuerpo se asocia la mayoría de los casos de polivasculitis microscópica?",
+     "opcoes": [
+      "Anti-endotelio",
+      "Anti-HBsAg",
+      "ANCA-MPO",
+      "ANCA-PR3"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La mayoría de los casos de polivasculitis microscópica se asocia a ANCA-MPO.",
+      "En su patogenia participan respuestas de anticuerpos frente a fármacos, microorganismos o proteínas heterólogas y el reclutamiento de neutrófilos.",
+      "Los anticuerpos antiendoteliales se ejemplifican en Kawasaki."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 51",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Por qué los infartos son poco frecuentes en la polivasculitis microscópica?",
+     "opcoes": [
+      "Porque sus lesiones son granulomatosas, no necrosantes",
+      "Porque predomina la afectación de las venas profundas",
+      "Porque no afecta vasos de tamaño mediano ni grande",
+      "Porque la necrosis fibrinoide no se presenta nunca"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "No afecta vasos de tamaño mediano y grande, por eso los infartos son poco frecuentes.",
+      "La necrosis de capilares produce hemorragia y disfunción del órgano más que oclusión de un territorio arterial.",
+      "Sí presenta necrosis fibrinoide y no tiene inflamación granulomatosa."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 52",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre la morfología de la polivasculitis microscópica:",
+     "opcoes": [
+      "Presenta abundante inflamación granulomatosa",
+      "Muestra segmentos de necrosis fibrinoide",
+      "Las lesiones necrosantes son focales y transmurales",
+      "Sus lesiones son pauciinmunitarias"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la polivasculitis microscópica no existe inflamación granulomatosa.",
+      "Su morfología muestra segmentos de necrosis fibrinoide, lesiones necrosantes transmurales focales y pauciinmunitarias.",
+      "La presencia de granulomas orientaría a Wegener o Churg-Strauss."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 52",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué define histológicamente a la vasculitis leucocitoclástica?",
+     "opcoes": [
+      "Linfocitos T en la lámina elástica interna de la temporal",
+      "Neutrófilos en vénulas poscapilares, muchos en apoptosis",
+      "Eosinófilos alrededor de granulomas extravasculares",
+      "Monocitos con edema mural en las arterias coronarias"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La vasculitis leucocitoclástica muestra neutrófilos infiltrantes en las vénulas poscapilares, muchos en apoptosis.",
+      "La fragmentación de los neutrófilos apoptóticos da nombre al patrón ('leucocitoclasia').",
+      "Los eosinófilos con granulomas extravasculares son del síndrome de Churg-Strauss."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 53",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Paciente con hemoptisis, hematuria con proteinuria, dolor abdominal y púrpura palpable; ANCA-MPO positivo y biopsia sin granulomas. ¿Diagnóstico más probable?",
+     "opcoes": [
+      "Panarteritis nudosa",
+      "Enfermedad de Behçet",
+      "Polivasculitis microscópica",
+      "Granulomatosis con polivasculitis"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Hemoptisis, hematuria, proteinuria, dolor intestinal y púrpura palpable con ANCA-MPO y sin granulomas indican polivasculitis microscópica.",
+      "La capilaritis pulmonar y la glomerulonefritis necrosante explican la hemoptisis y la hematuria.",
+      "La granulomatosis con polivasculitis tendría granulomas necrosantes en la biopsia."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 54",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Con qué se asocia el síndrome de Churg-Strauss?",
+     "opcoes": [
+      "Úlceras orales y genitales de repetición con uveítis",
+      "Tabaquismo intenso con claudicación intermitente",
+      "Asma, rinitis alérgica e hipereosinofilia periférica",
+      "Hepatitis B crónica con complejos HBsAg"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Churg-Strauss es una vasculitis necrosante de vasos pequeños asociada a asma, rinitis alérgica, infiltrados pulmonares e hipereosinofilia.",
+      "También presenta granulomas necrosantes extravasculares, de ahí el nombre 'granulomatosis y vasculitis alérgica'.",
+      "Úlceras orales, genitales y uveítis forman la tríada de Behçet."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 55",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Sobre los ANCA en el síndrome de Churg-Strauss, ¿qué afirmación es correcta?",
+     "opcoes": [
+      "Están en todos los casos, del tipo PR3",
+      "No se detectan nunca, igual que en la PAN",
+      "Están en menos de la mitad de los pacientes",
+      "Aparecen en el 90 % y bastan para el diagnóstico"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Los ANCA, sobre todo ANCA-MPO, están presentes en menos de la mitad de los pacientes.",
+      "Por eso un ANCA negativo no excluye el diagnóstico; pesan más el asma y la eosinofilia.",
+      "Afirmar que están en todos los casos o que nunca aparecen contradice el material."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 56",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "En el síndrome de Churg-Strauss, ¿qué afirmación sobre la afectación cardíaca es correcta?",
+     "opcoes": [
+      "Se produce por estenosis del cayado aórtico y las coronarias",
+      "Es excepcional y no influye en la mortalidad de la enfermedad",
+      "Se debe a aneurismas coronarios gigantes por inmunocomplejos",
+      "Se asocia a eosinófilos y causa el 50 % de las muertes"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El corazón se afecta en el 60 % de los casos y es responsable del 50 % de las muertes.",
+      "La afectación miocárdica, asociada a infiltrados eosinófilos, origina miocardiopatía.",
+      "Los aneurismas coronarios gigantes son la secuela típica de Kawasaki."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 57",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué tríada caracteriza a la enfermedad de Behçet?",
+     "opcoes": [
+      "Asma, rinitis alérgica e hipereosinofilia",
+      "Fiebre, conjuntivitis y adenopatía cervical",
+      "Sinusitis, infiltrados cavitarios y nefritis",
+      "Úlceras orales, úlceras genitales y uveítis"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Behçet presenta la tríada de úlceras aftosas orales de repetición, úlceras genitales y uveítis.",
+      "Es una vasculitis neutrófila de vasos pequeños y medianos.",
+      "Fiebre con conjuntivitis y adenopatía cervical describe la enfermedad de Kawasaki."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 58",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué tipo de vasculitis es la enfermedad de Behçet?",
+     "opcoes": [
+      "Mediada por IgA de los capilares cutáneos",
+      "Neutrófila de vasos pequeños y medianos",
+      "Eosinofílica de vasos pequeños con asma",
+      "Granulomatosa de la aorta y grandes ramas"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La enfermedad de Behçet es una vasculitis neutrófila de vasos pequeños y medianos.",
+      "En la tabla de formas primarias, los neutrófilos figuran como 'necesarios' en Behçet.",
+      "La vasculitis eosinofílica con asma corresponde al síndrome de Churg-Strauss."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 58",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿A qué se asocia la mortalidad en la enfermedad de Behçet?",
+     "opcoes": [
+      "A miocardiopatía con infiltrados eosinófilos",
+      "A daño neurológico grave o rotura de aneurismas",
+      "A infarto de miocardio por aneurismas coronarios",
+      "A glomerulonefritis necrosante en el 90 % de casos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La mortalidad de Behçet se asocia a la afectación neurológica grave o a la rotura de aneurismas vasculares.",
+      "Además puede tener manifestaciones digestivas y pulmonares.",
+      "La miocardiopatía eosinofílica es la causa de muerte relevante en Churg-Strauss."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 59",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la tríada de la granulomatosis con polivasculitis (Wegener)?",
+     "opcoes": [
+      "Hipertensión acelerada, dolor abdominal y neuritis periférica",
+      "Granulomas respiratorios, vasculitis y glomerulonefritis",
+      "Asma, hipereosinofilia y granulomas necrosantes extravasculares",
+      "Úlceras orales, úlceras genitales y uveítis de repetición"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La tríada es: granulomas necrosantes de vías respiratorias, vasculitis necrosante o granulomatosa de vasos pequeños-medianos y glomerulonefritis focal necrosante.",
+      "La vasculitis es más patente en pulmones y vías respiratorias altas, y la glomerulonefritis suele formar semilunas.",
+      "Asma con hipereosinofilia define al síndrome de Churg-Strauss, no a Wegener."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 61",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué patrón morfológico muestran los granulomas de la granulomatosis con polivasculitis?",
+     "opcoes": [
+      "Necrosis central geográfica rodeada de fibroblastos y células gigantes",
+      "Granulomas centrados en la elástica interna de la arteria temporal",
+      "Microabscesos rodeados de inflamación granulomatosa en arterias tibiales",
+      "Manguitos mononucleares perivasculares en los vasa vasorum aórticos"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Los granulomas tienen un patrón geográfico de necrosis central con vasculitis.",
+      "Están rodeados por fibroblastos proliferativos, células gigantes e infiltrado leucocítico, y pueden confluir y cavitarse.",
+      "Los microabscesos con inflamación granulomatosa en arterias distales son de la tromboangitis obliterante."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 62",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En la glomerulonefritis necrosante focal y segmentaria de Wegener, ¿qué se observa?",
+     "opcoes": [
+      "Necrosis difusa con proliferación celular de la cápsula que forma semilunas",
+      "Necrosis focal con trombosis de asas y mínima proliferación de Bowman",
+      "Depósitos mesangiales de IgA demostrados por inmunofluorescencia",
+      "Glomeruloesclerosis focal con infiltrados de eosinófilos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la forma focal y segmentaria hay necrosis focal y trombosis de las asas capilares con mínima proliferación de la cápsula de Bowman.",
+      "Cuando el daño es difuso y prolifera la cápsula se forman semilunas (glomerulonefritis con semilunas).",
+      "Los depósitos de IgA corresponden a Schönlein-Henoch, no a Wegener."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 63",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Varón de 40 años con sinusitis crónica, úlceras nasofaríngeas, infiltrados pulmonares nodulares cavitados y enfermedad renal. ¿Diagnóstico más probable?",
+     "opcoes": [
+      "Polivasculitis microscópica",
+      "Granulomatosis con polivasculitis",
+      "Enfermedad de Behçet",
+      "Síndrome de Churg-Strauss"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La combinación de sinusitis, úlceras nasofaríngeas, nódulos cavitados y nefropatía en un varón de unos 40 años es típica de Wegener.",
+      "Los granulomas necrosantes confluyen y se cavitan en el pulmón, y la glomerulonefritis explica la enfermedad renal.",
+      "Churg-Strauss requeriría asma e hipereosinofilia."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 64",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En la granulomatosis con polivasculitis, ¿qué hallazgo clínico es el más frecuente según el material?",
+     "opcoes": [
+      "Enfermedad renal",
+      "Úlceras de la nasofaringe",
+      "Infiltrados pulmonares nodulares y cavitarios",
+      "Sinusitis crónica"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Los infiltrados nodulares y cavitarios aparecen en el 95 % de los pacientes.",
+      "Les siguen la sinusitis crónica (90 %), la enfermedad renal (80 %) y las úlceras nasofaríngeas (75 %).",
+      "La sinusitis es muy frecuente, pero algo menos que los infiltrados pulmonares."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 64",
+     "bloco": "Vasculitis de vasos pequeños: polivasculitis microscópica, Churg-Strauss, Behçet y Wegener",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué arterias afecta principalmente la tromboangitis obliterante?",
+     "opcoes": [
+      "La temporal y la oftálmica",
+      "Las coronarias",
+      "Las tibiales y radiales",
+      "El cayado y las carótidas"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Afecta principalmente arterias tibiales y radiales, de tamaño pequeño y mediano.",
+      "La inflamación segmentaria y trombosante produce insuficiencia vascular de las extremidades.",
+      "Temporal y oftálmica son blanco de la arteritis de células gigantes."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 65",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué estructuras pueden comprometerse por extensión secundaria en la enfermedad de Buerger?",
+     "opcoes": [
+      "Vasa vasorum aórticos",
+      "Ganglios linfáticos cervicales",
+      "Glomérulos renales con semilunas",
+      "Venas y nervios vecinos"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La inflamación puede extenderse en forma secundaria a venas y nervios de las extremidades.",
+      "La afectación venosa explica la flebitis nodular superficial y la neural, el dolor intenso.",
+      "Los vasa vasorum aórticos se afectan en Takayasu."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 65",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿En qué población se registra casi exclusivamente la enfermedad de Buerger?",
+     "opcoes": [
+      "Niños de 4 años o menos tras una infección viral",
+      "Mujeres mayores de 50 años con polimialgia reumática",
+      "Grandes fumadores, en general antes de los 35 años",
+      "Pacientes con asma, rinitis alérgica y eosinofilia"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Se registra casi exclusivamente en grandes fumadores, en general antes de los 35 años.",
+      "La tabla de formas primarias la describe en 'hombre joven fumador'.",
+      "Los niños pequeños tras infección viral corresponden a Kawasaki."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 66",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué mecanismo podría explicar la estrecha relación entre tabaco y tromboangitis obliterante?",
+     "opcoes": [
+      "La toxicidad celular endotelial",
+      "La activación de eosinófilos",
+      "El depósito de HBsAg en la pared",
+      "La inducción de ANCA-MPO"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La estrecha relación con el tabaco puede deberse a la toxicidad celular endotelial.",
+      "El daño endotelial favorece la inflamación trombosante de la pared.",
+      "El depósito de inmunocomplejos con HBsAg se vincula a la PAN."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 66",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué hallazgo morfológico puede encontrarse en la tromboangitis obliterante?",
+     "opcoes": [
+      "Manguitos en los vasa vasorum aórticos",
+      "Microabscesos rodeados de inflamación granulomatosa",
+      "Necrosis geográfica con glomerulonefritis focal",
+      "Vénulas con neutrófilos en apoptosis"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Puede contener microabscesos rodeados de inflamación granulomatosa.",
+      "Es una vasculitis focal aguda y crónica acompañada de trombosis, que se extiende a venas y nervios contiguos.",
+      "La necrosis geográfica con glomerulonefritis corresponde a la granulomatosis con polivasculitis."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 67",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Varón de 30 años, fumador de 2 paquetes diarios, con fenómeno de Raynaud, dolor en el dorso del pie al caminar y nódulos venosos superficiales dolorosos. ¿Diagnóstico?",
+     "opcoes": [
+      "Panarteritis nudosa",
+      "Arteritis de Takayasu",
+      "Trombosis venosa profunda",
+      "Tromboangitis obliterante"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Fumador joven con Raynaud, claudicación del empeine y flebitis nodular superficial es la presentación de la enfermedad de Buerger.",
+      "La inflamación trombosante de arterias distales causa isquemia al esfuerzo y la extensión a venas produce flebitis.",
+      "La TVP tiene pocos síntomas locales y no causa claudicación del empeine ni Raynaud."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 68",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué es la claudicación intermitente?",
+     "opcoes": [
+      "Dolor al ejercicio que cede con el reposo",
+      "Dolor en reposo que mejora al elevar la pierna",
+      "Edema doloroso tras una inmovilización prolongada",
+      "Estrías rojas y dolorosas en el tejido subcutáneo"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La claudicación intermitente es el dolor de piernas causado por el ejercicio que remite con el reposo.",
+      "Refleja isquemia: el flujo es suficiente en reposo pero no ante la demanda del ejercicio.",
+      "Las estrías rojas y dolorosas subcutáneas describen la linfangitis."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 68",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "¿Qué medida mejora con frecuencia la evolución de la enfermedad de Buerger?",
+     "opcoes": [
+      "Dejar de fumar en las etapas iniciales",
+      "Usar anticuerpos anti-TNF de inicio",
+      "Administrar inmunoglobulina intravenosa",
+      "Iniciar corticoides en dosis altas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El abandono del tabaco en las etapas iniciales con frecuencia mejora los ataques posteriores.",
+      "Al retirar el agente tóxico endotelial se frena la inflamación trombosante.",
+      "La inmunoglobulina IV es el tratamiento de Kawasaki."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 69",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿En qué contexto se produce predominantemente la vasculitis reumatoide?",
+     "opcoes": [
+      "En artritis reumatoide grave de larga evolución",
+      "En LES con anticuerpos contra el endotelio",
+      "En artritis reumatoide leve recién diagnosticada",
+      "En infecciones bacterianas por Pseudomonas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Se produce predominantemente en la artritis reumatoide grave de larga duración.",
+      "Suele afectar arterias de tamaño pequeño y mediano.",
+      "No es característica de la enfermedad leve o reciente."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 70",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué complicaciones puede producir la vasculitis reumatoide?",
+     "opcoes": [
+      "Aneurismas coronarios en lactantes",
+      "Infarto visceral o aortitis significativa",
+      "Telangiectasias sistémicas hereditarias",
+      "Varices esofágicas y cabeza de medusa"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La vasculitis reumatoide puede causar infarto visceral o aortitis clínicamente significativa.",
+      "La afectación de arterias pequeñas y medianas produce isquemia del órgano irrigado.",
+      "Los aneurismas coronarios en lactantes son la complicación de Kawasaki."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 70",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué géneros de hongos se citan como causa de vasculitis infecciosa?",
+     "opcoes": [
+      "Bartonella y Pseudomonas",
+      "Aspergillus y Mucor",
+      "Pseudomonas y Aspergillus",
+      "Bartonella henselae y quintana"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las vasculitis infecciosas pueden deberse a bacterias (Pseudomonas) u hongos, en especial Aspergillus y Mucor.",
+      "La invasión directa de la pared por el organismo es el mecanismo de lesión.",
+      "Bartonella causa angiomatosis bacilar, y Pseudomonas es una bacteria, no un hongo."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 71",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cómo llega el organismo a la pared vascular en las vasculitis infecciosas?",
+     "opcoes": [
+      "Por depósito de inmunocomplejos circulantes",
+      "Por inoculación directa mediante piojos",
+      "Por extensión local o vía hematógena",
+      "Por anticuerpos contra antígenos microbianos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Suele ser parte de una infección tisular localizada (p. ej., neumonía bacteriana) o se desarrolla por diseminación hematógena.",
+      "El organismo invade directamente la pared, a diferencia de las vasculitis inmunomediadas.",
+      "Los anticuerpos contra antígenos microbianos explican la vasculitis secundaria a infecciones, que es inmunitaria y no invasiva."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 71",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente con meningitis bacteriana que desarrolla un déficit neurológico focal por infarto cerebral. ¿Mecanismo más probable?",
+     "opcoes": [
+      "Rotura de aneurisma por arteritis temporal",
+      "Embolia desde una trombosis venosa profunda",
+      "Trombosis por inflamación de vasos meníngeos",
+      "Depósito de inmunocomplejos cerebrales"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La trombosis causada por inflamación de los vasos meníngeos puede producir infarto del tejido cerebral subyacente.",
+      "Es una vasculitis infecciosa: el organismo inflama la pared e induce trombosis.",
+      "La embolia desde una TVP se dirige al pulmón, no al encéfalo."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 72",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cómo se denominan los aneurismas producidos por el debilitamiento infeccioso de la pared arterial?",
+     "opcoes": [
+      "Ectasias congénitas",
+      "Aneurismas micóticos",
+      "Aneurismas coronarios gigantes",
+      "Telangiectasias adquiridas"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las vasculitis infecciosas debilitan las paredes arteriales y producen aneurismas micóticos.",
+      "También pueden inducir trombosis e infarto.",
+      "Los aneurismas coronarios gigantes son secuela de Kawasaki."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 72",
+     "bloco": "Tromboangitis obliterante, vasculitis reumatoide e infecciosas",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cómo se definen las venas varicosas?",
+     "opcoes": [
+      "Dilataciones tortuosas por presión elevada y pared débil",
+      "Dilataciones permanentes de vasos pequeños preexistentes de la piel",
+      "Inflamaciones agudas de linfáticos por diseminación de bacterias",
+      "Proliferaciones benignas de capilares de pared fina y escaso estroma"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Son dilataciones tortuosas anómalas por aumento crónico de la presión intraluminal y debilitamiento del soporte de la pared.",
+      "Las válvulas venosas incompetentes perpetúan el reflujo y la hipertensión venosa.",
+      "Las dilataciones de vasos pequeños de la piel son telangiectasias."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 73",
+     "bloco": "Enfermedades venosas y linfáticas",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre las varices de los miembros inferiores:",
+     "opcoes": [
+      "Se asocian a válvulas incompetentes",
+      "Afectan sobre todo las venas profundas",
+      "La obesidad aumenta el riesgo",
+      "La gestación es un factor favorecedor"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las varices afectan las venas superficiales de los miembros inferiores.",
+      "Válvulas incompetentes, obesidad y gestación favorecen el aumento de presión venosa.",
+      "Las venas profundas de la pierna son el asiento de la TVP, no de las varices."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 74",
+     "bloco": "Enfermedades venosas y linfáticas",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es una consecuencia de las venas varicosas?",
+     "opcoes": [
+      "Estrías subcutáneas rojas y dolorosas",
+      "Claudicación del empeine al caminar",
+      "Fenómeno de Raynaud inducido por frío",
+      "Dermatitis de estasis y ulceraciones"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Las varices pueden producir dermatitis de estasis y ulceraciones.",
+      "La estasis venosa crónica altera la nutrición de la piel.",
+      "La claudicación del empeine y el Raynaud son manifestaciones de la tromboangitis obliterante."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 75",
+     "bloco": "Enfermedades venosas y linfáticas",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la causa de las varices esofágicas?",
+     "opcoes": [
+      "Hipertensión portal",
+      "Agenesia o hipoplasia de vasos linfáticos",
+      "Estasis venosa por inmovilización prolongada",
+      "Incompetencia de las válvulas de la safena"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Las varices esofágicas se deben a hipertensión portal con derivaciones portosistémicas.",
+      "Se forman en la unión gastroesofágica y conllevan riesgo de hemorragia digestiva alta.",
+      "La incompetencia valvular explica las varices de los miembros inferiores."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 76",
+     "bloco": "Enfermedades venosas y linfáticas",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente cirrótico con hipertensión portal. ¿Qué correspondencia entre sitio de derivación portosistémica y lesión es correcta?",
+     "opcoes": [
+      "Unión gastroesofágica: hemorroides",
+      "Venas periumbilicales: hemorroides",
+      "Recto: varices esofágicas",
+      "Venas periumbilicales: cabeza de medusa"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Las derivaciones en las venas periumbilicales producen la cabeza de medusa.",
+      "En la hipertensión portal la sangre busca vías portosistémicas: unión gastroesofágica (varices esofágicas), recto (hemorroides) y periumbilicales.",
+      "El recto da hemorroides y la unión gastroesofágica varices esofágicas, no a la inversa."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 76",
+     "bloco": "Enfermedades venosas y linfáticas",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Además de la hipertensión portal, ¿qué factores favorecen las hemorroides?",
+     "opcoes": [
+      "Consumo intenso de tabaco",
+      "Inmovilización prolongada en cama",
+      "Agenesia de los vasos linfáticos",
+      "Embarazo o esfuerzo en la defecación"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Las hemorroides se asocian al embarazo o al esfuerzo en la defecación.",
+      "El aumento de presión en el plexo venoso rectal las dilata.",
+      "Sus complicaciones son hemorragias, trombosis y ulceración."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 76",
+     "bloco": "Enfermedades venosas y linfáticas",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "¿Cuál es la causa de más del 90 % de los casos de tromboflebitis y flebotrombosis?",
+     "opcoes": [
+      "Trombosis de venas profundas de la pierna",
+      "Hemorroides trombosadas",
+      "Derivaciones portosistémicas",
+      "Varices de las venas superficiales de las piernas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La trombosis de las venas profundas de la pierna causa más del 90 % de los casos.",
+      "La inmovilización prolongada provoca estasis venosa, que favorece la trombosis.",
+      "Las varices superficiales se complican con dermatitis y úlceras, no son la causa principal."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 78",
+     "bloco": "Enfermedades venosas y linfáticas",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En la trombosis venosa profunda de las piernas, ¿qué provoca la estasis venosa?",
+     "opcoes": [
+      "La hipertensión portal",
+      "La inmovilización prolongada",
+      "El tabaquismo intenso",
+      "La agenesia linfática"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la TVP de las piernas, la inmovilización prolongada provoca estasis venosa.",
+      "Sin la acción de la bomba muscular, la sangre se estanca y se forma el trombo.",
+      "El tabaquismo se relaciona con la tromboangitis obliterante."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 78",
+     "bloco": "Enfermedades venosas y linfáticas",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Paciente postoperado, inmovilizado varios días, con escasos síntomas en la pierna, presenta disnea súbita. ¿Mecanismo más probable?",
+     "opcoes": [
+      "Linfangitis con diseminación bacteriana",
+      "Embolia pulmonar por trombo desprendido",
+      "Rotura de un aneurisma micótico pulmonar",
+      "Hemorragia por capilaritis pulmonar"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La embolia de pulmón es una complicación grave y frecuente de la TVP.",
+      "Se produce por fragmentación o desprendimiento de un trombo venoso de la pierna.",
+      "La TVP suele dar pocos síntomas locales, por lo que la embolia puede ser la primera manifestación."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 78",
+     "bloco": "Enfermedades venosas y linfáticas",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué signo clínico de la trombosis venosa profunda se menciona en el material?",
+     "opcoes": [
+      "Fenómeno de Raynaud",
+      "Cabeza de medusa",
+      "Signo de Homans",
+      "Signo del promontorio"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El signo de Homans es el signo clínico citado para la TVP.",
+      "Consiste en dolor en la pantorrilla con la dorsiflexión del pie (complemento: el material no lo describe).",
+      "El signo del promontorio es un hallazgo histológico del sarcoma de Kaposi."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 79",
+     "bloco": "Enfermedades venosas y linfáticas",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "¿Qué caracteriza a la linfangitis?",
+     "opcoes": [
+      "Pápulas vasculares por Bartonella en pacientes inmunodeprimidos",
+      "Dilataciones tortuosas de las venas superficiales de las piernas",
+      "Estrías rojas y dolorosas por diseminación bacteriana",
+      "Edema crónico por agenesia o hipoplasia de los vasos linfáticos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La linfangitis es una inflamación aguda por diseminación bacteriana en los vasos linfáticos, con estrías subcutáneas rojas y dolorosas.",
+      "Puede acompañarse de linfoadenitis aguda, con sensibilidad de los ganglios.",
+      "El edema por agenesia linfática corresponde al linfedema primario."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 80",
+     "bloco": "Enfermedades venosas y linfáticas",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cómo se denomina el linfedema congénito heredofamiliar?",
+     "opcoes": [
+      "Enfermedad de Horton",
+      "Enfermedad de Osler-Weber-Rendu",
+      "Enfermedad de Milroy",
+      "Enfermedad de Buerger"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El linfedema congénito heredofamiliar es la enfermedad de Milroy.",
+      "Es una forma de linfedema primario, junto con el linfedema congénito simple aislado.",
+      "Osler-Weber-Rendu es la telangiectasia hemorrágica hereditaria."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 80",
+     "bloco": "Enfermedades venosas y linfáticas",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la causa del linfedema primario?",
+     "opcoes": [
+      "Agenesia o hipoplasia de vasos linfáticos",
+      "Diseminación bacteriana en los linfáticos",
+      "Incompetencia de las válvulas venosas",
+      "Obstrucción de linfáticos previamente normales"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El linfedema primario se debe a agenesia o hipoplasia de vasos linfáticos.",
+      "Incluye el linfedema congénito simple y el heredofamiliar (Milroy).",
+      "La obstrucción de linfáticos normales define el linfedema secundario u obstructivo."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 80",
+     "bloco": "Enfermedades venosas y linfáticas",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué es una telangiectasia?",
+     "opcoes": [
+      "Dilatación tortuosa de las venas superficiales de las piernas",
+      "Inflamación neutrofílica de las vénulas poscapilares dérmicas",
+      "Proliferación neoplásica benigna de capilares de pared fina",
+      "Dilatación permanente de vasos pequeños de la piel"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La telangiectasia es la dilatación permanente de vasos pequeños preexistentes de la piel.",
+      "Es una ectasia vascular: dilatación local, no una neoplasia verdadera.",
+      "La proliferación de capilares de pared fina es un hemangioma capilar."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 83",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre las ectasias vasculares:",
+     "opcoes": [
+      "Incluyen la enfermedad de Osler-Weber-Rendu",
+      "Pueden ser congénitas o adquiridas",
+      "Son neoplasias vasculares verdaderas",
+      "Las arañas vasculares son un ejemplo"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Las ectasias vasculares no son neoplasias verdaderas.",
+      "Son dilataciones locales que pueden ser congénitas o adquiridas, como las arañas vasculares y la telangiectasia hemorrágica hereditaria.",
+      "En la clasificación figuran dentro de las afecciones benignas del desarrollo y adquiridas."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 83",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué es la enfermedad de Osler-Weber-Rendu?",
+     "opcoes": [
+      "Proliferación vascular reactiva por Bartonella",
+      "Linfedema congénito de tipo heredofamiliar",
+      "Hemangioma cavernoso de presentación familiar",
+      "Telangiectasia hemorrágica hereditaria sistémica"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La enfermedad de Osler-Weber-Rendu es la telangiectasia hemorrágica hereditaria, con telangiectasias sistémicas.",
+      "Es una ectasia vascular congénita, no una neoplasia.",
+      "El linfedema congénito heredofamiliar es la enfermedad de Milroy."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 83",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué alteración hepática se describe en la enfermedad de Osler-Weber-Rendu?",
+     "opcoes": [
+      "Angiosarcoma hepático asociado a la exposición a pesticidas",
+      "Proliferación de vasos portales con fibrosis periportal",
+      "Varices por trombosis de la vena porta con cabeza de medusa",
+      "Hemangioma cavernoso con trombosis y calcificación frecuente"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los vasos portales de pared delgada pueden proliferar, extenderse al parénquima y asociarse con fibrosis (telangiectasia periportal) y dilatación sinusoidal.",
+      "Es la expresión hepática de las telangiectasias sistémicas.",
+      "El angiosarcoma hepático por pesticidas es una neoplasia maligna, no una ectasia."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 84",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué tumores vasculares derivan del endotelio?",
+     "opcoes": [
+      "Tumores glómicos, linfangiomas y angiosarcomas",
+      "Hemangiomas, linfangiomas y angiosarcomas",
+      "Tumores glómicos y hemangiomas capilares",
+      "Tumores glómicos, hemangiomas y linfangiomas"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Del endotelio derivan hemangiomas, linfangiomas y angiosarcomas.",
+      "Los tumores glómicos derivan de células de soporte.",
+      "Cualquier opción que incluya tumores glómicos mezcla un origen distinto."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 87",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En la clasificación de tumores vasculares, ¿cómo se ubica la angiomatosis bacilar?",
+     "opcoes": [
+      "Como proliferación vascular reactiva",
+      "Como ectasia vascular congénita",
+      "Como neoplasia maligna de alto grado",
+      "Como neoplasia de grado intermedio"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La angiomatosis bacilar se clasifica como proliferación vascular reactiva.",
+      "Es una respuesta a la infección por Bartonella henselae o B. quintana.",
+      "Las neoplasias de grado intermedio son el sarcoma de Kaposi y el hemangioendotelioma."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 88",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la variante más frecuente de hemangioma?",
+     "opcoes": [
+      "Angiomatosis dérmica",
+      "Granuloma piógeno",
+      "Hemangioma cavernoso",
+      "Hemangioma capilar"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El hemangioma capilar es la variante más frecuente.",
+      "Se presenta en piel, tejido subcutáneo, mucosas de labios y boca y vísceras internas.",
+      "El granuloma piógeno es en realidad un hemangioma capilar lobulado inflamado."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 90",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué describe la histología del hemangioma capilar?",
+     "opcoes": [
+      "Vasos grandes dilatados con trombosis",
+      "Capilares de pared fina con escaso estroma",
+      "Canales linfáticos con agregados linfoides",
+      "Collares de células glómicas uniformes"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El hemangioma capilar está formado por capilares de pared fina con escaso estroma.",
+      "Las células están estrechamente empaquetadas y los espacios contienen poca sangre.",
+      "Los vasos grandes dilatados con trombosis o calcificación describen el hemangioma cavernoso."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 90",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué son los granulomas piógenos según el material?",
+     "opcoes": [
+      "Hemangiomas capilares lobulados inflamados",
+      "Granulomas infecciosos por Bartonella",
+      "Hemangiomas cavernosos trombosados",
+      "Granulomas necrosantes de Wegener"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Los granulomas piógenos son hemangiomas capilares lobulados inflamados.",
+      "A pesar del nombre, no son granulomas verdaderos sino una lesión vascular.",
+      "La proliferación por Bartonella es la angiomatosis bacilar."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 92",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "El hemangioma juvenil o 'en fresa' es un tipo de:",
+     "opcoes": [
+      "Hemangioma capilar",
+      "Telangiectasia adquirida",
+      "Hemangioma cavernoso",
+      "Linfangioma simple"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El hemangioma juvenil o en fresa es un tipo de hemangioma capilar.",
+      "Comparte la proliferación de capilares de pared fina del hemangioma capilar.",
+      "El linfangioma simple deriva de canales linfáticos, no sanguíneos."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 91",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué complicación hematológica se asocia a los hemangiomas cavernosos profundos?",
+     "opcoes": [
+      "Metástasis ganglionares tempranas",
+      "Regresión espontánea durante la primera infancia",
+      "Trombocitopenia y coagulación intravascular",
+      "Transformación maligna por radiación"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "En localizaciones profundas pueden trombosarse y asociarse a trombocitopenia y coagulación intravascular.",
+      "Sus vasos grandes y dilatados favorecen la estasis y el consumo de plaquetas.",
+      "No retroceden: están presentes al nacer y crecen lentamente con el paciente."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 93",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "¿Qué diferencia al linfangioma cavernoso (higroma quístico) del linfangioma simple?",
+     "opcoes": [
+      "Mide 1-2 cm en tejido subcutáneo de la cabeza",
+      "Está bien encapsulado y no deforma la región",
+      "Es maligno y da metástasis ganglionares",
+      "Alcanza 15 cm, deforma y no está encapsulado"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El linfangioma cavernoso puede llegar a 15 cm, es deformante, de márgenes indiferenciados y no encapsulado.",
+      "Se localiza en cuello, axila y retroperitoneo; ambos linfangiomas son benignos.",
+      "El tamaño de 1-2 cm en tejido subcutáneo corresponde al linfangioma simple."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 95",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué rasgo clínico caracteriza a los tumores glómicos?",
+     "opcoes": [
+      "Son dolorosos y se sitúan en la punta de los dedos",
+      "Son máculas violáceas en la parte distal de las piernas",
+      "Son pápulas múltiples en pacientes inmunodeprimidos",
+      "Son indoloros y asientan en la cara lateral del muslo"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Los tumores glómicos son dolorosos y se localizan en la porción distal de los dedos.",
+      "Surgen de células musculares lisas especializadas en la termorregulación.",
+      "Las máculas violáceas distales en piernas describen el sarcoma de Kaposi clásico."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 96",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿De qué células surgen los tumores glómicos?",
+     "opcoes": [
+      "Fibroblastos de la dermis reticular profunda",
+      "Músculo liso especializado en termorregulación",
+      "Células endoteliales infectadas por el herpesvirus 8",
+      "Células endoteliales de los canales linfáticos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Surgen de células musculares lisas especializadas en la termorregulación.",
+      "Por eso el material los ubica entre los tumores de células de soporte, no endoteliales.",
+      "Las células endoteliales infectadas por VHH8 originan el sarcoma de Kaposi."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 96",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué inmunotinción es positiva en el tumor glómico según el material?",
+     "opcoes": [
+      "Inmunotinción nuclear para VHH8",
+      "CD31 con patrón de membrana",
+      "Anticuerpos anti-IgA con fluoresceína",
+      "Actina específica de músculo liso (SMA)"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El tumor glómico es positivo para actina específica de músculo liso (SMA) y también para vimentina.",
+      "Refleja su origen en células musculares lisas especializadas.",
+      "CD31 de membrana es el marcador endotelial mostrado en el angiosarcoma."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 98",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuáles son los tres componentes del tumor glómico?",
+     "opcoes": [
+      "Células glómicas, vasculatura y músculo liso",
+      "Capilares, estroma edematoso y neutrófilos",
+      "Células fusiformes, glóbulos hialinos y hendiduras",
+      "Canales linfáticos, músculo liso y agregados linfoides"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Es una masa bien circunscrita con tres componentes: células glómicas, vasculatura y células de músculo liso.",
+      "Según el predominio se habla de tumor glómico sólido, glomangioma o glomangiomioma.",
+      "Canales linfáticos con músculo liso y agregados linfoides describen el linfangioma."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 97",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué agentes causan la angiomatosis bacilar?",
+     "opcoes": [
+      "Bartonella henselae y Bartonella quintana",
+      "Aspergillus y Mucor por vía hematógena",
+      "Pseudomonas en una neumonía bacteriana",
+      "Herpesvirus del sarcoma de Kaposi (VHH8)"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La angiomatosis bacilar se debe a Bartonella henselae (gatos) y Bartonella quintana (piojos).",
+      "Son gramnegativos oportunistas que inducen proliferación vascular en inmunodeprimidos.",
+      "El VHH8 causa el sarcoma de Kaposi, otra lesión vascular de inmunodeprimidos."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 100",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente inmunodeprimido que convive con gatos presenta pápulas y nódulos vasculares; la biopsia muestra endotelio prominente con atipia y mitosis e infiltrado neutrofílico. ¿Diagnóstico?",
+     "opcoes": [
+      "Granuloma piógeno",
+      "Angiomatosis bacilar",
+      "Sarcoma de Kaposi epidémico",
+      "Angiosarcoma cutáneo"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Pápulas y nódulos con endotelio prominente atípico, mitosis y neutrófilos en un inmunodeprimido con gatos sugieren angiomatosis bacilar.",
+      "Bartonella henselae, transmitida por gatos, induce una proliferación vascular reactiva.",
+      "El infiltrado neutrofílico y la causa bacteriana la diferencian del sarcoma de Kaposi."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 100",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué tinciones muestran los bacilos en la angiomatosis bacilar?",
+     "opcoes": [
+      "Actina de músculo liso y vimentina",
+      "Anti-IgA marcado con fluoresceína",
+      "CD31 de membrana y VHH8",
+      "Warthin-Starry y Steiner"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Los bacilos se demuestran con las tinciones de Warthin-Starry y de Steiner.",
+      "Son tinciones argénticas que revelan las bacterias en el estroma edematoso.",
+      "Actina de músculo liso y vimentina son los marcadores del tumor glómico."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 101",
+     "bloco": "Ectasias vasculares y tumores benignos",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Según la clasificación de tumores vasculares, ¿cuál es una neoplasia de grado intermedio?",
+     "opcoes": [
+      "Angiosarcoma hepático",
+      "Linfangioma",
+      "Sarcoma de Kaposi",
+      "Tumor glómico"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El sarcoma de Kaposi y el hemangioendotelioma son neoplasias de grado intermedio.",
+      "Se ubican entre las lesiones benignas (hemangiomas, linfangiomas, tumor glómico) y las malignas.",
+      "El angiosarcoma es la neoplasia maligna de la clasificación."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 88",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuáles son las etapas del sarcoma de Kaposi?",
+     "opcoes": [
+      "Simple, cavernosa y quística",
+      "Iniciación, promoción y progresión",
+      "Aguda, crónica y curación",
+      "Mácula, placa y nódulo"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El sarcoma de Kaposi evoluciona en etapas de mácula (parche), placa y nódulo (tumor).",
+      "Las lesiones cutáneas son progresivas, de color rojo a violáceo.",
+      "Iniciación, promoción y progresión son etapas de la carcinogénesis química."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 103",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Sobre las etapas clínicas del sarcoma de Kaposi, ¿qué afirmación es correcta?",
+     "opcoes": [
+      "Hay una sola etapa por paciente",
+      "Varias etapas pueden coexistir a la vez",
+      "Solo el subtipo epidémico recorre las tres etapas",
+      "La etapa nodular precede siempre a la de placa"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Pueden estar presentes múltiples etapas diferentes simultáneamente.",
+      "Los cuatro subtipos clínicos pueden mostrar las etapas de parche, placa y tumor.",
+      "El orden es parche, placa y nódulo, no a la inversa."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 104",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué es el signo del promontorio en el sarcoma de Kaposi?",
+     "opcoes": [
+      "Espacios vasculares en tamiz en corte transversal",
+      "Células fusiformes que destruyen espirales ecrinas",
+      "Vasos tumorales que rodean vasos nativos",
+      "Glóbulos hialinos citoplasmáticos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El signo del promontorio consiste en canales vasculares del tumor que rodean y atrapan vasos nativos.",
+      "Es una característica clásica pero poco común de la etapa de parche.",
+      "La destrucción de espirales ecrinas por células fusiformes es muy característica de la etapa de placa."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 107",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En la etapa nodular del sarcoma de Kaposi, ¿qué aspecto tienen los espacios vasculares en un corte transversal?",
+     "opcoes": [
+      "En semiluna",
+      "En tamiz",
+      "Geográfico",
+      "En hendidura"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En corte transversal los espacios entre las células fusiformes tienen forma de tamiz.",
+      "Los nódulos están formados por fascículos entrecruzados de células fusiformes uniformes con espacios llenos de sangre.",
+      "La forma de hendidura corresponde al corte longitudinal."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 107",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Ante un sarcoma de Kaposi poco diferenciado con pleomorfismo severo, ¿qué estudio confirma el diagnóstico frente a un angiosarcoma?",
+     "opcoes": [
+      "Inmunotinción para HHV8",
+      "Actina de músculo liso",
+      "Inmunofluorescencia anti-IgA",
+      "Tinción de Warthin-Starry"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En casos raros poco diferenciados debe confirmarse con inmunotinción HHV8 para excluir angiosarcoma.",
+      "En todas las etapas del Kaposi las mitosis son frecuentes, pero el pleomorfismo suele ser mínimo.",
+      "Warthin-Starry demuestra Bartonella en la angiomatosis bacilar."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 107",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué caracteriza al sarcoma de Kaposi clásico?",
+     "opcoes": [
+      "Pacientes con SIDA, como enfermedad definitoria",
+      "Ancianos mediterráneos, piernas distales, sin VIH",
+      "Receptores de trasplante con evolución agresiva",
+      "Menores de 40 años de África central, con ganglios"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El SK clásico afecta a personas mayores del Mediterráneo, Oriente Medio y Europa del Este, sin relación con el VIH.",
+      "Las lesiones se localizan en la parte distal de las extremidades inferiores y son persistentes, asintomáticas y localizadas.",
+      "La afectación ganglionar en menores de 40 años de África central es el SK africano endémico."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 109",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué rasgo corresponde al sarcoma de Kaposi africano endémico?",
+     "opcoes": [
+      "Riesgo 100 veces mayor tras un trasplante de órgano",
+      "Incidencia 1000 veces superior en pacientes con VIH",
+      "Lesiones localizadas, persistentes y asintomáticas",
+      "Más afectación ganglionar; grave si es prepuberal"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El SK africano endémico afecta a menores de 40 años de África central, VIH negativos, con más afectación ganglionar.",
+      "Puede ser indolente o agresivo; la forma prepuberal es grave.",
+      "Las lesiones localizadas y asintomáticas describen el SK clásico."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 110",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Receptor de trasplante renal bajo inmunodepresión presenta una lesión tumoral violácea en el muslo. ¿Qué afirmación sobre esta forma de Kaposi es correcta?",
+     "opcoes": [
+      "Es agresivo y puede no haber lesiones cutáneas",
+      "Su aparición es independiente de la inmunodepresión",
+      "Es indolente y queda limitada a las extremidades distales",
+      "Se presenta sobre todo en niños prepuberales de África"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El SK asociado a trasplante tiene evolución agresiva y las lesiones cutáneas pueden estar ausentes.",
+      "El trasplante de órganos sólidos multiplica el riesgo por 100 por la inmunodepresión de linfocitos T.",
+      "La evolución indolente y distal corresponde al SK clásico."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 111",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el tumor maligno asociado al VIH más frecuente?",
+     "opcoes": [
+      "Angiosarcoma cutáneo",
+      "Angiomatosis bacilar",
+      "Sarcoma de Kaposi",
+      "Hemangioendotelioma"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El SK asociado a SIDA (epidémico) es el tumor maligno asociado al VIH más frecuente y es definitorio de SIDA.",
+      "Su incidencia es 1000 veces superior en esta población.",
+      "La angiomatosis bacilar también aparece en inmunodeprimidos, pero es una proliferación reactiva, no un tumor."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 112",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué características tiene el hemangioendotelioma epitelioide?",
+     "opcoes": [
+      "Inmunodeprimidos, por infección por Bartonella",
+      "Adultos, venas medianas y grandes, curso variable",
+      "Niños, capilares de la piel, regresión espontánea",
+      "Ancianos, hígado, asociado a pesticidas"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El hemangioendotelioma epitelioide se presenta en adultos, en venas medianas y grandes, con curso clínico variable.",
+      "Los hemangioendoteliomas abarcan un amplio espectro y son de grado intermedio; expresan CD31.",
+      "El angiosarcoma hepático se asocia a pesticidas."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 113",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿A qué factores se asocia el angiosarcoma?",
+     "opcoes": [
+      "Linfedema, radiación y pesticidas",
+      "Bartonella transmitida por gatos",
+      "Tabaquismo y toxicidad endotelial",
+      "Hepatitis B y complejos HBsAg"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El angiosarcoma se asocia a linfedema y radiación; los hepáticos, a pesticidas.",
+      "Es un tumor agresivo de adultos mayores, con invasión local y metástasis.",
+      "El tabaquismo con toxicidad endotelial se relaciona con la tromboangitis obliterante."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 114",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre el angiosarcoma:",
+     "opcoes": [
+      "Predomina en adultos mayores",
+      "Es agresivo, invade y da metástasis",
+      "Es un tumor infantil que regresa solo",
+      "Va de bien diferenciado a muy anaplásico"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El angiosarcoma no es infantil ni regresa: es un tumor maligno de adultos mayores.",
+      "Varía desde tumores muy diferenciados que parecen hemangiomas hasta lesiones exageradamente anaplásicas.",
+      "Es agresivo, con invasión local y metástasis."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 114",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué marcador de membrana demuestra la naturaleza endotelial de un angiosarcoma?",
+     "opcoes": [
+      "CD31",
+      "Vimentina aislada",
+      "Tinción de Steiner",
+      "Actina de músculo liso"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El angiosarcoma muestra positividad de membrana para CD31, marcador endotelial.",
+      "Confirma el origen endotelial de la neoplasia maligna.",
+      "La actina de músculo liso identifica el tumor glómico, derivado de células de soporte."
+     ],
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 116",
+     "bloco": "Sarcoma de Kaposi, hemangioendotelioma y angiosarcoma",
+     "nivel": "dificil",
+     "complemento": false
+    }
+   ],
+   "flashcards": [
+    {
+     "frente": "¿Con qué criterios se clasifican las vasculitis?",
+     "verso": "Diámetro de los vasos, función de los inmunocomplejos, autoanticuerpos específicos, formación de granulomas, especificidad de órgano y demografía de la población afectada.",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 4"
+    },
+    {
+     "frente": "Mecanismos de lesión en las vasculitis no infecciosas",
+     "verso": "a) Depósito de inmunocomplejos; b) ANCA; c) anticuerpos contra células endoteliales; d) linfocitos T autorreactivos.",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 8"
+    },
+    {
+     "frente": "ANCA: tipos y utilidad",
+     "verso": "Autoanticuerpos contra componentes del neutrófilo, monocitos y células endoteliales. Marcadores diagnósticos y de recidiva. ANCA-PR3 (antes c) y ANCA-MPO (antes p: polivasculitis microscópica y Churg-Strauss).",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 12"
+    },
+    {
+     "frente": "Arteritis de células gigantes: morfología",
+     "verso": "Engrosamiento de la íntima, inflamación granulomatosa centrada en la lámina elástica interna, infiltrado de linfocitos T (CD4+ > CD8+) y macrófagos. Curación: fibrosis de la adventicia y fragmentación elástica.",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 19"
+    },
+    {
+     "frente": "Aortitis granulomatosa: ¿células gigantes o Takayasu?",
+     "verso": "Mayores de 50 años: aortitis de células gigantes. Menores de 50 años: aortitis de Takayasu.",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 25"
+    },
+    {
+     "frente": "Panarteritis nudosa y hepatitis B",
+     "verso": "El 30 % de los casos contiene complejos HBsAg–HBsAb. Formas: idiopática clásica, cutánea y asociada a hepatitis crónica.",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 32"
+    },
+    {
+     "frente": "PAN: presentación clínica clásica",
+     "verso": "Adulto joven con HTA rápidamente acelerada (arteria renal), dolor abdominal y heces sanguinolentas, mialgias difusas y neuritis periférica motora. Inmunodepresión: remisión/curación en 90 %.",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 39"
+    },
+    {
+     "frente": "Kawasaki: secuelas y tratamiento",
+     "verso": "20 % de no tratados con secuelas: arteritis coronaria, ectasia y aneurismas gigantes (7-8 mm) con riesgo de IAM y muerte súbita. Tratamiento: inmunoglobulina IV + ácido acetilsalicílico.",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 47"
+    },
+    {
+     "frente": "Polivasculitis microscópica vs PAN",
+     "verso": "Polivasculitis: lesiones de la misma antigüedad, capilares/arteriolas/vénulas, ANCA-MPO, sin granulomas, glomerulonefritis necrosante en 90 %. PAN: lesiones en curso y recidivantes, arterias pequeñas-medianas, sin ANCA.",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 49"
+    },
+    {
+     "frente": "Granulomatosis con polivasculitis (Wegener): tríada",
+     "verso": "1) Granulomas necrosantes de vías respiratorias; 2) vasculitis necrosante o granulomatosa de vasos pequeños-medianos; 3) glomerulonefritis focal necrosante, a menudo con semilunas.",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 61"
+    },
+    {
+     "frente": "Behçet vs Churg-Strauss",
+     "verso": "Behçet: vasculitis neutrófila con úlceras orales, genitales y uveítis. Churg-Strauss: vasculitis de vasos pequeños con asma, rinitis, hipereosinofilia y granulomas; corazón afectado en 60 % (50 % de las muertes).",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 58"
+    },
+    {
+     "frente": "Tromboangitis obliterante (Buerger): clínica",
+     "verso": "Grandes fumadores menores de 35 años. Raynaud por frío, claudicación intermitente y del empeine, flebitis nodular superficial, dolor neural y úlceras. Mejora al dejar de fumar.",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 68"
+    },
+    {
+     "frente": "Derivaciones portosistémicas en hipertensión portal",
+     "verso": "Unión gastroesofágica: varices esofágicas (hemorragia digestiva alta). Recto: hemorroides. Venas periumbilicales: cabeza de medusa.",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 76"
+    },
+    {
+     "frente": "Clasificación de tumores vasculares",
+     "verso": "Benignos: hemangioma, linfangioma, tumor glómico, ectasias, angiomatosis bacilar (reactiva). Grado intermedio: sarcoma de Kaposi, hemangioendotelioma. Maligno: angiosarcoma.",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 88"
+    },
+    {
+     "frente": "Formas del sarcoma de Kaposi",
+     "verso": "Clásico (ancianos mediterráneos, piernas, sin VIH), africano endémico (<40 años, ganglios, prepuberal grave), asociado a trasplante (agresivo, riesgo ×100) y epidémico/SIDA (incidencia ×1000, definitorio de SIDA).",
+     "fonte": "Clase 18 - Vasos sanguíneos 2 Corregido 2021.pdf, slide 109"
+    }
+   ]
   }
  ],
  "cor": "vermelho"
