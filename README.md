@@ -16,6 +16,9 @@ App de estudo para **Anatomía Patológica**: estudo inteligente com níveis, fl
 | Vasos sanguíneos | 2 – Vasculitis, enfermedades venosas y linfáticas, y tumores vasculares | 132 |
 | Vasos sanguíneos | 3 – Vasculitis: cuadro comparativo, detalles y tumores vasculares (Vasculitis.pdf) | 45 |
 | Cardio | 1 – Valvulopatías (SESIÓN 21.Valvulopatías.pdf) | 30 |
+| Cardio | 2 – Tumores cardíacos (SESIÓN 21.tumorescardiacos 2026.pdf) | 16 |
+| Cardio | 3 – Miocardiopatías (SESIÓN 21.MIOCARDIOPATIAS 2024.pdf) | 19 |
+| Cardio | 4 – Enfermedades pericárdicas (SESIÓN 21.pericarditis2026.pdf) | 20 |
 
 Os cards "<Tema> – todos" e "Geral" são gerados automaticamente a partir do campo `tema` de cada kit.
 
