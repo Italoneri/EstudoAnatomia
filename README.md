@@ -20,6 +20,8 @@ Os cards "<Tema> – todos" e "Geral" são gerados automaticamente a partir do c
 ## Estrutura
 - `index.html`: o app, com o banco embutido no bloco `const DB`
 - `dados/anatopato.json`: o mesmo banco de questões em JSON (fonte para adicionar temas novos)
+- `tools/`: scripts para gerar um kit a partir do PDF da aula (extração, build, verificação e merge)
+- `CLAUDE.md`: fluxo completo e regras para gerar um kit novo com o Claude Code
 
 ## Formato de cada kit
 ```json
