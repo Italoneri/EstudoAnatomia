@@ -14970,6 +14970,1004 @@
      "fonte": "Clase 19 - RESPIRATORIO - EPOC, Atelectasias - Teoria 2020.pdf, slide 73"
     }
    ]
+  },
+  {
+   "id": "respiratorio-2",
+   "tema": "Respiratorio",
+   "titulo": "Respiratorio 2 – Neumonías",
+   "icone": "hospital",
+   "materiais": [
+    {
+     "nome": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf",
+     "tipo": "ppt"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "¿Cuál de las siguientes situaciones favorece una infección pulmonar por pérdida o supresión del reflejo de la tos?",
+     "opcoes": [
+      "Exposición al humo de cigarrillo",
+      "Acúmulo de secreciones en la fibrosis quística",
+      "Congestión y edema pulmonar",
+      "Coma o anestesia general"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La pérdida del reflejo tusígeno (anestesia, coma, fármacos) permite que las secreciones y los gérmenes lleguen al pulmón.",
+      "Es uno de los mecanismos de defensa que, si se altera, facilita la infección pulmonar.",
+      "El humo daña el aparato mucociliar y la congestión interfiere con los macrófagos: son otros mecanismos de defensa, no el reflejo de la tos."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 3",
+     "bloco": "Defensas del huésped y factores predisponentes",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "El humo de cigarrillo y la inhalación de gases predisponen a la neumonía porque:",
+     "opcoes": [
+      "bloquean la acción de los macrófagos alveolares por edema",
+      "favorecen la acumulación de secreciones por obstrucción bronquial",
+      "suprimen el reflejo de la tos de forma central",
+      "lesionan el aparato mucociliar que depura la vía aérea"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El humo y los gases dañan el aparato mucociliar, que normalmente barre las partículas y los gérmenes hacia arriba.",
+      "Las afecciones congénitas y las enfermedades víricas actúan por el mismo mecanismo.",
+      "La supresión de la tos ocurre con anestesia, coma o fármacos, no con el tabaco; el edema afecta a los macrófagos en la congestión pulmonar."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 3",
+     "bloco": "Defensas del huésped y factores predisponentes",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En la fibrosis quística y en la obstrucción bronquial, la infección pulmonar aparece principalmente por:",
+     "opcoes": [
+      "alteración congénita de la batida ciliar únicamente",
+      "acúmulo de secreciones que no se eliminan",
+      "lesión directa de los macrófagos alveolares",
+      "pérdida del reflejo de la tos por fármacos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El acúmulo de secreciones es un medio de cultivo y un mecanismo que facilita la infección.",
+      "Se suma a otros mecanismos como la lesión mucociliar o la congestión pulmonar.",
+      "El reflejo de la tos y los macrófagos están conservados en estas entidades; el problema es la retención de secreciones."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 3",
+     "bloco": "Defensas del huésped y factores predisponentes",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la afirmación INCORRECTA sobre las neumonías bacterianas extrahospitalarias:",
+     "opcoes": [
+      "Causan consolidación pulmonar",
+      "Suelen seguir a una infección vírica del tracto respiratorio",
+      "Son más frecuentes en los extremos de edad",
+      "Afectan a pacientes previamente sanos, sin predisponentes"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Los slides señalan condiciones predisponentes: extremos de edad, enfermedades crónicas, insuficiencias inmunes y ausencia de función esplénica.",
+      "Suelen seguir a una infección vírica y producen consolidación pulmonar.",
+      "Insuficiencia cardíaca congestiva, EPOC y diabetes son las enfermedades crónicas que favorecen la neumonía."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 7",
+     "bloco": "Defensas del huésped y factores predisponentes",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el germen más frecuente en la neumonía bacteriana extrahospitalaria?",
+     "opcoes": [
+      "Haemophilus influenzae tipo b",
+      "Streptococcus pneumoniae",
+      "Moraxella catarrhalis",
+      "Legionella pneumophila"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Streptococcus pneumoniae es la causa más frecuente de neumonía bacteriana adquirida en la comunidad.",
+      "Es el germen con el que se compara a los demás de la lista etiológica.",
+      "H. influenzae y Moraxella son causas menos frecuentes, la última sobre todo en ancianos."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 8",
+     "bloco": "Etiología de la neumonía bacteriana extrahospitalaria",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué efecto produce Haemophilus influenzae que facilita la infección respiratoria?",
+     "opcoes": [
+      "Forma abscesos y neumatoceles en el parénquima",
+      "Inhibe la fagocitosis mediante un factor intracelular",
+      "Produce exotoxinas que destruyen el tejido alveolar",
+      "Segrega un factor que desorganiza la batida ciliar"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Haemophilus segrega un factor que desorganiza el movimiento ciliar y una proteasa que degrada la IgA.",
+      "Las formas encapsuladas evitan la opsonización y la fagocitosis.",
+      "Los abscesos y neumatoceles son característicos de Staphylococcus aureus, no de Haemophilus."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 8",
+     "bloco": "Etiología de la neumonía bacteriana extrahospitalaria",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La proteasa que degrada la IgA y las cápsulas que evitan la opsonización corresponden a:",
+     "opcoes": [
+      "Staphylococcus aureus",
+      "Haemophilus influenzae",
+      "Moraxella catarrhalis",
+      "Legionella pneumophila"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En los slides, estos mecanismos de virulencia se atribuyen a Haemophilus influenzae.",
+      "Causa infecciones agudas graves del tracto respiratorio inferior y meningitis en niños pequeños.",
+      "Moraxella se asocia a ancianos y a otitis media en niños, junto con los otros dos gérmenes."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 8",
+     "bloco": "Etiología de la neumonía bacteriana extrahospitalaria",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Con qué cuadro se asocia Moraxella catarrhalis, además de la neumonía en ancianos?",
+     "opcoes": [
+      "Infecciones en receptores de trasplantes",
+      "Meningitis en niños pequeños",
+      "Otitis media en niños",
+      "Abscesos en adictos a drogas intravenosas"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Moraxella causa neumonía en ancianos y otitis media en niños.",
+      "En la otitis media aparece junto con Haemophilus influenzae y Streptococcus pneumoniae.",
+      "La meningitis infantil se relaciona con Haemophilus; los abscesos en adictos con Staphylococcus aureus."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 8",
+     "bloco": "Etiología de la neumonía bacteriana extrahospitalaria",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un paciente receptor de un trasplante renal desarrolla neumonía grave. En su hospital se detectó el germen en las torres de refrigeración. ¿Cuál es el agente más probable?",
+     "opcoes": [
+      "Moraxella catarrhalis",
+      "Legionella pneumophila",
+      "Staphylococcus aureus",
+      "Streptococcus pneumoniae"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Legionella se encuentra en las tuberías de agua potable y en las torres de refrigeración, y afecta sobre todo a inmunodeprimidos.",
+      "Los receptores de trasplante son especialmente susceptibles y la mortalidad puede llegar al 50 %.",
+      "S. aureus se relaciona con enfermedades víricas previas y con adictos a drogas intravenosas, no con el reservorio hídrico."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 9",
+     "bloco": "Etiología de la neumonía bacteriana extrahospitalaria",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Legionella es una neumonía especialmente frecuente en pacientes:",
+     "opcoes": [
+      "cardiópatas, renales o inmunodeprimidos",
+      "niños pequeños con cuadros de otitis media recurrente",
+      "ancianos sin ninguna enfermedad de base",
+      "adictos a drogas intravenosas únicamente"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Es común en cardiópatas y renales, y en patologías inmunológicas o hematológicas.",
+      "La mortalidad puede llegar al 50 % en inmunodeprimidos.",
+      "La otitis media en niños se asocia a Moraxella, y los adictos IV al estafilococo."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 9",
+     "bloco": "Etiología de la neumonía bacteriana extrahospitalaria",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La neumonía por Staphylococcus aureus se caracteriza por aparecer:",
+     "opcoes": [
+      "en alcohólicos, con esputo espeso y gelatinoso",
+      "tras enfermedades víricas, con alta incidencia de abscesos",
+      "únicamente en recién nacidos con inmunidad celular deprimida",
+      "en torres de refrigeración, con mortalidad del 50 %"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "S. aureus produce neumonía posterior a enfermedades víricas, con alta incidencia de abscesos.",
+      "Los adictos a drogas intravenosas son un grupo de especial riesgo.",
+      "El esputo gelatinoso es propio de Klebsiella, y las torres de refrigeración, de Legionella."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 9",
+     "bloco": "Etiología de la neumonía bacteriana extrahospitalaria",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuáles son los dos patrones patológicos de la neumonía bacteriana?",
+     "opcoes": [
+      "Neumonía aguda y neumonía organizada",
+      "Bronconeumonía y neumonitis por virus",
+      "Neumonía intersticial y neumonía lobulillar",
+      "Neumonía lobar y bronconeumonía lobulillar"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Los dos patrones son la neumonía lobar y la bronconeumonía lobulillar.",
+      "Es importante identificar el germen causal y determinar la extensión de la enfermedad.",
+      "La neumonía intersticial es el patrón de los virus y atípicas, que es otra categoría."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 10",
+     "bloco": "Neumonía lobar y sus fases",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el orden correcto de las fases de la neumonía lobar?",
+     "opcoes": [
+      "Hepatización roja, congestión, resolución, hepatización gris",
+      "Hepatización roja, hepatización gris, congestión, resolución",
+      "Congestión, hepatización roja, hepatización gris, resolución",
+      "Congestión, hepatización gris, hepatización roja, resolución"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La neumonía lobar tiene 4 fases: congestión, hepatización roja, hepatización gris y resolución.",
+      "La hepatización roja precede a la gris porque los eritrocitos se desintegran después.",
+      "Alterar el orden contradice la evolución natural del exudado."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 11",
+     "bloco": "Neumonía lobar y sus fases",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En la fase de congestión de la neumonía lobar se encuentra:",
+     "opcoes": [
+      "abundantes neutrófilos y eritrocitos llenando los alvéolos",
+      "exudado fibrinopurulento con pocas bacterias",
+      "edema alveolar con congestión vascular y pocos neutrófilos",
+      "digestión enzimática del exudado por macrófagos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La fase de congestión muestra pulmones pesados, congestión vascular, edema alveolar, algo de fibrina, escasos neutrófilos y bacterias.",
+      "Es la fase inicial, antes de la llegada masiva de neutrófilos.",
+      "Neutrófilos y eritrocitos abundantes corresponden a la hepatización roja."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 12",
+     "bloco": "Neumonía lobar y sus fases",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué hallazgo caracteriza a la hepatización roja (3-4 días)?",
+     "opcoes": [
+      "Restos semilíquidos granulares con macrófagos",
+      "Desintegración de los eritrocitos con menos congestión",
+      "Neutrófilos y eritrocitos con congestión vascular",
+      "Edema alveolar con escasos neutrófilos y algo de fibrina"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "En la hepatización roja el lóbulo está consolidado por neutrófilos, eritrocitos y congestión vascular.",
+      "El nombre se debe a que el pulmón adquiere una consistencia similar a la del hígado, con color rojo.",
+      "La desintegración de eritrocitos es propia de la fase gris."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 14",
+     "bloco": "Neumonía lobar y sus fases",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "¿Por qué la hepatización gris tiene ese color y menos congestión vascular?",
+     "opcoes": [
+      "Desintegración de eritrocitos con exudado fibrinopurulento",
+      "Los neutrófilos desaparecen y queda solo fibrina en los alvéolos",
+      "Aumentan las bacterias y el edema alveolar con congestión",
+      "Se digiere el exudado por enzimas y macrófagos"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la hepatización gris los eritrocitos se desintegran y el exudado es fibrinopurulento, con menos congestión vascular.",
+      "Quedan pocas bacterias en esta fase.",
+      "La digestión enzimática por macrófagos corresponde a la resolución."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 17",
+     "bloco": "Neumonía lobar y sus fases",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué ocurre durante la fase de resolución de la neumonía lobar?",
+     "opcoes": [
+      "Formación de abscesos con rotura en la pleura",
+      "Exudado fibrinopurulento con desintegración de eritrocitos",
+      "Digestión enzimática del exudado con macrófagos",
+      "Consolidación del lóbulo por neutrófilos y eritrocitos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "En la resolución, el exudado se digiere por enzimas y quedan restos semilíquidos granulares.",
+      "Los macrófagos intervienen en la eliminación de esos restos.",
+      "La consolidación y el exudado fibrinopurulento son fases previas, no la recuperación."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 18",
+     "bloco": "Neumonía lobar y sus fases",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un pulmón con un lóbulo firme, rojo, con exudado de neutrófilos y eritrocitos y congestión vascular, tras 3-4 días de evolución. ¿En qué fase está?",
+     "opcoes": [
+      "Hepatización gris",
+      "Resolución",
+      "Hepatización roja",
+      "Congestión"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Los neutrófilos, eritrocitos y la congestión vascular, 3-4 días después, indican hepatización roja.",
+      "La fase gris ocurre después, con desintegración de eritrocitos y menos congestión.",
+      "La congestión inicial tiene escasos neutrófilos, lo que no coincide con este cuadro."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 14",
+     "bloco": "Neumonía lobar y sus fases",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cómo es la distribución típica de la bronconeumonía?",
+     "opcoes": [
+      "Consolidación parcheada, multilobular y a menudo basal",
+      "Lesión única y bien delimitada, sin extensión bronquial",
+      "Consolidación homogénea de un lóbulo completo",
+      "Afectación exclusiva de los ápices pulmonares"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La bronconeumonía consiste en áreas consolidadas de inflamación supurada aguda, parcheadas.",
+      "Puede limitarse a un lóbulo o ser multilobular, con frecuencia bilateral y basal.",
+      "La afectación de un lóbulo entero corresponde a la neumonía lobar."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 19",
+     "bloco": "Bronconeumonía",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Macroscópicamente, las lesiones de la bronconeumonía son:",
+     "opcoes": [
+      "áreas de aspecto semilíquido y granular",
+      "masas de aspecto gelatinoso y superficie mucosa al corte",
+      "focos gris blanquecinos de 3-4 cm, mal delimitados",
+      "focos pequeños, rojos y con bordes nítidos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Las lesiones miden 3-4 cm de diámetro, son gris blanquecinas y tienen márgenes mal delimitados.",
+      "Pueden ser hemorrágicas.",
+      "El aspecto mucoso al corte es propio de Klebsiella, y el semilíquido granular de la resolución."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 19",
+     "bloco": "Bronconeumonía",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué muestra la microscopía de la bronconeumonía?",
+     "opcoes": [
+      "Exudado supurado de neutrófilos en bronquios y bronquiolos",
+      "Hongos extracelulares en el espacio alveolar",
+      "Inclusiones nucleares y citoplasmáticas en las células",
+      "Infiltrado mononuclear con membranas hialinas intersticiales"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El exudado supurado, rico en neutrófilos, llena bronquios, bronquiolos y los espacios alveolares adyacentes.",
+      "Es un patrón intraalveolar, a diferencia del intersticial.",
+      "El infiltrado mononuclear con membranas hialinas corresponde a la neumonitis vírica."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 22",
+     "bloco": "Bronconeumonía",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué complicación local es característica de la bronconeumonía abscedada por Staphylococcus aureus?",
+     "opcoes": [
+      "Consolidación lobar sin formación de cavidades",
+      "Atelectasia por obstrucción de la vía aérea",
+      "Neumatocele con posible rotura en la pleura",
+      "Fibrosis intersticial difusa con panalización"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "S. aureus produce bronconeumonía abscedada con formación de neumatocele.",
+      "El neumatocele puede romperse hacia la pleura.",
+      "La fibrosis intersticial no es complicación descrita en estas diapositivas para el estafilococo."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 25",
+     "bloco": "Bronconeumonía",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la afirmación INCORRECTA sobre la bronconeumonía:",
+     "opcoes": [
+      "Se manifiesta con focos de consolidación parcheados",
+      "Algunos focos pueden ser hemorrágicos",
+      "Puede ser multilobular y bilateral",
+      "Queda restringida a un lóbulo, con bordes netos"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Puede limitarse a un lóbulo o ser multilobular, y los márgenes de las lesiones están mal delimitados.",
+      "Muchas veces es bilateral y basal.",
+      "Los focos pueden ser hemorrágicos, lo que no contradice el patrón supurativo."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 19",
+     "bloco": "Bronconeumonía",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál de las siguientes es una complicación de la neumonía?",
+     "opcoes": [
+      "Atelectasia por contracción",
+      "Enfisema panacinar",
+      "Empiema",
+      "Bronquitis crónica"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Las complicaciones señaladas son absceso, empiema, organización del exudado y diseminación bacteriémica.",
+      "El empiema es la acumulación de pus en la cavidad pleural.",
+      "Atelectasia, enfisema y bronquitis crónica son entidades pulmonares ajenas a esta lista."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 26",
+     "bloco": "Complicaciones de la neumonía",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La organización del exudado como complicación de la neumonía consiste en:",
+     "opcoes": [
+      "digestión enzimática del exudado por parte de macrófagos y restos granulares",
+      "diseminación de bacterias a las válvulas cardíacas",
+      "acumulación de pus en la cavidad pleural",
+      "tejido de reparación que sustituye al exudado sin resolverse"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Cuando el exudado no se resuelve, se organiza y el parénquima se repara con tejido fibroso.",
+      "Es una de las cuatro complicaciones descritas.",
+      "La digestión por macrófagos es la resolución normal, y el pus pleural es el empiema."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 26",
+     "bloco": "Complicaciones de la neumonía",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "¿Qué órgano NO figura entre los sitios de siembra de la diseminación bacteriémica de la neumonía?",
+     "opcoes": [
+      "Hígado",
+      "Válvulas del corazón",
+      "Riñones",
+      "Encéfalo"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Los slides señalan válvulas cardíacas, pericardio, encéfalo, riñones y bazo como sitios de diseminación.",
+      "Además pueden producirse meningitis y artritis supurada.",
+      "El hígado no se menciona."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 26",
+     "bloco": "Complicaciones de la neumonía",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Una paciente con neumonía desarrolla fiebre, rigidez de nuca y una articulación inflamada con pus. ¿Qué mecanismo explica el cuadro?",
+     "opcoes": [
+      "Formación de un neumatocele con rotura hacia la pleura",
+      "Diseminación bacteriémica con meningitis y artritis",
+      "Organización del exudado en el parénquima pulmonar",
+      "Evolución normal hacia la resolución"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las bacterias del foco pulmonar pasan a la sangre y siembran el encéfalo y las articulaciones.",
+      "La meningitis y la artritis supurada figuran como complicaciones de la diseminación bacteriémica.",
+      "La organización y el neumatocele son complicaciones locales, no explican manifestaciones a distancia."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 26",
+     "bloco": "Complicaciones de la neumonía",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué tipo de gérmenes causa la gran mayoría de las neumonías nosocomiales?",
+     "opcoes": [
+      "Virus respiratorios, como influenza y VSR",
+      "Hongos oportunistas, como Pneumocystis",
+      "Bacterias Gram negativas, como bacilos entéricos",
+      "Bacterias Gram positivas, como Streptococcus pneumoniae"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La gran mayoría se produce por gérmenes Gram negativos: bacilos entéricos y especies de Pseudomonas.",
+      "Los Gram positivos predominan en las extrahospitalarias.",
+      "Los virus y hongos corresponden a las atípicas y a las del inmunocomprometido."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 29",
+     "bloco": "Neumonías nosocomiales",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Por qué aumenta la adherencia de las bacterias Gram negativas en pacientes hospitalizados graves?",
+     "opcoes": [
+      "Disminuye la fibronectina de las células bucales",
+      "Cambia la cápsula de las bacterias Gram positivas",
+      "Aumenta la producción de IgA salival",
+      "Se activa el reflejo de la tos con la intubación"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La fibronectina de las células epiteliales bucales de estos pacientes está disminuida y eso aumenta la adherencia de Gram negativos.",
+      "La colonización de la orofaringe pasa de Gram positivos a Gram negativos.",
+      "Los cambios en la IgA o la tos no se mencionan como mecanismo."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 29",
+     "bloco": "Neumonías nosocomiales",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el grupo de riesgo típico de la neumonía por Klebsiella pneumoniae?",
+     "opcoes": [
+      "Adictos a drogas por vía intravenosa",
+      "Debilitados, desnutridos y alcohólicos",
+      "Niños pequeños con otitis media",
+      "Prematuros y lactantes inmunodeprimidos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Klebsiella afecta a debilitados, desnutridos y alcohólicos.",
+      "Es la causa más frecuente de neumonía por bacterias Gram negativas.",
+      "Los adictos IV se asocian a S. aureus y la otitis media a Moraxella."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 30",
+     "bloco": "Neumonías nosocomiales",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "El esputo espeso y gelatinoso de la neumonía por Klebsiella se debe a:",
+     "opcoes": [
+      "la destrucción tisular por exoenzimas",
+      "el exudado fibrinopurulento de la hepatización gris",
+      "la proteasa que degrada la IgA",
+      "la abundante producción de polisacárido capsular"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Klebsiella produce abundante polisacárido capsular, que puede resultar difícil de expulsar con la tos.",
+      "Las cepas hospitalarias son resistentes a múltiples antibióticos.",
+      "Las exoenzimas son de Pseudomonas, y la proteasa de IgA de Haemophilus."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 30",
+     "bloco": "Neumonías nosocomiales",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un alcohólico desnutrido presenta neumonía lobar con pulmón pesado de superficie mucosa al corte. ¿Qué complicación es característica del agente probable?",
+     "opcoes": [
+      "Abscesos y fístulas broncopleurales",
+      "Neumatoceles con rotura pleural",
+      "Membranas hialinas e inclusiones celulares",
+      "Infartos sépticos con vasculitis"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Klebsiella produce neumonía lobar con pulmones pesados, superficie mucosa y tendencia a abscesos y fístulas broncopleurales.",
+      "Se ve en alcohólicos, desnutridos y debilitados.",
+      "Los neumatoceles son del estafilococo y la vasculitis con infartos sépticos de Pseudomonas."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 31",
+     "bloco": "Neumonías nosocomiales",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Pseudomonas aeruginosa produce destrucción tisular mediante:",
+     "opcoes": [
+      "una proteasa que degrada la IgA",
+      "inclusiones intranucleares de virus",
+      "un polisacárido capsular que bloquea la tos",
+      "exoenzimas poderosas"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Pseudomonas tiene exoenzimas poderosas que destruyen el tejido, y la bacteriemia es común.",
+      "Afecta a inmunodeprimidos, pacientes con fibrosis quística y neutropénicos.",
+      "La proteasa de IgA es de Haemophilus y el polisacárido capsular de Klebsiella."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 32",
+     "bloco": "Neumonías nosocomiales",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un paciente neutropénico intubado muestra bronconeumonía hemorrágica con trombosis, vasculitis e infartos sépticos. ¿Cuál es el agente más probable?",
+     "opcoes": [
+      "Streptococcus pneumoniae",
+      "Pseudomonas aeruginosa",
+      "Haemophilus influenzae",
+      "Klebsiella pneumoniae"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Pseudomonas produce bronconeumonías hemorrágicas y abscesuales, con trombosis, vasculitis e infartos sépticos.",
+      "La intubación y la neutropenia son factores de riesgo señalados.",
+      "Klebsiella produce una neumonía lobar con tendencia a abscesos y fístulas."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 33",
+     "bloco": "Neumonías nosocomiales",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál de los siguientes agentes causa neumonía atípica extrahospitalaria?",
+     "opcoes": [
+      "Mycoplasma pneumoniae",
+      "Klebsiella pneumoniae",
+      "Staphylococcus aureus",
+      "Pseudomonas aeruginosa"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Mycoplasma pneumoniae figura entre los agentes de neumonía atípica junto con virus influenza A y B, VSR, adenovirus, rinovirus y virus de rubéola y varicela.",
+      "Afecta a niños y adultos jóvenes.",
+      "Klebsiella y Pseudomonas se relacionan con nosocomiales y S. aureus con la secuela de infecciones víricas."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 35",
+     "bloco": "Neumonías atípicas y virales",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Las neumonías atípicas suelen ocurrir:",
+     "opcoes": [
+      "exclusivamente en ancianos con enfermedades crónicas",
+      "únicamente en inmunodeprimidos con SIDA",
+      "de forma esporádica o en epidemias de comunidades cerradas",
+      "solo en pacientes hospitalizados en unidades de cuidados intensivos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Se presentan de modo esporádico o como epidemias locales en comunidades cerradas.",
+      "Los grupos más afectados son niños y adultos jóvenes.",
+      "Las neumonías del hospital o de inmunodeprimidos corresponden a otros bloques."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 35",
+     "bloco": "Neumonías atípicas y virales",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Según el esquema de patogenia, ¿qué patrón produce la inhalación de un virus?",
+     "opcoes": [
+      "Neumonitis intersticial, por infección de neumocitos tipo I",
+      "Neumonía intraalveolar, por respuesta inflamatoria aguda",
+      "Neumonía lobar con hepatización roja y congestión vascular intensa",
+      "Bronconeumonía lobulillar con exudado supurado"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El virus infecta los neumocitos tipo I, lo que lleva a lesión alveolar y neumonitis intersticial.",
+      "La bacteria piógena produce una respuesta inflamatoria aguda y neumonitis intraalveolar (lobar o bronconeumonía).",
+      "En la bacteria la lesión alveolar no es necesaria."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 5",
+     "bloco": "Neumonías atípicas y virales",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Macroscópicamente, las áreas afectadas en una neumonía atípica son:",
+     "opcoes": [
+      "azul rojizas, congestionadas, con rara afectación pleural",
+      "gelatinosas con tendencia a fístulas pleurales",
+      "gris blanquecinas, con grandes abscesos y bordes netos y firmes",
+      "de consistencia firme, con empiema frecuente"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La lesión es parcheada o afecta lóbulos completos, unilateral o bilateral, azul rojiza, congestionada y subcrepitante.",
+      "Rara vez hay afectación pleural.",
+      "Los abscesos y las fístulas son de las neumonías bacterianas."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 38",
+     "bloco": "Neumonías atípicas y virales",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué hallazgo microscópico es típico de la neumonitis por virus sincitial respiratorio?",
+     "opcoes": [
+      "Infiltrado mononuclear intersticial con membranas hialinas",
+      "Exudado supurado de neutrófilos en bronquiolos",
+      "Eritrocitos desintegrados con exudado fibrinopurulento abundante",
+      "Cavidades con neumatoceles y rotura pleural"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La lesión es intersticial con infiltrado mononuclear y membranas hialinas.",
+      "Puede haber exudado proteináceo en la luz alveolar en algunos casos.",
+      "El exudado supurado de neutrófilos es propio de la bronconeumonía bacteriana."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 40",
+     "bloco": "Neumonías atípicas y virales",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En una neumonitis vírica aparecen bronquitis y bronquiolitis ulcerativas con cambios de tipo neumónico. ¿Cómo se interpreta?",
+     "opcoes": [
+      "Evolución normal hacia la resolución del cuadro",
+      "Infección bacteriana superpuesta a la neumonitis",
+      "Organización del exudado alveolar por fibrosis",
+      "Diseminación bacteriémica a otros órganos distantes"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La infección bacteriana superpuesta modifica el cuadro con bronquitis, bronquiolitis ulcerativas y cambios neumónicos.",
+      "Explica por qué una neumonía vírica puede parecerse a una bacteriana.",
+      "La organización y la diseminación son complicaciones de la neumonía bacteriana, no de este hallazgo."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 40",
+     "bloco": "Neumonías atípicas y virales",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál de los siguientes es un agente de neumonía en el huésped inmunocomprometido?",
+     "opcoes": [
+      "Streptococcus pneumoniae",
+      "Legionella pneumophila",
+      "Citomegalovirus",
+      "Klebsiella pneumoniae"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "En el inmunocomprometido se describen citomegalovirus, Pneumocystis, aspergilosis, candidiasis y Mycobacterium avium.",
+      "Son oportunistas que aprovechan la depresión inmune.",
+      "Los otros tres son bacterias de neumonías extrahospitalarias o nosocomiales."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 43",
+     "bloco": "Neumonía en el huésped inmunocomprometido",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "El citomegalovirus permanece latente en:",
+     "opcoes": [
+      "el epitelio de los bronquios",
+      "los glóbulos blancos de la sangre",
+      "los macrófagos alveolares únicamente",
+      "las neuronas del encéfalo exclusivamente"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El CMV infecta y permanece latente en glóbulos blancos de la sangre.",
+      "Se reactiva cuando la inmunidad celular se deprime.",
+      "En individuos sanos produce infección asintomática o de tipo mononucleosis."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 44",
+     "bloco": "Neumonía en el huésped inmunocomprometido",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuándo produce el CMV infecciones sistémicas devastadoras?",
+     "opcoes": [
+      "En comunidades cerradas durante epidemias",
+      "En adultos jóvenes sanos",
+      "En pacientes con fibrosis quística",
+      "En recién nacidos e inmunodeprimidos"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Produce infecciones sistémicas devastadoras en recién nacidos e inmunodeprimidos.",
+      "En individuos sanos suele ser asintomático o similar a una mononucleosis.",
+      "La depresión de la inmunidad celular permite la reactivación del virus latente."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 44",
+     "bloco": "Neumonía en el huésped inmunocomprometido",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la vía de transmisión del CMV que NO se menciona en los slides:",
+     "opcoes": [
+      "Secreciones vaginales o cervicales durante el nacimiento",
+      "Leche materna",
+      "Transplacentaria",
+      "Picadura de artrópodos"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Se describen la vía transplacentaria, el nacimiento, la leche materna, la saliva en guarderías, la vía venérea y las secreciones respiratorias y fecal-oral.",
+      "La picadura de artrópodos no figura.",
+      "La saliva en preescolares es una fuente frecuente, sobre todo en guarderías."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 45",
+     "bloco": "Neumonía en el huésped inmunocomprometido",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué hallazgo microscópico identifica la neumonía por CMV?",
+     "opcoes": [
+      "Consolidación lobar con hepatización roja",
+      "Neumonía intersticial con inclusiones nucleares y citoplasmáticas",
+      "Exudado supurado de neutrófilos que llena los bronquiolos terminales",
+      "Hongos extracelulares en el espacio alveolar"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El CMV produce neumonía intersticial con células con inclusiones nucleares y citoplasmáticas.",
+      "Estas células pueden ser epiteliales, endoteliales, macrófagos y otras.",
+      "El exudado de neutrófilos corresponde a la bronconeumonía bacteriana."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 47",
+     "bloco": "Neumonía en el huésped inmunocomprometido",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un inmunodeprimido presenta pulmones pesados con áreas rojizas consolidadas, e inclusiones en macrófagos, células endoteliales y epiteliales alveolares. ¿Cuál es el agente?",
+     "opcoes": [
+      "Pneumocystis carinii",
+      "Citomegalovirus",
+      "Mycoplasma pneumoniae",
+      "Pseudomonas aeruginosa"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Pulmones pesados con áreas rojizas e inclusiones en esas células corresponden al CMV.",
+      "También afecta a neuronas, células dendríticas y epitelio tubular renal.",
+      "Pneumocystis es un hongo extracelular y no produce inclusiones celulares."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 48",
+     "bloco": "Neumonía en el huésped inmunocomprometido",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "¿Qué tipo de microorganismo es Pneumocystis carinii según los slides?",
+     "opcoes": [
+      "Un hongo extracelular",
+      "Un parásito intracelular obligado",
+      "Una bacteria Gram negativa encapsulada",
+      "Un virus herpes latente"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Pneumocystis carinii es un hongo extracelular.",
+      "Es la principal causa de mortalidad en enfermos con SIDA.",
+      "Los grupos de riesgo son prematuros, infantes debilitados e inmunodeprimidos."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 50",
+     "bloco": "Neumonía en el huésped inmunocomprometido",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Quiénes son grupo de riesgo para la neumonía por Pneumocystis?",
+     "opcoes": [
+      "Pacientes intubados con fibrosis quística y neutropenia",
+      "Adictos a drogas intravenosas con abscesos",
+      "Alcohólicos y desnutridos con debilidad crónica",
+      "Prematuros, infantes debilitados e inmunodeprimidos"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Los grupos de riesgo son prematuros, infantes debilitados e inmunodeprimidos, y es la principal causa de muerte en el SIDA.",
+      "Se trata de un hongo extracelular.",
+      "Alcohólicos y desnutridos se asocian a Klebsiella, y los intubados con fibrosis quística a Pseudomonas."
+     ],
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 50",
+     "bloco": "Neumonía en el huésped inmunocomprometido",
+     "nivel": "medio",
+     "complemento": false
+    }
+   ],
+   "flashcards": [
+    {
+     "frente": "Defensas pulmonares alteradas",
+     "verso": "Pérdida del reflejo de la tos, lesión del aparato mucociliar, interferencia con macrófagos alveolares y acúmulo de secreciones.",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 3"
+    },
+    {
+     "frente": "Predisponentes de la neumonía bacteriana",
+     "verso": "Extremos de edad, enfermedades crónicas (insuficiencia cardíaca, EPOC, diabetes), insuficiencias inmunes y ausencia de función esplénica.",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 7"
+    },
+    {
+     "frente": "Haemophilus influenzae",
+     "verso": "Desorganiza la batida ciliar, segrega proteasa que degrada la IgA y las formas encapsuladas evitan la opsonización; causa meningitis en niños.",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 8"
+    },
+    {
+     "frente": "Legionella pneumophila",
+     "verso": "Reservorio en tuberías de agua potable y torres de refrigeración; mortalidad hasta 50 % en inmunodeprimidos.",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 9"
+    },
+    {
+     "frente": "Fases de la neumonía lobar",
+     "verso": "Congestión, hepatización roja (3-4 días), hepatización gris (2-3 días) y resolución.",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 11"
+    },
+    {
+     "frente": "Hepatización gris",
+     "verso": "Desintegración de eritrocitos, exudado fibrinopurulento, menos congestión vascular y pocas bacterias.",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 17"
+    },
+    {
+     "frente": "Bronconeumonía",
+     "verso": "Consolidación parcheada de inflamación supurada aguda, multilobular, a menudo bilateral y basal, con focos de 3-4 cm.",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 19"
+    },
+    {
+     "frente": "Staphylococcus aureus en el pulmón",
+     "verso": "Bronconeumonía abscedada, neumatocele y rotura en la pleura; riesgo en adictos a drogas intravenosas.",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 25"
+    },
+    {
+     "frente": "Complicaciones de la neumonía",
+     "verso": "Absceso, empiema, organización del exudado y diseminación bacteriémica (válvulas, encéfalo, riñones, meningitis, artritis supurada).",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 26"
+    },
+    {
+     "frente": "Klebsiella pneumoniae",
+     "verso": "Neumonía lobar en debilitados, desnutridos y alcohólicos; esputo gelatinoso por polisacárido capsular; abscesos y fístulas broncopleurales.",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 30"
+    },
+    {
+     "frente": "Pseudomonas aeruginosa",
+     "verso": "Exoenzimas que destruyen el tejido; bacteriemia, trombosis, vasculitis e infartos sépticos en inmunodeprimidos y fibroquísticos.",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 32"
+    },
+    {
+     "frente": "Neumonitis vírica",
+     "verso": "Lesión intersticial con infiltrado mononuclear y membranas hialinas; puede haber sobreinfección bacteriana.",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 40"
+    },
+    {
+     "frente": "Citomegalovirus",
+     "verso": "Latente en glóbulos blancos, se reactiva con la depresión de la inmunidad celular; inclusiones nucleares y citoplasmáticas.",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 44"
+    },
+    {
+     "frente": "Pneumocystis carinii",
+     "verso": "Hongo extracelular; principal causa de mortalidad en enfermos con SIDA.",
+     "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 50"
+    }
+   ]
   }
  ],
  "cor": "vermelho"
