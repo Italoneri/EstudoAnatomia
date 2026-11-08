@@ -20,6 +20,7 @@ App de estudo para **Anatomía Patológica**: estudo inteligente com níveis, fl
 | Cardio | 3 – Miocardiopatías (SESIÓN 21.MIOCARDIOPATIAS 2024.pdf) | 19 |
 | Cardio | 4 – Enfermedades pericárdicas (SESIÓN 21.pericarditis2026.pdf) | 20 |
 | Cardio | 5 – Cardiopatía isquémica (CARDIOPATIA ISQUEMICA.pdf) | 44 |
+| Respiratorio | 1 – EPOC y atelectasias (Clase 19 - RESPIRATORIO - EPOC, Atelectasias - Teoria 2020.pdf) | 69 |
 
 Os cards "<Tema> – todos" e "Geral" são gerados automaticamente a partir do campo `tema` de cada kit.
 
