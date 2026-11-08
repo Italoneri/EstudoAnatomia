@@ -226,6 +226,101 @@ textarea.notes{width:100%;min-height:300px;background:#1a1240;border:1px solid #
   .logo{font-size:34px}.pill span{display:none}
   .gear{margin-left:8px}
 }
+
+/* ---------- celular: menos espremido, tudo proporcional à tela ---------- */
+@media (max-width:700px){
+  /* topo */
+  header{padding:10px 14px}
+  .logo{font-size:26px;gap:8px}.logo svg{width:32px;height:32px}
+  .top-actions{gap:8px}
+  .pill{padding:9px 12px}.pill .ico{width:20px;height:20px}
+  .avatar{width:42px;height:42px;font-size:17px;border-width:2px}
+  .avatar .crown{font-size:11px;top:-10px;right:-8px}
+
+  /* menu lateral vira abas roláveis */
+  aside{-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  aside::-webkit-scrollbar{display:none}
+  .nav{font-size:15px;padding:12px 14px;gap:8px;flex:none;width:auto}
+  .nav .ico{width:22px;height:22px}
+  main{padding:14px 12px 0}
+
+  /* barra de nível */
+  .level{gap:8px;padding:2px 0 14px}
+  .lvl-track{width:auto;flex:1;min-width:0;height:26px;border-radius:7px}
+  .lvl-track span{font-size:14px}
+  .star{width:22px;height:22px;flex:none}
+  .gear{margin-left:2px;padding:2px;flex:none}.gear .ico{width:26px;height:26px}
+
+  /* pergunta e alternativas */
+  .study{padding:18px 2px 8px}
+  .question{font-size:20px;line-height:1.4;margin-bottom:16px}
+  .bloco-filter{font-size:14px;padding:7px 12px;margin-bottom:16px}
+  .bloco-filter select{font-size:14px;max-width:62vw;text-overflow:ellipsis}
+  .opts{gap:10px}
+  .opt{gap:12px;padding:12px 14px 12px 12px;font-size:17px;line-height:1.35;border-radius:14px}
+  .opt .num{width:36px;height:36px;font-size:16px}
+  .opt .num .ico{width:20px;height:20px}
+  .opts.short{grid-template-columns:1fr 1fr}
+  .opts.short .opt{padding:12px 10px;font-size:16px;gap:10px}
+  .opts.short .opt .num{width:32px;height:32px;font-size:15px}
+
+  /* botões */
+  .study-row{margin-top:16px;gap:10px}
+  .btn-light{font-size:16px;padding:11px 16px}
+  .thumbs button{width:46px;height:46px}
+  .center{margin-top:18px}
+  .btn-pill-lav{font-size:17px;padding:12px 26px}
+
+  /* explicação */
+  .explain{margin-top:26px;gap:18px}
+  .explain ul{padding-left:20px;gap:14px}
+  .explain li{font-size:17px;line-height:1.5}
+  .explain img{width:100%;max-width:420px;align-self:center}
+  .meta{padding-left:0;margin-top:18px}
+  .kbd{display:none}
+
+  /* página do kit */
+  .kit-head{padding-left:0;gap:14px}
+  .kit-head .big-ico{width:48px;height:56px}
+  .kit-head h1{font-size:22px;gap:10px;margin-top:2px}
+  .select-subject{font-size:16px;padding:9px 12px}.select-subject select{font-size:16px}
+  .lang{font-size:17px}
+  .btn-lav{font-size:17px;padding:11px 14px}
+  .tabs{overflow-x:auto;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}
+  .tab{padding:12px 16px;font-size:16px;white-space:nowrap}
+  .btn-outline{font-size:16px;padding:8px 14px;margin:10px 4px 10px 0}
+  .file{font-size:16px;padding:10px 40px 10px 12px;word-break:break-word}
+  .file .ico{width:24px;height:24px;flex:none}
+  textarea.notes{min-height:220px;font-size:16px}
+
+  /* home */
+  .home{padding:16px 14px 30px}
+  .create{width:100%;font-size:17px;padding:16px;gap:12px}.create .ico{width:28px;height:28px}
+  .search{width:100%;padding:11px 16px}.search input{font-size:17px}
+  .filter,.filter select{font-size:16px}
+  .subject{margin-top:22px}.subject-head h2{font-size:23px}
+  .grid{grid-template-columns:1fr;gap:14px}
+  .kit{min-height:170px;padding:20px}.kit h3{font-size:19px}
+  .kit .deco{width:90px;height:90px}
+
+  /* flashcards, prova, guia */
+  .fc-wrap{padding:20px 8px}
+  .fc{width:100%;height:300px}
+  .fc-face{padding:24px 20px;font-size:21px;border-radius:20px}.fc-back{font-size:18px}
+  .exam{padding:18px 4px}
+  .exam-setup h2{font-size:24px}
+  .chip{font-size:16px;padding:9px 16px}
+  .score .big{font-size:56px}
+  .review div{font-size:15px;padding:12px 14px}
+  .guide{font-size:17px;padding:20px 4px}.guide h2{font-size:23px}.guide h3{font-size:19px}
+  .guide table{display:block;overflow-x:auto}
+
+  /* janelas e rodapé */
+  .modal{padding:20px;border-radius:18px}.modal h3{font-size:21px}
+  footer{margin-top:28px;font-size:14px;justify-content:center;text-align:center}
+  footer .links{gap:20px}
+  .toast{bottom:18px;max-width:90vw;text-align:center;font-size:15px}
+}
 </style>
 </head>
 <body>
@@ -16612,7 +16707,7 @@ function viewEstudo(c, k, keep) {
     <div class="study">
       ${blocoSelect(k)}
       <div class="question">${esc(q.pergunta)}</div>
-      <div class="opts">${S.ordem.map((oi, pos) => {
+      <div class="opts${S.ordem.every(oi => q.opcoes[oi].length <= 26) ? " short" : ""}">${S.ordem.map((oi, pos) => {
         let cls = "", num = pos + 1;
         if (done && oi === q.correta) { cls = "correct"; num = ico("check"); }
         else if (S.resp === oi) { cls = "wrong"; num = ico("x"); }
@@ -16742,7 +16837,7 @@ function viewProva(c, k) {
     c.innerHTML = `<div class="exam"><div class="exam-progress"><i style="width:${P.at / P.idx.length * 100}%"></i></div>
       <div class="fc-count">Pergunta ${P.at + 1} de ${P.idx.length}</div>
       <div class="question">${esc(q.pergunta)}</div>
-      <div class="opts">${P.ordens[P.at].map((oi, pos) => `<button class="opt" data-o="${oi}"><span class="num">${pos + 1}</span>${esc(q.opcoes[oi])}</button>`).join("")}</div></div>`;
+      <div class="opts${q.opcoes.every(o => o.length <= 26) ? " short" : ""}">${P.ordens[P.at].map((oi, pos) => `<button class="opt" data-o="${oi}"><span class="num">${pos + 1}</span>${esc(q.opcoes[oi])}</button>`).join("")}</div></div>`;
     const pick = oi => { P.resp.push(oi); P.at++; if (P.at >= P.idx.length) P.fase = "fim"; viewProva(c, k); };
     c.querySelectorAll(".opt").forEach(b => b.onclick = () => pick(+b.dataset.o));
     document.onkeydown = e => { if (location.hash.includes("/prova") && P.fase === "q" && /^[1-4]$/.test(e.key)) { const oi = P.ordens[P.at][+e.key - 1]; if (oi !== undefined) pick(oi); } };
