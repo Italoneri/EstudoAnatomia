@@ -12666,6 +12666,918 @@
      "fonte": "SESIÓN 21.pericarditis2026.pdf, slide 30"
     }
    ]
+  },
+  {
+   "id": "cardio-5",
+   "tema": "Cardio",
+   "titulo": "Cardio 5 – Cardiopatía isquémica",
+   "icone": "hospital",
+   "materiais": [
+    {
+     "nome": "CARDIOPATIA ISQUEMICA.pdf",
+     "tipo": "ppt"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "¿Cuál es la causa de la cardiopatía isquémica en más del 90 % de los casos?",
+     "opcoes": [
+      "Espasmo coronario aislado sin lesión de la pared",
+      "Obstrucción arterial coronaria aterosclerótica",
+      "Vasculitis de las arterias coronarias epicárdicas",
+      "Embolia coronaria de origen cardíaco o paradójico"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La cardiopatía isquémica es un grupo de síndromes por isquemia miocárdica, causada en más del 90 % por obstrucción coronaria aterosclerótica.",
+      "Más del 90 % de los pacientes presentan aterosclerosis de una o más arterias coronarias.",
+      "El espasmo y los émbolos existen, pero explican una minoría de los casos."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 2",
+     "bloco": "Concepto, síndromes y patogenia",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál de los siguientes es uno de los cuatro síndromes clínicos de la cardiopatía isquémica?",
+     "opcoes": [
+      "Pericarditis fibrinosa aguda",
+      "Miocardiopatía dilatada",
+      "Estenosis aórtica calcificada",
+      "Muerte súbita cardíaca"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Los cuatro síndromes son infarto de miocardio, angina de pecho, cardiopatía isquémica crónica y muerte súbita cardíaca.",
+      "Los cuatro comparten la isquemia miocárdica como base.",
+      "Pericarditis, valvulopatías y miocardiopatías son entidades cardíacas distintas, no síndromes isquémicos."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 3",
+     "bloco": "Concepto, síndromes y patogenia",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre la patogenia de la cardiopatía isquémica:",
+     "opcoes": [
+      "Puede deberse a estenosis aterosclerótica fija de las coronarias epicárdicas",
+      "La mayoría de los pacientes no presenta aterosclerosis coronaria",
+      "El espasmo vascular puede contribuir a la disminución de la perfusión",
+      "Puede deberse a trombosis intramural sobre una placa rota o fisurada"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Más del 90 % de los pacientes con cardiopatía isquémica tiene aterosclerosis de una o más coronarias; la afirmación es falsa.",
+      "La perfusión coronaria disminuye respecto a la demanda por estenosis fija, trombosis sobre placa rota o espasmo.",
+      "Las otras tres opciones enumeran precisamente esos mecanismos."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 5",
+     "bloco": "Concepto, síndromes y patogenia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Las placas estables con obstrucción coronaria fija suelen subyacer a:",
+     "opcoes": [
+      "Muerte cardíaca súbita y angina inestable",
+      "Infarto agudo de miocardio y muerte cardíaca súbita",
+      "Angina inestable e infarto agudo de miocardio",
+      "Angina típica y cardiopatía isquémica crónica"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La estenosis fija de placas estables produce la angina típica y la cardiopatía isquémica crónica.",
+      "El esquema muestra que la obstrucción fija intensa, tras curación de la placa, lleva a la cardiopatía isquémica crónica.",
+      "Angina inestable, infarto agudo y muerte súbita se relacionan con cambios agudos de la placa."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 7",
+     "bloco": "Concepto, síndromes y patogenia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Dónde predominan las estenosis ateroscleróticas fijas de las coronarias epicárdicas?",
+     "opcoes": [
+      "Primeros cm de la coronaria derecha; toda la descendente anterior",
+      "Tronco de la coronaria izquierda y circunfleja distal",
+      "Porciones distales de las tres arterias principales",
+      "Primeros cm de la descendente anterior y la circunfleja; toda la derecha"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Tienden a predominar en los primeros centímetros de la descendente anterior izquierda y de la circunfleja.",
+      "En la coronaria derecha se distribuyen por toda su longitud.",
+      "Las otras opciones invierten o alteran esta distribución."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 7",
+     "bloco": "Concepto, síndromes y patogenia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre los eventos que inician el cambio agudo de la placa:",
+     "opcoes": [
+      "Erosión-ulceración que pone la sangre en contacto con la membrana basal",
+      "Hemorragia en el ateroma que amplía su volumen",
+      "Rotura-fisura que deja expuestos constituyentes muy trombogénicos",
+      "Un engrosamiento fibroso que refuerza la placa y la estabiliza"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El cambio agudo refleja la incapacidad de la placa para soportar cargas mecánicas; un refuerzo fibroso no desencadena ese cambio.",
+      "Los eventos iniciadores son rotura-fisura, erosión-ulceración y hemorragia en el ateroma.",
+      "Estos cambios subyacen a la angina inestable, al infarto agudo y a la muerte súbita."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 8",
+     "bloco": "Concepto, síndromes y patogenia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué placa tiene mayor posibilidad de rotura?",
+     "opcoes": [
+      "La rica en células espumosas, lípidos extracelulares y capa fibrosa fina",
+      "La de abundante colágeno y calcificación densa",
+      "La de predominio de células musculares y capa fibrosa gruesa, con pocas células inflamatorias",
+      "La de escasas células inflamatorias y núcleo lipídico pequeño"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Se rompen más las áreas con grandes acumulaciones de células espumosas y lípidos, células inflamatorias, capas fibrosas finas y pocas células musculares.",
+      "Las fisuras suelen producirse en la unión de la cubierta fibrosa con la pared arterial normal.",
+      "La placa 'estable' tiene capa fibrosa gruesa y escasas células inflamatorias."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 9",
+     "bloco": "Concepto, síndromes y patogenia",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En un paciente con infarto por oclusión coronaria aguda, la placa rota previa suele haber producido:",
+     "opcoes": [
+      "Calcificación extensa sin contenido lipídico",
+      "Estenosis crítica de más del 75 % del diámetro luminal",
+      "Estenosis luminal moderada o leve",
+      "Obstrucción completa crónica con colaterales"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Las placas con rotura aguda productoras de oclusión coronaria suelen ser las que producían estenosis luminal moderada o leve.",
+      "Por eso el infarto puede ser la primera manifestación de la enfermedad.",
+      "Las estenosis críticas fijas se asocian más bien a la angina típica y a la cardiopatía isquémica crónica."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 11",
+     "bloco": "Concepto, síndromes y patogenia",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un hombre sufre un infarto al despertarse, tras un episodio de intenso estrés emocional. ¿Qué mecanismo explica la rotura de la placa?",
+     "opcoes": [
+      "La estimulación adrenérgica eleva la carga física sobre las placas",
+      "La estimulación adrenérgica reduce la agregación plaquetaria y favorece la lisis del trombo",
+      "El estrés disminuye la contractilidad y alivia la carga mecánica sobre la placa",
+      "El estrés aumenta la secreción de factores relajantes endoteliales locales"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Las influencias extrínsecas son importantes: la estimulación adrenérgica al despertarse y el estrés emocional intenso aumentan la carga sobre las placas.",
+      "Los agonistas adrenérgicos también provocan vasoconstricción, que comprime la luz y potencia la rotura.",
+      "La disfunción endotelial reduce, no aumenta, los factores relajantes."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 11",
+     "bloco": "Concepto, síndromes y patogenia",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Según la tabla de patología coronaria, ¿qué síndrome presenta rotura frecuente de placa con trombo no oclusivo, a menudo con tromboémbolos?",
+     "opcoes": [
+      "Infarto de miocardio transmural",
+      "Infarto de miocardio subendocárdico",
+      "Angina inestable",
+      "Angina estable típica"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "En la angina inestable la rotura de placa es frecuente y el trombo no es oclusivo, con frecuencia con tromboémbolos.",
+      "En el infarto transmural el trombo es oclusivo.",
+      "En el subendocárdico el trombo es muy variable: puede faltar, ser parcial, completo o haberse lisado."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 13",
+     "bloco": "Concepto, síndromes y patogenia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuánto dura la isquemia miocárdica transitoria de la angina de pecho?",
+     "opcoes": [
+      "15 segundos a 15 minutos, sin llegar a producir necrosis celular",
+      "De 1 a 6 horas, con necrosis en bandas de contracción",
+      "Más de 30 minutos, con necrosis subendocárdica",
+      "De 2 a 4 días, con necrosis de coagulación"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La angina se debe a isquemia miocárdica transitoria de 15 segundos a 15 minutos, sin necrosis celular.",
+      "Es la diferencia fundamental con el infarto, donde sí hay necrosis.",
+      "Existen tres patrones: estable, de Prinzmetal e inestable."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 15",
+     "bloco": "Angina de pecho",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué caracteriza a la angina estable?",
+     "opcoes": [
+      "Se debe a trombosis oclusiva con necrosis subendocárdica",
+      "Se desencadena con actividad física y cede con reposo o vasodilatadores",
+      "Aparece en reposo sin relación con el esfuerzo y se debe a espasmo de la arteria coronaria",
+      "Tiene frecuencia creciente y suele preceder al infarto agudo"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La angina estable aparece con el esfuerzo y se alivia con reposo o vasodilatadores.",
+      "Se debe a aterosclerosis estenosante crónica.",
+      "La que precede al infarto es la angina inestable, y la que no se relaciona con el esfuerzo es la de Prinzmetal."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 16",
+     "bloco": "Angina de pecho",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué patrón coronario presenta la angina estable en la tabla de patología arterial coronaria?",
+     "opcoes": [
+      "Estenosis usualmente intensa con rotura frecuente de placa",
+      "Estenosis variable con trombo parcial, completo o lisado",
+      "Estenosis variable con rotura frecuente y trombo oclusivo",
+      "Estenosis mayor del 75 % sin rotura de placa ni trombo"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "En la angina estable la estenosis es mayor del 75 % y no hay rotura de la placa ni trombo.",
+      "Rotura frecuente con trombo oclusivo corresponde al infarto transmural.",
+      "Estenosis intensa con rotura frecuente es el patrón de la muerte súbita."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 13",
+     "bloco": "Angina de pecho",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué caracteriza a la angina de Prinzmetal?",
+     "opcoes": [
+      "Aparece con el ejercicio y se debe a estenosis ateroscleróticas fijas de las coronarias",
+      "Aparece sin relación con esfuerzo, frecuencia ni presión, por espasmo",
+      "Surge con esfuerzos cada vez menores y dura más de 15 minutos",
+      "Se asocia a trombosis sobre placa rota con dolor progresivo"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La angina de Prinzmetal no guarda relación con la actividad física, la frecuencia cardíaca ni la presión arterial.",
+      "Se debe a espasmo coronario.",
+      "La asociada al ejercicio es la estable; la de esfuerzos cada vez menores es la inestable."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 17",
+     "bloco": "Angina de pecho",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un varón con angina estable refiere ahora dolor más frecuente, con esfuerzos cada vez menores y a veces en reposo. ¿Qué patrón es y qué significa?",
+     "opcoes": [
+      "Angina inestable, con frecuencia pródromo de infarto agudo",
+      "Cardiopatía isquémica crónica, sin riesgo de infarto",
+      "Angina de Prinzmetal, por espasmo sin relación con el esfuerzo",
+      "Angina estable, que se aliviará con reposo"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Dolor progresivamente más frecuente, con esfuerzos menores, a veces en reposo y de duración prolongada, define la angina inestable.",
+      "Con frecuencia es el pródromo del infarto agudo subsiguiente.",
+      "La angina estable es predecible y se alivia con el reposo."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 18",
+     "bloco": "Angina de pecho",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué distingue al infarto subendocárdico del transmural?",
+     "opcoes": [
+      "Se asocia a placas estables sin cambio agudo de la placa",
+      "No hay trombosis y la oclusión se debe a un espasmo",
+      "La trombosis sufre lisis antes de que la necrosis abarque todo el espesor",
+      "La necrosis es mayor, siempre afecta al ventrículo derecho y respeta el endocardio"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Ambos tipos se asocian con aterosclerosis, cambio agudo de placa y trombosis superpuesta.",
+      "En el subendocárdico la trombosis se lisa antes de que la necrosis alcance todo el espesor de la pared.",
+      "En el transmural la necrosis sí atraviesa toda la pared."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 19",
+     "bloco": "Infarto agudo de miocardio: tipos y territorios",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Además de la trombosis sobre placa, ¿qué circunstancia puede producir un infarto subendocárdico?",
+     "opcoes": [
+      "Una taquicardia sinusal breve durante el ejercicio",
+      "Un aumento de la presión venosa central",
+      "Una reducción prolongada de la presión sanguínea, como en el shock",
+      "Una hipertensión arterial sostenida con hipertrofia ventricular"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La reducción prolongada de la presión arterial, como en el shock, puede causar infarto subendocárdico.",
+      "Es la zona más vulnerable cuando la perfusión cae de forma global.",
+      "Las otras opciones no producen isquemia prolongada de la capa subendocárdica."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 19",
+     "bloco": "Infarto agudo de miocardio: tipos y territorios",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre el 10 % de infartos sin trombosis de la placa:",
+     "opcoes": [
+      "Se deben a rotura de la cubierta fibrosa con trombo oclusivo",
+      "Pueden deberse a émbolos paradójicos por un foramen oval permeable",
+      "Pueden deberse a vasoespasmo",
+      "Pueden deberse a émbolos desde la aurícula izquierda, trombos murales o vegetaciones de endocarditis"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En este 10 % no hay asociación con trombosis de la placa, así que la rotura con trombo oclusivo no explica estos casos.",
+      "Las causas son vasoespasmo, émbolos de distinto origen, émbolos paradójicos y casos sin explicación.",
+      "Los émbolos paradójicos proceden del corazón derecho y pasan por un foramen oval permeable."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 20",
+     "bloco": "Infarto agudo de miocardio: tipos y territorios",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué arteria coronaria presenta estenosis crítica con mayor frecuencia?",
+     "opcoes": [
+      "La circunfleja izquierda",
+      "La coronaria derecha",
+      "La descendente anterior izquierda",
+      "La arteria marginal obtusa"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La descendente anterior izquierda es la más afectada (40-50 %).",
+      "Le siguen la coronaria derecha (30-40 %) y la circunfleja (15-20 %).",
+      "La descendente anterior irriga la pared anterior del ventrículo izquierdo cerca del ápex."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 22",
+     "bloco": "Infarto agudo de miocardio: tipos y territorios",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué territorio irriga la arteria coronaria derecha?",
+     "opcoes": [
+      "Pared anterior del VD y aurícula izquierda",
+      "Pared inferoposterior del VI, tabique posterior y pared libre del VD",
+      "Pared lateral del VI sin el ápex ni el tabique, con respeto del ventrículo derecho",
+      "Pared anterior del VI cerca del ápex y tabique anterior"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La coronaria derecha irriga la pared inferior y posterior del ventrículo izquierdo, la porción posterior del tabique y la pared libre inferior y posterior del ventrículo derecho.",
+      "La pared anterior cerca del ápex depende de la descendente anterior.",
+      "La pared lateral sin el ápex depende de la circunfleja."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 22",
+     "bloco": "Infarto agudo de miocardio: tipos y territorios",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Según el esquema, ¿qué infarto produce la oclusión de la arteria circunfleja?",
+     "opcoes": [
+      "Infarto lateral",
+      "Infarto anterolateral masivo",
+      "Infarto anteroseptal",
+      "Infarto posterior (inferior)"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La oclusión de la circunfleja produce un infarto lateral.",
+      "La coronaria derecha produce el posterior (inferior) y la descendente anterior el anterolateral masivo.",
+      "El infarto anteroseptal corresponde a la oclusión de la coronaria izquierda."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 23",
+     "bloco": "Infarto agudo de miocardio: tipos y territorios",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En un paciente con necrosis de la pared inferoposterior del VI y afectación del ventrículo derecho, ¿qué arteria está ocluida?",
+     "opcoes": [
+      "La circunfleja izquierda",
+      "La coronaria derecha",
+      "El tronco de la coronaria izquierda",
+      "La descendente anterior izquierda"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La coronaria derecha irriga la pared inferior y posterior del VI y la pared libre del VD.",
+      "La descendente anterior daría un infarto anterolateral.",
+      "La circunfleja afectaría la pared lateral del VI."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 22",
+     "bloco": "Infarto agudo de miocardio: tipos y territorios",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué se observa en la lesión reversible, dentro de la primera media hora?",
+     "opcoes": [
+      "Pérdida de núcleos y estriaciones",
+      "Relajación de miofibrillas, pérdida de glucógeno y tumefacción mitocondrial",
+      "Necrosis de coagulación con hemorragia",
+      "Hipereosinofilia de miocitos con infiltrado PMN"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la primera media hora la lesión es reversible: relajación de miofibrillas, pérdida de glucógeno y tumefacción mitocondrial.",
+      "Los cambios de necrosis aparecen horas más tarde.",
+      "Hipereosinofilia y PMN aparecen entre las 12 y 24 horas."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 27",
+     "bloco": "Evolución morfológica del infarto",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué hallazgo se espera entre media hora y 4 horas de un infarto?",
+     "opcoes": [
+      "Zona pardo amarillenta con infiltrado PMN",
+      "Borde hiperémico con fagocitosis mononuclear",
+      "Sin cambios en macroscopía y, usualmente, en la microscopía óptica",
+      "Aspecto moteado oscuro con necrosis de coagulación y hemorragia ya evidentes"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Entre media hora y 4 horas la lesión ya es irreversible, pero la macroscopía no cambia y la microscopía óptica usualmente tampoco.",
+      "La microscopía electrónica muestra disrupción del sarcolema y mitocondrias dilatadas con densidades amorfas.",
+      "Los cambios macroscópicos aparecen a partir de las 4-12 horas."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 28",
+     "bloco": "Evolución morfológica del infarto",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué hallazgos corresponden al infarto de 4 a 12 horas?",
+     "opcoes": [
+      "Cicatriz gris blanca con abundante colágeno",
+      "Tejido de granulación bien definido",
+      "Hipereosinofilia con necrosis de banda de contracción marginal e infiltrado",
+      "Necrosis de coagulación y hemorragia, con aspecto moteado oscuro"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "A las 4-12 horas hay necrosis de coagulación y hemorragia, con aspecto macroscópico moteado oscuro.",
+      "La hipereosinofilia con banda de contracción marginal aparece a las 12-24 horas.",
+      "El tejido de granulación y la cicatriz corresponden a fases mucho más tardías."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 29",
+     "bloco": "Evolución morfológica del infarto",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cómo se evidencian macroscópicamente las áreas de infarto precoz?",
+     "opcoes": [
+      "Sumergiendo el corazón en cloruro de difeniltetrazolio",
+      "Con tinción de Perls",
+      "Con impregnación argéntica",
+      "Con tinción de Rojo Congo"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Al sumergir el corazón en cloruro de difeniltetrazolio se evidencian las áreas de infarto.",
+      "Es útil porque en las primeras horas la macroscopía no muestra cambios claros.",
+      "Las otras tinciones se usan para amiloide, fibras reticulares y hierro."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 29",
+     "bloco": "Evolución morfológica del infarto",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué hallazgos microscópicos corresponden al infarto de 12 a 24 horas?",
+     "opcoes": [
+      "Hipereosinofilia de miocitos, banda de contracción marginal e inicio de PMN",
+      "Desintegración de PMN y comienzo de fagocitosis mononuclear",
+      "Tejido de granulación y depósito inicial de colágeno",
+      "Pérdida de núcleos y estriaciones con abundante infiltrado PMN y zonas de hemorragia"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "A las 12-24 horas hay hipereosinofilia de miocitos, necrosis de banda de contracción marginal y comienza el infiltrado PMN.",
+      "Macroscópicamente la zona es moteada roja oscura.",
+      "La pérdida de núcleos con PMN es más típica de 1-3 días."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 30",
+     "bloco": "Evolución morfológica del infarto",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué son las bandas de contracción?",
+     "opcoes": [
+      "Grupos de sarcómeros hipercontraídos con engrosamiento de las líneas Z",
+      "Proteínas contráctiles disueltas sin agregados ni engrosamiento de las líneas Z, con núcleos conservados",
+      "Mitocondrias dilatadas con densidades amorfas",
+      "Fibras onduladas con núcleos picnóticos"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Las bandas de contracción son grupos de sarcómeros hipercontraídos con líneas Z engrosadas.",
+      "Contienen material amorfo de proteínas contráctiles desnaturalizadas y agregadas.",
+      "Las mitocondrias con densidades amorfas son un hallazgo ultraestructural de las primeras horas."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 32",
+     "bloco": "Evolución morfológica del infarto",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En la autopsia de un paciente fallecido 2 días después de un infarto, ¿qué hallazgos se esperan?",
+     "opcoes": [
+      "Cicatriz gris blanca con colágeno abundante",
+      "Borde hiperémico con ablandamiento central y fagocitosis mononuclear",
+      "Centro pardo amarillento, núcleos y estriaciones perdidos, y PMN",
+      "Bandas de contracción sin cambio macroscópico"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "A los 1-3 días hay una zona de infarto oscuro con centro pardo amarillento; microscópicamente se pierden núcleos y estriaciones y hay infiltrado PMN.",
+      "El borde hiperémico con fagocitosis mononuclear es propio de los 3-7 días.",
+      "La cicatriz gris blanca requiere semanas."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 33",
+     "bloco": "Evolución morfológica del infarto",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué hallazgos corresponden al infarto de 3 a 7 días?",
+     "opcoes": [
+      "Cicatriz gris blanca con abundante colágeno",
+      "Tejido de granulación bien definido con colágeno incipiente y escasa celularidad",
+      "Hipereosinofilia de miocitos con banda de contracción marginal",
+      "Borde hiperémico, ablandamiento central y fagocitosis mononuclear incipiente"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "A los 3-7 días hay borde hiperémico y ablandamiento central; se desintegran las miofibras muertas y los PMN, y comienza la fagocitosis mononuclear.",
+      "El máximo ablandamiento llega a los 7-10 días.",
+      "A los 10-14 días el tejido de granulación está bien definido y comienza el depósito de colágeno."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 35",
+     "bloco": "Evolución morfológica del infarto",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuándo aparece la cicatriz gris blanca con depósito abundante de colágeno?",
+     "opcoes": [
+      "Entre los 3 y los 7 días",
+      "Entre las 2 y las 8 semanas",
+      "Entre los 10 y los 14 días",
+      "Entre uno y tres días"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "A las 2-8 semanas hay cicatriz gris blanca con abundante colágeno.",
+      "A los 2 o más meses la cicatrización es completa, con una cicatriz colagénica hipocelular.",
+      "A los 10-14 días solo hay tejido de granulación con colágeno incipiente."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 39",
+     "bloco": "Evolución morfológica del infarto",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué efecto tiene la reperfusión temprana, a los 15-20 minutos de la isquemia?",
+     "opcoes": [
+      "Puede prevenir por completo la necrosis",
+      "No modifica el tamaño del infarto",
+      "Aumenta el tamaño de la necrosis en todos los casos",
+      "Solo salva el miocardio que ya está necrótico"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La reperfusión a los 15-20 minutos puede prevenir por completo la necrosis.",
+      "Los tratamientos rápidos salvan el músculo isquémico pero no necrótico, y limitan el tamaño del infarto.",
+      "Esto mejora la función y la supervivencia."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 42",
+     "bloco": "Reperfusión",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Si la reperfusión se logra tras un intervalo largo, ¿qué cabe esperar?",
+     "opcoes": [
+      "Convierte el miocardio necrótico en tejido viable",
+      "No evita la necrosis, pero puede salvar parte del miocardio isquémico",
+      "Evita por completo la necrosis siempre que el flujo coronario se mantenga restablecido",
+      "Es inútil, pues el miocardio isquémico ya es irrecuperable"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Tras un intervalo más largo la reperfusión no evita la necrosis, pero puede salvar parte del tejido isquémico.",
+      "El esquema muestra salvamento parcial con reperfusión a las 2-4 horas.",
+      "El músculo ya necrótico no se recupera."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 42",
+     "bloco": "Reperfusión",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué hallazgos caracterizan a los miocitos necróticos tras la reperfusión?",
+     "opcoes": [
+      "Pérdida de glucógeno sin necrosis ni cambios mitocondriales, con miofibrillas relajadas",
+      "Fibrosis colagénica hipocelular sin miocitos necróticos",
+      "Bandas de contracción y edema mitocondrial con depósitos de calcio",
+      "Necrosis de coagulación sin hemorragia ni bandas de contracción"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Con reperfusión los miocitos necróticos muestran bandas de contracción por desorganización y apelotonamiento de estructuras sarcoméricas.",
+      "Hay edema mitocondrial con depósitos de calcio en la matriz.",
+      "La fibrosis hipocelular es la cicatriz tardía."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 44",
+     "bloco": "Reperfusión",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es un mecanismo de la lesión por reperfusión?",
+     "opcoes": [
+      "Menor expresión de moléculas de adhesión por el parénquima hipóxico",
+      "Inhibición de la vía del complemento",
+      "Generación aumentada de radicales libres de oxígeno",
+      "Descenso de la producción de citocinas"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Una causa es la generación aumentada de radicales libres de O2, por reducción incompleta del oxígeno en mitocondrias dañadas y por oxidasas de leucocitos y células dañadas.",
+      "También participan la inflamación, con citocinas y más moléculas de adhesión, y la activación del complemento.",
+      "Los distractores plantean lo contrario."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 45",
+     "bloco": "Reperfusión",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el comportamiento de las troponinas I y T tras el infarto?",
+     "opcoes": [
+      "Suben a las 2-4 h, alcanzan su pico a las 24 h y se normalizan a las 48-72 h",
+      "Suben a las 24 h, con pico a los 7 días y normalización a los 10 días tras el evento",
+      "Se detectan normalmente en sangre, con pico a las 6 h y vuelta a lo normal en 2 días",
+      "Suben a las 2-4 h, alcanzan su máximo a las 12-48 h y persisten 7-10 días"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Las troponinas aumentan entre las 2 y las 4 horas, alcanzan su máximo a las 12-48 horas y pueden seguir elevadas 7-10 días.",
+      "Normalmente no se detectan en la circulación.",
+      "La curva con pico a las 24 h y normalización a las 48-72 h es la de la CK-MB."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 48",
+     "bloco": "Clínica y laboratorio",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la curva de la creatincinasa cardíaca (CK-MB)?",
+     "opcoes": [
+      "Alcanza su pico a las 12-48 h y persiste elevada entre 7 y 10 días tras el evento",
+      "Alcanza su pico a los 7 días y se normaliza a las 3 semanas",
+      "Aumenta a las 2-4 h, con pico a las 24 h, y se normaliza a las 48-72 h",
+      "Alcanza su pico a las 4 h y se normaliza a las 8 h"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La CK-MB aumenta a las 2-4 h tras la lesión, con pico a las 24 h y vuelta a la normalidad a las 48-72 h.",
+      "La enzima se concentra en cerebro (BB), miocardio (MB) y músculo esquelético (MM).",
+      "Las troponinas, en cambio, permanecen elevadas 7-10 días."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 49",
+     "bloco": "Clínica y laboratorio",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cómo influye la reperfusión en las curvas de troponina y CK-MB?",
+     "opcoes": [
+      "Elimina la elevación porque evita toda necrosis",
+      "Adelanta el pico por el lavado de la enzima desde el tejido necrótico",
+      "No la modifica, pues solo depende del tamaño del infarto",
+      "Retrasa el pico porque la necrosis se limita y el lavado enzimático disminuye"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En los pacientes sometidos a reperfusión el pico de estas enzimas se acelera.",
+      "La causa es el lavado de la enzima desde el tejido necrótico.",
+      "No retrasa el pico, y la reperfusión tardía no evita la necrosis."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 49",
+     "bloco": "Clínica y laboratorio",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Para qué sirve la proteína C reactiva en la cardiopatía isquémica?",
+     "opcoes": [
+      "Como marcador de riesgo de infarto; por encima de 3 mg/L, el riesgo más alto",
+      "Como marcador más específico de necrosis miocárdica aguda, junto a las troponinas",
+      "Solo para infartos transmurales",
+      "Para detectar el infarto a las 2-4 horas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La PCR predice el riesgo de infarto en pacientes con angina y de nuevos infartos en quienes se recuperaron de uno.",
+      "Valores por encima de 3 mg/L se asocian con el mayor riesgo cardiovascular.",
+      "Los marcadores específicos de daño miocárdico son las troponinas I y T."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 49",
+     "bloco": "Clínica y laboratorio",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué complicación del infarto de miocardio aparece entre los días 2 y 3?",
+     "opcoes": [
+      "Insuficiencia cardíaca tardía progresiva",
+      "Trombo mural ventricular",
+      "Aneurisma ventricular crónico",
+      "Pericarditis fibrinosa"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La pericarditis fibrinosa aparece entre el día 2 y 3 del infarto.",
+      "Es un ejemplo de complicación precoz, relacionada con la necrosis transmural.",
+      "El aneurisma y la insuficiencia cardíaca progresiva son complicaciones tardías."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 51",
+     "bloco": "Complicaciones del infarto",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un paciente con infarto transmural posterior presenta bloqueo grave de conducción. ¿Qué otra complicación es más probable?",
+     "opcoes": [
+      "Aneurisma de la pared anterior",
+      "Trombo mural en el ápex",
+      "Rotura de pared libre por expansión anterior",
+      "Afectación del ventrículo derecho"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Los infartos transmurales posteriores tienen mayor riesgo de bloqueo grave de conducción y de afectación del ventrículo derecho.",
+      "Los transmurales anteriores se asocian más a rotura de pared libre, expansión, trombos murales y aneurismas.",
+      "Por eso la localización orienta las complicaciones."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 52",
+     "bloco": "Complicaciones del infarto",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué particularidad tienen los infartos subendocárdicos?",
+     "opcoes": [
+      "Producen shock cardiogénico más que los transmurales",
+      "Pueden formar trombos en la superficie endocárdica",
+      "Tienen mayor riesgo de rotura de pared libre",
+      "Causan aneurismas con mayor frecuencia"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los infartos subendocárdicos pueden formar trombos en la superficie endocárdica.",
+      "El shock cardiogénico, la arritmia y la insuficiencia cardíaca tardía son más probables en los transmurales.",
+      "La rotura de pared libre y los aneurismas se asocian a transmurales anteriores."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 52",
+     "bloco": "Complicaciones del infarto",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Tras un infarto, ¿qué complicación causa un hemopericardio?",
+     "opcoes": [
+      "La rotura del tabique interventricular",
+      "El aneurisma ventricular",
+      "La rotura de la pared libre ventricular",
+      "La pericarditis fibrinosa"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El hemopericardio se produce tras la rotura de la pared libre del ventrículo.",
+      "La rotura del tabique forma una comunicación entre ventrículos, sin sangre en el pericardio.",
+      "La pericarditis fibrinosa produce exudado, no sangrado masivo."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 55",
+     "bloco": "Complicaciones del infarto",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Para qué complicaciones tienen mayor probabilidad los infartos transmurales?",
+     "opcoes": [
+      "Solo trombos en la superficie endocárdica",
+      "Menor riesgo de arritmia que los subendocárdicos",
+      "Ausencia de disfunción contráctil",
+      "Shock cardiogénico, arritmia e insuficiencia cardíaca congestiva tardía"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Los infartos transmurales conllevan mayor probabilidad de shock cardiogénico, arritmia e ICC tardía.",
+      "Estas complicaciones reflejan la pérdida de miocardio en todo el espesor de la pared.",
+      "Los trombos endocárdicos son más propios de los subendocárdicos."
+     ],
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 52",
+     "bloco": "Complicaciones del infarto",
+     "nivel": "medio",
+     "complemento": false
+    }
+   ],
+   "flashcards": [
+    {
+     "frente": "Cardiopatía isquémica",
+     "verso": "Grupo de síndromes por isquemia miocárdica; en más del 90 % de los casos por obstrucción coronaria aterosclerótica.",
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 2"
+    },
+    {
+     "frente": "Cuatro síndromes de la cardiopatía isquémica",
+     "verso": "Infarto de miocardio, angina de pecho, cardiopatía isquémica crónica y muerte súbita cardíaca.",
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 3"
+    },
+    {
+     "frente": "Mecanismos de la isquemia coronaria",
+     "verso": "Estenosis aterosclerótica fija, trombosis sobre placa rota y espasmo vascular.",
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 5"
+    },
+    {
+     "frente": "Eventos iniciadores del cambio agudo de placa",
+     "verso": "Rotura-fisura, erosión-ulceración y hemorragia en el ateroma.",
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 8"
+    },
+    {
+     "frente": "Angina de pecho",
+     "verso": "Isquemia miocárdica transitoria (15 s a 15 min) sin necrosis; patrones estable, de Prinzmetal e inestable.",
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 15"
+    },
+    {
+     "frente": "Angina inestable",
+     "verso": "Dolor más frecuente, con esfuerzos cada vez menores, a menudo en reposo; pródromo frecuente del infarto.",
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 18"
+    },
+    {
+     "frente": "Frecuencia de estenosis crítica por arteria",
+     "verso": "Descendente anterior 40-50 %, coronaria derecha 30-40 %, circunfleja 15-20 %.",
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 22"
+    },
+    {
+     "frente": "Infarto a las 4-12 horas",
+     "verso": "Necrosis de coagulación y hemorragia; aspecto moteado oscuro; se evidencia con cloruro de difeniltetrazolio.",
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 29"
+    },
+    {
+     "frente": "Infarto a las 12-24 horas",
+     "verso": "Hipereosinofilia de miocitos, necrosis de banda de contracción marginal e inicio del infiltrado PMN.",
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 30"
+    },
+    {
+     "frente": "Reperfusión del infarto",
+     "verso": "A los 15-20 min puede prevenir la necrosis; más tarde salva parte del miocardio isquémico.",
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 42"
+    },
+    {
+     "frente": "Troponinas I y T",
+     "verso": "Suben a las 2-4 h, pico a las 12-48 h, persisten 7-10 días; no se detectan normalmente.",
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 48"
+    },
+    {
+     "frente": "CK-MB",
+     "verso": "Sube a las 2-4 h, pico a las 24 h y se normaliza a las 48-72 h.",
+     "fonte": "CARDIOPATIA ISQUEMICA.pdf, slide 49"
+    }
+   ]
   }
  ],
  "cor": "vermelho"
