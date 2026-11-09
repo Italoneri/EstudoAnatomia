@@ -143,5 +143,12 @@ node tools/verify-kit.js dados/anatopato.json    # todos os kits devem passar
 ### 7. Ver no navegador
 `python -m http.server 8765 --bind 127.0.0.1` em background e abrir `http://localhost:8765/`. A porta **8080 está ocupada/bloqueada** nesta máquina (WinError 10013). Alternativa sem servidor: abrir o `index.html` com duplo clique.
 
+## Kits de "Provas anteriores"
+Questões reais de provas antigas, separadas por tema (`provas-anteriores-1..4`). Diferem dos kits de slides:
+- Fonte compacta em `tools/kits/provas-anteriores-<n>.js`; nomes das provas em `tools/kits/provas-fontes.js`. `fonte` = `"<prova>, pregunta N"`.
+- Build com `node tools/build-prova.js` (não o `build-kit.js`): mantém 2 a 5 alternativas como na prova. Itens com ordem que importa ("Todas son correctas", Verdadero/Falso, intervalos de tempo) usam `o` + `k` e não são embaralhados.
+- O kit sai com `"separado": true`: o app cria "Provas anteriores – todos" e o deixa fora do "Geral". O `verify-kit.js` aplica as regras de 2–5 alternativas e de `fonte` de prova só a esses kits.
+- Respostas: gabarito oficial quando a prova trazia; senão, a resposta pelo material da aula. Opções adaptadas (por ambiguidade) são avisadas na explicação.
+
 ## Resumo final para o usuário
 Entregar: tabela de questões por bloco, resultado da verificação (posições, % mais longa/curta, duplicadas, complemento, INCORRECTA, níveis) e o que ficou de fora e por quê.

@@ -117,6 +117,7 @@ textarea.notes{width:100%;min-height:300px;background:#1a1240;border:1px solid #
 .study{max-width:1480px;margin:0 auto;padding:40px 60px}
 .question{font-size:26px;font-weight:700;margin-bottom:22px;line-height:1.35}
 .opts{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.opts .opt:last-child:nth-child(odd){grid-column:1/-1}
 .opt{display:flex;align-items:center;gap:16px;background:var(--panel);border:2px solid transparent;border-radius:14px;padding:18px 10px;font-size:20px;text-align:left;transition:.12s}
 .opt:hover:not(:disabled){background:var(--panel2)}
 .opt:disabled{cursor:default}
@@ -341,6 +342,7 @@ const APP_INICIAIS = "V";         // letra no avatar
      - kits com o mesmo "tema" viram uma seção na tela inicial
      - o card "<Tema> – todos" e o card "Geral" são criados automaticamente
      pergunta: { pergunta, opcoes[4], correta 0-3, explicacao[3], fonte, bloco, nivel, complemento }
+     - kits com "separado": true (Provas anteriores) aceitam 2 a 5 opcoes e ficam fora do card "Geral"
    Para adicionar um tema novo: cole o JSON dele como mais um item em DB.materias
    (ou junte os kits dentro de "anatopato").
    ===================================================================== */
@@ -16315,6 +16317,3374 @@ const DB = { materias: [
      "fonte": "Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf, slide 50"
     }
    ]
+  },
+  {
+   "id": "provas-anteriores-1",
+   "tema": "Provas anteriores",
+   "titulo": "Provas anteriores 1 – Neoplasia",
+   "icone": "hospital",
+   "separado": true,
+   "materiais": [
+    {
+     "nome": "2º Parcial Ordinário Teórica - Anatomía Patológica I.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "P2 anatopato kristel.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "Anatopato I - ESSA ESTUDAR 2P.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "Corrección P2 Anatopato.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "P2 Anatopato teoría e práctica.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "Prova anatopato C.pdf",
+     "tipo": "prova"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "Una de las siguientes opciones corresponde a procesos neoplásicos benignos:",
+     "opcoes": [
+      "Rabdomiosarcoma / Linfangioma",
+      "Meningioma / Fibroadenoma",
+      "Seminoma / Teratoma",
+      "Linfoma / Leucemia",
+      "Melanoma / Leiomiosarcoma"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El meningioma y el fibroadenoma de mama son neoplasias benignas.",
+      "En los demás pares hay al menos un maligno: rabdomiosarcoma (-sarcoma), melanoma, leiomiosarcoma, linfoma, leucemia y seminoma.",
+      "El linfangioma y el teratoma maduro son benignos, pero vienen emparejados con un maligno."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 19",
+     "bloco": "Generalidades y nomenclatura",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Uno de los siguientes no es un tumor maligno:",
+     "opcoes": [
+      "Linfoma",
+      "Liposarcoma",
+      "Melanoma",
+      "Mesotelioma",
+      "Condroma"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "El condroma es la neoplasia benigna del cartílago; su contraparte maligna es el condrosarcoma.",
+      "Melanoma y linfoma son malignos a pesar del sufijo -oma, igual que el mesotelioma.",
+      "En otras versiones de esta prueba la respuesta fue rabdomioma o linfangioma: ambos también son benignos."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 6",
+     "bloco": "Generalidades y nomenclatura",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un tumor de origen ectodérmico y mesodérmico podría denominarse:",
+     "opcoes": [
+      "Hamartoma",
+      "Coristoma",
+      "Teratoma",
+      "Adenoma",
+      "Carcinoma"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El teratoma deriva de células totipotenciales y contiene tejidos de más de una capa germinal.",
+      "Suele originarse en las gónadas; el maduro es benigno y el inmaduro es maligno.",
+      "Hamartoma (tejido propio del lugar, desorganizado) y coristoma (tejido normal ectópico) son pseudotumores."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 12",
+     "bloco": "Generalidades y nomenclatura",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un tumor maligno de músculo esquelético estriado se denomina:",
+     "opcoes": [
+      "Musculosarcoma",
+      "Rabdomiosarcoma",
+      "Leiomiosarcoma",
+      "Rabdomioma",
+      "Leiomioma"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Rabdo- indica músculo estriado y -sarcoma indica tumor mesenquimático maligno.",
+      "El leiomiosarcoma es el maligno de músculo liso; el leiomioma es su versión benigna.",
+      "El rabdomioma es benigno (el tumor cardíaco primario más frecuente en niños). Cayó en 2 pruebas."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 23",
+     "bloco": "Generalidades y nomenclatura",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un tumor maligno de origen mesenquimatoso es el:",
+     "opcoes": [
+      "Adenocarcinoma",
+      "Fibrosarcoma",
+      "Carcinoma escamoso",
+      "Fibroma"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los tumores mesenquimáticos malignos se llaman sarcomas: el fibrosarcoma deriva de fibroblastos.",
+      "Adenocarcinoma y carcinoma escamoso son malignos, pero de origen epitelial.",
+      "El fibroma es la contraparte benigna del fibrosarcoma."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 25",
+     "bloco": "Generalidades y nomenclatura",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el nombre correcto de la neoplasia benigna del cartílago?",
+     "opcoes": [
+      "Hamartoma",
+      "Condrosarcoma",
+      "Fibroma",
+      "Condroma",
+      "Osteoma"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Neoplasia benigna mesenquimática = nombre de la célula + -oma: condroma.",
+      "El condrosarcoma es la versión maligna del mismo tejido.",
+      "En 2025 esta pregunta fue abierta (COMPLETAR): leiomioma, carcinoma escamoso, condroma, adenocarcinoma y liposarcoma."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 49",
+     "bloco": "Generalidades y nomenclatura",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el nombre correcto de la neoplasia benigna de músculo liso?",
+     "opcoes": [
+      "Leiomioma",
+      "Mioma estriado",
+      "Fibroma",
+      "Rabdomioma",
+      "Leiomiosarcoma"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Leio- indica músculo liso; con -oma es la neoplasia benigna.",
+      "Es el tumor benigno más frecuente del útero: nódulos blancos, firmes, de aspecto arremolinado.",
+      "El rabdomioma es de músculo estriado; el leiomiosarcoma es la versión maligna."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 49",
+     "bloco": "Generalidades y nomenclatura",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Tumor que permanece localizado en su sitio de origen, es susceptible de extirpación quirúrgica y el paciente generalmente sobrevive. Esta descripción corresponde a:",
+     "opcoes": [
+      "Melanoma",
+      "Fibroma",
+      "Adenocarcinoma",
+      "Linfoma",
+      "Osteosarcoma"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La descripción es la de un tumor benigno: no invade ni metastatiza y se cura con cirugía.",
+      "El fibroma es el único benigno de la lista.",
+      "Melanoma y linfoma son malignos a pesar del sufijo -oma."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 30",
+     "bloco": "Generalidades y nomenclatura",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Son cambios displásicos todos los siguientes, EXCEPTO:",
+     "opcoes": [
+      "Disrelación núcleo/citoplásmica",
+      "Presencia de mitosis atípicas y pseudoestratificación",
+      "Visualización de puentes intercelulares",
+      "Irregularidad e hipercromasia nuclear",
+      "Desorganización arquitectural epitelial"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Los puentes intercelulares son signo de diferenciación escamosa normal, no de displasia.",
+      "La displasia muestra pérdida de uniformidad, mitosis fuera de la capa basal, pleomorfismo e hipercromasia.",
+      "Los puentes también aparecen en el carcinoma escamoso bien diferenciado: indican que conserva su origen."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 9",
+     "bloco": "Displasia, diferenciación y grado",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Son cambios displásicos todos los siguientes, EXCEPTO:",
+     "opcoes": [
+      "Irregularidad e hipercromasia nuclear",
+      "Pérdida parcial o completa de la maduración epitelial",
+      "Pseudoestratificación y mitosis atípicas",
+      "Arquitectura desordenada",
+      "Aumento de la mucosecreción"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "El aumento de la mucosecreción es un cambio funcional (como en la bronquitis crónica), no un criterio de displasia.",
+      "La displasia es crecimiento desorganizado: pérdida de maduración, arquitectura alterada y atipia nuclear.",
+      "Fue la respuesta oficial en 4 pruebas distintas."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 24",
+     "bloco": "Displasia, diferenciación y grado",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La displasia significa:",
+     "opcoes": [
+      "Aumento del número de células",
+      "Crecimiento autónomo e irreversible",
+      "Sustitución de un epitelio por otro",
+      "Crecimiento desorganizado"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Displasia es crecimiento desorganizado del epitelio, con pérdida de uniformidad y atipia.",
+      "Puede ser leve, moderada o severa y puede revertir o progresar a carcinoma.",
+      "La sustitución de un epitelio por otro es metaplasia; el aumento del número de células es hiperplasia."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 3",
+     "bloco": "Displasia, diferenciación y grado",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La displasia puede ser un precursor de la transformación maligna. Acerca de la misma podemos afirmar:",
+     "opcoes": [
+      "Siempre progresa a un tumor maligno",
+      "Es un cambio patológico irreversible",
+      "Posee potencial metastásico",
+      "Ocurre el reemplazo de un tipo de célula por otra",
+      "Puede presentar pleomorfismo considerable con abundantes figuras mitóticas"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "La displasia muestra pleomorfismo, hipercromasia y mitosis fuera de la capa basal.",
+      "Mantiene la membrana basal intacta: no invade, por lo que no metastatiza.",
+      "Puede revertir o progresar; el reemplazo de un tipo celular por otro es metaplasia."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 31",
+     "bloco": "Displasia, diferenciación y grado",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La falta completa de diferenciación tumoral se denomina:",
+     "opcoes": [
+      "Displasia",
+      "Metaplasia",
+      "Desmoplasia",
+      "Anaplasia",
+      "Neoplasia"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Anaplasia es la falta de diferenciación: no se reconoce la célula de origen.",
+      "Se acompaña de pleomorfismo, hipercromasia, nucléolos grandes, mitosis atípicas y pérdida de polaridad.",
+      "La desmoplasia es la proliferación de estroma fibroso que inducen algunos tumores."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 2",
+     "bloco": "Displasia, diferenciación y grado",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿En cuál de los siguientes tumores el porcentaje de formación de estructuras glandulares define el grado histológico?",
+     "opcoes": [
+      "Rabdomiosarcoma",
+      "Leiomiosarcoma",
+      "Melanoma",
+      "Carcinoma escamoso",
+      "Adenocarcinoma"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "En el adenocarcinoma: más de 95% de glándulas = G1, 50–95% = G2, menos de 50% = G3.",
+      "En el carcinoma escamoso, el grado lo define la queratinización (queratinizante = G1).",
+      "En los sarcomas se considera semejanza al tejido, mitosis, mitosis atípicas, pleomorfismo y % de necrosis. Cayó en 2 pruebas."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 1",
+     "bloco": "Displasia, diferenciación y grado",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En los sarcomas, el grado de diferenciación se establece teniendo en cuenta:",
+     "opcoes": [
+      "Semejanza del tejido neoplásico con su contrapartida normal",
+      "Número de mitosis",
+      "Porcentaje de necrosis tumoral",
+      "Mitosis atípicas",
+      "Todas son correctas"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "El slide lista los cinco criterios: semejanza al tejido normal, número de mitosis, mitosis anómalas, pleomorfismo y % de necrosis.",
+      "En los carcinomas se usan otros criterios: glándulas en el adenocarcinoma y queratina en el escamoso.",
+      "Cuando todas las opciones son criterios reales de la clase, la respuesta es 'Todas son correctas'."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 13",
+     "bloco": "Displasia, diferenciación y grado",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Los parámetros que se valoran en la estadificación TNM son:",
+     "opcoes": [
+      "Tamaño tumoral",
+      "Número de ganglios comprometidos",
+      "Presencia de metástasis",
+      "Son ciertas las tres anteriores"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "T = tamaño/extensión del tumor primario; N = ganglios regionales; M = metástasis a distancia.",
+      "El estadio mide la extensión de la enfermedad, no la diferenciación (eso es el grado).",
+      "Según la clase, el estadio tiene mayor valor clínico que el grado."
+     ],
+     "fonte": "3er parcial 2017 (Anatopato I – ESSA ESTUDAR 2P), pregunta 18",
+     "bloco": "Displasia, diferenciación y grado",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La vía de diseminación preferencial de los carcinomas es:",
+     "opcoes": [
+      "Diseminación linfática",
+      "Diseminación por contigüidad",
+      "Diseminación hematógena",
+      "Siembra de cavidades"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Los carcinomas usan preferentemente la vía linfática y afectan primero los ganglios regionales.",
+      "La vía hematógena es la típica de los sarcomas (aunque los carcinomas también pueden usarla).",
+      "Cayó en 2 pruebas. Regla: Carcinoma → Canal linfático; Sarcoma → Sangre."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 25",
+     "bloco": "Diseminación y comportamiento",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Además de la metástasis, ¿cuál de los siguientes es el rasgo más fiable para distinguir al cáncer de los tumores benignos?",
+     "opcoes": [
+      "El grado de diferenciación tumoral",
+      "La mala delimitación tumoral",
+      "La displasia tumoral",
+      "La capacidad de invasión tumoral",
+      "El tamaño tumoral"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La invasión local es, después de la metástasis, el criterio más fiable de malignidad.",
+      "Hay malignos bien diferenciados y benignos grandes: diferenciación y tamaño no definen el comportamiento.",
+      "Fue la respuesta oficial en 4 pruebas distintas."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 25",
+     "bloco": "Diseminación y comportamiento",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Son características de malignidad todas las siguientes, EXCEPTO:",
+     "opcoes": [
+      "Presencia de necrosis y hemorragia macro o microscópica",
+      "Tumor mal delimitado con bordes infiltrativos",
+      "Marcada semejanza tumoral al tejido de origen",
+      "Alto índice mitótico y presencia de múltiples nucléolos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Parecerse mucho al tejido de origen (buena diferenciación) es típico de los benignos.",
+      "Bordes infiltrativos, mitosis abundantes, nucléolos múltiples y necrosis orientan a malignidad.",
+      "En otra versión la respuesta fue 'ausencia de invasión a órganos vecinos'. Cayó en 3 pruebas."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 4",
+     "bloco": "Diseminación y comportamiento",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Son características histológicas de benignidad, EXCEPTO:",
+     "opcoes": [
+      "Gran tamaño tumoral",
+      "Sin invasión vascular ni infiltración de estructuras adyacentes",
+      "Bordes tumorales bien delimitados",
+      "Gran parecido del tumor al tejido de origen",
+      "Escasa o nula actividad mitótica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El tamaño no distingue benigno de maligno: hay benignos enormes (leiomiomas) y malignos pequeños.",
+      "Los benignos son bien delimitados, bien diferenciados, sin invasión y con pocas mitosis.",
+      "Lo que define malignidad es la invasión y la metástasis, no el volumen."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 7",
+     "bloco": "Diseminación y comportamiento",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Los tumores malignos se caracterizan por:",
+     "opcoes": [
+      "Pueden invadir",
+      "Pueden destruir estructuras adyacentes",
+      "No todos los tumores malignos siguen una evolución mortal",
+      "En aproximadamente el 2% de los casos están compuestos por células de origen desconocido",
+      "Todas son correctas"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "Los malignos invaden y destruyen estructuras vecinas, pero no todos son mortales (muchos se curan).",
+      "Una pequeña fracción se presenta como tumor de origen primario desconocido.",
+      "Las afirmaciones son ciertas según la literatura; la clase no detalla el porcentaje."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 24",
+     "bloco": "Diseminación y comportamiento",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Un ganglio centinela es:",
+     "opcoes": [
+      "El primer ganglio que recibe la linfa de un tumor primario",
+      "El primer ganglio donde se origina un tumor primario",
+      "El primer ganglio que recibe la linfa de un tumor metastásico",
+      "El primer ganglio aumentado de tamaño luego de una infección",
+      "El primer ganglio que recibe la linfa de un tumor secundario"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Es el primer ganglio del drenaje linfático natural del tumor primario.",
+      "Como la diseminación linfática sigue el drenaje, es el primero en recibir células tumorales.",
+      "Si el centinela no tiene tumor, es poco probable que los siguientes ganglios lo tengan."
+     ],
+     "fonte": "Examen parcial ordinario teórico, junio 2026, pregunta 33",
+     "bloco": "Diseminación y comportamiento",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Lo INCORRECTO sobre los agentes de acción directa es:",
+     "opcoes": [
+      "La mayoría de ellos son carcinógenos débiles",
+      "No requieren de conversión metabólica para hacerse cancerígenos",
+      "Los hidrocarburos policíclicos son su ejemplo más conocido",
+      "Posterior a su uso pueden desencadenar otro tipo de cáncer",
+      "Son ejemplos los fármacos quimioterápicos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Los hidrocarburos policíclicos (benzopireno del tabaco) son de acción INDIRECTA: necesitan el citocromo P450.",
+      "Los de acción directa (alquilantes como ciclofosfamida y clorambucilo) no necesitan conversión metabólica.",
+      "Lea dos veces 'directa' e 'indirecta': es la trampa de esta pregunta."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 23",
+     "bloco": "Carcinogénesis",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Sobre la carcinogenia es CORRECTO:",
+     "opcoes": [
+      "La iniciación es reversible",
+      "Si el promotor se aplica antes del agente iniciador no aparecen tumores",
+      "Los promotores son oncógenos por sí solos",
+      "Con la iniciación por sí sola puede generar un tumor",
+      "Se realiza en un paso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El promotor solo hace proliferar células ya iniciadas: sin iniciación previa no hay tumor.",
+      "La iniciación es irreversible pero insuficiente sola; la promoción es reversible y no daña el ADN.",
+      "Imagen útil: la iniciación es la semilla y el promotor es el abono; primero la semilla."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 24",
+     "bloco": "Carcinogénesis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Es correcto con respecto a la carcinogenia química:",
+     "opcoes": [
+      "La promoción produce un daño permanente en el ADN",
+      "La iniciación produce un daño permanente en el ADN",
+      "Los promotores son tumorígenos por sí mismos",
+      "La iniciación por sí sola es suficiente para formar el tumor"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La iniciación es un daño irreversible y con memoria en el ADN.",
+      "La promoción induce proliferación de células iniciadas sin dañar el ADN y es reversible.",
+      "Ninguna de las dos etapas por separado produce el tumor."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 14",
+     "bloco": "Carcinogénesis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En el modelo de carcinogénesis, los agentes promotores:",
+     "opcoes": [
+      "Generan mutaciones en el ADN de las células afectadas",
+      "Actúan antes de la iniciación para sensibilizar las células al daño genético",
+      "Incrementan la proliferación celular sin alterar el ADN",
+      "Transforman directamente las células iniciadas en malignas",
+      "Detienen el ciclo celular y promueven la reparación del ADN"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Los promotores (hormonas, alcohol, sales biliares, fenobarbital) expanden clonalmente las células iniciadas.",
+      "No son tumorígenos por sí mismos y sus efectos sobre la célula son reversibles.",
+      "Generar mutaciones es propio del iniciador, y el promotor actúa después de la iniciación."
+     ],
+     "fonte": "Examen parcial ordinario teórico, junio 2026, pregunta 40",
+     "bloco": "Carcinogénesis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál de los siguientes carcinógenos se halla asociado a los cánceres de piel (carcinoma basocelular, escamoso, melanoma)?",
+     "opcoes": [
+      "Agentes alquilantes",
+      "Radiación ultravioleta",
+      "Radiación ionizante",
+      "Rayos X",
+      "Carcinógenos de acción indirecta"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los rayos UVB (280–320 nm) son los responsables de los cánceres de piel.",
+      "Forman dímeros de pirimidina en el ADN y mutan RAS y p53.",
+      "La radiación ionizante se asocia más a leucemias, tiroides, mama y pulmón."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 44",
+     "bloco": "Carcinogénesis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Acerca del proceso de carcinogenia es cierto que:",
+     "opcoes": [
+      "La progresión tumoral es la tendencia de los tumores a volverse más agresivos con el tiempo",
+      "La mutación iniciadora se pierde en las células neoplásicas posteriores",
+      "Un tumor se forma por expansión policlonal de varias células",
+      "Las mutaciones conductoras son las que no tienen consecuencias fenotípicas",
+      "La p53 es un protooncogén que repara las roturas de doble hebra en el ADN"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Con el tiempo el tumor acumula mutaciones y se vuelve más agresivo: eso es la progresión.",
+      "Los tumores son monoclonales y la mutación iniciadora se hereda a toda la progenie.",
+      "p53 es un gen supresor de tumores, no un protooncogén; las mutaciones conductoras sí tienen efecto fenotípico."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 32",
+     "bloco": "Carcinogénesis",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Son cambios fundamentales que se consideran características del cáncer todas las siguientes, menos:",
+     "opcoes": [
+      "Potencial de replicación limitado",
+      "Angiogenia mantenida",
+      "Evasión de la apoptosis",
+      "Autosuficiencia en las señales de crecimiento",
+      "Escape de la vigilancia inmunitaria"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La célula cancerosa tiene potencial de replicación ILIMITADO (inmortalidad).",
+      "Las demás opciones son características ('hallmarks') del cáncer.",
+      "La trampa es el adjetivo: 'limitado' en lugar de 'ilimitado'."
+     ],
+     "fonte": "Examen parcial ordinario teórico, junio 2026, pregunta 27",
+     "bloco": "Carcinogénesis",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "La pérdida progresiva de peso en un paciente con cáncer se debe a:",
+     "opcoes": [
+      "Metástasis pancreática",
+      "Ulceración y sangrado del tumor",
+      "Metástasis hipofisarias",
+      "Caquexia",
+      "Síndrome paraneoplásico"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La caquexia es la pérdida progresiva de grasa y masa magra, con debilidad, anorexia y anemia.",
+      "Según la clase, el TNF suprime el apetito e inhibe la lipoproteína lipasa.",
+      "Los síndromes paraneoplásicos más frecuentes son hipercalcemia, Cushing y endocarditis trombótica no bacteriana."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 45",
+     "bloco": "Aspectos clínicos",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En relación a los síndromes paraneoplásicos, corresponden a manifestaciones vasculares y hematológicas, EXCEPTO:",
+     "opcoes": [
+      "Linfangitis carcinomatosa",
+      "Coagulación intravascular diseminada",
+      "Tromboflebitis migratoria (síndrome de Trousseau)",
+      "Endocarditis trombótica no bacteriana"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La linfangitis carcinomatosa es diseminación tumoral directa por los linfáticos, no un síndrome paraneoplásico.",
+      "Paraneoplásico = no se explica por invasión, metástasis ni hormonas propias del tejido.",
+      "Trousseau, ETNB y CID se deben a la hipercoagulabilidad inducida por el tumor."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 17",
+     "bloco": "Aspectos clínicos",
+     "nivel": "dificil",
+     "complemento": true
+    }
+   ],
+   "flashcards": [
+    {
+     "frente": "Rasgo más fiable de malignidad (además de la metástasis)",
+     "verso": "La capacidad de invasión tumoral. Cayó en 4 pruebas.",
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 25"
+    },
+    {
+     "frente": "Displasia: ¿qué NO es cambio displásico?",
+     "verso": "Aumento de la mucosecreción y puentes intercelulares (signo de diferenciación escamosa).",
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 24"
+    },
+    {
+     "frente": "Acción directa × indirecta",
+     "verso": "Directa: alquilantes/quimioterápicos, sin metabolismo. Indirecta: hidrocarburos policíclicos, aflatoxina, aminas aromáticas; necesitan citocromo P450.",
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 23"
+    },
+    {
+     "frente": "Iniciación × promoción",
+     "verso": "Iniciación: daño irreversible del ADN, insuficiente sola. Promoción: proliferación reversible, sin dañar el ADN. Promotor antes del iniciador = sin tumor.",
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 24"
+    },
+    {
+     "frente": "Grado del adenocarcinoma",
+     "verso": ">95% glándulas = G1; 50–95% = G2; <50% = G3. Escamoso: queratinizante = G1, no queratinizante = G3.",
+     "fonte": "P2 Anatopato (Kristel), pregunta 1"
+    },
+    {
+     "frente": "Vías de diseminación",
+     "verso": "Carcinomas → linfática (ganglios primero). Sarcomas → hematógena. Cavidades → transcelómica (peritoneo, pleura, pericardio).",
+     "fonte": "P2 Anatopato (Kristel), pregunta 25"
+    },
+    {
+     "frente": "Ganglio centinela",
+     "verso": "Primer ganglio que recibe la linfa del tumor primario.",
+     "fonte": "Examen parcial ordinario teórico, junio 2026, pregunta 33"
+    },
+    {
+     "frente": "Caquexia",
+     "verso": "Pérdida de grasa y masa magra, debilidad, anorexia y anemia; mediada por TNF.",
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 45"
+    },
+    {
+     "frente": "Teratoma",
+     "verso": "Más de una capa germinal (ecto + mesodermo), células totipotenciales, gónadas. Maduro = benigno; inmaduro = maligno.",
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 12"
+    },
+    {
+     "frente": "Nomenclatura que cayó para completar",
+     "verso": "Benigna de músculo liso: leiomioma. Benigna de cartílago: condroma. Maligna de epitelio glandular: adenocarcinoma. Maligna del adiposo: liposarcoma.",
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 49"
+    }
+   ]
+  },
+  {
+   "id": "provas-anteriores-2",
+   "tema": "Provas anteriores",
+   "titulo": "Provas anteriores 2 – Vasos sanguíneos",
+   "icone": "hospital",
+   "separado": true,
+   "materiais": [
+    {
+     "nome": "2º Parcial Ordinário Teórica - Anatomía Patológica I.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "P2 anatopato kristel.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "Anatopato I - ESSA ESTUDAR 2P.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "Corrección P2 Anatopato.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "P2 Anatopato teoría e práctica.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "Prova anatopato C.pdf",
+     "tipo": "prova"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "Los puntos de resistencia fisiológica al flujo sanguíneo se dan a nivel de:",
+     "opcoes": [
+      "Vénulas",
+      "Capilares",
+      "Vénulas poscapilares",
+      "Arterias pequeñas",
+      "Arteriolas"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "Las arteriolas controlan la resistencia periférica y, con ella, la presión arterial.",
+      "Tienen una pared muscular gruesa en relación con su luz pequeña.",
+      "Cayó en 3 pruebas distintas."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 1",
+     "bloco": "HTA y arteriolosclerosis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La arteriolosclerosis hialina se produce por el siguiente mecanismo:",
+     "opcoes": [
+      "Hiperplasia de células musculares lisas",
+      "Degeneración fibrótica",
+      "Extravasación de proteínas del plasma",
+      "Depósito de colesterol oxidado"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Componentes del plasma atraviesan el endotelio lesionado y se depositan en la pared, junto con más matriz extracelular.",
+      "Da un engrosamiento rosado, homogéneo y vítreo; se asocia a HTA benigna, vejez y diabetes.",
+      "La hiperplasia de células musculares lisas en capas es la arteriolosclerosis hiperplásica (HTA maligna)."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 9",
+     "bloco": "HTA y arteriolosclerosis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente de 60 años con cifras de presión arterial elevadas. En sus vasos renales se constatan lesiones con estenosis luminal producida por laminaciones de células musculares lisas, con membrana basal engrosada y duplicada. El diagnóstico es:",
+     "opcoes": [
+      "Aterosclerosis",
+      "Disección",
+      "Aneurisma",
+      "Arteriolosclerosis hialina",
+      "Arteriolosclerosis hiperplásica"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "Las láminas concéntricas de músculo liso ('capas de cebolla') definen la arteriolosclerosis hiperplásica.",
+      "Aparece en la HTA grave o maligna y es especialmente prominente en el riñón.",
+      "La hialina es un engrosamiento rosado homogéneo, sin láminas celulares."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 19",
+     "bloco": "HTA y arteriolosclerosis",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La arteriosclerosis de Mönckeberg se caracteriza por:",
+     "opcoes": [
+      "Es una enfermedad de la media vascular",
+      "Se observan calcificaciones",
+      "Afecta principalmente arterias musculares de mediano a pequeño tamaño",
+      "Es de causa desconocida",
+      "Todas son correctas"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "Mönckeberg es esclerosis de la media con calcificación, en arterias musculares (femoral, tibial, radial).",
+      "Su causa es desconocida y no obstruye la luz arterial.",
+      "Todas las afirmaciones están en el slide de la clase."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 10",
+     "bloco": "HTA y arteriolosclerosis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Son factores de riesgo modificables de la aterosclerosis todos los siguientes, EXCEPTO:",
+     "opcoes": [
+      "Hipertensión arterial",
+      "Hiperlipidemia",
+      "Anomalías genéticas",
+      "Sedentarismo y obesidad",
+      "Tabaquismo"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Las alteraciones genéticas (como la hipercolesterolemia familiar) no se pueden modificar.",
+      "Tabaquismo, HTA, hiperlipidemia y diabetes son los factores mayores, y todos son modificables.",
+      "Sedentarismo y obesidad son factores menores, también modificables."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 22",
+     "bloco": "Aterosclerosis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La aterosclerosis es considerada una respuesta a la lesión y disfunción endotelial, por lo que se la considera un proceso patológico:",
+     "opcoes": [
+      "Inflamatorio crónico",
+      "Adaptativo",
+      "Inflamatorio agudo",
+      "Neoplásico benigno",
+      "Hemodinámico"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La placa se forma por lesión endotelial, entrada de LDL, macrófagos, linfocitos T y proliferación de músculo liso: inflamación crónica.",
+      "Los macrófagos producen IL-1 y TNF (más adhesión leucocitaria) y PDGF (proliferación muscular).",
+      "No es aguda: evoluciona durante décadas, desde las estrías grasas de la infancia."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 33",
+     "bloco": "Aterosclerosis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Las lesiones ateroscleróticas son:",
+     "opcoes": [
+      "Extensas, afectando toda la circunferencia arterial",
+      "Depósitos de triglicéridos en la capa subendotelial",
+      "Parcheadas, excéntricas",
+      "Placas uniformes que afectan todo el espesor de la pared arterial",
+      "Circunferenciales, concéntricas"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El ateroma es una placa focal en la íntima: ocupa solo parte de la circunferencia (excéntrica).",
+      "El núcleo es de colesterol y ésteres de colesterol, con una capa fibrosa de cubierta.",
+      "Las lesiones concéntricas en capas son las de la arteriolosclerosis hiperplásica."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 34",
+     "bloco": "Aterosclerosis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Es uno de los vasos sanguíneos que con mayor frecuencia es afectado por la aterosclerosis:",
+     "opcoes": [
+      "Aorta abdominal",
+      "Aorta ascendente",
+      "Arterias renales (fuera de su origen)",
+      "Arterias de miembros superiores"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La aorta abdominal infrarrenal es el sitio más afectado, seguida de coronarias y poplíteas.",
+      "Por eso el aneurisma de aorta abdominal es de causa aterosclerótica.",
+      "Las arterias de los miembros superiores suelen estar respetadas."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 13",
+     "bloco": "Aterosclerosis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Los primeros depósitos de lípidos en la formación de una placa de ateroma ocurren en:",
+     "opcoes": [
+      "La lámina elástica externa",
+      "La adventicia",
+      "El tejido intersticial de la íntima",
+      "La capa media"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La aterosclerosis es una acumulación de lípidos y células en la íntima.",
+      "Las estrías grasas, ya presentes en niños, son los depósitos iniciales en la íntima.",
+      "La calcificación de la media corresponde a Mönckeberg, no al ateroma."
+     ],
+     "fonte": "3er parcial 2017 (Anatopato I – ESSA ESTUDAR 2P), pregunta 5",
+     "bloco": "Aterosclerosis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Las células espumosas observadas en los ateromas corresponden a:",
+     "opcoes": [
+      "Linfocitos T",
+      "Macrófagos",
+      "Células endoteliales",
+      "Neutrófilos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los macrófagos fagocitan LDL oxidada y se llenan de lípidos: son las células espumosas.",
+      "Luego liberan IL-1, TNF y PDGF, que perpetúan la placa.",
+      "Los linfocitos T participan en la placa, pero no se cargan de lípidos."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 16",
+     "bloco": "Aterosclerosis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En el estudio histológico de una arteria con aterosclerosis se observan cristales en forma de aguja. ¿A qué corresponden y qué implican?",
+     "opcoes": [
+      "Cristales de calcio; sugieren calcificación avanzada de la placa",
+      "Cristales de oxalato; indican daño por insuficiencia renal",
+      "Cristales de hemosiderina; representan hemorragia intraplaca",
+      "Cristales de colesterol; reflejan acumulación lipídica en el núcleo necrótico",
+      "Cristales de urato; están relacionados con inflamación por gota"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "En el corte quedan hendiduras en forma de aguja donde estaban los cristales de colesterol.",
+      "Se encuentran en el núcleo lipídico necrótico del ateroma.",
+      "La calcificación aparece como depósitos basófilos amorfos, no como agujas."
+     ],
+     "fonte": "Examen parcial ordinario teórico, junio 2026, pregunta 37",
+     "bloco": "Aterosclerosis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué característica morfológica define a una placa aterosclerótica vulnerable?",
+     "opcoes": [
+      "Cápsula fibrosa delgada con inflamación activa",
+      "Núcleo lipídico pequeño",
+      "Cápsula fibrosa gruesa",
+      "Infiltrado inflamatorio leve",
+      "Calcificación extensa"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Las placas con capa fibrosa fina, mucho lípido, inflamación y pocas células musculares tienden a romperse.",
+      "La rotura expone material muy trombogénico: trombosis, angina inestable o infarto.",
+      "En otra prueba se preguntó al revés (EXCEPTO): la respuesta fue 'cubiertas fibrosas gruesas'."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 38",
+     "bloco": "Aterosclerosis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Cuanto mayor es el núcleo lipídico de una placa ateromatosa, más estable se vuelve la placa, con menor tendencia a la ruptura.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Falso: un núcleo lipídico grande hace la placa MÁS vulnerable.",
+      "La estabilidad depende de una capa fibrosa gruesa con muchas células musculares y poca inflamación.",
+      "Las placas que se rompen suelen producir estenosis solo leve o moderada."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 14",
+     "bloco": "Aterosclerosis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Son complicaciones de una placa ateromatosa todas las siguientes, EXCEPTO:",
+     "opcoes": [
+      "Resolución",
+      "Hemorragia dentro de la placa",
+      "Rotura, ulceración o erosión",
+      "Ateroembolia",
+      "Formación de aneurismas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La placa no se 'resuelve': evoluciona con calcificación, rotura, ulceración, hemorragia y trombosis.",
+      "Clínicamente produce oclusión aguda, estenosis crónica, aneurismas y embolias.",
+      "En otra prueba la misma idea apareció como 'regresión'."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 18",
+     "bloco": "Aterosclerosis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Los aneurismas de la aorta abdominal se localizan más frecuentemente:",
+     "opcoes": [
+      "Por debajo del tronco celíaco y por encima de las arterias renales",
+      "Por encima de la bifurcación de la aorta y por debajo de las arterias renales",
+      "Por encima de las arterias renales y por debajo de la bifurcación de la aorta",
+      "Por debajo de la bifurcación de la aorta y de las arterias renales"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El aneurisma de aorta abdominal es típicamente infrarrenal: entre las renales y la bifurcación.",
+      "Es el tramo con más aterosclerosis, su causa principal.",
+      "Estar por encima de las renales y por debajo de la bifurcación a la vez es imposible; debajo de la bifurcación ya son las ilíacas."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 14",
+     "bloco": "Aneurismas y disección",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Los aneurismas aórticos abdominales se producen más frecuentemente en pacientes con:",
+     "opcoes": [
+      "Aterosclerosis",
+      "Sífilis",
+      "Necrosis quística de la media",
+      "Arteritis de Takayasu"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La aterosclerosis debilita la pared de la aorta abdominal y es la causa principal del AAA.",
+      "Sífilis y degeneración de la media se asocian más al aneurisma de aorta torácica.",
+      "Regla: Aneurisma de Aorta Abdominal = Aterosclerosis (A, A, A)."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 10",
+     "bloco": "Aneurismas y disección",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Los aneurismas aórticos se producen más frecuentemente en pacientes con:",
+     "opcoes": [
+      "Insuficiencia renal",
+      "Diabetes",
+      "Hipertensión",
+      "Anomalías congénitas",
+      "Tabaquismo"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Gabarito oficial: hipertensión, que aparece en 2 pruebas para esta pregunta genérica.",
+      "La HTA es uno de los principales factores de riesgo para aterosclerosis y para la degeneración de la pared aórtica.",
+      "Si la pregunta dice 'abdominal' y aparece aterosclerosis, prefiera aterosclerosis."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 20",
+     "bloco": "Aneurismas y disección",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La causa más frecuente de una disección aórtica es:",
+     "opcoes": [
+      "Arteriosclerosis",
+      "Iatrogénica",
+      "Diabetes",
+      "Síndrome de Marfan",
+      "Síndrome metabólico"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Sin la HTA entre las opciones, el gabarito oficial fue síndrome de Marfan, que cayó en 3 pruebas.",
+      "Marfan produce necrosis quística de la media, que debilita la pared y facilita el desgarro de la íntima.",
+      "Si aparece hipertensión arterial, márquela: según la clase está presente en el 80% de los casos."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 23",
+     "bloco": "Aneurismas y disección",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La lesión preexistente que se detecta histológicamente con más frecuencia en los casos de disección aórtica se denomina:",
+     "opcoes": [
+      "Desgarro de la íntima",
+      "Falso aneurisma",
+      "Degeneración quística de la media",
+      "Lesión de Ehlers-Danlos",
+      "Ruptura de la lámina elástica interna y/o externa"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La necrosis o degeneración quística de la media es la lesión de base más frecuente.",
+      "Debilita la media, por donde se abre la falsa luz tras el desgarro de la íntima.",
+      "El desgarro de la íntima es el evento que inicia la disección, no la lesión preexistente. Cayó en 3 pruebas."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 9",
+     "bloco": "Aneurismas y disección",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Es conocido que la hipertensión es el factor de riesgo principal para una disección aórtica; por lo tanto, es cierto que:",
+     "opcoes": [
+      "Un tratamiento hipotensor solo puede limitar la evolución de la disección ya iniciada",
+      "Un tratamiento hipotensor puede evitar el desgarro de la íntima, pero no modifica su evolución",
+      "Un tratamiento hipotensor solo limita la evolución de la disección en pacientes jóvenes",
+      "Un tratamiento hipotensor no modifica la evolución ni evita la disección",
+      "Un tratamiento hipotensor puede evitar el desgarro de la íntima, así como limitar la evolución de la disección"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "Si la HTA es el factor principal, controlarla reduce el riesgo de desgarro y también la propagación.",
+      "La presión elevada es la fuerza que abre la íntima y empuja la sangre por la media.",
+      "Con tratamiento adecuado la supervivencia es del 60% a 5 años; sin tratamiento, la mortalidad llega al 75% en 2 semanas."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 35",
+     "bloco": "Aneurismas y disección",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "La dilatación localizada y anómala de un vaso sanguíneo, que puede ser congénita o adquirida, corresponde a la definición de:",
+     "opcoes": [
+      "Arteriolosclerosis",
+      "Aneurisma",
+      "Trombosis",
+      "Disección"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Aneurisma = dilatación segmentaria anómala, por debilidad localizada de la pared.",
+      "Puede ser sacular o fusiforme; el pseudoaneurisma es un hematoma contenido.",
+      "En la disección la sangre entra en la media por un desgarro; no es una dilatación de toda la pared."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 2",
+     "bloco": "Aneurismas y disección",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En la autopsia de un niño de 3 años, fallecido de muerte súbita, el médico encuentra aneurismas y trombosis de arterias coronarias. Se pensaría en el diagnóstico de:",
+     "opcoes": [
+      "Enfermedad de Kawasaki",
+      "Arteritis de Takayasu",
+      "Rotura de estrías grasas",
+      "Enfermedad de Buerger",
+      "Coronariopatía isquémica aterosclerótica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Kawasaki afecta a niños pequeños (80% con 4 años o menos) con predilección por las coronarias.",
+      "Forma aneurismas coronarios que se trombosan o se rompen: infarto y muerte súbita.",
+      "Takayasu es de adultos jóvenes y afecta el cayado aórtico."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 2",
+     "bloco": "Vasculitis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La enfermedad de Kawasaki se caracteriza por, EXCEPTO:",
+     "opcoes": [
+      "Es una patología febril aguda",
+      "Se asocia a arteritis de vasos grandes",
+      "Presenta una necrosis fibrinoide menos manifiesta",
+      "El daño vascular es mediado sobre todo por linfocitos B",
+      "Es la principal causa de cardiopatía adquirida en niños"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El daño vascular en Kawasaki es mediado sobre todo por linfocitos T y monocitos/macrófagos.",
+      "Es febril aguda, autolimitada y afecta vasos grandes, medianos y pequeños.",
+      "Frente a la PAN tiene más edema mural y menos necrosis fibrinoide."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 18",
+     "bloco": "Vasculitis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La arteritis de células gigantes puede afectar:",
+     "opcoes": [
+      "Arterias vertebrales",
+      "Arterias craneales",
+      "Arterias oftálmicas",
+      "Arteria temporal",
+      "Todas son correctas"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "Afecta sobre todo arterias craneales: temporal, oftálmica (riesgo de ceguera) y vertebrales.",
+      "También se la llama enfermedad de Horton o arteritis temporal.",
+      "Cayó en 2 pruebas."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 7",
+     "bloco": "Vasculitis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente de 68 años con dolor facial y diplopía; a la exploración se palpa dolorosa la arteria temporal superficial. Se realiza una biopsia de 0,5 cm, que retorna negativa para arteritis. Por lo tanto:",
+     "opcoes": [
+      "No se descarta el diagnóstico, ya que la biopsia correspondía a un segmento de 0,5 cm de la arteria",
+      "La biopsia negativa descarta el diagnóstico, por lo que debemos buscar otras causas",
+      "El diagnóstico no depende de la biopsia y la confirmación histológica",
+      "Se descarta el diagnóstico, ya que un segmento de 0,5 cm es suficiente",
+      "Las dos primeras opciones son correctas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Una biopsia adecuada requiere un segmento de al menos 1 cm.",
+      "La afectación es segmentaria: una biopsia negativa no descarta el diagnóstico.",
+      "Es una urgencia: la afectación de la arteria oftálmica puede causar ceguera."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 36",
+     "bloco": "Vasculitis",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente de 30 años con molestias oculares y marcado debilitamiento del pulso de miembros superiores. Se observa engrosamiento fibroso transmural, sobre todo a nivel del cayado aórtico. El diagnóstico más probable es:",
+     "opcoes": [
+      "Arteriolosclerosis",
+      "Aneurisma",
+      "Disección",
+      "Arteritis de Takayasu",
+      "Infarto"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Takayasu es la 'enfermedad sin pulso': vasculitis granulomatosa del cayado aórtico y sus ramas.",
+      "Afecta a menores de 50 años; por encima de 50 la misma lesión se diagnostica como aortitis de células gigantes.",
+      "Cayó en 3 pruebas, también en la práctica con angiografía."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 12",
+     "bloco": "Vasculitis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La tríada de granulomas necrosantes, vasculitis granulomatosa y glomerulonefritis focal necrosante es característica de:",
+     "opcoes": [
+      "Granulomatosis con poliangeítis",
+      "Síndrome de Churg-Strauss",
+      "Poliangeítis microscópica",
+      "Poliarteritis nudosa"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La granulomatosis con poliangeítis (Wegener) afecta vías respiratorias, vasos y riñón.",
+      "Se asocia a ANCA-PR3 y a glomerulonefritis con semilunas.",
+      "La poliangeítis microscópica también afecta pulmón y riñón, pero no forma granulomas."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 3",
+     "bloco": "Vasculitis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La panarteritis nudosa se caracteriza por:",
+     "opcoes": [
+      "Es una vasculitis sistémica de arterias de tamaño pequeño e intermedio",
+      "Es de etiología idiopática",
+      "Se presenta con una inflamación necrosante transmural segmentaria",
+      "Afecta principalmente a los riñones",
+      "Todas son correctas"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "La PAN afecta arterias pequeñas e intermedias, con necrosis fibrinoide transmural segmentaria.",
+      "La causa no se conoce (30% con HBsAg); el riñón es el órgano más afectado.",
+      "No afecta la circulación pulmonar y no se relaciona con ANCA."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 17",
+     "bloco": "Vasculitis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Hombre de 30 años con hipertensión arterial por lesión renal. La biopsia renal diagnostica panarteritis nodosa. El tipo de necrosis que esperaría encontrar es:",
+     "opcoes": [
+      "Caseosa",
+      "Fibrinoide",
+      "Gangrenosa",
+      "Licuefactiva",
+      "Coagulativa"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la fase aguda de la PAN hay infiltrado mixto con necrosis fibrinoide de la pared.",
+      "La necrosis fibrinoide es típica de las vasculitis por depósito de proteínas plasmáticas en la pared.",
+      "La necrosis caseosa es de la tuberculosis; la coagulativa, del infarto."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 46",
+     "bloco": "Vasculitis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Una de las siguientes vasculitis no afecta al pulmón:",
+     "opcoes": [
+      "Poliarteritis nudosa",
+      "Poliangeítis microscópica",
+      "Síndrome de Churg-Strauss",
+      "Enfermedad de Behçet"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La PAN respeta la circulación pulmonar; afecta riñón, corazón, hígado y tubo digestivo.",
+      "Poliangeítis microscópica (capilaritis pulmonar) y Churg-Strauss (asma, infiltrados) afectan el pulmón.",
+      "Behçet también puede tener manifestaciones pulmonares, según la clase."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 10",
+     "bloco": "Vasculitis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Son vasculitis que afectan sobre todo a los vasos pequeños, EXCEPTO:",
+     "opcoes": [
+      "Síndrome de Churg-Strauss",
+      "Granulomatosis con poliangeítis",
+      "Poliangeítis microscópica",
+      "Enfermedad de Kawasaki"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Kawasaki afecta principalmente vasos medianos, sobre todo las coronarias.",
+      "Wegener, Churg-Strauss y poliangeítis microscópica son vasculitis de vasos pequeños asociadas a ANCA.",
+      "En la prueba original, 'granulomatosis de Wegener' aparecía además como opción aparte: es la misma enfermedad."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 14",
+     "bloco": "Vasculitis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Vasculitis necrosante que afecta capilares, arteriolas y vénulas, con lesiones de la misma antigüedad y distribución amplia, que puede afectar pulmón y riñón:",
+     "opcoes": [
+      "Arteritis de Takayasu",
+      "Poliarteritis nudosa",
+      "Enfermedad de Kawasaki",
+      "Poliangeítis microscópica"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La poliangeítis microscópica (vasculitis leucocitoclástica en el gabarito) afecta vasos pequeños y todas sus lesiones tienen la misma antigüedad.",
+      "Produce glomerulonefritis necrosante (90%) y capilaritis pulmonar; se asocia a ANCA-MPO.",
+      "En la PAN las lesiones son de distinta antigüedad y se respeta el pulmón."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 12",
+     "bloco": "Vasculitis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál de las vasculitis está estrechamente relacionada al hábito tabáquico?",
+     "opcoes": [
+      "Poliangeítis microscópica",
+      "Tromboangeítis obliterante",
+      "Síndrome de Churg-Strauss",
+      "Enfermedad de Behçet",
+      "Poliarteritis nudosa"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La tromboangeítis obliterante (Buerger) aparece casi solo en grandes fumadores, antes de los 35 años.",
+      "Afecta arterias tibiales y radiales con trombosis y se extiende a venas y nervios.",
+      "Cayó en 4 pruebas distintas."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 15",
+     "bloco": "Vasculitis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Es correcto mencionar con respecto a la tromboangeítis obliterante, EXCEPTO:",
+     "opcoes": [
+      "Se extiende a venas y nervios contiguos",
+      "Puede comenzar con fenómeno de Raynaud inducido por frío",
+      "No está relacionada al consumo de tabaco",
+      "Afecta principalmente arterias tibiales y radiales"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Buerger está estrechamente ligada al tabaco; dejar de fumar mejora la evolución.",
+      "Produce claudicación, flebitis nodular, dolor intenso por afectación neural y úlceras.",
+      "Las otras afirmaciones están en los slides de la clase."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 15",
+     "bloco": "Vasculitis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Las siguientes afirmaciones respecto a los hemangiomas son correctas, EXCEPTO una:",
+     "opcoes": [
+      "La mayoría se descubre en el nacimiento",
+      "La mayoría de las veces son lesiones localizadas",
+      "Las lesiones afectan predominantemente la cabeza y el cuello",
+      "Frecuentemente sufren transformación maligna"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El hemangioma casi nunca se transforma en maligno; muchos incluso regresan.",
+      "Son el tumor vascular benigno más frecuente, sobre todo en piel de cabeza y cuello.",
+      "'Frecuentemente' + 'benigno' es la combinación sospechosa en una pregunta EXCEPTO."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 21",
+     "bloco": "Venas y tumores vasculares",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Los hemangiomas son más frecuentes en:",
+     "opcoes": [
+      "Hombres jóvenes",
+      "Niños",
+      "Ancianos",
+      "Mujeres adultas",
+      "No existe una población prevalente"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los hemangiomas son frecuentes en la infancia; muchos están presentes al nacer.",
+      "El hemangioma juvenil ('en fresa') es un tipo de hemangioma capilar.",
+      "El angiosarcoma, en cambio, es de adultos mayores."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 25",
+     "bloco": "Venas y tumores vasculares",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Los hemangiomas juveniles también son denominados:",
+     "opcoes": [
+      "Granulomas piógenos",
+      "Nevus flammeus",
+      "Hemangiomas en fresa",
+      "Hemangiomas capilares lobulados",
+      "Hemangiomas cavernosos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El hemangioma juvenil se conoce como 'en fresa' y es un tipo de hemangioma capilar.",
+      "El granuloma piógeno es un hemangioma capilar lobulado inflamado: otra entidad.",
+      "El nevus flammeus (mancha en vino de Oporto) es una ectasia, no una neoplasia verdadera."
+     ],
+     "fonte": "Examen parcial ordinario teórico, junio 2026, pregunta 28",
+     "bloco": "Venas y tumores vasculares",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Mujer de 25 años con una lesión ulcerada y sangrante en la mucosa oral, de rápido crecimiento. Hay proliferación lobular de capilares rodeada de inflamación aguda y edema. El diagnóstico más probable es:",
+     "opcoes": [
+      "Hemangioma capilar",
+      "Hemangioma cavernoso",
+      "Angiosarcoma",
+      "Sarcoma de Kaposi",
+      "Granuloma piógeno"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "El granuloma piógeno es un hemangioma capilar lobulado inflamado, de crecimiento rápido.",
+      "Aparece en piel y mucosas, sangra con facilidad y se ulcera.",
+      "El Kaposi tiene células fusiformes con hendiduras y se asocia a HHV-8."
+     ],
+     "fonte": "Examen parcial ordinario teórico, junio 2026, pregunta 38",
+     "bloco": "Venas y tumores vasculares",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Tumor benigno que surge de células musculares lisas especializadas, doloroso, principalmente en la porción distal de los dedos. El diagnóstico es:",
+     "opcoes": [
+      "Granuloma piógeno",
+      "Tumor glómico",
+      "Angiomatosis bacilar",
+      "Hemangioma capilar",
+      "Hemangioma cavernoso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El tumor glómico (glomangioma) surge de células musculares lisas especializadas en la termorregulación.",
+      "Es doloroso y típicamente subungueal; las células glómicas son SMA y vimentina positivas.",
+      "Cayó también en la práctica: nódulo doloroso bajo la uña del pie."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 14",
+     "bloco": "Venas y tumores vasculares",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "El sarcoma de Kaposi clásico se caracteriza por, EXCEPTO:",
+     "opcoes": [
+      "No tiene relación con el VIH",
+      "Afecta principalmente las extremidades superiores",
+      "Las lesiones suelen ser persistentes, asintomáticas y localizadas",
+      "Afecta principalmente el Mediterráneo, Oriente Medio y Este de Europa",
+      "Afecta principalmente a personas mayores"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El Kaposi clásico afecta la parte distal de las extremidades INFERIORES.",
+      "Es de personas mayores, del Mediterráneo, Oriente Medio y Este de Europa, sin relación con el VIH.",
+      "Opción adaptada: la prueba original decía 'generalizados', que también sería falso; aquí quedó como en el slide."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 15",
+     "bloco": "Venas y tumores vasculares",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Neoplasia vascular causada por el virus del herpes (VHH8), el tumor maligno asociado más frecuentemente al VIH:",
+     "opcoes": [
+      "Sarcoma de Kaposi",
+      "Angiosarcoma",
+      "Linfangioma",
+      "Hemangioendotelioma",
+      "Hemangioma cavernoso"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El sarcoma de Kaposi es causado por el HHV-8 y es el tumor maligno más frecuente en el VIH.",
+      "Evoluciona en mácula/placa/nódulo, con células fusiformes y hendiduras llenas de hematíes.",
+      "Formas: clásica, africana endémica, asociada a trasplante y epidémica (SIDA)."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 47",
+     "bloco": "Venas y tumores vasculares",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Los angiosarcomas se caracterizan por:",
+     "opcoes": [
+      "Varían de tumores altamente diferenciados que parecen hemangiomas a lesiones exageradamente anaplásicas",
+      "Afectan generalmente a adultos mayores",
+      "Son tumores agresivos",
+      "Se caracterizan por tener invasión local y metástasis",
+      "Todas son correctas"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "Todas las afirmaciones están en el slide de angiosarcoma.",
+      "Se asocian a linfedema, radiación y, en el hígado, a pesticidas; son CD31 positivos.",
+      "Pregunta relacionada que cayó como V/F: el angiosarcoma NO es de grado intermedio, es maligno."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 16",
+     "bloco": "Venas y tumores vasculares",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "El angiosarcoma es un tumor vascular de grado intermedio de malignidad.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Falso: el angiosarcoma es un tumor maligno, agresivo, con invasión local y metástasis.",
+      "Los de grado intermedio son los hemangioendoteliomas.",
+      "Afecta a adultos mayores y se asocia a linfedema y radiación."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 1",
+     "bloco": "Venas y tumores vasculares",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Las hemorroides pueden deberse a una dilatación primaria del plexo arterial anorrectal.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Falso: las hemorroides son dilataciones varicosas del plexo VENOSO anorrectal.",
+      "Se asocian al embarazo y al esfuerzo en la defecación, y también a la hipertensión portal.",
+      "Pueden complicarse con hemorragia, trombosis y ulceración."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 10",
+     "bloco": "Venas y tumores vasculares",
+     "nivel": "facil",
+     "complemento": false
+    }
+   ],
+   "flashcards": [
+    {
+     "frente": "Causa más frecuente de disección aórtica",
+     "verso": "HTA (80%) si está entre las opciones; si no, los gabaritos marcaron síndrome de Marfan. Lesión previa: degeneración quística de la media.",
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 23"
+    },
+    {
+     "frente": "Aneurisma de aorta abdominal",
+     "verso": "Causa: aterosclerosis. Localización: debajo de las renales y encima de la bifurcación.",
+     "fonte": "2ª parcial extraordinario, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 10"
+    },
+    {
+     "frente": "Vasculitis del tabaco",
+     "verso": "Tromboangeítis obliterante (Buerger): fumadores jóvenes, tibiales y radiales, afecta venas y nervios.",
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 15"
+    },
+    {
+     "frente": "Takayasu × células gigantes",
+     "verso": "Histología parecida; separa la edad: <50 años Takayasu (cayado, sin pulso), >50 años células gigantes (temporal, ceguera, Horton).",
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 12"
+    },
+    {
+     "frente": "Biopsia de arteria temporal",
+     "verso": "Debe tener al menos 1 cm; una biopsia negativa no descarta el diagnóstico (lesiones segmentarias).",
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 36"
+    },
+    {
+     "frente": "PAN",
+     "verso": "Arterias pequeñas/medianas, necrosis fibrinoide, lesiones de distinta antigüedad, riñón primero, respeta el pulmón, ANCA negativo, 30% HBsAg.",
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 46"
+    },
+    {
+     "frente": "Placa vulnerable",
+     "verso": "Capa fibrosa delgada, mucho lípido, inflamación activa, pocas células musculares. Núcleo lipídico grande = menos estable.",
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 38"
+    },
+    {
+     "frente": "Arteriolosclerosis hialina × hiperplásica",
+     "verso": "Hialina: extravasación de proteínas plasmáticas, HTA benigna y diabetes. Hiperplásica: capas de cebolla de músculo liso, HTA maligna.",
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 9"
+    },
+    {
+     "frente": "Tumor glómico",
+     "verso": "Benigno, doloroso, porción distal de los dedos (subungueal), SMA y vimentina +.",
+     "fonte": "P2 Anatopato (Kristel), pregunta 14"
+    },
+    {
+     "frente": "Angiosarcoma de grado intermedio",
+     "verso": "Falso: es maligno. Los de grado intermedio son los hemangioendoteliomas.",
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 1"
+    }
+   ]
+  },
+  {
+   "id": "provas-anteriores-3",
+   "tema": "Provas anteriores",
+   "titulo": "Provas anteriores 3 – Corazón",
+   "icone": "hospital",
+   "separado": true,
+   "materiais": [
+    {
+     "nome": "2º Parcial Ordinário Teórica - Anatomía Patológica I.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "P2 anatopato kristel.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "Anatopato I - ESSA ESTUDAR 2P.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "Corrección P2 Anatopato.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "P2 Anatopato teoría e práctica.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "Prova anatopato C.pdf",
+     "tipo": "prova"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "Profesor hipertenso, obeso, sedentario y dislipidémico, al llegar al 5º piso presenta dolor precordial intenso, taquicardia y presión muy elevada. Se sienta, recibe un vasodilatador coronario y responde favorablemente. Su diagnóstico sería:",
+     "opcoes": [
+      "IAM en curso",
+      "Más de una es correcta",
+      "Angina estable",
+      "Angina inestable",
+      "Angina de Prinzmetal"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La angina estable aparece con el esfuerzo y se alivia con reposo o vasodilatadores.",
+      "Se debe a una estenosis aterosclerótica fija; él tiene todos los factores de riesgo.",
+      "El IAM no cede con reposo ni nitratos; Prinzmetal es por espasmo, sin relación con el esfuerzo."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 4",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente de 65 años, hipertenso, diabético y dislipidémico. Durante una discusión presenta dolor precordial intenso irradiado al miembro superior izquierdo, luego se desvanece y es derivado a emergencias. El cuadro hace referencia a:",
+     "opcoes": [
+      "Infarto agudo de miocardio",
+      "Angina de Prinzmetal",
+      "Angina estable",
+      "Disección aórtica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Dolor intenso que no cede, irradiado al brazo izquierdo, con síncope, en paciente de alto riesgo: IAM.",
+      "El estrés emocional intenso puede precipitar la rotura de una placa.",
+      "La disección da un dolor desgarrante irradiado a la espalda."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 19",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La causa más frecuente del infarto agudo de miocardio es:",
+     "opcoes": [
+      "Compresión extrínseca coronaria",
+      "Embolia sistémica",
+      "Placa ateromatosa coronaria complicada",
+      "Vasoespasmo aórtico"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Más del 90% de la cardiopatía isquémica se debe a aterosclerosis coronaria.",
+      "La rotura o erosión de la placa con trombosis superpuesta produce el infarto.",
+      "Solo ~10% de los IAM no se asocian a trombosis de la placa (espasmo, émbolos). Cayó en 2 pruebas."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 1",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En el infarto de miocardio de naturaleza isquémica se produce:",
+     "opcoes": [
+      "Necrosis caseosa",
+      "Necrosis licuefactiva",
+      "Necrosis por coagulación",
+      "Necrosis fibrinoide"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La isquemia del miocardio produce necrosis coagulativa: se conserva la silueta celular sin núcleos.",
+      "Comienza entre las 4 y 12 horas, con hipereosinofilia y pérdida de núcleos y estriaciones.",
+      "La necrosis licuefactiva es típica del infarto cerebral; la caseosa, de la tuberculosis."
+     ],
+     "fonte": "3er parcial 2017 (Anatopato I – ESSA ESTUDAR 2P), pregunta 1",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente con sospecha de infarto de miocardio de 6 horas de evolución. ¿Qué podríamos encontrar en la histología?",
+     "opcoes": [
+      "Tejido de granulación en los bordes",
+      "Macrófagos fagocitando células muertas",
+      "Necrosis coagulativa",
+      "Ningún cambio a la microscopía óptica",
+      "Infiltrado intersticial rico en neutrófilos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Entre las 4 y 12 horas comienza la necrosis de coagulación, con edema y hemorragia.",
+      "Sin cambios al microscopio óptico es lo esperado hasta las 4 horas.",
+      "Los neutrófilos llegan a las 12–24 h, los macrófagos a los 3–7 días y la granulación a los 7–10 días."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 26",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Lesión irreversible que microscópicamente muestra hipereosinofilia de miocitos, necrosis de bandas de contracción marginal e inicio del infiltrado inflamatorio PMN. Se observa en:",
+     "opcoes": [
+      "Media hora a 4 horas",
+      "4 a 12 horas",
+      "12 a 24 horas",
+      "1 a 3 días",
+      "3 a 7 días"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Entre las 12 y 24 horas aparecen hipereosinofilia, bandas de contracción marginales y los primeros neutrófilos.",
+      "Macroscópicamente la zona está moteada, rojo oscura.",
+      "Regla de la secuencia celular: Neutrófilos, Macrófagos, Granulación, Cicatriz."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 20",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Lesión irreversible con pérdida de núcleos y estriaciones e infiltrado de PMN al microscopio; macroscópicamente, zona de infarto oscura con centro pardo amarillento. Se observa en:",
+     "opcoes": [
+      "Media hora a 4 horas",
+      "4 a 12 horas",
+      "12 a 24 horas",
+      "1 a 3 días",
+      "3 a 7 días"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Entre el 1º y 3º día hay pérdida de núcleos y estriaciones con el pico de neutrófilos.",
+      "Macroscópicamente: zona oscura con centro pardo amarillento.",
+      "Los macrófagos recién aparecen entre los días 3 y 7."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 19",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál de los siguientes cambios NO ocurre entre el 7º y 10º día del infarto agudo de miocardio?",
+     "opcoes": [
+      "Máximo grado de reblandecimiento macroscópico",
+      "Aumento de depósito de colágeno, con celularidad reducida",
+      "Fagocitosis bien desarrollada de células muertas",
+      "Formación precoz de tejido de granulación en los bordes"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El colágeno abundante con poca celularidad es de la cicatriz: de 2 meses en adelante.",
+      "Entre los días 7 y 10 hay fagocitosis bien desarrollada, granulación inicial y máximo reblandecimiento.",
+      "El depósito de colágeno recién comienza entre los días 10 y 14."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 20",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La formación de tejido de granulación en un infarto de miocardio queda bien establecida a los:",
+     "opcoes": [
+      "10-14 días",
+      "3-5 días",
+      "48-72 horas",
+      "2 meses",
+      "15-20 días"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Entre los días 10 y 14 el tejido de granulación está bien definido y comienza el depósito de colágeno.",
+      "La granulación empieza precozmente en los bordes entre los días 7 y 10.",
+      "Opción adaptada: la prueba original incluía '2 semanas', que se superpone con la respuesta."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 14",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La fibrosis (cicatriz) se observa en el infarto de miocardio aproximadamente a los:",
+     "opcoes": [
+      "7 días",
+      "30 días",
+      "24 horas",
+      "3 días"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Entre las 2 y 8 semanas se forma una cicatriz gris blanquecina con abundante colágeno.",
+      "A los 2 meses o más la cicatriz es colagénica y hipocelular.",
+      "A los 7 días aún predominan la fagocitosis y el reblandecimiento."
+     ],
+     "fonte": "3er parcial 2017 (Anatopato I – ESSA ESTUDAR 2P), pregunta 3",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Las concentraciones de las troponinas permanecen elevadas por ______ después de un evento coronario agudo:",
+     "opcoes": [
+      "3-7 días",
+      "7-10 días",
+      "48-72 horas",
+      "2-4 horas",
+      "3 semanas"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las troponinas I y T aumentan a las 2–4 h, tienen su pico a las 12–48 h y siguen elevadas 7–10 días.",
+      "Son las más sensibles y específicas del daño miocárdico.",
+      "48–72 h es cuando se normaliza la CK-MB; 2–4 h es cuando empiezan a subir ambas."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 16",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La rotura de la pared miocárdica posterior a un infarto agudo de miocardio se produce entre los:",
+     "opcoes": [
+      "1-2 meses",
+      "2 a 3 semanas",
+      "2 a 4 días",
+      "5 a 7 días",
+      "4 a 12 horas"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La rotura miocárdica es más frecuente entre los días 2 y 4, cuando la zona necrótica se reblandece.",
+      "En otra prueba la opción correcta apareció como '3 a 4 días'.",
+      "Causa hemopericardio y taponamiento cardíaco. Cayó en 3 pruebas."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 5",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la complicación más grave y temprana del infarto agudo de miocardio transmural?",
+     "opcoes": [
+      "Pericarditis fibrinosa",
+      "Aneurisma ventricular",
+      "Ruptura del miocardio",
+      "Insuficiencia mitral",
+      "Trombosis mural sobre el miocardio infartado"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La rotura (días 2–4) es temprana y causa la muerte por hemopericardio y taponamiento.",
+      "Los infartos transmurales anteriores tienen mayor riesgo de rotura de la pared libre.",
+      "El aneurisma ventricular es una complicación tardía, sobre la cicatriz."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 41",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Son complicaciones de un IAM, EXCEPTO:",
+     "opcoes": [
+      "Infarto del VD y dilatación de las cavidades",
+      "Disección y trombosis mural",
+      "Rotura del miocardio",
+      "Disfunción contráctil y del músculo papilar",
+      "Arritmias y pericarditis"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La disección es una enfermedad de la aorta (HTA, necrosis quística de la media), no del infarto.",
+      "La trombosis mural sí es complicación; la opción cae por la mitad intrusa.",
+      "En otras pruebas la respuesta fue 'endocarditis' o 'trombos venosos'. Cayó en 4 pruebas."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 17",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La pericarditis fibrinosa o fibrinohemorrágica ocurre entre el 2º y 3er día después de un infarto transmural.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Verdadero: la pericarditis fibrinosa (epistenocárdica) aparece entre los días 2 y 3.",
+      "Se produce sobre la zona infartada, cuando la necrosis alcanza el epicardio.",
+      "No confundir con Dressler: autoinmune, una semana o más después del infarto."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 17",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Son presentaciones clínicas de la cardiopatía isquémica, EXCEPTO:",
+     "opcoes": [
+      "Muerte súbita cardíaca",
+      "Disección aórtica",
+      "Infarto de miocardio",
+      "Angina de pecho",
+      "Cardiopatía isquémica crónica"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los cuatro síndromes de la cardiopatía isquémica son: infarto, angina, CI crónica y muerte súbita.",
+      "En 2025 se pidió CITAR los cuatro en forma abierta.",
+      "La disección aórtica es una patología vascular, no un síndrome isquémico coronario."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 50",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La presencia de estenosis mitral con forma de 'boca de pez' es característica de la siguiente patología:",
+     "opcoes": [
+      "Endocarditis bacteriana aguda",
+      "Mixoma auricular",
+      "Degeneración mixomatosa",
+      "Estenosis calcificada del envejecimiento",
+      "Cardiopatía reumática"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "La fibrosis de la fiebre reumática crónica fusiona comisuras y acorta las cuerdas tendinosas: boca de pez.",
+      "La cardiopatía reumática es la causa de casi toda estenosis mitral.",
+      "La calcificación senil causa estenosis AÓRTICA. Cayó en 3 pruebas."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 3",
+     "bloco": "Valvulopatías y fiebre reumática",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La carditis reumática crónica está representada por:",
+     "opcoes": [
+      "Pancarditis",
+      "Estenosis mitral",
+      "Infarto subendocárdico",
+      "Endocarditis"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la fase crónica, la fibrosis deformante lleva a estenosis mitral (99%).",
+      "65–70% solo la mitral; 25% mitral y aórtica.",
+      "La pancarditis es de la fase AGUDA de la fiebre reumática."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 5",
+     "bloco": "Valvulopatías y fiebre reumática",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La presencia de granulomas en la fiebre reumática se denomina:",
+     "opcoes": [
+      "Células de Anitschkow",
+      "Células de Aschoff",
+      "Células en oruga",
+      "Cuerpos de Aschoff",
+      "Cuerpos de Anitschkow"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El granuloma (la estructura completa) es el cuerpo o nódulo de Aschoff.",
+      "Dentro de él están las células de Anitschkow ('en oruga'), patognomónicas.",
+      "'Células en oruga' y 'células de Anitschkow' son sinónimos: se anulan entre sí."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 10",
+     "bloco": "Valvulopatías y fiebre reumática",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál de los siguientes NO es componente de los cuerpos de Aschoff de la fiebre reumática?",
+     "opcoes": [
+      "Macrófagos",
+      "Neutrófilos y eosinófilos",
+      "Células 'en oruga'",
+      "Células de Anitschkow",
+      "Linfocitos T y plasmocitos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El nódulo de Aschoff tiene colágeno eosinófilo rodeado de linfocitos T, plasmocitos y macrófagos (Anitschkow).",
+      "Es un infiltrado crónico: no tiene neutrófilos ni eosinófilos.",
+      "Cayó en 3 pruebas distintas."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 8",
+     "bloco": "Valvulopatías y fiebre reumática",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Las placas de MacCallum se caracterizan por:",
+     "opcoes": [
+      "Son lesiones subendocárdicas",
+      "Habitualmente se localizan en la aurícula izquierda",
+      "Están relacionadas a una angina inestable",
+      "Se observan acompañadas de un IAM",
+      "Dos respuestas son correctas"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "Las placas de MacCallum son engrosamientos subendocárdicos, habitualmente en la aurícula izquierda.",
+      "Se deben a chorros de regurgitación en la fiebre reumática.",
+      "También cayó como V/F: 'se producen en el ventrículo izquierdo' es falso."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 8",
+     "bloco": "Valvulopatías y fiebre reumática",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "La fiebre reumática se caracteriza por los siguientes hallazgos, EXCEPTO:",
+     "opcoes": [
+      "Poliartritis migratoria de pequeñas articulaciones",
+      "Nódulos subcutáneos",
+      "Carditis",
+      "Corea de Sydenham",
+      "Eritema marginado"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La poliartritis de la fiebre reumática es migratoria de GRANDES articulaciones.",
+      "Carditis, corea, nódulos subcutáneos y eritema marginado son criterios mayores de Jones.",
+      "Mnemónico de los mayores: JONES (Joints, ♥, Nódulos, Eritema, Sydenham)."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 7",
+     "bloco": "Valvulopatías y fiebre reumática",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Las causas de cardiopatías valvulares adquiridas más frecuentes son, EXCEPTO:",
+     "opcoes": [
+      "Insuficiencia mitral",
+      "Estenosis mitral",
+      "Insuficiencia aórtica",
+      "Insuficiencia tricuspídea",
+      "Estenosis aórtica"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Las valvulopatías adquiridas más frecuentes son del lado izquierdo: mitral y aórtica.",
+      "Causas: estenosis aórtica = calcificación; estenosis mitral = reumática; insuficiencia mitral = mixomatosa; insuficiencia aórtica = dilatación de la raíz.",
+      "La insuficiencia tricuspídea suele ser funcional (VD dilatado)."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 2",
+     "bloco": "Valvulopatías y fiebre reumática",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La valvulopatía más común que produce una obstrucción del flujo es:",
+     "opcoes": [
+      "Estenosis mitral",
+      "Estenosis pulmonar",
+      "Estenosis tricúspide",
+      "Insuficiencia cardíaca",
+      "Estenosis aórtica"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "La estenosis aórtica es la valvulopatía más común; la forma calcificada senil es la más frecuente.",
+      "Produce hipertrofia concéntrica del VI por sobrecarga de presión.",
+      "En 2025 se preguntó como 'anomalía valvular más frecuente': estenosis aórtica calcificada."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 7",
+     "bloco": "Valvulopatías y fiebre reumática",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La insuficiencia mitral se caracteriza por, EXCEPTO:",
+     "opcoes": [
+      "Es una enfermedad valvular mixomatosa",
+      "Cursa con una hipertrofia excéntrica",
+      "Conlleva una sobrecarga de volumen",
+      "Es característica una anomalía adquirida del tejido conjuntivo",
+      "Es un prolapso de la válvula mitral"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Según la clase, la degeneración mixomatosa se considera una anomalía HEREDITARIA del tejido conjuntivo.",
+      "La insuficiencia mitral produce sobrecarga de volumen e hipertrofia excéntrica.",
+      "Su causa más frecuente es la degeneración mixomatosa (prolapso)."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 6",
+     "bloco": "Valvulopatías y fiebre reumática",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "El prolapso de la válvula mitral también se denomina:",
+     "opcoes": [
+      "Mixoma auricular",
+      "Síndrome de Ehlers-Danlos",
+      "Degeneración mixomatosa",
+      "Síndrome de Marfan",
+      "Fiebre reumática"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El prolapso mitral es la degeneración mixomatosa de la válvula.",
+      "Es la principal causa de insuficiencia mitral.",
+      "El mixoma auricular es un tumor, sin relación con la degeneración mixomatosa."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 21",
+     "bloco": "Valvulopatías y fiebre reumática",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Son complicaciones asociadas al prolapso de la válvula mitral, EXCEPTO:",
+     "opcoes": [
+      "Insuficiencia mitral con posible rotura de cuerdas",
+      "Endocarditis infecciosa",
+      "Accidente cerebrovascular",
+      "Edema pulmonar leve",
+      "Arritmias ventriculares o auriculares"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El prolapso puede complicarse con arritmias, endocarditis, insuficiencia mitral y embolias (ACV).",
+      "La mayoría de los pacientes son asintomáticos.",
+      "El edema pulmonar leve no figura como complicación característica."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 13",
+     "bloco": "Valvulopatías y fiebre reumática",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "El síntoma más evidente de la estenosis mitral avanzada es:",
+     "opcoes": [
+      "Dolor precordial",
+      "Edema de miembros inferiores",
+      "Disnea",
+      "Síncope de esfuerzo"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La estenosis mitral eleva la presión en la AI y en las venas y capilares pulmonares: disnea.",
+      "Empeora al aumentar el flujo o la frecuencia cardíaca.",
+      "El VI conserva parámetros normales."
+     ],
+     "fonte": "3er parcial 2017 (Anatopato I – ESSA ESTUDAR 2P), pregunta 23",
+     "bloco": "Valvulopatías y fiebre reumática",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La infección de valvas previamente sanas por un germen de alta virulencia es característica de:",
+     "opcoes": [
+      "Endocarditis bacteriana aguda",
+      "Lupus eritematoso sistémico",
+      "Fiebre reumática",
+      "Endocarditis bacteriana subaguda"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La endocarditis aguda es una infección destructiva de una válvula previamente normal.",
+      "El agente típico es S. aureus; la mortalidad llega al 50%.",
+      "La subaguda (S. viridans) asienta sobre válvulas ya lesionadas. Cayó en 2 pruebas."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 3",
+     "bloco": "Endocarditis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La presencia de lesiones de Janeway en las palmas de las manos y nódulos subcutáneos de Osler en las yemas de los dedos es característica de:",
+     "opcoes": [
+      "Endocarditis trombótica no bacteriana",
+      "Estenosis aórtica",
+      "Endocarditis de Libman-Sacks",
+      "Endocarditis bacteriana aguda"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Janeway y Osler son signos de endocarditis infecciosa por émbolos e inmunocomplejos.",
+      "Las vegetaciones infectadas, friables y voluminosas embolizan con facilidad.",
+      "Cayó en 3 pruebas distintas."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 21",
+     "bloco": "Endocarditis",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "El microorganismo más frecuentemente asociado a la endocarditis subaguda es:",
+     "opcoes": [
+      "Pseudomonas aeruginosa",
+      "Candida albicans",
+      "Staphylococcus aureus",
+      "Streptococcus viridans"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La endocarditis subaguda, menos virulenta, suele deberse a S. viridans sobre válvulas ya lesionadas.",
+      "La aguda, destructiva y sobre válvula sana, se debe sobre todo a S. aureus.",
+      "La clase detalla solo la forma aguda."
+     ],
+     "fonte": "3er parcial 2017 (Anatopato I – ESSA ESTUDAR 2P), pregunta 21",
+     "bloco": "Endocarditis",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "En la endocarditis infecciosa, ¿cuáles válvulas son comprometidas con mayor frecuencia?",
+     "opcoes": [
+      "Aórtica y mitral",
+      "Pulmonar y aórtica",
+      "Mitral y tricúspide",
+      "Tricúspide y pulmonar"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Las válvulas del lado izquierdo (mitral y aórtica) son las más afectadas.",
+      "La tricúspide se afecta típicamente en usuarios de drogas intravenosas.",
+      "Las vegetaciones pueden formar un absceso del anillo y émbolos sépticos."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 8",
+     "bloco": "Endocarditis",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "En la endocarditis de Libman-Sacks se forman vegetaciones a ambos lados de las válvulas.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Verdadero: Libman-Sacks forma vegetaciones pequeñas, estériles y verrugosas a ambos lados de las valvas.",
+      "Es la endocarditis del lupus, con necrosis fibrinoide y cuerpos hematoxilínicos.",
+      "Mnemónico: Libman-Sacks, L de Lupus y de Lados."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 18",
+     "bloco": "Endocarditis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La enfermedad de Libman-Sacks es una enfermedad endocárdica con vegetaciones estériles vistas en:",
+     "opcoes": [
+      "Fiebre reumática",
+      "Adenocarcinomas mucinosos",
+      "Lupus eritematoso sistémico",
+      "Sepsis por Staphylococcus aureus"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Libman-Sacks es la endocarditis del LES; afecta sobre todo mitral y tricúspide.",
+      "Las vegetaciones son estériles: no hay microorganismos.",
+      "Las vegetaciones estériles del adenocarcinoma mucinoso son las de la endocarditis trombótica no bacteriana. Cayó en 3 pruebas."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 6",
+     "bloco": "Endocarditis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La endocarditis marántica o marásmica pertenece al grupo de vegetaciones:",
+     "opcoes": [
+      "Reumáticas",
+      "Infecciosas subagudas",
+      "Infecciosas agudas",
+      "No infectadas"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La endocarditis marántica (trombótica no bacteriana) tiene trombos asépticos sobre la línea de cierre.",
+      "Son pequeñas, lisas, laxamente adheridas, sin inflamación ni invasión.",
+      "Se asocia a hipercoagulabilidad y adenocarcinomas mucinosos (síndrome paraneoplásico)."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 22",
+     "bloco": "Endocarditis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En la miocardiopatía hipertrófica predomina generalmente:",
+     "opcoes": [
+      "Adelgazamiento del espesor de los ventrículos y del tabique interventricular",
+      "Infiltrado inflamatorio crónico con reemplazo de miocitos por tejido fibroadiposo",
+      "Histiocitos espumosos en el espesor de las fibras musculares cardíacas",
+      "Destrucción de los miocardiocitos con formación de tejido de granulación",
+      "Fibras musculares desorganizadas con leve fibrosis intersticial"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "La miocardiopatía hipertrófica muestra desorganización de fascículos y sarcómeros con fibrosis intersticial.",
+      "Se debe a mutaciones de proteínas del sarcómero; el tabique se engrosa de forma asimétrica.",
+      "El reemplazo fibroadiposo es la displasia arritmogénica del VD. Cayó en 3 pruebas."
+     ],
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 4",
+     "bloco": "Miocardiopatías y miocarditis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Las características histológicas más importantes en la miocardiopatía hipertrófica son todas las siguientes, EXCEPTO:",
+     "opcoes": [
+      "Distribución al azar de haces de miocitos y de los elementos contráctiles del sarcómero",
+      "Hipertrofia con dilatación del ventrículo izquierdo",
+      "Distribución desordenada de las miofibrillas y filamentos del sarcómero",
+      "Gran hipertrofia de los miocitos, con diámetros transversales de hasta 40 µm"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la miocardiopatía hipertrófica NO hay dilatación: la cavidad del VI queda en semiluna.",
+      "Lo característico es la desorganización de miocitos y sarcómeros con hipertrofia marcada.",
+      "En otras versiones la respuesta fue 'dilatación marcada de las cavidades' o 'infiltrado inflamatorio crónico'. Cayó en 4 pruebas."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 20",
+     "bloco": "Miocardiopatías y miocarditis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Hombre de 30 años, aparentemente sano, sufre durante una carrera de atletismo una fibrilación ventricular y muere súbitamente. Diagnóstico probable:",
+     "opcoes": [
+      "Miocardiopatía dilatada",
+      "Degeneración mixomatosa (prolapso de la válvula mitral)",
+      "Estenosis aórtica cálcica",
+      "Miocardiopatía arritmogénica del ventrículo derecho",
+      "Miocardiopatía hipertrófica"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "La miocardiopatía hipertrófica es la causa clásica de muerte súbita en jóvenes atletas.",
+      "La desorganización de miocitos favorece arritmias ventriculares.",
+      "La displasia arritmogénica también da arritmias en jóvenes, pero la respuesta oficial fue la hipertrófica."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 3",
+     "bloco": "Miocardiopatías y miocarditis",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Es INCORRECTO con respecto a la miocardiopatía dilatada:",
+     "opcoes": [
+      "En las formas genéticas, el principal patrón es la herencia autosómica recesiva",
+      "Se caracteriza por dilatación cardíaca progresiva y disfunción contráctil sistólica",
+      "El consumo abusivo de alcohol presenta una sólida correlación con su desarrollo",
+      "Puede tener influencias genéticas en el 30-50% de los casos",
+      "Puede tener un cuadro previo de miocarditis por virus Coxsackie B y otros virus"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En las formas genéticas predomina la herencia autosómica DOMINANTE.",
+      "Causas: genética (citoesqueleto), alcohol, miocarditis, periparto, Chagas, hemocromatosis.",
+      "Morfología: dilatación de todas las cavidades, trombos murales y válvulas normales."
+     ],
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 8",
+     "bloco": "Miocardiopatías y miocarditis",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Es INCORRECTO con respecto a la miocardiopatía dilatada:",
+     "opcoes": [
+      "Es la forma más infrecuente de presentación de las miocardiopatías",
+      "Son frecuentes los trombos murales",
+      "Es la miocardiopatía más asociada al consumo de alcohol",
+      "Se caracteriza por dilatación de todas las cavidades cardíacas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La dilatada es la miocardiopatía MÁS frecuente (90%); la restrictiva es la menos frecuente.",
+      "Presenta dilatación de todas las cámaras, trombos murales y válvulas sin lesión orgánica.",
+      "Cayó en 2 pruebas distintas."
+     ],
+     "fonte": "2ª parcial, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 13",
+     "bloco": "Miocardiopatías y miocarditis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Sobre la miocardiopatía dilatada es correcto:",
+     "opcoes": [
+      "Se caracteriza por dilatación cardíaca progresiva y disfunción contráctil",
+      "Las causas genéticas implican mutaciones en genes de proteínas del citoesqueleto, sarcómeros, mitocondrias y envoltura nuclear",
+      "Macroscópicamente se observa marcada dilatación de las cuatro cavidades",
+      "Microscópicamente se observan núcleos agrandados e hipercromáticos",
+      "Todas son correctas"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "Todas son características de la miocardiopatía dilatada.",
+      "Funcionalmente predomina la disfunción sistólica.",
+      "La clase menciona sobre todo la alteración del citoesqueleto y la hipertrofia inespecífica."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 4",
+     "bloco": "Miocardiopatías y miocarditis",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "La miocardiopatía dilatada se caracteriza, morfológica y funcionalmente, por:",
+     "opcoes": [
+      "Hipertrofia septal asimétrica",
+      "Disfunción sistólica",
+      "Obstrucción del tracto de salida del VI",
+      "Disfunción diastólica por rigidez de la pared"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El corazón dilatado no se contrae bien: el problema es sistólico.",
+      "La rigidez con disfunción diastólica es propia de la miocardiopatía restrictiva.",
+      "La hipertrofia septal asimétrica con obstrucción es de la miocardiopatía hipertrófica."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 8",
+     "bloco": "Miocardiopatías y miocarditis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente en puerperio tardío (5 meses posparto), sin antecedentes, con síntomas progresivos de insuficiencia cardíaca y ritmos anómalos en el electrocardiograma. Este cuadro podría deberse a:",
+     "opcoes": [
+      "Miocardiopatía dilatada",
+      "Miocardiopatía hipertrófica",
+      "Infarto agudo de miocardio",
+      "Endocarditis infecciosa",
+      "Miocardiopatía restrictiva"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La miocardiopatía periparto es una de las causas de miocardiopatía dilatada.",
+      "Produce dilatación de las cavidades con disfunción sistólica e insuficiencia cardíaca.",
+      "No hay factores de riesgo coronario ni fiebre que sugieran IAM o endocarditis."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 27",
+     "bloco": "Miocardiopatías y miocarditis",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "El consumo excesivo de alcohol se asocia con el siguiente tipo de miocardiopatía:",
+     "opcoes": [
+      "Arritmogénica del ventrículo derecho",
+      "Hipertrófica",
+      "Restrictiva",
+      "Dilatada"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El alcohol es una causa clásica de miocardiopatía dilatada.",
+      "Otras causas: genética, miocarditis, periparto, Chagas, hemocromatosis, anemia crónica.",
+      "La restrictiva se asocia a amiloidosis, radiación y sarcoidosis."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 11",
+     "bloco": "Miocardiopatías y miocarditis",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Son formas de miocardiopatía restrictiva todas las siguientes, EXCEPTO:",
+     "opcoes": [
+      "Reemplazo por tejido fibroadiposo",
+      "Fibroelastosis subendocárdica",
+      "Amiloidosis cardíaca",
+      "Fibrosis endomiocárdica",
+      "Endomiocarditis de Löffler"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El reemplazo fibroadiposo es la displasia arritmogénica del VD, agrupada con las dilatadas en la clase.",
+      "Las restrictivas endurecen la pared: ventrículos de tamaño normal y aurículas dilatadas.",
+      "Löffler es la enfermedad endomiocárdica eosinofílica, también restrictiva."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 15",
+     "bloco": "Miocardiopatías y miocarditis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Se conocen como miocardiopatías primarias a aquellas:",
+     "opcoes": [
+      "Enfermedades genéticas o adquiridas que afectan principalmente al miocardio",
+      "Secundarias a enfermedades sistémicas",
+      "Consecuencia de valvulopatías",
+      "Causadas por isquemia coronaria"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Las primarias afectan principalmente el músculo cardíaco: genéticas, adquiridas o mixtas.",
+      "Las secundarias forman parte de una enfermedad sistémica (amiloidosis, sarcoidosis, etc.).",
+      "La isquemia y las valvulopatías no se consideran miocardiopatías primarias."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 16",
+     "bloco": "Miocardiopatías y miocarditis",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Es correcto con respecto a la etiología de la miocarditis, EXCEPTO:",
+     "opcoes": [
+      "La miocarditis por Trypanosoma cruzi es causada por un agente bacteriano",
+      "Puede asociarse a enfermedades autoinmunes",
+      "Los virus, como Coxsackie A y B, son la causa más frecuente de miocarditis",
+      "La miocarditis puede deberse a hipersensibilidad a fármacos"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Trypanosoma cruzi (enfermedad de Chagas) es un protozoo, no una bacteria.",
+      "Los virus son la causa más frecuente de miocarditis.",
+      "El Chagas crónico produce una miocardiopatía dilatada. Cayó en 2 pruebas."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 21",
+     "bloco": "Miocardiopatías y miocarditis",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "La miocardiopatía de takotsubo es producida por:",
+     "opcoes": [
+      "Embarazo",
+      "Infección viral",
+      "Consumo de alcohol",
+      "Estrés psicológico"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Takotsubo es la miocardiopatía por estrés: disfunción transitoria del ventrículo izquierdo.",
+      "Se relaciona con una descarga de catecolaminas.",
+      "El alcohol y el embarazo son causas de miocardiopatía dilatada."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 24",
+     "bloco": "Miocardiopatías y miocarditis",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "El edema generalizado que ocurre con mayor incidencia por insuficiencia cardíaca congestiva se denomina:",
+     "opcoes": [
+      "Ascitis",
+      "Edema sacro",
+      "Anasarca",
+      "Hidrotórax"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La anasarca es el edema masivo generalizado de la insuficiencia cardíaca derecha.",
+      "La IC derecha produce edema de declive (pies, tobillos, pretibial; sacro en encamados).",
+      "Ascitis e hidrotórax son derrames en cavidades, no edema generalizado."
+     ],
+     "fonte": "3er parcial 2017 (Anatopato I – ESSA ESTUDAR 2P), pregunta 16",
+     "bloco": "Insuficiencia cardíaca y tumores cardíacos",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el tumor cardíaco primario más frecuente en niños?",
+     "opcoes": [
+      "Mixoma",
+      "Rabdomioma",
+      "Angiosarcoma",
+      "Linfoma cardíaco",
+      "Hemangioma"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El rabdomioma es el tumor primario más frecuente en lactantes y niños.",
+      "Se asocia a esclerosis tuberosa y tiene 'células en araña'.",
+      "El mixoma es el más frecuente en adultos (aurícula izquierda, fosa oval)."
+     ],
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 48",
+     "bloco": "Insuficiencia cardíaca y tumores cardíacos",
+     "nivel": "facil",
+     "complemento": false
+    }
+   ],
+   "flashcards": [
+    {
+     "frente": "Troponina × CK-MB",
+     "verso": "Troponina: sube a las 2–4 h, pico 12–48 h, elevada 7–10 días. CK-MB: sube a las 2–4 h, pico 24 h, normal a las 48–72 h.",
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 16"
+    },
+    {
+     "frente": "Complicaciones del IAM por tiempo",
+     "verso": "Rotura: días 2–4. Pericarditis fibrinosa: días 2–3. Dressler: 1 semana o más. Aneurisma ventricular: tardío.",
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 5"
+    },
+    {
+     "frente": "Cronología del IAM",
+     "verso": "0–4 h nada; 4–12 h necrosis de coagulación; 12–24 h neutrófilos; 1–3 días pico PMN; 3–7 días macrófagos; 7–10 días granulación inicial; 10–14 días granulación establecida; >2 meses cicatriz.",
+     "fonte": "P2 Anatopato (Kristel), pregunta 19"
+    },
+    {
+     "frente": "Cuerpo de Aschoff",
+     "verso": "Colágeno eosinófilo + linfocitos T, plasmocitos y macrófagos (Anitschkow, 'en oruga'). No tiene neutrófilos ni eosinófilos.",
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 8"
+    },
+    {
+     "frente": "Las 4 causas de valvulopatía",
+     "verso": "Estenosis aórtica = calcificación. Estenosis mitral = reumática (boca de pez). Insuficiencia mitral = mixomatosa (prolapso). Insuficiencia aórtica = dilatación de la raíz.",
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 3"
+    },
+    {
+     "frente": "Janeway y Osler",
+     "verso": "Endocarditis bacteriana (infecciosa) aguda.",
+     "fonte": "2º parcial, 2ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 21"
+    },
+    {
+     "frente": "Miocardiopatía hipertrófica",
+     "verso": "Fibras desorganizadas con leve fibrosis intersticial, tabique asimétrico, sin dilatación, muerte súbita en atletas.",
+     "fonte": "2º parcial, 1ª parte (Anatopato I – ESSA ESTUDAR 2P), pregunta 4"
+    },
+    {
+     "frente": "Miocardiopatía dilatada",
+     "verso": "La más frecuente (90%); alcohol, periparto, Chagas, miocarditis; disfunción sistólica; herencia autosómica dominante.",
+     "fonte": "2ª parcial, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 13"
+    },
+    {
+     "frente": "Restrictiva × arritmogénica",
+     "verso": "Restrictiva: amiloidosis, Löffler, fibrosis endomiocárdica, fibroelastosis. Reemplazo fibroadiposo del VD = displasia arritmogénica.",
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 15"
+    },
+    {
+     "frente": "Tumores cardíacos primarios",
+     "verso": "Adulto: mixoma (aurícula izquierda). Niño: rabdomioma (esclerosis tuberosa). El más frecuente de todos: metástasis.",
+     "fonte": "2º examen parcial ordinario 2025 (corrección), pregunta 48"
+    }
+   ]
+  },
+  {
+   "id": "provas-anteriores-4",
+   "tema": "Provas anteriores",
+   "titulo": "Provas anteriores 4 – Respiratorio",
+   "icone": "hospital",
+   "separado": true,
+   "materiais": [
+    {
+     "nome": "2º Parcial Ordinário Teórica - Anatomía Patológica I.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "P2 anatopato kristel.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "Anatopato I - ESSA ESTUDAR 2P.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "Corrección P2 Anatopato.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "P2 Anatopato teoría e práctica.pdf",
+     "tipo": "prova"
+    },
+    {
+     "nome": "Prova anatopato C.pdf",
+     "tipo": "prova"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "La siguiente definición: 'aumento de tamaño irreversible de los espacios aéreos distales al bronquiolo terminal, acompañado de la destrucción de sus paredes', corresponde a:",
+     "opcoes": [
+      "Enfisema",
+      "Bronquitis crónica",
+      "Asma",
+      "EPOC",
+      "Bronquiectasia"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El enfisema es la dilatación permanente de los espacios aéreos distales al bronquiolo terminal con destrucción de paredes.",
+      "Ocurre sin signos de fibrosis, por desequilibrio proteasa-antiproteasa.",
+      "La bronquiectasia es la dilatación permanente de los BRONQUIOS, no de los alvéolos."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 12",
+     "bloco": "EPOC y bronquiectasias",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "El primer síntoma que presentan los pacientes con enfisema es:",
+     "opcoes": [
+      "Dolor torácico",
+      "Disnea",
+      "Hemoptisis",
+      "Catarro",
+      "Tos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La destrucción de las paredes alveolares reduce la superficie de intercambio: disnea.",
+      "Los síntomas aparecen cuando queda solo un tercio del parénquima funcionante.",
+      "Tos y expectoración son de la bronquitis crónica; la hemoptisis, de la bronquiectasia."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 7",
+     "bloco": "EPOC y bronquiectasias",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "El tipo de enfisema asociado al déficit de alfa-1 antitripsina es:",
+     "opcoes": [
+      "Acinar distal",
+      "Centroacinar",
+      "Paraseptal",
+      "Panacinar"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El déficit de α1-antitripsina deja sin protección todo el ácino: enfisema panacinar, en los lóbulos inferiores.",
+      "El centroacinar se asocia al tabaco y predomina en los lóbulos superiores.",
+      "Paraseptal y acinar distal son sinónimos: se anulan entre sí."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 12",
+     "bloco": "EPOC y bronquiectasias",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Los tipos de enfisema son, EXCEPTO:",
+     "opcoes": [
+      "Parabronquial",
+      "Centroacinar",
+      "Panacinar",
+      "Paraseptal",
+      "Irregular"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La clasificación se basa en la distribución dentro del lobulillo: centroacinar, panacinar, paraseptal e irregular.",
+      "El paraseptal forma bullas subpleurales que pueden causar neumotórax.",
+      "'Parabronquial' no es un tipo de enfisema."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 11",
+     "bloco": "EPOC y bronquiectasias",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La siguiente patología tiene estas características anatomopatológicas: hiperplasia del músculo liso, exceso de moco e inflamación. Nos referimos a:",
+     "opcoes": [
+      "Bronquiectasia",
+      "Asma",
+      "Bronquitis crónica",
+      "Enfisema"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hipertrofia del músculo liso bronquial es la marca de la remodelación de la vía aérea en el asma.",
+      "Se acompaña de engrosamiento de la membrana basal, eosinófilos, espirales de Curschmann y cristales de Charcot-Leyden.",
+      "La bronquitis crónica tiene moco e inflamación, pero lo que crece son las glándulas (índice de Reid > 0,4)."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 11",
+     "bloco": "EPOC y bronquiectasias",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "El concepto 'dilatación anómala y permanente de los bronquios, con necrosis y fibrosis de su pared' hace referencia a:",
+     "opcoes": [
+      "Bronconeumonía",
+      "Sarcoidosis",
+      "Bronquiectasias",
+      "Tuberculosis",
+      "Amiloidosis"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Bronqui + ectasia (dilatación) = bronquiectasia: dilatación permanente por infección necrotizante crónica.",
+      "Las influencias principales son la obstrucción y la infección; predomina en los lóbulos inferiores.",
+      "Cayó en 2 pruebas, una de ellas con la definición 'por destrucción de la pared muscular y el tejido elástico'."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 22",
+     "bloco": "EPOC y bronquiectasias",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Todo lo expuesto es correcto con respecto a las bronquiectasias, EXCEPTO:",
+     "opcoes": [
+      "Se localizan bilateralmente en ambos lóbulos superiores",
+      "Predominan en los lóbulos inferiores",
+      "Cursan con tos y expectoración abundante, fétida y purulenta",
+      "Se asocian a fibrosis quística y síndrome de Kartagener"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Las bronquiectasias predominan en los lóbulos INFERIORES.",
+      "Se asocian a fibrosis quística, Kartagener, discinesia ciliar, neumonías necrotizantes y obstrucción.",
+      "Clínica: tos paroxística, expectoración abundante, fétida y purulenta, fiebre y a veces hemoptisis."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 18",
+     "bloco": "EPOC y bronquiectasias",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Dentro de la patogenia de las bronquiectasias, el síndrome de Kartagener se define por:",
+     "opcoes": [
+      "Fibrosis quística asociada a insuficiencia pancreática",
+      "Déficit de alfa-1 antitripsina con enfisema",
+      "Bronquiectasias por obstrucción bronquial con cuerpo extraño",
+      "Situs inversus asociado a bronquiectasias y sinusitis"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Kartagener es una discinesia ciliar primaria: situs inversus, bronquiectasias y sinusitis.",
+      "Sin movimiento ciliar el moco se estanca, se infecta y destruye la pared bronquial.",
+      "La fibrosis quística es otra causa congénita de bronquiectasias, distinta."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 20",
+     "bloco": "EPOC y bronquiectasias",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Es la causa bacteriana más frecuente de exacerbación aguda en la EPOC:",
+     "opcoes": [
+      "Haemophilus influenzae",
+      "Pseudomonas aeruginosa",
+      "Staphylococcus aureus",
+      "Klebsiella pneumoniae"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "H. influenzae es la causa bacteriana más frecuente de exacerbación de la EPOC.",
+      "Según la clase, las infecciones no inician la bronquitis crónica pero sí la mantienen y exacerban.",
+      "H. influenzae desorganiza el batido ciliar y degrada la IgA."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 13",
+     "bloco": "EPOC y bronquiectasias",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Pulmón pesado, pastoso, rojo, con ingurgitación vascular y líquido intraalveolar, caracteriza a qué estadio de la neumonía lobular:",
+     "opcoes": [
+      "Resolución",
+      "Hepatización roja",
+      "Remisión",
+      "Congestión",
+      "Hepatización gris"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "En la congestión hay ingurgitación vascular y edema alveolar con pocos neutrófilos y muchas bacterias.",
+      "El pulmón está pastoso; en la hepatización ya tiene consistencia de hígado.",
+      "La hepatización roja tiene hematíes, neutrófilos y fibrina dentro de los alvéolos."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 8",
+     "bloco": "Neumonías",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Estadio de la neumonía en el cual se observa desintegración de los eritrocitos y persistencia del exudado:",
+     "opcoes": [
+      "Hepatización gris",
+      "Resolución",
+      "Hepatización roja",
+      "Congestión"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la hepatización gris los eritrocitos se desintegran y persiste un exudado fibrinopurulento.",
+      "Hay menos congestión vascular y pocas bacterias.",
+      "En la hepatización roja los eritrocitos están íntegros."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 7",
+     "bloco": "Neumonías",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La neumonía lobar se caracteriza por presentar 4 fases. ¿Cuál de las siguientes NO corresponde a una de ellas?",
+     "opcoes": [
+      "Resolución",
+      "Hepatización gris",
+      "Congestión",
+      "Hepatización blanca",
+      "Hepatización roja"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Las 4 fases son: congestión, hepatización roja, hepatización gris y resolución.",
+      "'Hepatización blanca' no existe.",
+      "En otras pruebas el distractor inventado fue 'remisión'."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 9",
+     "bloco": "Neumonías",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Mujer de 40 años, no fumadora, con fiebre de 39 °C, tos, dificultad respiratoria y expectoración mucopurulenta. Descartado COVID, el siguiente diagnóstico inmediato que debería plantear es:",
+     "opcoes": [
+      "Bronquiectasia",
+      "Enfisema o cuadro gripal",
+      "Neumonía bacteriana aguda",
+      "Asma bronquial",
+      "Bronquitis crónica"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Cuadro agudo con fiebre alta y expectoración purulenta en una paciente sin enfermedad crónica: neumonía bacteriana.",
+      "El agente más frecuente de la neumonía extrahospitalaria es Streptococcus pneumoniae.",
+      "Bronquiectasia, bronquitis crónica y enfisema son crónicos; una opción doble cae si una mitad es falsa."
+     ],
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 13",
+     "bloco": "Neumonías",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "El agente etiológico más frecuente de la neumonía extrahospitalaria es:",
+     "opcoes": [
+      "Klebsiella pneumoniae",
+      "Haemophilus influenzae",
+      "Streptococcus pneumoniae",
+      "Staphylococcus aureus"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "S. pneumoniae es la causa más frecuente de neumonía aguda extrahospitalaria.",
+      "Produce típicamente neumonía lobar con sus 4 fases.",
+      "S. aureus aparece después de virosis y forma abscesos."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 19",
+     "bloco": "Neumonías",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Corresponde a la causa más frecuente de neumonía bacteriana por gramnegativos:",
+     "opcoes": [
+      "Klebsiella pneumoniae",
+      "Haemophilus influenzae",
+      "Pseudomonas aeruginosa",
+      "Legionella pneumophila"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Klebsiella es la causa más frecuente de neumonía por gramnegativos.",
+      "Afecta a debilitados, desnutridos y alcohólicos; el esputo es espeso y gelatinoso por la cápsula.",
+      "Pseudomonas afecta a inmunodeprimidos y neutropénicos e invade los vasos."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 20",
+     "bloco": "Neumonías",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Desde el punto de vista clínico, en una neumonía es importante determinar:",
+     "opcoes": [
+      "El patrón lobar o lobulillar, sin importar el agente",
+      "El agente causante y la extensión de la enfermedad",
+      "Solo el lóbulo afectado",
+      "El color y el olor del esputo"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La clase lo dice literalmente: es importante identificar el germen causal y la extensión de la enfermedad.",
+      "El agente orienta el tratamiento; la extensión, la gravedad.",
+      "El patrón morfológico (lobar o bronconeumonía) por sí solo no define la conducta."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 4",
+     "bloco": "Neumonías",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Son factores que comprometen los mecanismos de defensa local del pulmón, EXCEPTO:",
+     "opcoes": [
+      "Pérdida o supresión del reflejo de la tos",
+      "Congestión y edema del pulmón",
+      "Interferencia con la acción de los macrófagos alveolares",
+      "Lesión del aparato mucociliar",
+      "Pérdida o supresión del reflejo del estornudo"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "La clase lista: pérdida del reflejo de la TOS, lesión mucociliar, alteración de los macrófagos y acúmulo de secreciones.",
+      "La congestión y el edema interfieren con la acción de los macrófagos alveolares.",
+      "La trampa es cambiar 'tos' por 'estornudo'."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 15",
+     "bloco": "Neumonías",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "La enfermedad pulmonar producida por la inhalación de dióxido de silicio en su forma cristalina se denomina:",
+     "opcoes": [
+      "Antracosis",
+      "Silicosis",
+      "Tuberculosis",
+      "Beriliosis",
+      "Asbestosis"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La silicosis es la neumoconiosis por sílice cristalina.",
+      "Asbesto → asbestosis y mesotelioma; carbón → antracosis; berilio → beriliosis.",
+      "Opción adaptada: la prueba original tenía 'ninguna de las anteriores' en lugar de antracosis."
+     ],
+     "fonte": "P2 Anatopato (Kristel), pregunta 3",
+     "bloco": "Otros temas que cayeron (fuera de las clases de EPOC y neumonías)",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "La antracosis es una lesión pulmonar causada por:",
+     "opcoes": [
+      "Carbón",
+      "Sílice",
+      "Asbesto",
+      "Berilio"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La antracosis es el depósito de pigmento de carbón en el pulmón.",
+      "Es frecuente y en general inocua en habitantes de ciudades y fumadores.",
+      "Sílice → silicosis; asbesto → asbestosis; berilio → beriliosis."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 2",
+     "bloco": "Otros temas que cayeron (fuera de las clases de EPOC y neumonías)",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "La asbestosis está relacionada con el siguiente tipo tumoral:",
+     "opcoes": [
+      "Tumor carcinoide",
+      "Linfoma MALT",
+      "Mesotelioma",
+      "Hamartoma pulmonar"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El asbesto (amianto) se asocia al mesotelioma maligno, en particular epitelioide, y al carcinoma de pulmón.",
+      "Según la clase de carcinogénesis, el asbesto es un carcinógeno físico inerte.",
+      "El hamartoma pulmonar es benigno y no se relaciona con el asbesto."
+     ],
+     "fonte": "2ª parcial, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 9",
+     "bloco": "Otros temas que cayeron (fuera de las clases de EPOC y neumonías)",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Son enfermedades y/o neoplasias relacionadas con el amianto, EXCEPTO:",
+     "opcoes": [
+      "Carcinoma broncogénico",
+      "Asbestosis",
+      "Placas pleurales",
+      "Mesotelioma",
+      "Beriliosis"
+     ],
+     "correta": 4,
+     "explicacao": [
+      "La beriliosis se debe al berilio, no al amianto.",
+      "El amianto produce placas pleurales, asbestosis, carcinoma broncogénico y mesotelioma.",
+      "El tabaco potencia mucho el riesgo de carcinoma en expuestos al amianto."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 5",
+     "bloco": "Otros temas que cayeron (fuera de las clases de EPOC y neumonías)",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "El desarrollo de la neumoconiosis depende de los siguientes factores, EXCEPTO:",
+     "opcoes": [
+      "Un posible efecto añadido del alcoholismo",
+      "La solubilidad y reactividad de las partículas",
+      "La cantidad de polvo retenido",
+      "El tamaño y la forma de las partículas",
+      "Un posible efecto añadido del tabaquismo"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Dependen de la cantidad retenida, el tamaño, la forma, la solubilidad y la reactividad de las partículas.",
+      "Otros irritantes inhalados, sobre todo el tabaco, tienen efecto añadido.",
+      "El alcoholismo no es un factor del desarrollo de las neumoconiosis."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 10",
+     "bloco": "Otros temas que cayeron (fuera de las clases de EPOC y neumonías)",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Una de las siguientes es una lesión precursora de un adenocarcinoma pulmonar:",
+     "opcoes": [
+      "Metaplasia escamosa",
+      "Hiperplasia adenomatosa atípica",
+      "Displasia escamosa",
+      "Hiperplasia de células neuroendocrinas"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hiperplasia adenomatosa atípica es la precursora del adenocarcinoma pulmonar (pasa por adenocarcinoma in situ).",
+      "La displasia escamosa es la precursora del carcinoma escamoso.",
+      "En una prueba antigua aparece 'carcinoma bronquioloalveolar', nombre antiguo del adenocarcinoma in situ."
+     ],
+     "fonte": "2ª parcial, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 21",
+     "bloco": "Otros temas que cayeron (fuera de las clases de EPOC y neumonías)",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Es INCORRECTO con respecto al carcinoma de células pequeñas:",
+     "opcoes": [
+      "Es el carcinoma más fuertemente asociado al tabaquismo",
+      "Su lesión precursora es un adenocarcinoma in situ",
+      "Suele ser de localización central",
+      "Tiene origen neuroendocrino"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El adenocarcinoma in situ es precursor del adenocarcinoma, no del carcinoma de células pequeñas.",
+      "El de células pequeñas es neuroendocrino, central, muy agresivo y casi exclusivo de fumadores.",
+      "Cayó en 2 pruebas distintas."
+     ],
+     "fonte": "2ª parcial, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 19",
+     "bloco": "Otros temas que cayeron (fuera de las clases de EPOC y neumonías)",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "La sarcoidosis es una enfermedad granulomatosa caracterizada por:",
+     "opcoes": [
+      "Granulomas con necrosis caseosa",
+      "Microabscesos rodeados de granulomas",
+      "Formación de granulomas no necrosantes",
+      "Granulomas con necrosis geográfica y vasculitis"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La sarcoidosis forma granulomas no necrosantes (no caseificantes).",
+      "La necrosis caseosa es de la tuberculosis.",
+      "La necrosis geográfica con vasculitis es de la granulomatosis con poliangeítis (Wegener)."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 5",
+     "bloco": "Otros temas que cayeron (fuera de las clases de EPOC y neumonías)",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Dentro de las enfermedades intersticiales crónicas del pulmón, pertenecen a la categoría fibrosante, EXCEPTO:",
+     "opcoes": [
+      "Fibrosis pulmonar idiopática",
+      "Neumonía intersticial inespecífica",
+      "Sarcoidosis",
+      "Neumoconiosis"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La sarcoidosis pertenece a la categoría granulomatosa, no a la fibrosante.",
+      "La neumonía intersticial inespecífica sí es fibrosante: fue la respuesta en otra prueba.",
+      "La fibrosis pulmonar idiopática es el prototipo de enfermedad fibrosante."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 11",
+     "bloco": "Otros temas que cayeron (fuera de las clases de EPOC y neumonías)",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Los denominados 'macrófagos del fumador' se encuentran asociados a:",
+     "opcoes": [
+      "Fibrosis pulmonar idiopática",
+      "Neumonía intersticial inespecífica",
+      "Sarcoidosis",
+      "Neumonía intersticial descamativa"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "En la neumonía intersticial descamativa los alvéolos se llenan de macrófagos pigmentados.",
+      "Es una enfermedad intersticial relacionada con el tabaquismo.",
+      "La sarcoidosis se define por granulomas no necrosantes."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 1",
+     "bloco": "Otros temas que cayeron (fuera de las clases de EPOC y neumonías)",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "El síndrome de Goodpasture se caracteriza por la asociación de:",
+     "opcoes": [
+      "Asma, eosinofilia periférica y vasculitis de vasos pequeños",
+      "Granulomas necrosantes de vías aéreas y glomerulonefritis focal",
+      "Neumonitis intersticial hemorrágica necrotizante y glomerulonefritis rápidamente progresiva",
+      "Bronquiectasias, sinusitis y situs inversus"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Goodpasture: anticuerpos contra la membrana basal del pulmón y del glomérulo.",
+      "Produce hemorragia pulmonar y glomerulonefritis rápidamente progresiva.",
+      "Asma con eosinofilia es Churg-Strauss; granulomas de vías aéreas con GN es Wegener."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 23",
+     "bloco": "Otros temas que cayeron (fuera de las clases de EPOC y neumonías)",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Se conocen como abscesos pulmonares criptógenos primarios aquellos que:",
+     "opcoes": [
+      "Se deben a aspiración de contenido orofaríngeo",
+      "No tienen una causa conocida o reconocible",
+      "Se deben a émbolos sépticos",
+      "Complican una neumonía bacteriana"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "'Criptógeno' significa de causa oculta o desconocida.",
+      "Los demás tienen causa reconocible: aspiración, neumonía previa o émbolos sépticos.",
+      "La clase menciona el absceso como complicación de la neumonía (S. aureus, Klebsiella)."
+     ],
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 22",
+     "bloco": "Otros temas que cayeron (fuera de las clases de EPOC y neumonías)",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "La lesión característica de la tuberculosis secundaria es:",
+     "opcoes": [
+      "El foco de Ghon",
+      "La tuberculosis miliar",
+      "El complejo de Ghon",
+      "La caverna tuberculosa"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La tuberculosis secundaria (reactivación) forma cavernas en los vértices pulmonares.",
+      "El foco y el complejo de Ghon son de la tuberculosis primaria.",
+      "La miliar es la diseminación hematógena."
+     ],
+     "fonte": "2ª parcial extraordinario, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 22",
+     "bloco": "Otros temas que cayeron (fuera de las clases de EPOC y neumonías)",
+     "nivel": "facil",
+     "complemento": true
+    }
+   ],
+   "flashcards": [
+    {
+     "frente": "Tipos de enfisema",
+     "verso": "Centroacinar: tabaco, lóbulos superiores. Panacinar: déficit de α1-antitripsina, lóbulos inferiores. Paraseptal: subpleural, bullas, neumotórax. 'Parabronquial' no existe.",
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 12"
+    },
+    {
+     "frente": "Las 4 obstructivas",
+     "verso": "Asma: músculo liso + eosinófilos. Bronquitis crónica: glándulas (Reid > 0,4). Bronquiectasia: dilatación permanente con pus. Enfisema: destrucción de paredes alveolares.",
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 11"
+    },
+    {
+     "frente": "Bronquiectasias",
+     "verso": "Lóbulos inferiores; fibrosis quística, Kartagener (situs inversus + sinusitis); expectoración abundante, fétida y purulenta.",
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 18"
+    },
+    {
+     "frente": "Fases de la neumonía lobar",
+     "verso": "Congestión (pastoso, líquido) → hepatización roja (hematíes + PMN + fibrina) → hepatización gris (hematíes desintegrados, exudado fibrinopurulento) → resolución.",
+     "fonte": "2º parcial ordinario teórico (prueba antigua con gabarito), pregunta 8"
+    },
+    {
+     "frente": "Agentes de neumonía",
+     "verso": "Extrahospitalaria: S. pneumoniae. Gramnegativo más frecuente: Klebsiella (alcohólicos). Exacerbación de EPOC: H. influenzae.",
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 20"
+    },
+    {
+     "frente": "Defensas pulmonares (EXCEPTO)",
+     "verso": "Comprometen la defensa: reflejo de la TOS, aparato mucociliar, macrófagos alveolares, congestión/edema, secreciones. El estornudo es la trampa.",
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 15"
+    },
+    {
+     "frente": "Neumoconiosis",
+     "verso": "Sílice → silicosis. Asbesto → asbestosis, placas pleurales, mesotelioma, carcinoma. Carbón → antracosis. Berilio → beriliosis.",
+     "fonte": "P2 Anatopato (Kristel), pregunta 3"
+    },
+    {
+     "frente": "Precursores del cáncer de pulmón",
+     "verso": "Adenocarcinoma ← hiperplasia adenomatosa atípica. Escamoso ← displasia escamosa. Células pequeñas: neuroendocrino, central, fumadores.",
+     "fonte": "2ª parcial, parte 2 (Anatopato I – ESSA ESTUDAR 2P), pregunta 21"
+    },
+    {
+     "frente": "Sarcoidosis",
+     "verso": "Granulomas NO necrosantes; categoría granulomatosa, no fibrosante.",
+     "fonte": "2ª parcial, parte 1 (Anatopato I – ESSA ESTUDAR 2P), pregunta 5"
+    }
+   ]
   }
  ],
  "cor": "vermelho"
@@ -16365,7 +19735,7 @@ function materias() {
   const secoes = [];
   for (const m of list) {
     const temas = [...new Set(m.kits.map(k => k.tema || ""))];
-    const comTema = temas.filter(t => t);
+    const comTema = [...new Set(m.kits.filter(k => !k.separado).map(k => k.tema || ""))].filter(t => t);
     temas.forEach((t, ti) => {
       const kits = m.kits.filter(k => (k.tema || "") === t);
       const id = t ? m.id + "--" + slug(t) : m.id;
@@ -16374,7 +19744,7 @@ function materias() {
       secoes.push(sec);
     });
     if (comTema.length > 1) {
-      const all = m.kits.filter(k => k.tema);
+      const all = m.kits.filter(k => k.tema && !k.separado);
       secoes.push({ id: m.id + "--geral", nome: `${m.nome} – Geral`, cor: "roxo", kits: [juntar(m.id + "--geral-todos", "Todos os temas", all, "coracao")] });
     }
   }
@@ -16710,7 +20080,7 @@ function viewEstudo(c, k, keep) {
   const p = prog(k.id);
   if (!keep || !S || S.kit !== k.id) {
     const i = escolherPergunta(k, S && S.kit === k.id ? S.i : -1);
-    const ordem = [0, 1, 2, 3].slice(0, k.perguntas[i].opcoes.length);
+    const ordem = k.perguntas[i].opcoes.map((_, j) => j);
     if (PREF.embaralhar) ordem.sort(() => Math.random() - .5);
     S = { kit: k.id, i, ordem, resp: null, revel: false, sessao: S && S.kit === k.id ? S.sessao : [] };
   }
@@ -16743,7 +20113,7 @@ function viewEstudo(c, k, keep) {
       ${done ? `<div class="explain"><div style="flex:1"><ul>${(q.explicacao || []).map(e => `<li>${esc(e)}</li>`).join("")}</ul>
         <div class="meta">${q.fonte ? `<span>📄 ${esc(q.fonte)}</span>` : ""}${q.bloco ? `<span>${esc(q.bloco)}</span>` : ""}${q.nivel ? `<span>${NIV[q.nivel] || esc(q.nivel)}</span>` : ""}${q.complemento ? `<span class="warn">complemento (fora dos slides)</span>` : ""}</div></div>
         ${q.imagem ? `<img src="${esc(q.imagem)}" alt="">` : ""}</div>` : ""}
-      <div class="kbd">Atalhos: 1–4 responder · Enter próxima · Espaço mostrar resposta</div>
+      <div class="kbd">Atalhos: 1–${q.opcoes.length} responder · Enter próxima · Espaço mostrar resposta</div>
     </div>`;
 
   c.querySelectorAll(".opt").forEach(b => b.onclick = () => responder(k, +b.dataset.o));
@@ -16758,7 +20128,7 @@ function viewEstudo(c, k, keep) {
   });
   document.onkeydown = e => {
     if (document.querySelector(".modal-bg") || !location.hash.includes("/estudo")) return;
-    if (!done && /^[1-4]$/.test(e.key)) { const oi = S.ordem[+e.key - 1]; if (oi !== undefined) responder(k, oi); }
+    if (!done && /^[1-5]$/.test(e.key)) { const oi = S.ordem[+e.key - 1]; if (oi !== undefined) responder(k, oi); }
     else if (e.key === "Enter") $("#next")?.click();
     else if (e.key === " " && !done) { e.preventDefault(); $("#revel")?.click(); }
   };

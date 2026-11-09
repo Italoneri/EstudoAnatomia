@@ -8,6 +8,8 @@ const need = (ok, message) => { if (!ok) errors.push(message); };
 
 const NIVEIS = new Set(["facil", "medio", "dificil"]);
 const FONTE = /, slides? \d+((, | y |[-–])\d+)*$/;
+// Kits de "Provas anteriores" (separado: true): fonte = prova de origem + número da pergunta.
+const FONTE_PROVA = /, pregunta \d+$/;
 const tokens = (text) => text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
   .replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter((w) => w.length > 3);
 const jaccard = (a, b) => {
@@ -17,12 +19,14 @@ const jaccard = (a, b) => {
   return shared / (A.size + B.size - shared || 1);
 };
 
-function checkPergunta(p, tag) {
+function checkPergunta(p, tag, prova) {
+  const n = Array.isArray(p.opcoes) ? p.opcoes.length : 0;
+  const nOk = prova ? n >= 2 && n <= 5 : n === 4;
   need(typeof p.pergunta === "string" && p.pergunta.length > 10, `${tag}: pergunta`);
-  need(Array.isArray(p.opcoes) && p.opcoes.length === 4 && new Set(p.opcoes).size === 4, `${tag}: opcoes`);
-  need(Number.isInteger(p.correta) && p.correta >= 0 && p.correta <= 3, `${tag}: correta`);
+  need(nOk && new Set(p.opcoes).size === n, `${tag}: opcoes`);
+  need(Number.isInteger(p.correta) && p.correta >= 0 && p.correta < n, `${tag}: correta`);
   need(Array.isArray(p.explicacao) && p.explicacao.length === 3, `${tag}: explicacao`);
-  need(typeof p.fonte === "string" && FONTE.test(p.fonte), `${tag}: fonte`);
+  need(typeof p.fonte === "string" && (prova ? FONTE_PROVA : FONTE).test(p.fonte), `${tag}: fonte`);
   need(typeof p.bloco === "string" && p.bloco.length > 0, `${tag}: bloco`);
   need(NIVEIS.has(p.nivel), `${tag}: nivel`);
   need(typeof p.complemento === "boolean", `${tag}: complemento`);
@@ -50,17 +54,18 @@ function nearDuplicates(perguntas) {
 }
 
 const pct = (part, whole) => `${((100 * part) / whole).toFixed(1)}%`;
-const total = { pos: [0, 0, 0, 0], n: 0, longest: 0, shortest: 0, complemento: 0, incorrecta: 0, nivel: {} };
+const total = { pos: [0, 0, 0, 0, 0], n: 0, longest: 0, shortest: 0, complemento: 0, incorrecta: 0, nivel: {} };
 
 need(db.id === "anatopato" && Array.isArray(db.kits), "raiz: precisa de id 'anatopato' e kits[]");
 for (const kit of db.kits) {
   ["id", "tema", "titulo", "icone", "materiais", "perguntas", "flashcards"].forEach((f) => need(kit[f] !== undefined, `${kit.id}: falta ${f}`));
-  const pos = [0, 0, 0, 0];
+  const prova = kit.separado === true;
+  const pos = prova ? [0, 0, 0, 0, 0] : [0, 0, 0, 0];
   const blocos = {};
   let longest = 0;
   let shortest = 0;
   kit.perguntas.forEach((p, i) => {
-    checkPergunta(p, `${kit.id}#${i + 1}`);
+    checkPergunta(p, `${kit.id}#${i + 1}`, prova);
     pos[p.correta]++;
     const rank = lengthRank(p);
     longest += rank.longest;
@@ -70,13 +75,13 @@ for (const kit of db.kits) {
     total.incorrecta += /INCORRECTA/.test(p.pergunta) ? 1 : 0;
     total.nivel[p.nivel] = (total.nivel[p.nivel] || 0) + 1;
   });
-  kit.flashcards.forEach((f, i) => need(f.frente && f.verso && FONTE.test(f.fonte || ""), `${kit.id} flashcard#${i + 1}`));
+  kit.flashcards.forEach((f, i) => need(f.frente && f.verso && (prova ? FONTE_PROVA : FONTE).test(f.fonte || ""), `${kit.id} flashcard#${i + 1}`));
 
   const n = kit.perguntas.length;
   const near = nearDuplicates(kit.perguntas);
   console.log(`\n[${kit.id}] ${n} questões, ${kit.flashcards.length} flashcards`);
   console.log("  blocos:", JSON.stringify(blocos));
-  console.log("  posições 0/1/2/3:", pos.join("/"), "→", pos.map((x) => pct(x, n)).join(" "));
+  console.log(`  posições ${pos.map((_, i) => i).join("/")}:`, pos.join("/"), "→", pos.map((x) => pct(x, n)).join(" "));
   console.log(`  correta = mais longa: ${longest} (${pct(longest, n)}) | mais curta: ${shortest} (${pct(shortest, n)})`);
   console.log("  quase iguais (Jaccard≥0.5):", near.length ? near.join(", ") : "nenhuma");
   pos.forEach((x, i) => (total.pos[i] += x));
@@ -85,7 +90,7 @@ for (const kit of db.kits) {
   total.shortest += shortest;
 }
 
-console.log(`\n[TOTAL] ${total.n} questões | posições ${total.pos.join("/")} | mais longa ${pct(total.longest, total.n)} | mais curta ${pct(total.shortest, total.n)}`);
+console.log(`\n[TOTAL] ${total.n} questões | posições 0-4 ${total.pos.join("/")} | mais longa ${pct(total.longest, total.n)} | mais curta ${pct(total.shortest, total.n)}`);
 console.log(`  complemento:true = ${total.complemento} | INCORRECTA = ${total.incorrecta} (${pct(total.incorrecta, total.n)}) | níveis ${JSON.stringify(total.nivel)}`);
 console.log(errors.length ? `\nERROS (${errors.length}):\n  ${errors.join("\n  ")}` : "\nEstrutura: OK, nenhum erro");
 process.exitCode = errors.length ? 1 : 0;

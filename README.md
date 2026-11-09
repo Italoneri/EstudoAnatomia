@@ -22,8 +22,13 @@ App de estudo para **Anatomía Patológica**: estudo inteligente com níveis, fl
 | Cardio | 5 – Cardiopatía isquémica (CARDIOPATIA ISQUEMICA.pdf) | 44 |
 | Respiratorio | 1 – EPOC y atelectasias (Clase 19 - RESPIRATORIO - EPOC, Atelectasias - Teoria 2020.pdf) | 69 |
 | Respiratorio | 2 – Neumonías (Clase 19 - RESPIRATORIO - NEUMONIAS - 2020.pdf) | 48 |
+| Provas anteriores | 1 – Neoplasia (questões reais de P2 antigas) | 31 |
+| Provas anteriores | 2 – Vasos sanguíneos (questões reais de P2 antigas) | 44 |
+| Provas anteriores | 3 – Corazón (questões reais de P2 antigas) | 50 |
+| Provas anteriores | 4 – Respiratorio (questões reais de P2 antigas) | 30 |
 
 Os cards "<Tema> – todos" e "Geral" são gerados automaticamente a partir do campo `tema` de cada kit.
+Os kits de "Provas anteriores" têm `"separado": true`: ganham o próprio card "Provas anteriores – todos" e ficam fora do "Geral". Eles mantêm o número de alternativas da prova original (2 a 5).
 
 ## Estrutura
 - `index.html`: o app, com o banco embutido no bloco `const DB`
