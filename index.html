@@ -16657,19 +16657,41 @@ function poolIdx(k) {
   const idx = k.perguntas.map((_, i) => i).filter(i => !b || k.perguntas[i].bloco === b);
   return idx.length ? idx : k.perguntas.map((_, i) => i);
 }
+/* Sorteio sem repetição: evita as últimas perguntas vistas e perguntas parecidas com elas */
+const RECENT = {}; // por kit, só nesta sessão: últimas perguntas mostradas
+const STOPW = new Set("senale incorrecta correcta cual sobre segun material afirmacion afirmaciones paciente caso mas menos entre como para este esta estos estas cuales hallazgo hallazgos corresponde corresponden siguiente siguientes tiene tienen puede pueden cuando donde porque ademas tambien forma tipo tipos son del los las una uno unos unas que con por".split(" "));
+function tokensPergunta(q) {
+  return q._tok ||= new Set((q.pergunta + " " + q.opcoes[q.correta] + " " + ((q.explicacao || [])[0] || ""))
+    .toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9 ]/g, " ")
+    .split(/\s+/).filter(w => w.length > 3 && !STOPW.has(w)));
+}
+function parecidas(a, b) {
+  const x = tokensPergunta(a), y = tokensPergunta(b);
+  let n = 0; for (const w of x) if (y.has(w)) n++;
+  return n / (x.size + y.size - n || 1) >= 0.25;
+}
 function escolherPergunta(k, evitar) {
   const Q = QS(), idx = poolIdx(k), n = idx.length;
+  const rec = RECENT[k.id] ||= [];
+  const gap = Math.min(25, Math.floor(n / 2));        // quantas perguntas esperar antes de repetir uma
+  const ultimas = rec.slice(-gap);
+  const proximas = rec.slice(-5).map(u => k.perguntas.find(q => q._uid === u)).filter(Boolean);
   const pesos = idx.map(i => {
+    const q = k.perguntas[i];
     if (n > 1 && i === evitar) return 0;
-    const st = Q[k.perguntas[i]._uid];
-    if (!st) return 3;
-    if (st.streak === 0) return 5;
-    if (st.streak === 1) return 2;
-    return 0.4;
+    if (ultimas.includes(q._uid)) return 0;            // visto há pouco: não repete
+    const st = Q[q._uid];
+    let w = !st ? 3 : st.streak === 0 ? 5 : st.streak === 1 ? 2 : 0.4;
+    if (proximas.some(r => parecidas(q, r))) w *= 0.1; // mesmo assunto de uma das últimas: raramente
+    return w;
   });
-  let tot = pesos.reduce((a, b) => a + b, 0), r = Math.random() * tot;
-  for (let j = 0; j < n; j++) { r -= pesos[j]; if (r <= 0) return idx[j]; }
-  return idx[0];
+  let tot = pesos.reduce((a, b) => a + b, 0), escolhida = idx[0];
+  if (tot > 0) {
+    let r = Math.random() * tot;
+    for (let j = 0; j < n; j++) { r -= pesos[j]; if (r <= 0) { escolhida = idx[j]; break; } }
+  }
+  rec.push(k.perguntas[escolhida]._uid); if (rec.length > 60) rec.shift();
+  return escolhida;
 }
 function blocoSelect(k) {
   const cont = {};
