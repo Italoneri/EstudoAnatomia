@@ -118,6 +118,8 @@ textarea.notes{width:100%;min-height:300px;background:#1a1240;border:1px solid #
 .question{font-size:26px;font-weight:700;margin-bottom:22px;line-height:1.35}
 .opts{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 .opts .opt:last-child:nth-child(odd){grid-column:1/-1}
+.passada{display:inline-flex;align-items:center;gap:8px;color:var(--lav);font-size:16px;margin:0 0 14px}
+.passada .ico{width:18px;height:18px}
 .opt{display:flex;align-items:center;gap:16px;background:var(--panel);border:2px solid transparent;border-radius:14px;padding:18px 10px;font-size:20px;text-align:left;transition:.12s}
 .opt:hover:not(:disabled){background:var(--panel2)}
 .opt:disabled{cursor:default}
@@ -20040,8 +20042,19 @@ function parecidas(a, b) {
   let n = 0; for (const w of x) if (y.has(w)) n++;
   return n / (x.size + y.size - n || 1) >= 0.25;
 }
+/* Depois de um acerto a pergunta fica "de castigo": só volta após N respostas (contadas em todos os kits).
+   Quanto mais acertos seguidos, mais tempo longe. Errou, volta ao normal. */
+const ESPERA = [0, 60, 180, 500]; // respostas a esperar após 1, 2 e 3+ acertos seguidos
+function esperaFalta(st) {
+  if (!st || !st.streak || st.vez == null) return 0;
+  return ESPERA[Math.min(st.streak, 3)] - ((PROG.__n || 0) - st.vez);
+}
+/* Modo "passar uma vez": cada kit guarda as perguntas já respondidas nesta passada (uid -> acertou?) */
+function vistas(k) { return (prog(k.id).vistas ||= {}); }
 function escolherPergunta(k, evitar) {
-  const Q = QS(), idx = poolIdx(k), n = idx.length;
+  const Q = QS(), V = PREF.semRepetir ? vistas(k) : null;
+  const idx = poolIdx(k).filter(i => !V || !(k.perguntas[i]._uid in V)), n = idx.length;
+  if (!n) return -1;                                   // passada única concluída
   const rec = RECENT[k.id] ||= [];
   const gap = Math.min(25, Math.floor(n / 2));        // quantas perguntas esperar antes de repetir uma
   const ultimas = rec.slice(-gap);
@@ -20051,6 +20064,7 @@ function escolherPergunta(k, evitar) {
     if (n > 1 && i === evitar) return 0;
     if (ultimas.includes(q._uid)) return 0;            // visto há pouco: não repete
     const st = Q[q._uid];
+    if (!V && esperaFalta(st) > 0) return 0;           // acertada há pouco: de castigo
     let w = !st ? 3 : st.streak === 0 ? 5 : st.streak === 1 ? 2 : 0.4;
     if (proximas.some(r => parecidas(q, r))) w *= 0.1; // mesmo assunto de uma das últimas: raramente
     return w;
@@ -20059,6 +20073,10 @@ function escolherPergunta(k, evitar) {
   if (tot > 0) {
     let r = Math.random() * tot;
     for (let j = 0; j < n; j++) { r -= pesos[j]; if (r <= 0) { escolhida = idx[j]; break; } }
+  } else {
+    // tudo de castigo ou visto há pouco: a que está mais perto de voltar (evitando repetir a atual)
+    const cand = idx.filter(i => n < 2 || i !== evitar);
+    escolhida = cand.reduce((a, b) => esperaFalta(Q[k.perguntas[b]._uid]) < esperaFalta(Q[k.perguntas[a]._uid]) ? b : a, cand[0]);
   }
   rec.push(k.perguntas[escolhida]._uid); if (rec.length > 60) rec.shift();
   return escolhida;
@@ -20080,6 +20098,7 @@ function viewEstudo(c, k, keep) {
   const p = prog(k.id);
   if (!keep || !S || S.kit !== k.id) {
     const i = escolherPergunta(k, S && S.kit === k.id ? S.i : -1);
+    if (i < 0) { S = null; return viewFimPassada(c, k); }
     const ordem = k.perguntas[i].opcoes.map((_, j) => j);
     if (PREF.embaralhar) ordem.sort(() => Math.random() - .5);
     S = { kit: k.id, i, ordem, resp: null, revel: false, sessao: S && S.kit === k.id ? S.sessao : [] };
@@ -20098,6 +20117,7 @@ function viewEstudo(c, k, keep) {
     </div>
     <div class="study">
       ${blocoSelect(k)}
+      ${PREF.semRepetir ? passadaInfo(k) : ""}
       <div class="question">${esc(q.pergunta)}</div>
       <div class="opts${S.ordem.every(oi => q.opcoes[oi].length <= 26) ? " short" : ""}">${S.ordem.map((oi, pos) => {
         let cls = "", num = pos + 1;
@@ -20117,7 +20137,11 @@ function viewEstudo(c, k, keep) {
     </div>`;
 
   c.querySelectorAll(".opt").forEach(b => b.onclick = () => responder(k, +b.dataset.o));
-  const rv = $("#revel"); if (rv) rv.onclick = () => { S.revel = true; S.sessao.unshift({ q: q.pergunta, ok: null }); viewEstudo(c, k, true); };
+  const rv = $("#revel"); if (rv) rv.onclick = () => {
+    S.revel = true; S.sessao.unshift({ q: q.pergunta, ok: null });
+    if (PREF.semRepetir) { vistas(k)[q._uid] = false; saveProg(); }
+    viewEstudo(c, k, true);
+  };
   const hs = $("#hist"); if (hs) hs.onclick = () => historico();
   $("#next").onclick = () => { S.resp = null; viewEstudo(c, k); };
   const bsel = $("#bloco");
@@ -20136,11 +20160,36 @@ function viewEstudo(c, k, keep) {
 function responder(k, oi) {
   const p = prog(k.id), q = k.perguntas[S.i], ok = oi === q.correta;
   const st = QS()[q._uid] ||= { c: 0, w: 0, streak: 0 };
+  PROG.__n = (PROG.__n || 0) + 1; st.vez = PROG.__n;
   if (ok) { st.c++; st.streak++; p.xp = (p.xp || 0) + (st.streak > 1 ? 4 : 6); }
   else { st.w++; st.streak = 0; p.xp = (p.xp || 0) + 1; }
+  if (PREF.semRepetir) vistas(k)[q._uid] = ok;
   S.resp = oi; S.sessao.unshift({ q: q.pergunta, ok, certa: q.opcoes[q.correta] });
   saveProg(); viewEstudo($("#content"), k, true);
   if (ok && (p.xp % 100) < 6 && p.xp >= 100) toast(`🎉 Subiu para o nível ${nivel(p.xp).n}!`);
+}
+function passadaInfo(k) {
+  const V = vistas(k), idx = poolIdx(k);
+  const feitas = idx.filter(i => k.perguntas[i]._uid in V).length;
+  return `<div class="passada">${ico("check")} Passada única: ${feitas} de ${idx.length} perguntas</div>`;
+}
+function viewFimPassada(c, k) {
+  const V = vistas(k), idx = poolIdx(k);
+  const uids = idx.map(i => k.perguntas[i]._uid);
+  const ac = uids.filter(u => V[u] === true).length, er = uids.length - ac;
+  c.innerHTML = `<div class="level"><div style="flex:1"></div><button class="gear" onclick="config('${k.id}')">${ico("gear")}</button></div>
+    <div class="study">${blocoSelect(k)}
+      <div class="empty" style="font-size:20px;padding:50px 20px 30px">🎉 Você passou por todas as ${uids.length} perguntas${BLOCO[k.id] ? " deste bloco" : " deste kit"}.<br><br>
+        <b>${ac}</b> acertos · <b>${er}</b> erros ou respostas reveladas</div>
+      <div class="center" style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap">
+        ${er ? `<button class="btn-pill-lav" id="erradas">Refazer só as ${er} erradas</button>` : ""}
+        <button class="btn-light" id="recomecar">Recomeçar a passada</button>
+      </div></div>`;
+  const bsel = $("#bloco");
+  if (bsel) bsel.onchange = () => { BLOCO[k.id] = bsel.value; S = null; viewEstudo(c, k); };
+  const re = $("#erradas");
+  if (re) re.onclick = () => { uids.forEach(u => { if (V[u] !== true) delete V[u]; }); saveProg(); viewEstudo(c, k); };
+  $("#recomecar").onclick = () => { uids.forEach(u => delete V[u]); saveProg(); viewEstudo(c, k); };
 }
 function historico() {
   const h = S.sessao;
@@ -20155,6 +20204,10 @@ function config(id) {
   const V = VOTOS(), ruins = k.perguntas.filter(q => V[q._uid] === -1);
   modal(`<h3>Configurações</h3>
     <div class="row"><span>Embaralhar alternativas</span><button class="switch ${PREF.embaralhar ? "on" : ""}" id="sw"></button></div>
+    <div class="row"><span>Passar uma vez por cada pergunta<br><small style="color:var(--muted)">Sem repetir até terminar o kit (ou o bloco filtrado)</small></span><button class="switch ${PREF.semRepetir ? "on" : ""}" id="sr"></button></div>
+    ${PREF.semRepetir ? `<div class="row"><span>Respondidas nesta passada</span><b>${k.perguntas.filter(q => q._uid in vistas(k)).length} / ${k.perguntas.length}</b></div>
+    <div class="row"><span>Recomeçar a passada</span><button class="btn-light" id="rp" style="font-size:16px;padding:8px 14px">Recomeçar</button></div>` : ""}
+    <p style="color:var(--muted);font-size:14px;margin:6px 0 10px">Perguntas que você acerta somem por um bom tempo: voltam só depois de 60, 180 e 500 respostas (1º, 2º e 3º acerto seguido). As que você erra voltam logo.</p>
     <div class="row"><span>Acertos / erros</span><b>${ac} / ${er}</b></div>
     <div class="row"><span>Domínio do kit</span><b>${Math.round(dominio(k) * 100)}%</b></div>
     <div class="row"><span>Questões marcadas com 👎</span><b>${ruins.length}</b></div>
@@ -20163,6 +20216,12 @@ function config(id) {
     <div class="actions"><button class="btn-pill-lav" data-close>Fechar</button></div>`,
     (bg, close) => {
       bg.querySelector("#sw").onclick = e => { PREF.embaralhar = !PREF.embaralhar; savePref(); e.target.classList.toggle("on"); };
+      bg.querySelector("#sr").onclick = () => {
+        PREF.semRepetir = !PREF.semRepetir; savePref(); S = null; close(); render();
+        toast(PREF.semRepetir ? "Passada única ativada: cada pergunta aparece uma vez" : "Passada única desativada");
+      };
+      const rp = bg.querySelector("#rp");
+      if (rp) rp.onclick = () => { delete prog(k.id).vistas; saveProg(); S = null; close(); render(); toast("Passada recomeçada"); };
       bg.querySelector("#rz").onclick = () => { zerarKit(k); S = null; close(); render(); toast("Progresso zerado"); };
     });
 }

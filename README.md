@@ -5,6 +5,8 @@ App de estudo para **Anatomía Patológica**: estudo inteligente com níveis, fl
 ## Como usar
 - Abra o `index.html` no navegador (duplo clique), ou ative o GitHub Pages em *Settings → Pages → Branch: main* para ter um link.
 - O progresso fica salvo no navegador (localStorage).
+- Pergunta acertada some por um tempo: só volta depois de 60, 180 e 500 respostas (1º, 2º e 3º acerto seguido). As erradas voltam logo.
+- Na engrenagem do Estudo inteligente, "Passar uma vez por cada pergunta" mostra cada pergunta uma única vez até terminar o kit (ou o bloco), com opção de refazer só as erradas.
 
 ## Conteúdo atual
 | Tema | Arquivo | Questões |
