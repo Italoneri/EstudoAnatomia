@@ -1,6 +1,7 @@
 {
  "id": "metodologia-2",
  "nome": "Metodología II",
- "cor": "azul",
- "kits": []
+ "cor": "indigo",
+ "kits": [],
+ "icone": "livro"
 }

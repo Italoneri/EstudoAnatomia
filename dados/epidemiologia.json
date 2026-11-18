@@ -1,6 +1,7 @@
 {
  "id": "epidemiologia",
  "nome": "Epidemiología",
- "cor": "verde",
- "kits": []
+ "cor": "turquesa",
+ "kits": [],
+ "icone": "grafico"
 }

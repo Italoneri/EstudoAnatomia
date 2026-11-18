@@ -1,6 +1,7 @@
 {
  "id": "principios-valores",
  "nome": "Principios y Valores",
- "cor": "roxo",
- "kits": []
+ "cor": "violeta",
+ "kits": [],
+ "icone": "balanca"
 }

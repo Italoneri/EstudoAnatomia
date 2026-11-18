@@ -66,23 +66,28 @@ header{display:flex;align-items:center;justify-content:space-between;padding:14p
 .dropdown button{display:block;width:100%;text-align:left;padding:10px 12px;border-radius:8px;font-size:15px;color:#fff}
 .dropdown button:hover{background:#2c2160}
 .empty{padding:40px;text-align:center;color:var(--muted)}
-/* matérias (disciplinas) na tela inicial: cada uma com cabeçalho recolhível */
-.disc{margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}
-.disc-head{display:flex;align-items:center;gap:12px}
-.disc-toggle{display:flex;align-items:center;gap:12px;text-align:left;min-width:0}
-.disc-toggle .chev{width:28px;height:28px;flex:none;color:var(--lav);transition:transform .2s}
-.disc.fechada .disc-toggle .chev{transform:rotate(-90deg)}
-.disc-toggle h1{font-size:34px;font-weight:800;line-height:1.15}
-.disc-edit{opacity:.7;flex:none}.disc-edit:hover{opacity:1;color:var(--lav)}
-.disc-edit .ico{width:22px;height:22px}
-.disc-count{margin-left:auto;color:var(--muted);font-size:17px;white-space:nowrap;padding-left:10px}
-.disc .subject{margin-top:22px}
-.disc.vazia{margin-top:0;padding:14px 0}
-.disc.vazia+.disc:not(.vazia){margin-top:14px}
-.toolbar+.disc{margin-top:24px}
-.disc.vazia .disc-toggle h1{font-size:24px;font-weight:700;color:var(--muted)}
-.disc.vazia .disc-toggle .chev{visibility:hidden}
-.disc-vazia{color:var(--muted);margin:12px 0 0 40px;font-size:17px}
+/* tela inicial: um card por matéria; tela da matéria: temas e kits */
+.home-title{font-size:30px;font-weight:600;margin:30px 0 18px}
+.grid.mats{grid-template-columns:repeat(auto-fill,minmax(270px,1fr))}
+.kit.mat{min-height:210px}
+.kit.mat h3{font-size:26px;font-weight:800;line-height:1.15}
+.kit.mat .deco{width:124px;height:124px;right:10px;bottom:6px;opacity:.6}
+.kit.mat .count{margin-top:10px}
+.kit.mat.vazia{opacity:.62;filter:saturate(.7)}
+.kit.mat.vazia:hover{opacity:.8}
+.voltar{display:inline-flex;align-items:center;gap:8px;color:var(--lav);font-size:18px;margin-bottom:18px}
+.voltar .ico{transform:scaleX(-1);width:22px}
+.mat-head{display:flex;align-items:center;gap:20px;margin-bottom:22px}
+.mat-ico{width:84px;height:84px;flex:none;border-radius:20px;display:grid;place-items:center}
+.mat-ico .deco{width:64px;height:64px;fill:#fff;opacity:.95;--deco:#fff}
+.mat-title{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.mat-title h1{font-size:38px;font-weight:800;line-height:1.1}
+.mat-title button{opacity:.9}.mat-title button:hover{opacity:1;color:var(--lav)}
+.mat-sub{color:var(--muted);font-size:18px;margin-top:6px}
+.busca-mat{margin-top:30px}
+.busca-mat>a{display:inline-flex;align-items:center;gap:8px;font-size:17px;color:var(--muted);text-decoration:none}
+.busca-mat>a .ico{width:18px}
+.busca-mat .subject{margin-top:10px}
 
 /* ---------- página do kit ---------- */
 .layout{display:grid;grid-template-columns:250px 1fr;min-height:calc(100vh - 87px)}
@@ -261,15 +266,6 @@ textarea.notes{width:100%;min-height:300px;background:#1a1240;border:1px solid #
   aside{-webkit-overflow-scrolling:touch;scrollbar-width:none}
   aside::-webkit-scrollbar{display:none}
   .nav{font-size:15px;padding:12px 14px;gap:8px;flex:none;width:auto}
-  .disc{margin-top:22px;padding-top:16px}
-  .disc-toggle h1{font-size:25px}
-  .disc-toggle .chev{width:22px;height:22px}
-  .disc-head{flex-wrap:wrap;gap:8px}
-  .disc-count{margin-left:34px;padding-left:0;font-size:15px;width:100%}
-  .disc-vazia{margin-left:34px;font-size:15px}
-  .disc.vazia{padding:10px 0}
-  .disc.vazia .disc-toggle h1{font-size:19px}
-  .disc.vazia .disc-count{width:auto;margin-left:auto}
   .nav .ico{width:22px;height:22px}
   main{padding:14px 12px 0}
 
@@ -331,6 +327,19 @@ textarea.notes{width:100%;min-height:300px;background:#1a1240;border:1px solid #
   .grid{grid-template-columns:1fr;gap:14px}
   .kit{min-height:170px;padding:20px}.kit h3{font-size:19px}
   .kit .deco{width:90px;height:90px}
+  .home-title{font-size:23px;margin:22px 0 14px}
+  .grid.mats{grid-template-columns:1fr 1fr;gap:12px}
+  .kit.mat{min-height:150px;padding:16px 14px;border-radius:18px}
+  .kit.mat h3{font-size:18px;padding-right:22px}
+  .kit.mat .menu{top:12px;right:6px}
+  .kit.mat .deco{width:74px;height:74px;right:4px;bottom:4px}
+  .kit.mat .count{font-size:12px;margin:6px 0 10px;padding-right:30px}
+  .kit.mat .bar{height:12px;width:100%}
+  .voltar{font-size:16px;margin-bottom:14px}
+  .mat-head{gap:14px;margin-bottom:16px}
+  .mat-ico{width:58px;height:58px;border-radius:15px}.mat-ico .deco{width:44px;height:44px}
+  .mat-title{gap:10px}.mat-title h1{font-size:26px}.mat-title .ico{width:22px;height:22px}
+  .mat-sub{font-size:15px}
 
   /* flashcards, prova, guia */
   .fc-wrap{padding:20px 8px}
@@ -378,20 +387,23 @@ const DB = { materias: [
 {
  "id": "metodologia-2",
  "nome": "Metodología II",
- "cor": "azul",
- "kits": []
+ "cor": "indigo",
+ "kits": [],
+ "icone": "livro"
 },
 {
  "id": "epidemiologia",
  "nome": "Epidemiología",
- "cor": "verde",
- "kits": []
+ "cor": "turquesa",
+ "kits": [],
+ "icone": "grafico"
 },
 {
  "id": "patologia-medica",
  "nome": "Patología Médica",
  "cor": "laranja",
- "kits": []
+ "kits": [],
+ "icone": "esteto"
 },
 {
  "id": "anatopato",
@@ -19733,7 +19745,8 @@ const DB = { materias: [
    ]
   }
  ],
- "cor": "vermelho"
+ "cor": "vermelho",
+ "icone": "microscopio"
 },
 {
  "id": "fisiopato-1",
@@ -22461,25 +22474,29 @@ const DB = { materias: [
    ],
    "flashcards": []
   }
- ]
+ ],
+ "icone": "coracao"
 },
 {
  "id": "patologia-quirurgica-1",
  "nome": "Patología Quirúrgica I",
  "cor": "verde",
- "kits": []
+ "kits": [],
+ "icone": "bisturi"
 },
 {
  "id": "primeros-auxilios",
  "nome": "Primeros Auxilios",
- "cor": "laranja",
- "kits": []
+ "cor": "rosa",
+ "kits": [],
+ "icone": "maleta"
 },
 {
  "id": "principios-valores",
  "nome": "Principios y Valores",
- "cor": "roxo",
- "kits": []
+ "cor": "violeta",
+ "kits": [],
+ "icone": "balanca"
 }
 ] };
 
@@ -22501,7 +22518,11 @@ const CORES = {
   roxo:     { card: "#2a0a42", title: "#fff", deco: "#5a2a9a", track: "#120320", fill: "#6a22c9", fillDone: "#8a3cf0", dot: "#8a3cf0" },
   azul:     { card: "#1257c7", title: "#fff", deco: "#4d8cf0", track: "#0a3480", fill: "#7fb6ff", fillDone: "linear-gradient(90deg,#ffd84a,#ffb020)", dot: "#2d7cf0" },
   verde:    { card: "#0f8a5a", title: "#fff", deco: "#3fc48c", track: "#06583a", fill: "#7ff0c0", fillDone: "linear-gradient(90deg,#ffd84a,#ffb020)", dot: "#15b070" },
-  laranja:  { card: "#f07a14", title: "#fff", deco: "#ffad5a", track: "#b9520a", fill: "#ffd0a0", fillDone: "linear-gradient(90deg,#fff07a,#ffd030)", dot: "#f07a14" }
+  laranja:  { card: "#f07a14", title: "#fff", deco: "#ffad5a", track: "#b9520a", fill: "#ffd0a0", fillDone: "linear-gradient(90deg,#fff07a,#ffd030)", dot: "#f07a14" },
+  rosa:     { card: "#d6337a", title: "#fff", deco: "#f06ea6", track: "#9a1550", fill: "#ffb3d4", fillDone: "linear-gradient(90deg,#ffd84a,#ffb020)", dot: "#e0408a" },
+  turquesa: { card: "#0b8a9c", title: "#fff", deco: "#3cc0d0", track: "#055a66", fill: "#8ff0f8", fillDone: "linear-gradient(90deg,#ffd84a,#ffb020)", dot: "#14a8bc" },
+  violeta:  { card: "#7a2fd0", title: "#fff", deco: "#a66af0", track: "#4a148f", fill: "#d9b8ff", fillDone: "linear-gradient(90deg,#ffd84a,#ffb020)", dot: "#8a3cf0" },
+  indigo:   { card: "#4536c9", title: "#fff", deco: "#7a6ef0", track: "#271c8a", fill: "#b3aaff", fillDone: "linear-gradient(90deg,#ffd84a,#ffb020)", dot: "#5a4ae0" }
 };
 
 /* O banco é copiado e preparado uma vez só; refaz apenas quando os kits importados mudam. */
@@ -22542,7 +22563,7 @@ function disciplinas() {
     temas.forEach((t, ti) => {
       const kits = m.kits.filter(k => (k.tema || "") === t);
       const id = t ? m.id + "--" + slug(t) : m.id;
-      const sec = { id, nome: t || m.nome, cor: t ? ROTA[(ti + ROTA.indexOf(m.cor || "vermelho")) % ROTA.length] : m.cor, kits: [...kits] };
+      const sec = { id, nome: t || m.nome, cor: t ? ROTA[(ti + Math.max(0, ROTA.indexOf(m.cor || "vermelho"))) % ROTA.length] : m.cor, kits: [...kits] };
       if (t && kits.length > 1) sec.kits.push(juntar(id + "--todos", `${t} – todos`, kits, "gota"));
       secoes.push(sec);
     });
@@ -22550,7 +22571,7 @@ function disciplinas() {
       const all = m.kits.filter(k => k.tema && !k.separado);
       secoes.push({ id: m.id + "--geral", nome: "Geral", cor: "roxo", kits: [juntar(m.id + "--geral-todos", "Todos os temas", all, "coracao")] });
     }
-    const disc = { id: m.id, nome: PREF.nomes["mat:" + m.id] || m.nome, cor: m.cor, kits: m.kits, secoes };
+    const disc = { id: m.id, nome: PREF.nomes["mat:" + m.id] || m.nome, cor: PREF.cores["mat:" + m.id] || m.cor || "roxo", icone: m.icone, kits: m.kits, secoes };
     for (const s of secoes) {
       s.cor = PREF.cores[s.id] || s.cor || "roxo";
       s.nome = PREF.nomes[s.id] || s.nome;
@@ -22641,6 +22662,16 @@ const DECO = {
   cerebro: '<path d="M40 20c-14 0-24 10-24 22-8 6-10 22 0 30 0 14 12 26 28 24 6 8 26 8 32 0 16 2 28-10 28-24 10-8 8-24 0-30 0-12-10-22-24-22-8-8-32-8-40 0z"/><path d="M60 22v84M40 46c8 0 12 6 12 12M80 46c-8 0-12 6-12 12M36 78c8-4 14 0 16 6M84 78c-8-4-14 0-16 6" fill="none" stroke="var(--card)" stroke-width="5" stroke-linecap="round"/>',
   pulmao: '<path d="M54 30v40c0 22-8 36-26 36-14 0-16-14-16-30 0-26 12-50 30-50 8 0 12 2 12 4zM66 30v40c0 22 8 36 26 36 14 0 16-14 16-30 0-26-12-50-30-50-8 0-12 2-12 4z"/><path d="M60 8v40" stroke="currentColor" stroke-width="8" stroke-linecap="round"/>'
 };
+/* ícones das matérias */
+Object.assign(DECO, {
+  livro: '<path d="M60 32C47 21 29 19 12 23v72c17-4 35-2 48 9 13-11 31-13 48-9V23c-17-4-35-2-48 9z"/><path d="M60 34v68" stroke="var(--card)" stroke-width="5"/><path d="M24 40c9-1 18 0 26 4M24 56c9-1 18 0 26 4M24 72c9-1 18 0 26 4M70 44c8-4 17-5 26-4M70 60c8-4 17-5 26-4M70 76c8-4 17-5 26-4" fill="none" stroke="var(--card)" stroke-width="4" stroke-linecap="round" opacity=".7"/>',
+  grafico: '<rect x="14" y="70" width="18" height="36" rx="4"/><rect x="40" y="50" width="18" height="56" rx="4"/><rect x="66" y="60" width="18" height="46" rx="4"/><rect x="92" y="30" width="18" height="76" rx="4"/><path d="M18 50 48 28l26 14 32-30" fill="none" stroke="var(--deco)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>',
+  esteto: '<g fill="none" stroke="var(--deco)" stroke-width="9" stroke-linecap="round"><path d="M26 14v32a22 22 0 0 0 44 0V14"/><path d="M48 68v14a22 22 0 0 0 44 0V70"/></g><circle cx="92" cy="58" r="15"/><circle cx="92" cy="58" r="6" fill="var(--card)"/><circle cx="26" cy="14" r="7"/><circle cx="70" cy="14" r="7"/>',
+  microscopio: '<rect x="16" y="100" width="88" height="11" rx="5"/><path d="M80 100c18-12 20-44 2-58" fill="none" stroke="var(--deco)" stroke-width="11" stroke-linecap="round"/><rect x="28" y="74" width="58" height="8" rx="3"/><circle cx="90" cy="62" r="7"/><g transform="rotate(32 62 40)"><rect x="52" y="12" width="20" height="50" rx="6"/><rect x="49" y="2" width="26" height="12" rx="4"/><rect x="56" y="60" width="12" height="12" rx="3"/></g>',
+  bisturi: '<g transform="rotate(-42 60 60)"><rect x="52" y="54" width="16" height="62" rx="6"/><path d="M52 56V26C52 14 60 6 68 4v52z"/><path d="M56 70h8M56 80h8M56 90h8" stroke="var(--card)" stroke-width="3" stroke-linecap="round"/></g>',
+  maleta: '<path d="M42 32v-9a7 7 0 0 1 7-7h22a7 7 0 0 1 7 7v9" fill="none" stroke="var(--deco)" stroke-width="8"/><rect x="10" y="30" width="100" height="78" rx="14"/><path d="M53 48h14v14h14v14H67v14H53V76H39V62h14z" fill="var(--card)"/>',
+  balanca: '<g fill="none" stroke="var(--deco)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M60 14v86M24 30h72M28 30 14 66M28 30l14 36M92 30 78 66M92 30l14 36"/></g><circle cx="60" cy="16" r="8"/><path d="M8 66h40a20 20 0 0 1-40 0zM72 66h40a20 20 0 0 1-40 0z"/><rect x="36" y="98" width="48" height="12" rx="5"/>'
+});
 const deco = n => `<svg class="deco" viewBox="0 0 120 120">${DECO[n] || DECO.hospital}</svg>`;
 const STAR = c => `<svg class="star" viewBox="0 0 24 24"><path d="M12 1.5c.6 5.6 4.9 9.9 10.5 10.5-5.6.6-9.9 4.9-10.5 10.5C11.4 16.9 7.1 12.6 1.5 12 7.1 11.4 11.4 7.1 12 1.5z" ${c}/></svg>`;
 const LOGO = `<svg viewBox="0 0 48 48" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M40 6C26 8 14 20 10 36"/><path d="M40 6c-2 10-8 18-18 22-4 2-8 3-11 3"/><path d="M6 42l8-8"/><path d="M8 14l1.5 3.5L13 19l-3.5 1.5L8 24l-1.5-3.5L3 19l3.5-1.5z" fill="#fff" stroke="none"/><path d="M27 34l1 2.3 2.3 1-2.3 1-1 2.3-1-2.3-2.3-1 2.3-1z" fill="#8ab8ff" stroke="none"/></svg>`;
@@ -22706,50 +22737,88 @@ function secaoHtml(m, q) {
       }).join("")}</div>
     </section>`;
 }
+function cardMateria(d) {
+  const c = CORES[d.cor] || CORES.roxo;
+  const nq = d.kits.reduce((a, k) => a + k.perguntas.length, 0);
+  const temas = new Set(d.kits.map(k => k.tema || "")).size;
+  const dm = dominio({ perguntas: d.kits.flatMap(k => k.perguntas) });
+  return `<div class="kit mat ${nq ? "" : "vazia"}" tabindex="0" style="--card:${c.card};background:${c.card};--deco:${c.deco};--track:${c.track};--fill:${dm >= .5 ? c.fillDone : c.fill}"
+      onclick="location.hash='#/materia/${d.id}'" onkeydown="if(event.key==='Enter')this.click()">
+    <h3>${esc(d.nome)}</h3>
+    <button class="menu" onclick="event.stopPropagation();matMenu(this,'${d.id}')">${ico("kebab")}</button>
+    ${deco(d.icone)}
+    <div class="count">${nq ? `${temas} tema${temas === 1 ? "" : "s"} · ${nq} perguntas · ${Math.round(dm * 100)}%` : "Sem kits ainda"}</div>
+    ${nq ? `<div class="bar"><i style="width:${dm * 100}%"></i></div>` : ""}
+  </div>`;
+}
+function buscaHtml(ds, q) {
+  const mats = ds.filter(d => d.nome.toLowerCase().includes(q));
+  const res = ds.map(d => {
+    const secs = d.secoes.map(s => secaoHtml(s, q)).join("");
+    return secs ? `<div class="busca-mat"><a href="#/materia/${d.id}">${esc(d.nome)} ${ico("arrow")}</a>${secs}</div>` : "";
+  }).join("");
+  return (mats.length ? `<div class="grid mats" style="margin-top:24px">${mats.map(cardMateria).join("")}</div>` : "") + res
+    || `<div class="empty">Nada encontrado.</div>`;
+}
+function ligarBusca(rerender) {
+  const b = $("#busca");
+  b.oninput = () => { homeState.busca = b.value; const pos = b.selectionStart; rerender(); const nb = $("#busca"); nb.focus(); nb.setSelectionRange(pos, pos); };
+}
 function renderHome() {
   const ds = disciplinas();
-  const app = $("#app");
-  const q = homeState.busca.toLowerCase();
-  const filtro = ds.some(d => d.id === PREF.filtroMateria) ? PREF.filtroMateria : "";
-  const fechadas = PREF.fechadas || {};
-  const body = ds.filter(d => !filtro || d.id === filtro).map(d => {
-    const secoes = d.secoes.map(m => secaoHtml(m, q)).join("");
-    if (q && !secoes) return "";
-    const aberta = q || filtro || !fechadas[d.id];
-    const nq = d.kits.reduce((a, k) => a + k.perguntas.length, 0);
-    const dom = Math.round(dominio({ perguntas: d.kits.flatMap(k => k.perguntas) }) * 100);
-    return `<div class="disc ${aberta ? "" : "fechada"} ${nq ? "" : "vazia"}">
-      <div class="disc-head">
-        <button class="disc-toggle" onclick="abrirDisc('${d.id}')" ${q || filtro || !nq ? "disabled" : ""}>${ico("chev", "ico chev")}<h1>${esc(d.nome)}</h1></button>
-        <button class="disc-edit" title="Renomear matéria" onclick="renomearDisc('${d.id}')">${ico("pencil")}</button>
-        <span class="disc-count">${nq ? `${nq} perguntas · ${dom}%` : "sem kits ainda"}</span>
-      </div>
-      ${!aberta ? "" : secoes || (filtro ? `<p class="disc-vazia">Ainda sem kits. Mande os PDFs das aulas para gerar as questões.</p>` : "")}
-    </div>`;
-  }).join("") || `<div class="empty">Nada encontrado.</div>`;
-
-  app.innerHTML = header(false) + `<div class="home">
+  const q = homeState.busca.toLowerCase().trim();
+  $("#app").innerHTML = header(false) + `<div class="home">
     <button class="create" onclick="importar()">${ico("spark")}<span>Crie um kit de estudo</span>${ico("arrow", "ico arrow")}</button>
-    <div class="toolbar">
-      <label class="search">${ico("search")}<input id="busca" placeholder="Buscar" value="${esc(homeState.busca)}"></label>
-      <div class="filter">${ico("folder")}
-        <select id="filtro"><option value="">Todas as matérias</option>${ds.map(d => `<option value="${d.id}" ${filtro === d.id ? "selected" : ""}>${esc(d.nome)}</option>`).join("")}</select>
-        ${ico("chev", "ico chev")}</div>
-    </div>
-    ${body}
+    <div class="toolbar"><label class="search">${ico("search")}<input id="busca" placeholder="Buscar matéria ou kit" value="${esc(homeState.busca)}"></label></div>
+    ${q ? buscaHtml(ds, q) : `<h2 class="home-title">Matérias</h2><div class="grid mats">${ds.map(cardMateria).join("")}</div>`}
   </div>`;
-  const b = $("#busca");
-  b.oninput = () => { homeState.busca = b.value; const pos = b.selectionStart; renderHome(); const nb = $("#busca"); nb.focus(); nb.setSelectionRange(pos, pos); };
-  $("#filtro").onchange = e => { PREF.filtroMateria = e.target.value; savePref(); renderHome(); };
+  ligarBusca(renderHome);
 }
-function abrirDisc(id) {
-  PREF.fechadas ||= {};
-  PREF.fechadas[id] = !PREF.fechadas[id];
-  savePref(); renderHome();
+function renderMateria(id) {
+  const d = disciplinas().find(d => d.id === id);
+  if (!d) { location.hash = "#/"; return; }
+  const c = CORES[d.cor] || CORES.roxo;
+  const q = homeState.busca.toLowerCase().trim();
+  const nq = d.kits.reduce((a, k) => a + k.perguntas.length, 0);
+  const dm = Math.round(dominio({ perguntas: d.kits.flatMap(k => k.perguntas) }) * 100);
+  const secoes = d.secoes.map(s => secaoHtml(s, q)).join("");
+  $("#app").innerHTML = header(false) + `<div class="home">
+    <button class="voltar" onclick="location.hash='#/'">${ico("arrow")} Matérias</button>
+    <div class="mat-head">
+      <div class="mat-ico" style="background:${c.card};--card:${c.card};--deco:${c.deco}">${deco(d.icone)}</div>
+      <div style="min-width:0"><div class="mat-title"><h1>${esc(d.nome)}</h1>
+        <button title="Renomear" onclick="renomearDisc('${d.id}')">${ico("pencil")}</button>
+        <button title="Cor" onclick="corDisc('${d.id}')">${ico("palette")}</button></div>
+        <div class="mat-sub">${nq ? `${d.kits.length} kits · ${nq} perguntas · ${dm}% dominado` : "Sem kits ainda"}</div></div>
+    </div>
+    ${nq ? `<div class="toolbar"><label class="search">${ico("search")}<input id="busca" placeholder="Buscar nesta matéria" value="${esc(homeState.busca)}"></label></div>` : ""}
+    ${nq ? secoes || `<div class="empty">Nada encontrado.</div>`
+         : `<div class="empty" style="font-size:19px;padding:60px 20px">Esta matéria ainda não tem kits.<br><br>Mande os PDFs das aulas para gerar as questões 😉</div>`}
+  </div>`;
+  if (nq) ligarBusca(() => renderMateria(id));
+}
+function matMenu(btn, id) {
+  document.querySelectorAll(".dropdown").forEach(d => d.remove());
+  const d = document.createElement("div"); d.className = "dropdown";
+  d.innerHTML = `<button data-a="open">Abrir</button><button data-a="rename">Renomear</button><button data-a="cor">Mudar cor</button>`;
+  d.onclick = e => {
+    e.stopPropagation(); const a = e.target.dataset.a; d.remove();
+    if (a === "open") location.hash = `#/materia/${id}`;
+    if (a === "rename") renomearDisc(id);
+    if (a === "cor") corDisc(id);
+  };
+  btn.closest(".kit").appendChild(d);
+  setTimeout(() => document.addEventListener("click", () => d.remove(), { once: true }));
 }
 function renomearDisc(id) {
   const d = disciplinas().find(d => d.id === id);
   renomear("Renomear matéria", d.nome, v => { PREF.nomes["mat:" + id] = v; savePref(); render(); });
+}
+function corDisc(id) {
+  const d = disciplinas().find(d => d.id === id);
+  modal(`<h3>Cor de "${esc(d.nome)}"</h3><div class="swatches">${Object.entries(CORES).map(([n, c]) =>
+    `<button data-c="${n}" class="${d.cor === n ? "on" : ""}" title="${n}" style="background:${c.card === "#2a0a42" ? "#5a2a9a" : c.card}"></button>`).join("")}</div>`,
+    (bg, close) => bg.querySelectorAll("[data-c]").forEach(b => b.onclick = () => { PREF.cores["mat:" + id] = b.dataset.c; savePref(); close(); render(); }));
 }
 function kitMenu(btn, id) {
   document.querySelectorAll(".dropdown").forEach(d => d.remove());
@@ -22794,7 +22863,7 @@ function renderKit(id, view) {
   const f = findKit(id); if (!f) { location.hash = "#/"; return; }
   const { m, k } = f;
   $("#app").innerHTML = header(true) + `<div class="layout ${collapsed ? "collapsed" : ""}">
-    <aside>${VIEWS.map(([v, l, i]) => `<button class="nav ${v === view ? "active" : ""}" onclick="location.hash='${v === "inicio" ? "#/" : `#/kit/${id}/${v}`}'">${ico(i)}<span>${l}</span></button>`).join("")}
+    <aside>${VIEWS.map(([v, l, i]) => `<button class="nav ${v === view ? "active" : ""}" onclick="location.hash='${v === "inicio" ? `#/materia/${m.disciplina ? m.disciplina.id : ""}` : `#/kit/${id}/${v}`}'">${ico(i)}<span>${l}</span></button>`).join("")}
       <button class="collapse-btn" onclick="collapsed=!collapsed;render()">${ico("collapse")}</button></aside>
     <main><div class="content" id="content"></div>${footer()}</main></div>`;
   const c = $("#content");
@@ -23182,10 +23251,11 @@ function render() {
   document.onkeydown = null;
   const parts = location.hash.replace(/^#\/?/, "").split("/");
   if (parts[0] === "kit" && parts[1]) renderKit(parts[1], parts[2] || "materiais");
+  else if (parts[0] === "materia" && parts[1]) renderMateria(parts[1]);
   else renderHome();
   window.scrollTo(0, 0);
 }
-window.addEventListener("hashchange", () => { if (!location.hash.includes("/estudo")) S = S; render(); });
+window.addEventListener("hashchange", () => { homeState.busca = ""; render(); });
 render();
 </script>
 </body>

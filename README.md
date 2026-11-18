@@ -1,12 +1,13 @@
 # EstudoAnatomia
 
 App de estudo das matérias da faculdade: estudo inteligente com níveis, flashcards, guia e prova, tudo num único arquivo HTML.
-Cada matéria tem a sua seção na tela inicial (recolhível), com os temas, os cards "<Tema> – todos" e o "Geral" dela.
+A tela inicial mostra um card por matéria; clicando, abre a matéria com os temas, os cards "<Tema> – todos" e o "Geral" dela.
 
 ## Como usar
 - Abra o `index.html` no navegador (duplo clique), ou ative o GitHub Pages em *Settings → Pages → Branch: main* para ter um link.
 - O progresso fica salvo no navegador (localStorage).
-- Na tela inicial, toque no nome da matéria para recolher/abrir; o filtro "Todas as matérias" mostra só uma (fica lembrado).
+- A busca da tela inicial procura matérias e kits de todas as matérias; dentro de uma matéria, só nela.
+- Nome e cor de cada matéria podem ser trocados pelo menu ⋮ do card (fica salvo no navegador).
 - Pergunta acertada some por um tempo: só volta depois de 60, 180 e 500 respostas (1º, 2º e 3º acerto seguido). As erradas voltam logo.
 - Na engrenagem do Estudo inteligente, "Passar uma vez por cada pergunta" mostra cada pergunta uma única vez até terminar o kit (ou o bloco), com opção de refazer só as erradas.
 
@@ -66,7 +67,9 @@ Os kits de "Provas anteriores" têm `"separado": true`: ganham o próprio card "
 - `CLAUDE.md`: fluxo completo e regras para gerar um kit novo com o Claude Code
 
 ## Adicionar uma matéria nova
-1. Criar `dados/<id>.json` com `{ "id": "<id>", "nome": "<Nome>", "cor": "azul", "kits": [] }` (cores: vermelho, roxo, azul, verde, laranja).
+1. Criar `dados/<id>.json` com `{ "id": "<id>", "nome": "<Nome>", "cor": "azul", "icone": "livro", "kits": [] }`
+   - cores: vermelho, roxo, azul, verde, laranja, rosa, turquesa, indigo, violeta
+   - ícones: livro, grafico, esteto, microscopio, coracao, bisturi, maleta, balanca, hospital, gota, cerebro, pulmao
 2. Pôr o `<id>` em `dados/materias.json`, na posição em que ela deve aparecer.
 3. `node tools/merge-kit.js` (sem argumento) para remontar o `index.html`.
 

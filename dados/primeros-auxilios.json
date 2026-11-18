@@ -1,6 +1,7 @@
 {
  "id": "primeros-auxilios",
  "nome": "Primeros Auxilios",
- "cor": "laranja",
- "kits": []
+ "cor": "rosa",
+ "kits": [],
+ "icone": "maleta"
 }
