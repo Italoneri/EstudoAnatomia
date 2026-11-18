@@ -7,6 +7,7 @@
 // - `fonte` é a prova de origem e o número da pergunta, não um slide.
 const fs = require("fs");
 const path = require("path");
+const { lerMateria } = require("./materias");
 
 const [srcArg, outArg, seedArg] = process.argv.slice(2);
 if (!srcArg || !outArg) {
@@ -77,13 +78,15 @@ const kit = {
   id: KIT.id,
   tema: KIT.tema,
   titulo: KIT.titulo,
-  icone: "hospital",
+  icone: KIT.icone || "hospital",
   separado: true,
   materiais: KIT.materiais.map((nome) => ({ nome, tipo: "prova" })),
   perguntas: Q.map(toPergunta),
   flashcards: FLASH.map((f) => ({ frente: f.f, verso: f.v, fonte: f.s })),
 };
 
-const output = { id: "anatopato", nome: "Anatomía Patológica", kits: [kit] };
+// KIT.materia = id da matéria em dados/materias.json (sem o campo, vale "anatopato").
+const materia = lerMateria(KIT.materia || "anatopato");
+const output = { id: materia.id, nome: materia.nome, kits: [kit] };
 fs.writeFileSync(outArg, JSON.stringify(output, null, 1) + "\n");
 console.log(`${kit.id}: ${kit.perguntas.length} questões, ${kit.flashcards.length} flashcards -> ${outArg}`);

@@ -1,14 +1,30 @@
 # EstudoAnatomia
 
-App de estudo para **Anatomía Patológica**: estudo inteligente com níveis, flashcards, guia e prova, tudo num único arquivo HTML.
+App de estudo das matérias da faculdade: estudo inteligente com níveis, flashcards, guia e prova, tudo num único arquivo HTML.
+Cada matéria tem a sua seção na tela inicial (recolhível), com os temas, os cards "<Tema> – todos" e o "Geral" dela.
 
 ## Como usar
 - Abra o `index.html` no navegador (duplo clique), ou ative o GitHub Pages em *Settings → Pages → Branch: main* para ter um link.
 - O progresso fica salvo no navegador (localStorage).
+- Na tela inicial, toque no nome da matéria para recolher/abrir; o filtro "Todas as matérias" mostra só uma (fica lembrado).
 - Pergunta acertada some por um tempo: só volta depois de 60, 180 e 500 respostas (1º, 2º e 3º acerto seguido). As erradas voltam logo.
 - Na engrenagem do Estudo inteligente, "Passar uma vez por cada pergunta" mostra cada pergunta uma única vez até terminar o kit (ou o bloco), com opção de refazer só as erradas.
 
-## Conteúdo atual
+## Matérias
+| Matéria | id | Questões |
+|---|---|---|
+| Metodología II | `metodologia-2` | – |
+| Epidemiología | `epidemiologia` | – |
+| Patología Médica | `patologia-medica` | – |
+| Anatomía Patológica I | `anatopato` | 936 |
+| Fisiopatología I | `fisiopato-1` | 197 (importadas do [fisiopato-quiz](https://github.com/Italoneri/fisiopato-quiz)) |
+| Patología Quirúrgica I | `patologia-quirurgica-1` | – |
+| Primeros Auxilios | `primeros-auxilios` | – |
+| Principios y Valores | `principios-valores` | – |
+
+## Anatomía Patológica I
+Temas da P2 (os da P1 entram como kits novos com o próprio `tema`; o "Geral" junta tudo para a final).
+
 | Tema | Arquivo | Questões |
 |---|---|---|
 | Neoplasia | 1 – Generalidades | 82 |
@@ -29,16 +45,33 @@ App de estudo para **Anatomía Patológica**: estudo inteligente com níveis, fl
 | Provas anteriores | 3 – Corazón (questões reais de P2 antigas) | 50 |
 | Provas anteriores | 4 – Respiratorio (questões reais de P2 antigas) | 30 |
 
-Os cards "<Tema> – todos" e "Geral" são gerados automaticamente a partir do campo `tema` de cada kit.
+## Fisiopatología I
+| Tema | Kits | Questões |
+|---|---|---|
+| Cardiovascular | Dislipidemias, Aterosclerosis, Circulación arterial, Circulación venosa, Hipertensión arterial, Arritmias, Valvulopatías | 125 |
+| Equilibrio ácido-base | Ácido-base | 25 |
+| Repaso | Cuestionario del profesor, Casos clínicos | 47 |
+
+Vieram do app fisiopato-quiz (`node tools/importar-quiz.js <index.html do fisiopato-quiz>`), com `"origem": "importado"`: têm uma explicação só por questão e não têm slide de fonte nem flashcards.
+
+## Como os cards são montados
+Os cards "<Tema> – todos" e "Geral" são gerados automaticamente a partir do campo `tema` de cada kit, separados por matéria.
 Os kits de "Provas anteriores" têm `"separado": true`: ganham o próprio card "Provas anteriores – todos" e ficam fora do "Geral". Eles mantêm o número de alternativas da prova original (2 a 5).
 
 ## Estrutura
-- `index.html`: o app, com o banco embutido no bloco `const DB`
-- `dados/anatopato.json`: o mesmo banco de questões em JSON (fonte para adicionar temas novos)
+- `index.html`: o app, com o banco embutido no bloco `const DB` (montado pelo `tools/merge-kit.js`, não editar à mão)
+- `dados/materias.json`: ordem das matérias na tela inicial
+- `dados/<id>.json`: o banco de cada matéria (`{ id, nome, cor, kits[] }`), fonte de verdade
 - `tools/`: scripts para gerar um kit a partir do PDF da aula (extração, build, verificação e merge)
 - `CLAUDE.md`: fluxo completo e regras para gerar um kit novo com o Claude Code
 
+## Adicionar uma matéria nova
+1. Criar `dados/<id>.json` com `{ "id": "<id>", "nome": "<Nome>", "cor": "azul", "kits": [] }` (cores: vermelho, roxo, azul, verde, laranja).
+2. Pôr o `<id>` em `dados/materias.json`, na posição em que ela deve aparecer.
+3. `node tools/merge-kit.js` (sem argumento) para remontar o `index.html`.
+
 ## Formato de cada kit
+O `id` do kit precisa ser único entre **todas** as matérias (o progresso é salvo por ele); nas matérias novas, use um prefixo (ex.: `epi-1`, `pq-hernias`).
 ```json
 {
   "id": "vasos-sanguineos-2",

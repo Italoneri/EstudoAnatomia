@@ -1,0 +1,2728 @@
+{
+ "id": "fisiopato-1",
+ "nome": "Fisiopatología I",
+ "cor": "azul",
+ "kits": [
+  {
+   "id": "fisio-dislipidemias",
+   "tema": "Cardiovascular",
+   "titulo": "Dislipidemias",
+   "icone": "coracao",
+   "origem": "importado",
+   "materiais": [
+    {
+     "nome": "Material de clase – Dr. Luis Paniagua",
+     "tipo": "aula"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "Un hombre de 38 años presenta xantomas en los tendones de Aquiles, arco corneal y LDL-c de 290 mg/dL. Su padre sufrió un infarto a los 42 años. ¿Cuál es el mecanismo fisiopatológico más probable?",
+     "opcoes": [
+      "Deficiencia de lipoproteína lipasa con acumulación de quilomicrones",
+      "Mutación del gen del receptor de LDL con menor captación hepática de LDL",
+      "Aumento de la actividad de CETP con descenso de HDL",
+      "Exceso de síntesis hepática de VLDL por resistencia a la insulina"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Es una hipercolesterolemia familiar: enfermedad autosómica dominante por mutaciones en el gen LDLR. Hay menos captación hepática de LDL, que se acumula en sangre. Xantomas tendinosos, arco corneal y enfermedad cardiovascular prematura son sus manifestaciones típicas. La deficiencia de LPL produce TG muy altos y xantomas eruptivos, no tendinosos."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con hipercolesterolemia que no alcanza metas con estatinas inicia evolocumab. ¿Cuál es el mecanismo por el que este fármaco reduce el LDL-c?",
+     "opcoes": [
+      "Inhibe la CETP y aumenta el HDL",
+      "Activa la lipoproteína lipasa endotelial",
+      "Bloquea PCSK9, evitando la degradación de los receptores de LDL hepáticos",
+      "Inhibe la síntesis hepática de ApoB-100"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "PCSK9 promueve la degradación de los receptores de LDL en el hígado. Los inhibidores de PCSK9 (alirocumab, evolocumab) bloquean esta proteína: hay más receptores LDL, más depuración de LDL y menor LDL-c."
+     ]
+    },
+    {
+     "pergunta": "En un estudio genético se encuentra una mutación con ganancia de función de PCSK9. ¿Qué alteración lipídica es esperable?",
+     "opcoes": [
+      "Hipercolesterolemia por menor número de receptores de LDL",
+      "Hipertrigliceridemia por deficiencia de LPL",
+      "HDL elevado por menor actividad de CETP",
+      "Hiperquilomicronemia con pancreatitis"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Si PCSK9 está elevada (por mutaciones o regulación alterada), se degradan más receptores de LDL. Menos receptores significa menor depuración de LDL e hipercolesterolemia."
+     ]
+    },
+    {
+     "pergunta": "Un paciente tiene receptores de LDL normales, pero su LDL no se une adecuadamente a ellos y presenta hipercolesterolemia. ¿Qué defecto es el más probable?",
+     "opcoes": [
+      "Mutación de LDLRAP1",
+      "Defecto en ApoB-100",
+      "Deficiencia de LCAT",
+      "Deficiencia de ApoA-1"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "ApoB-100 es la apolipoproteína de la LDL que media su unión al receptor. Si es defectuosa, el LDL no se une a su receptor aunque este sea normal. LDLRAP1 causa la forma autosómica recesiva; LCAT y ApoA-1 se relacionan con el HDL."
+     ]
+    },
+    {
+     "pergunta": "Una mujer de 50 años con astenia, aumento de peso, piel seca y TSH elevada presenta LDL de 195 mg/dL. ¿Cómo se explica la dislipidemia?",
+     "opcoes": [
+      "El hipotiroidismo disminuye el aclaramiento de LDL",
+      "El hipotiroidismo aumenta la actividad de la LPL",
+      "El hipotiroidismo inhibe la PCSK9",
+      "El hipotiroidismo aumenta la síntesis de ApoA-1"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Según la clase, el hipotiroidismo y el síndrome nefrótico disminuyen el aclaramiento (clearance) de LDL y causan hipercolesterolemia secundaria. Además, el hipotiroidismo se cita como causa adquirida de deficiencia de LPL, no de aumento."
+     ]
+    },
+    {
+     "pergunta": "Un paciente obeso con resistencia a la insulina presenta LDL elevado. ¿Qué mecanismo vincula la resistencia a la insulina con el aumento de LDL?",
+     "opcoes": [
+      "Mayor captación hepática de LDL",
+      "Mayor producción hepática de VLDL, precursora de LDL",
+      "Mayor actividad de LCAT",
+      "Menor síntesis de quilomicrones"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En obesidad, resistencia a la insulina y dietas ricas en grasas saturadas y carbohidratos refinados, el hígado produce más VLDL. La VLDL se convierte en LDL en la circulación, lo que eleva el LDL."
+     ]
+    },
+    {
+     "pergunta": "Un niño de 10 años presenta dolor abdominal intenso con lipasa elevada, xantomas eruptivos en glúteos y suero de aspecto lechoso. Los TG son de 2400 mg/dL. ¿Cuál es el diagnóstico fisiopatológico más probable?",
+     "opcoes": [
+      "Hipercolesterolemia familiar heterocigota",
+      "Hiperquilomicronemia familiar por deficiencia de LPL",
+      "HDL bajo por aumento de CETP",
+      "Hipercolesterolemia por defecto de ApoB-100"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hiperquilomicronemia familiar se debe a una mutación del gen LPL (autosómica recesiva). Sin LPL no se degradan los TG de los quilomicrones, que se acumulan (TG >1000 mg/dL). Las consecuencias son pancreatitis aguda y xantomas eruptivos."
+     ]
+    },
+    {
+     "pergunta": "¿Cuál es la función normal de la lipoproteína lipasa (LPL)?",
+     "opcoes": [
+      "Esterificar el colesterol dentro del HDL",
+      "Degradar los triglicéridos de quilomicrones y VLDL",
+      "Intercambiar ésteres de colesterol entre HDL y LDL",
+      "Degradar los receptores de LDL hepáticos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La LPL es la enzima clave que degrada los TG de los quilomicrones (TG de la dieta) y de las VLDL (TG sintetizados en el hígado). Esterificar colesterol es función de LCAT, el intercambio de lípidos es de CETP y la degradación de receptores LDL es de PCSK9."
+     ]
+    },
+    {
+     "pergunta": "Un hombre de 45 años con consumo diario de alcohol presenta TG de 480 mg/dL. ¿Cuál es el mecanismo principal de la hipertrigliceridemia?",
+     "opcoes": [
+      "El alcohol aumenta la actividad de la LPL",
+      "El alcohol inhibe la oxidación de ácidos grasos, que el hígado convierte en TG, y aumenta la VLDL",
+      "El alcohol bloquea los receptores de LDL",
+      "El alcohol aumenta la síntesis de ApoA-1"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El alcohol inhibe la oxidación de ácidos grasos; el hígado los convierte en TG y aumenta la producción de VLDL. El resultado es una elevación moderada a severa de TG (200-500 mg/dL o más)."
+     ]
+    },
+    {
+     "pergunta": "En la obesidad visceral, ¿por qué aumentan los triglicéridos plasmáticos?",
+     "opcoes": [
+      "Llegan más ácidos grasos libres al hígado, que los convierte en TG y produce más VLDL",
+      "Disminuye la producción hepática de VLDL",
+      "Aumenta la captación periférica de quilomicrones",
+      "Aumenta la actividad de PCSK9"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La obesidad visceral aumenta los ácidos grasos libres que llegan al hígado; este los convierte en TG y sintetiza más VLDL ricas en TG. Si además hay deficiencia relativa de LPL, los TG no se degradan bien y aparece hipertrigliceridemia."
+     ]
+    },
+    {
+     "pergunta": "¿A partir de qué nivel de triglicéridos aumenta claramente el riesgo de pancreatitis aguda?",
+     "opcoes": [
+      "> 150 mg/dL",
+      "> 200 mg/dL",
+      "> 500 mg/dL solo en diabéticos",
+      "> 1000 mg/dL"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La clase indica que la pancreatitis aguda aparece cuando los TG superan los 1000 mg/dL. Por eso, ante una pancreatitis sin causa biliar ni alcohólica hay que medir los TG."
+     ]
+    },
+    {
+     "pergunta": "Una paciente con TG de 1800 mg/dL presenta pápulas amarillentas de aparición súbita en glúteos y extremidades. ¿Qué lesión es?",
+     "opcoes": [
+      "Xantomas tendinosos",
+      "Xantelasmas palpebrales",
+      "Xantomas eruptivos",
+      "Arco corneal"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Los xantomas eruptivos son depósitos de grasa en la piel, sobre todo en glúteos y extremidades, típicos de la hipertrigliceridemia grave. Los xantomas tendinosos y el arco corneal son propios de la hipercolesterolemia familiar."
+     ]
+    },
+    {
+     "pergunta": "En un paciente con síndrome metabólico hay aumento de la actividad de CETP. ¿Qué consecuencia tiene sobre el HDL?",
+     "opcoes": [
+      "El HDL recibe más ésteres de colesterol y se agranda",
+      "El HDL cede ésteres de colesterol, recibe TG, se hace más pequeño y se cataboliza más rápido",
+      "El HDL deja de interactuar con LDL y VLDL",
+      "Aumenta la síntesis de ApoA-1"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "CETP transfiere ésteres de colesterol del HDL hacia LDL/VLDL y TG de LDL/VLDL hacia el HDL. El HDL se vuelve más pequeño, se cataboliza más rápido y baja el HDL-C."
+     ]
+    },
+    {
+     "pergunta": "En la obesidad con inflamación crónica (↑ IL-6, ↑ TNF-α), ¿por qué se forma un HDL disfuncional?",
+     "opcoes": [
+      "Porque aumenta la síntesis de ApoA-1 y LCAT",
+      "Porque disminuyen la síntesis de ApoA-1 y la actividad de LCAT",
+      "Porque se inhibe la CETP",
+      "Porque aumentan los receptores de LDL"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La inflamación reduce la síntesis de ApoA-1 (principal apolipoproteína del HDL) y la actividad de LCAT (que esterifica el colesterol en el HDL). Se forma menos HDL maduro y el HDL que hay no es eficaz en el transporte reverso de colesterol."
+     ]
+    },
+    {
+     "pergunta": "¿Qué valor de HDL se considera bajo según la clase?",
+     "opcoes": [
+      "< 40 mg/dL en hombres y < 50 mg/dL en mujeres",
+      "< 50 mg/dL en hombres y < 40 mg/dL en mujeres",
+      "< 60 mg/dL en ambos sexos",
+      "< 35 mg/dL en ambos sexos"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "HDL bajo es < 40 mg/dL en hombres y < 50 mg/dL en mujeres. Su riesgo principal es la enfermedad cardiovascular; el ejemplo clínico típico es el paciente con síndrome metabólico."
+     ]
+    },
+    {
+     "pergunta": "Un diabético tipo 2 presenta LDL de 175 mg/dL, TG de 340 mg/dL y esteatosis hepática en la ecografía. ¿Qué tipo de dislipidemia tiene y cuál es su riesgo principal?",
+     "opcoes": [
+      "Hipercolesterolemia aislada; pancreatitis",
+      "Hipertrigliceridemia aislada; aterosclerosis coronaria",
+      "Mixta; aterosclerosis acelerada y esteatosis hepática",
+      "HDL bajo aislado; pancreatitis"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "LDL alto más TG altos es una dislipidemia mixta. Su riesgo es la aterosclerosis acelerada con esteatosis hepática; el ejemplo de la clase es justamente el diabético tipo 2 con hígado graso."
+     ]
+    }
+   ],
+   "flashcards": []
+  },
+  {
+   "id": "fisio-aterosclerosis",
+   "tema": "Cardiovascular",
+   "titulo": "Aterosclerosis",
+   "icone": "coracao",
+   "origem": "importado",
+   "materiais": [
+    {
+     "nome": "Material de clase – Dr. Luis Paniagua",
+     "tipo": "aula"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "¿Qué lipoproteína recoge el colesterol libre de los tejidos y lo transporta al hígado?",
+     "opcoes": [
+      "Quilomicrones",
+      "VLDL",
+      "LDL",
+      "HDL"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El HDL realiza el transporte reverso de colesterol: recoge colesterol libre y lo lleva al hígado. La LDL transporta colesterol hacia los tejidos, la VLDL lleva TG endógenos y los quilomicrones TG de la dieta."
+     ]
+    },
+    {
+     "pergunta": "Un fumador hipertenso tiene disfunción endotelial. ¿Qué evento inicial permite el reclutamiento de monocitos hacia la íntima arterial?",
+     "opcoes": [
+      "Expresión de moléculas de adhesión VCAM-1 e ICAM-1 por el endotelio activado",
+      "Secreción de TGF-β por los macrófagos",
+      "Liberación de metaloproteinasas por las células musculares lisas",
+      "Formación de la capa fibrosa"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la primera etapa (disfunción endotelial), el LDL oxidado penetra en la íntima y el endotelio activado expresa VCAM-1 e ICAM-1, que reclutan monocitos. El TGF-β, las MMP y la capa fibrosa corresponden a etapas posteriores."
+     ]
+    },
+    {
+     "pergunta": "¿Cómo se forman las células espumosas en la placa de ateroma?",
+     "opcoes": [
+      "Las células endoteliales captan LDL nativo por el receptor de LDL",
+      "Los macrófagos fagocitan LDL oxidado por receptores scavenger (SR-A, CD36)",
+      "Las plaquetas acumulan colesterol al adherirse al endotelio",
+      "Los linfocitos T almacenan ésteres de colesterol"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los monocitos se diferencian a macrófagos en la íntima y fagocitan oxLDL mediante receptores scavenger (SR-A, CD36). La acumulación excesiva de lípidos los convierte en células espumosas, el núcleo de la placa."
+     ]
+    },
+    {
+     "pergunta": "¿Qué componente forma la capa fibrosa de la placa de ateroma y qué la estimula?",
+     "opcoes": [
+      "Células espumosas, estimuladas por IL-6",
+      "Proliferación de células musculares lisas y colágeno, estimulados por TGF-β",
+      "Fibrina y plaquetas, estimuladas por tromboxano",
+      "Linfocitos B, estimulados por TNF-α"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La capa fibrosa se forma por proliferación de células musculares lisas (CML) y depósito de colágeno, estimulados por TGF-β. El núcleo lipídico está formado por células espumosas y colesterol extracelular."
+     ]
+    },
+    {
+     "pergunta": "¿Por qué la inflamación persistente debilita la placa de ateroma?",
+     "opcoes": [
+      "Los macrófagos liberan metaloproteinasas (MMP) que degradan la matriz",
+      "Aumenta la síntesis de colágeno",
+      "Se engruesa la capa fibrosa",
+      "Las células musculares lisas proliferan en exceso"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Con la inflamación persistente, los macrófagos liberan MMP que degradan la matriz extracelular. La capa fibrosa se adelgaza y la placa se vuelve vulnerable a la ruptura."
+     ]
+    },
+    {
+     "pergunta": "Un hombre de 60 años presenta dolor torácico súbito en reposo y se diagnostica infarto agudo de miocardio. ¿Qué características tenía con más probabilidad la placa responsable?",
+     "opcoes": [
+      "Cubierta fibrosa gruesa y núcleo lipídico pequeño",
+      "Cubierta fibrosa delgada, núcleo lipídico grande e inflamación activa",
+      "Calcificación completa sin lípidos",
+      "Ausencia de macrófagos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La placa inestable tiene cubierta fibrosa delgada, núcleo lipídico grande e inflamación activa. Su ruptura expone material trombogénico y produce trombosis arterial (IAM, ACV isquémico). La placa estable, de cubierta gruesa, causa estenosis e isquemia crónica."
+     ]
+    },
+    {
+     "pergunta": "Un paciente presenta angina que aparece siempre con el mismo nivel de esfuerzo y cede con el reposo. ¿Qué tipo de placa la explica mejor?",
+     "opcoes": [
+      "Placa inestable rota con trombo oclusivo",
+      "Placa estable con cubierta fibrosa gruesa que causa estenosis",
+      "Vasoespasmo digital",
+      "Embolia arterial aguda"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La placa estable (fibrosa) tiene cubierta gruesa y bajo riesgo de ruptura. Produce estenosis arterial con isquemia crónica, como la angina estable."
+     ]
+    },
+    {
+     "pergunta": "Un hombre de 68 años, fumador, presenta un episodio de debilidad del brazo derecho y afasia que se resuelve por completo en 30 minutos. ¿Qué territorio arterial aterosclerótico es el más probablemente afectado?",
+     "opcoes": [
+      "Coronario",
+      "Carotídeo/cerebral",
+      "Arterias periféricas de miembros inferiores",
+      "Aorta abdominal"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las manifestaciones de la aterosclerosis dependen de la arteria afectada. Carótidas y arterias cerebrales causan ACV y AIT; este episodio transitorio es un AIT. Las coronarias causan angina e infarto, las periféricas claudicación y la aorta aneurismas."
+     ]
+    },
+    {
+     "pergunta": "Además de reducir el LDL, ¿qué otro efecto de las estatinas se destaca en la prevención de eventos aterotrombóticos?",
+     "opcoes": [
+      "Aumentan la actividad de CETP",
+      "Estabilizan la placa de ateroma",
+      "Disuelven el trombo arterial agudo",
+      "Inhiben la agregación plaquetaria como la aspirina"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las estatinas reducen el LDL y estabilizan la placa, lo que reduce su riesgo de ruptura. La antiagregación corresponde a AAS y clopidogrel; disolver un trombo es función de los trombolíticos."
+     ]
+    }
+   ],
+   "flashcards": []
+  },
+  {
+   "id": "fisio-circulacion-arterial",
+   "tema": "Cardiovascular",
+   "titulo": "Circulación arterial",
+   "icone": "coracao",
+   "origem": "importado",
+   "materiais": [
+    {
+     "nome": "Material de clase – Dr. Luis Paniagua",
+     "tipo": "aula"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "Un hombre de 64 años, fumador y diabético, refiere dolor en la pantorrilla al caminar 200 metros, que cede tras unos minutos de reposo. ¿Qué explica el dolor?",
+     "opcoes": [
+      "Trombosis venosa profunda de la vena poplítea",
+      "Isquemia muscular durante el ejercicio con acumulación de metabolitos (ácido láctico, adenosina)",
+      "Vasoespasmo de arterias digitales por frío",
+      "Reflujo venoso por incompetencia valvular"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Es claudicación intermitente por enfermedad arterial periférica. La placa aterosclerótica reduce el flujo; durante el ejercicio la demanda supera al aporte y se acumulan metabolitos como ácido láctico y adenosina, que causan dolor. Al reposar, el flujo vuelve a ser suficiente."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con enfermedad arterial periférica conocida empieza a tener dolor en el pie también en reposo, sobre todo de noche. ¿Qué indica este cambio?",
+     "opcoes": [
+      "Desarrollo de circulación colateral eficaz",
+      "Flujo insuficiente incluso en reposo, típico de lesiones multinivel",
+      "Mejoría de la estenosis",
+      "Aparición de un fenómeno de Raynaud"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El dolor en reposo aparece cuando el flujo es insuficiente incluso sin ejercicio, generalmente por lesiones en varios niveles. Es un paso hacia la isquemia crítica. En casos crónicos, las colaterales compensan parcialmente la obstrucción, pero aquí la compensación ya no alcanza."
+     ]
+    },
+    {
+     "pergunta": "En la enfermedad arterial periférica, ¿qué hallazgo define la isquemia crítica?",
+     "opcoes": [
+      "Claudicación a más de 500 metros",
+      "Úlceras o gangrena por necrosis distal en dedos o talón",
+      "Edema vespertino con várices",
+      "Palidez digital transitoria con el frío"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La isquemia crítica se manifiesta con úlceras o gangrena por necrosis distal (dedos, talón). Es consecuencia de la oclusión crítica, cuando el flujo ya no mantiene la viabilidad del tejido."
+     ]
+    },
+    {
+     "pergunta": "Una mujer de 78 años con fibrilación auricular presenta de forma súbita dolor intenso, palidez y frialdad en la pierna izquierda, con ausencia de pulso poplíteo. ¿Cuál es la causa más probable?",
+     "opcoes": [
+      "Trombosis venosa profunda",
+      "Embolia arterial",
+      "Fenómeno de Raynaud",
+      "Insuficiencia venosa crónica"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Es una oclusión arterial aguda, una urgencia vascular. La causa más frecuente son los émbolos (70-80%), y la fibrilación auricular es una fuente típica de émbolos. Le sigue la trombosis in situ sobre una placa."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con oclusión arterial aguda de 3 horas de evolución presenta dolor y parestesias, sin parálisis. ¿En qué fase de la isquemia se encuentra?",
+     "opcoes": [
+      "Fase irreversible con necrosis muscular",
+      "Fase reversible por hipoxia celular",
+      "Fase de gangrena húmeda",
+      "Fase de síndrome postrombótico"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La fase reversible abarca de 0 a 6 horas: la hipoxia celular produce dolor y parestesias. Pasadas las 6 horas aparecen muerte muscular, necrosis nerviosa (parálisis permanente) y gangrena."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con oclusión arterial aguda de 10 horas de evolución desarrolla orina oscura, potasio de 6,8 mEq/L y creatinina en ascenso. ¿Qué proceso lo explica?",
+     "opcoes": [
+      "Rabdomiólisis por muerte muscular",
+      "Hiperaldosteronismo primario",
+      "Síndrome nefrótico",
+      "Tromboembolismo pulmonar"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Después de 6 horas la isquemia es irreversible. La muerte muscular (rabdomiólisis) libera potasio y mioglobina, lo que causa hiperpotasemia y fallo renal."
+     ]
+    },
+    {
+     "pergunta": "Ante la sospecha de oclusión arterial aguda, ¿qué estudio localiza el sitio de la oclusión?",
+     "opcoes": [
+      "Electrocardiograma",
+      "Angio-TC o angio-RM",
+      "Dímero D",
+      "Perfil lipídico"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El Doppler arterial confirma la ausencia de flujo, y la angio-TC o angio-RM localiza el sitio de oclusión. Si el paciente está inestable para ir a TC, se usa ecografía."
+     ]
+    },
+    {
+     "pergunta": "En la exploración física de una oclusión arterial aguda de miembro inferior, ¿qué hallazgo es esperable?",
+     "opcoes": [
+      "Pulsos ausentes respecto al lado contralateral y llenado capilar mayor de 2 segundos",
+      "Pulsos saltones y llenado capilar menor de 1 segundo",
+      "Edema con fóvea y signo de Homans",
+      "Venas dilatadas y tortuosas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Se buscan pulsos ausentes comparando con el lado contralateral y un llenado capilar lento (más de 2 segundos). El edema y las venas dilatadas corresponden a patología venosa."
+     ]
+    },
+    {
+     "pergunta": "¿Cuál de los siguientes describe mejor la fisiopatología de las vasculitis?",
+     "opcoes": [
+      "Depósito de lípidos en la íntima sin inflamación",
+      "Inflamación de la pared vascular por mecanismos autoinmunes, depósito de inmunocomplejos y activación anormal de neutrófilos",
+      "Vasoespasmo transitorio de arterias digitales",
+      "Incompetencia valvular venosa"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las vasculitis son un grupo heterogéneo de enfermedades con inflamación de la pared vascular. Sus mecanismos son autoinmunes, por depósito de inmunocomplejos y por activación anormal de neutrófilos, y llevan a isquemia tisular y daño multisistémico."
+     ]
+    },
+    {
+     "pergunta": "Una mujer de 25 años refiere que, al exponerse al frío, sus dedos se ponen blancos, luego azules y finalmente rojos y dolorosos. ¿Cuál es el orden fisiopatológico correcto de estas fases?",
+     "opcoes": [
+      "Hiperemia → cianosis → isquemia",
+      "Isquemia (vasoespasmo) → cianosis (estasis venosa) → hiperemia (reperfusión)",
+      "Cianosis → isquemia → hiperemia",
+      "Isquemia → hiperemia → cianosis"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Es el fenómeno de Raynaud. Primero hay palidez por vasoespasmo completo (blanco); luego cianosis por estasis venosa con sangre desoxigenada (azul); por último enrojecimiento y dolor pulsátil por reperfusión brusca (rojo). Cada episodio dura unos 15-20 minutos."
+     ]
+    },
+    {
+     "pergunta": "¿Qué alteración endotelial participa en el vasoespasmo del fenómeno de Raynaud?",
+     "opcoes": [
+      "Aumento de óxido nítrico y prostaciclina",
+      "Disminución de óxido nítrico y prostaciclina con exceso de endotelina-1",
+      "Disminución de endotelina-1",
+      "Aumento de bradicinina"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la disfunción endotelial del Raynaud disminuyen los vasodilatadores (óxido nítrico y prostaciclina) y hay exceso de endotelina-1, un vasoconstrictor potente."
+     ]
+    },
+    {
+     "pergunta": "Además de la disfunción endotelial, ¿qué alteración del sistema nervioso simpático contribuye al fenómeno de Raynaud?",
+     "opcoes": [
+      "Respuesta exagerada a catecolaminas mediada por receptores α2-adrenérgicos",
+      "Bloqueo de los receptores β1 cardíacos",
+      "Hiperactividad parasimpática muscarínica",
+      "Ausencia de inervación simpática digital"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Hay una respuesta exagerada a las catecolaminas a través de receptores α2-adrenérgicos, que intensifica la vasoconstricción de las arterias digitales ante el frío o el estrés emocional."
+     ]
+    },
+    {
+     "pergunta": "Una mujer de 45 años con esclerodermia presenta episodios de Raynaud con úlceras digitales. ¿Qué mecanismo adicional es característico de esta forma secundaria?",
+     "opcoes": [
+      "Agregación plaquetaria y microtrombos",
+      "Incompetencia valvular venosa",
+      "Hipertrigliceridemia grave",
+      "Exceso de óxido nítrico"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El Raynaud secundario se asocia a enfermedades autoinmunes como la esclerodermia, donde se agregan agregación plaquetaria y microtrombos. El Raynaud primario es idiopático."
+     ]
+    }
+   ],
+   "flashcards": []
+  },
+  {
+   "id": "fisio-circulacion-venosa",
+   "tema": "Cardiovascular",
+   "titulo": "Circulación venosa",
+   "icone": "coracao",
+   "origem": "importado",
+   "materiais": [
+    {
+     "nome": "Material de clase – Dr. Luis Paniagua",
+     "tipo": "aula"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "¿Cuál es la secuencia fisiopatológica de las venas varicosas?",
+     "opcoes": [
+      "Obstrucción arterial → isquemia → dilatación venosa",
+      "Fallo valvular → reflujo retrógrado → hipertensión venosa, con degeneración de la pared (↓ colágeno y elastina)",
+      "Trombo en vena profunda → embolia pulmonar",
+      "Vasoespasmo venoso → palidez"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El fallo de las válvulas venosas produce reflujo retrógrado e hipertensión venosa. La degeneración de la pared (menos colágeno y elastina) causa dilatación y tortuosidad."
+     ]
+    },
+    {
+     "pergunta": "Una embarazada de 32 semanas desarrolla várices en miembros inferiores. ¿Qué explica su aparición?",
+     "opcoes": [
+      "Disminución del volumen plasmático",
+      "Aumento de la presión venosa por el útero grávido y efecto hormonal",
+      "Vasoconstricción arterial periférica",
+      "Déficit de lipoproteína lipasa"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En el embarazo aumenta la presión venosa por compresión del útero grávido y por efecto hormonal sobre la pared venosa. Otros factores de riesgo de la clase: genética, obesidad, bipedestación prolongada, sedentarismo, edad y TVP previa."
+     ]
+    },
+    {
+     "pergunta": "Una cajera que trabaja de pie todo el día refiere pesadez y edema en las piernas que empeoran al final del día. ¿Cómo se denomina este patrón de edema y a qué se debe?",
+     "opcoes": [
+      "Edema matutino por hipoalbuminemia",
+      "Edema vespertino por hipertensión venosa con la bipedestación",
+      "Edema por isquemia arterial",
+      "Edema por vasculitis"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El edema vespertino empeora al final del día porque la bipedestación prolongada sostiene la hipertensión venosa en las várices. Se acompaña de pesadez, dolor, calambres y prurito."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con insuficiencia venosa crónica presenta hiperpigmentación marrón en el tercio distal de las piernas. ¿Cuál es su mecanismo?",
+     "opcoes": [
+      "Depósito de melanina por exposición solar",
+      "Extravasación de glóbulos rojos con depósito de hemosiderina (dermatitis ocre)",
+      "Depósito de colesterol (xantomas)",
+      "Cianosis por estasis"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hipertensión venosa crónica provoca extravasación de glóbulos rojos; la liberación de hemosiderina produce la hiperpigmentación conocida como dermatitis ocre."
+     ]
+    },
+    {
+     "pergunta": "En la insuficiencia venosa crónica, ¿qué mecanismo produce la lipodermatoesclerosis?",
+     "opcoes": [
+      "Inflamación crónica que lleva a fibrosis subcutánea",
+      "Infección bacteriana aguda",
+      "Depósito de hemosiderina en la dermis",
+      "Oclusión arterial distal"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La inflamación crónica secundaria a la hipertensión venosa causa fibrosis del tejido subcutáneo: lipodermatoesclerosis. La hemosiderina explica la dermatitis ocre, no la fibrosis."
+     ]
+    },
+    {
+     "pergunta": "¿Dónde se localizan típicamente las úlceras venosas?",
+     "opcoes": [
+      "Punta de los dedos y talón",
+      "Región maleolar medial del tercio distal de la pierna",
+      "Cara dorsal del pie",
+      "Región glútea"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las úlceras venosas aparecen generalmente en la región maleolar medial (tercio distal de la pierna), por isquemia cutánea secundaria a la hipertensión venosa. Las úlceras en dedos y talón sugieren isquemia arterial."
+     ]
+    },
+    {
+     "pergunta": "En el manejo conservador de las várices, ¿cómo deben ser las medias de compresión y qué otra medida mejora el retorno venoso?",
+     "opcoes": [
+      "Compresión máxima en el muslo; reposo absoluto",
+      "Compresión graduada con máxima presión en el tobillo; ejercicio que mejora la bomba muscular gemelar",
+      "Compresión uniforme; bipedestación prolongada",
+      "Sin compresión; diuréticos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las medias de compresión graduada ejercen la máxima presión en el tobillo. El ejercicio activa la bomba muscular de la pantorrilla. También ayudan elevar las piernas, controlar el peso y evitar la bipedestación prolongada."
+     ]
+    },
+    {
+     "pergunta": "Un hombre de 55 años, 4 días después de una cirugía de cadera, presenta disnea súbita, dolor pleurítico y hemoptisis. Tenía la pantorrilla izquierda edematosa. ¿Cuál es la complicación más probable?",
+     "opcoes": [
+      "Síndrome postrombótico",
+      "Tromboembolismo pulmonar secundario a TVP",
+      "Flebitis superficial",
+      "Oclusión arterial aguda"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El tromboembolismo pulmonar (TEP) es la complicación más grave de la TVP, con mortalidad del 30% sin tratamiento. Se manifiesta con disnea súbita, dolor pleurítico y hemoptisis."
+     ]
+    },
+    {
+     "pergunta": "Meses después de una TVP, un paciente presenta dolor crónico, edema, dermatitis ocre y una úlcera en la pierna afectada. ¿Cómo se llama este cuadro?",
+     "opcoes": [
+      "Flegmasia cerúlea dolens",
+      "Síndrome postrombótico",
+      "Fenómeno de Raynaud",
+      "Claudicación intermitente"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El síndrome postrombótico aparece en el 25-50% de los casos de TVP: dolor crónico, edema, dermatitis ocre y úlceras venosas. La compresión elástica graduada (20-30 mmHg) ayuda a reducirlo."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con TVP aguda tiene insuficiencia renal grave. ¿Qué anticoagulante es de elección en la fase aguda según la clase?",
+     "opcoes": [
+      "Enoxaparina 1 mg/kg cada 12 h",
+      "Heparina no fraccionada",
+      "Rivaroxabán",
+      "Ácido acetilsalicílico"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la fase aguda (5-10 días) la base es la HBPM (enoxaparina 1 mg/kg/12h). En insuficiencia renal o alto riesgo de sangrado se prefiere la heparina no fraccionada. La aspirina no es tratamiento de la TVP."
+     ]
+    },
+    {
+     "pergunta": "Una paciente con TVP iliofemoral masiva presenta pierna muy edematosa, cianótica y dolorosa, con riesgo de gangrena venosa. ¿Qué tratamiento está indicado además de la anticoagulación?",
+     "opcoes": [
+      "Filtro de vena cava como primera opción",
+      "Trombólisis con r-tPA dirigida por catéter",
+      "Stripping de la safena",
+      "Solo medias de compresión"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Es una flegmasia cerúlea dolens (TVP masiva obstructiva con isquemia venosa). La trombólisis con r-tPA por catéter está indicada en la TVP masiva proximal (iliofemoral) con riesgo de gangrena venosa."
+     ]
+    },
+    {
+     "pergunta": "¿En qué situación está indicado un filtro de vena cava en un paciente con TVP?",
+     "opcoes": [
+      "En toda TVP proximal",
+      "Si hay contraindicación absoluta para anticoagular o embolia recurrente",
+      "Como prevención en viajes largos",
+      "En lugar de las medias de compresión"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El filtro de vena cava se usa solo si hay contraindicación absoluta para la anticoagulación o embolia recurrente. No reemplaza la anticoagulación en el resto de los pacientes."
+     ]
+    }
+   ],
+   "flashcards": []
+  },
+  {
+   "id": "fisio-hipertension-arterial",
+   "tema": "Cardiovascular",
+   "titulo": "Hipertensión arterial",
+   "icone": "coracao",
+   "origem": "importado",
+   "materiais": [
+    {
+     "nome": "Material de clase – Dr. Luis Paniagua",
+     "tipo": "aula"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "Según la ecuación PA = GC × RVP, ¿qué componente predomina en la HTA esencial temprana y cuál en la HTA establecida?",
+     "opcoes": [
+      "Temprana: ↑ RVP; establecida: ↑ GC",
+      "Temprana: ↑ GC por retención de sodio; establecida: ↑ RVP por remodelado vascular y disfunción endotelial",
+      "Ambas fases: ↓ GC",
+      "Ambas fases: solo ↑ frecuencia cardíaca"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la HTA esencial temprana predomina el aumento del gasto cardíaco por retención de sodio y mayor volemia o contractilidad. En la HTA establecida predomina el aumento de la RVP por remodelado vascular y disfunción endotelial. Esta transición orienta la elección del tratamiento."
+     ]
+    },
+    {
+     "pergunta": "La resistencia vascular periférica depende del radio arteriolar según la relación 1/r⁴. ¿Qué implica esto en la HTA?",
+     "opcoes": [
+      "Cambios pequeños del radio arteriolar producen grandes cambios en la resistencia",
+      "El radio no influye en la resistencia",
+      "La resistencia depende solo de la viscosidad",
+      "Al disminuir el radio, la resistencia disminuye"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La resistencia es inversamente proporcional a la cuarta potencia del radio. Por eso, una reducción pequeña del radio arteriolar por remodelado o vasoconstricción eleva mucho la RVP y la presión arterial."
+     ]
+    },
+    {
+     "pergunta": "¿Por qué los barorreceptores no corrigen la presión arterial en la HTA crónica?",
+     "opcoes": [
+      "Porque dejan de existir en el adulto",
+      "Porque se “resetean” al alza y aceptan como normal un valor más alto",
+      "Porque solo responden a la hipoxia",
+      "Porque actúan en días, no en segundos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los barorreceptores (arco aórtico, seno carotídeo) regulan la PA en segundos mediante un reflejo nervioso. En la HTA crónica se resetean al alza y defienden un nivel de presión más elevado."
+     ]
+    },
+    {
+     "pergunta": "Un hombre obeso que ronca y tiene somnolencia diurna presenta HTA refractaria. ¿Qué mecanismo vincula su trastorno del sueño con la HTA?",
+     "opcoes": [
+      "Hipoxia intermitente con activación de quimiorreceptores, ↑ simpático, ↑ aldosterona y estrés oxidativo",
+      "Déficit de cortisol",
+      "Exceso de péptido natriurético",
+      "Disminución de la actividad simpática"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En el síndrome de apnea obstructiva del sueño, la hipoxia intermitente estimula a los quimiorreceptores y aumenta la actividad simpática, la aldosterona y el estrés oxidativo. El diagnóstico se hace con polisomnografía."
+     ]
+    },
+    {
+     "pergunta": "¿Cuál es el principal regulador de la presión arterial a largo plazo, cuyo fallo es la base de la HTA esencial?",
+     "opcoes": [
+      "Barorreceptores",
+      "Quimiorreceptores",
+      "Sistema renal de presión-natriuresis",
+      "Sistema calicreína-cinina"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El mecanismo de presión-natriuresis actúa en horas o días: cuando sube la PA, el riñón excreta más sodio y agua, baja el volumen y la PA se normaliza. Es el principal regulador a largo plazo y su fallo es la base de la HTA esencial."
+     ]
+    },
+    {
+     "pergunta": "En la HTA, la curva de presión-natriuresis está “desplazada”. ¿Qué significa?",
+     "opcoes": [
+      "El riñón excreta sodio con presiones más bajas de lo normal",
+      "El riñón necesita una presión arterial más alta para excretar la misma cantidad de sodio",
+      "El riñón deja de filtrar",
+      "El sodio deja de influir en el volumen"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La capacidad renal de excretar sodio está disminuida: hay retención de sodio y agua y expansión de volumen. Para eliminar el sodio, el organismo necesita una presión arterial más alta, y la HTA se mantiene."
+     ]
+    },
+    {
+     "pergunta": "El péptido natriurético auricular (ANP) se libera ante el aumento de volemia. ¿Qué ocurre con este sistema en la HTA?",
+     "opcoes": [
+      "Su efecto natriurético y vasodilatador disminuye por resistencia",
+      "Produce vasoconstricción intensa",
+      "Retiene sodio",
+      "Aumenta la renina"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El ANP se libera en la aurícula ante el aumento de volemia y produce natriuresis y vasodilatación. En la HTA existe resistencia a su efecto, que queda disminuido."
+     ]
+    },
+    {
+     "pergunta": "En la HTA sensible a la sal, ¿qué sistema renal natriurético se encuentra disminuido?",
+     "opcoes": [
+      "Sistema dopaminérgico renal",
+      "Sistema renina-angiotensina-aldosterona",
+      "Sistema nervioso simpático",
+      "Quimiorreceptores"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La dopamina renal favorece la natriuresis. Su actividad está disminuida en la HTA sensible a la sal, lo que favorece la retención de sodio."
+     ]
+    },
+    {
+     "pergunta": "Un hombre de 42 años con sobrepeso, padre hipertenso, dislipidemia y resistencia a la insulina presenta PA de 148/94 mmHg sin causa identificable. ¿Qué tipo de HTA es más probable?",
+     "opcoes": [
+      "HTA secundaria por feocromocitoma",
+      "HTA esencial (primaria), de origen poligénico con factores ambientales",
+      "HTA por coartación de aorta",
+      "HTA por hiperaldosteronismo primario"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La HTA esencial representa el 90-95% de los casos. Comienza de forma insidiosa entre los 30 y 50 años, tiene historia familiar positiva (heredabilidad 30-50%) y se asocia a obesidad, resistencia a la insulina y dislipidemia. Es poligénica con factores ambientales."
+     ]
+    },
+    {
+     "pergunta": "Un hombre de 63 años, fumador, desarrolla HTA severa de inicio reciente y se ausculta un soplo abdominal. ¿Cuál es el mecanismo de su HTA?",
+     "opcoes": [
+      "↓ flujo renal → ↑ renina → ↑ angiotensina II",
+      "↑ aldosterona con renina suprimida",
+      "↑ catecolaminas por tumor suprarrenal",
+      "↑ cortisol"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Es una HTA renovascular por estenosis de la arteria renal. La disminución del flujo renal activa la renina, que aumenta la angiotensina II. Se estudia con angio-TC, Doppler renal o gammagrafía con captopril."
+     ]
+    },
+    {
+     "pergunta": "Una mujer de 31 años presenta HTA y la angiografía muestra lesiones “en cuentas de rosario” en el tercio medio de la arteria renal. ¿Cuál es la causa?",
+     "opcoes": [
+      "Aterosclerosis renovascular",
+      "Displasia fibromuscular",
+      "Coartación de aorta",
+      "Poliquistosis renal"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La displasia fibromuscular es más frecuente en mujeres menores de 50 años (pico 30-40). Afecta el tercio medio o distal con lesiones en cuentas de rosario, por hiperplasia de la media con fibrosis alternada. Se asocia a aneurismas intracraneales y disección arterial."
+     ]
+    },
+    {
+     "pergunta": "Comparada con la displasia fibromuscular, ¿qué caracteriza a la estenosis renal aterosclerótica?",
+     "opcoes": [
+      "Afecta a mujeres jóvenes y progresa lentamente",
+      "Afecta a mayores de 55 años, compromete el origen (proximal) de la arteria y progresa rápido",
+      "Afecta el tercio distal en cuentas de rosario",
+      "Se asocia sobre todo a aneurismas intracraneales"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La aterosclerosis renovascular (80-85% de los casos) aparece en mayores de 55 años con tabaquismo, dislipidemia, DM o HTA. Afecta el origen de la arteria renal, progresa rápido (oclusión en 2-5 años) y se asocia a aterosclerosis generalizada."
+     ]
+    },
+    {
+     "pergunta": "Un paciente hipertenso inicia un IECA y su creatinina sube 0,4 mg/dL en pocas semanas. ¿Qué sugiere este hallazgo?",
+     "opcoes": [
+      "Es esperable y descarta causa secundaria",
+      "Es una bandera roja que obliga a buscar estenosis de arteria renal",
+      "Indica feocromocitoma",
+      "Indica hipertiroidismo"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Un deterioro desproporcionado de la función renal (creatinina que sube 0,3 mg/dL o más con IECA o ARA-II) es una bandera roja de HTA secundaria. Sugiere enfermedad renovascular, porque el riñón isquémico depende de la angiotensina II para mantener la filtración."
+     ]
+    },
+    {
+     "pergunta": "Una mujer de 48 años con HTA resistente a tres fármacos presenta potasio de 3,0 mEq/L sin uso de diuréticos. ¿Qué diagnóstico hay que sospechar primero y cómo se estudia?",
+     "opcoes": [
+      "Feocromocitoma; metanefrinas",
+      "Hiperaldosteronismo primario; cociente aldosterona/renina",
+      "Hipotiroidismo; TSH",
+      "Coartación de aorta; ecocardiograma"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "HTA resistente más hipokalemia obliga a pensar en hiperaldosteronismo primario hasta demostrar lo contrario. Se estudia con el cociente aldosterona/renina, que está elevado (mayor de 30)."
+     ]
+    },
+    {
+     "pergunta": "En el hiperaldosteronismo primario, ¿por qué la renina está baja?",
+     "opcoes": [
+      "Porque la arteria renal está estenosada",
+      "Porque el exceso de volumen inhibe la renina por retroalimentación negativa",
+      "Porque las catecolaminas la bloquean",
+      "Porque el cortisol la degrada"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La suprarrenal produce aldosterona de forma autónoma. La retención de sodio expande el volumen y este exceso suprime la renina por retroalimentación negativa. Por eso el cociente aldosterona/renina queda elevado."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con exceso de mineralocorticoides presenta ondas U en el ECG. ¿Qué otros hallazgos de laboratorio son típicos?",
+     "opcoes": [
+      "Acidosis metabólica e hipermagnesemia",
+      "Alcalosis metabólica e hipomagnesemia",
+      "Hiperkalemia e hiponatremia",
+      "Hipercalcemia aislada"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El exceso de mineralocorticoides causa retención de sodio y pérdida de potasio. Son típicas la alcalosis metabólica y el magnesio bajo. Las ondas U confirman una hipokalemia significativa."
+     ]
+    },
+    {
+     "pergunta": "Un hombre de 40 años presenta crisis de cefalea pulsátil, palpitaciones y sudoración profusa, con PA de 220/120 mmHg y palidez durante los episodios. ¿Qué estudio confirma la sospecha principal?",
+     "opcoes": [
+      "Cortisol libre urinario",
+      "Metanefrinas en orina de 24 h o en plasma",
+      "Cociente aldosterona/renina",
+      "Polisomnografía"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La tríada cefalea, palpitaciones y sudoración con PA paroxística sugiere feocromocitoma hasta demostrar lo contrario. Se diagnostica midiendo metanefrinas en orina de 24 h o en plasma. La palidez por vasoconstricción lo diferencia de la rubicundez de la crisis de ansiedad."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con feocromocitoma refiere pérdida de peso, intolerancia al calor e hiperglucemia. ¿Qué explica estos hallazgos?",
+     "opcoes": [
+      "Hipotiroidismo asociado",
+      "Estado hipermetabólico por exceso crónico de catecolaminas",
+      "Déficit de aldosterona",
+      "Exceso de cortisol"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El exceso crónico de catecolaminas produce un estado hipermetabólico: pérdida de peso, intolerancia al calor e hiperglucemia. La sensación de muerte inminente se debe a la liberación masiva de adrenalina."
+     ]
+    },
+    {
+     "pergunta": "¿Qué diferencia a un paraganglioma de un feocromocitoma?",
+     "opcoes": [
+      "El paraganglioma deriva de paraganglios extraadrenales y puede ser funcionante o no funcionante",
+      "El paraganglioma siempre es maligno",
+      "El paraganglioma deriva de la corteza suprarrenal",
+      "El paraganglioma produce aldosterona"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El feocromocitoma nace de las células cromafines de la médula suprarrenal. El paraganglioma deriva de tejido cromafín fuera de la suprarrenal. Puede secretar catecolaminas (como un feocromocitoma) o no ser funcionante y dar síntomas por efecto de masa."
+     ]
+    },
+    {
+     "pergunta": "Un joven de 19 años con HTA en los brazos presenta pulsos femorales débiles y retrasados, y un soplo interescapular. ¿Cuál es la causa?",
+     "opcoes": [
+      "Coartación de aorta",
+      "Displasia fibromuscular",
+      "Hipertiroidismo",
+      "Enfermedad renal parenquimatosa"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la coartación de aorta, la obstrucción al flujo aórtico aumenta la presión proximal y la disminuye distalmente. Los pulsos femorales son débiles o retrasados y hay soplo interescapular. Se estudia con ecocardiograma o angio-TC."
+     ]
+    },
+    {
+     "pergunta": "Un paciente presenta HTA sistólica aislada con taquicardia y temblor; otro presenta HTA diastólica con bradicardia y mixedema. ¿Qué mecanismo predomina en cada caso?",
+     "opcoes": [
+      "Hipertiroidismo: ↑ GC; hipotiroidismo: ↑ RVP",
+      "Hipertiroidismo: ↑ RVP; hipotiroidismo: ↑ GC",
+      "Ambos: ↑ aldosterona",
+      "Ambos: ↑ renina"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En el hipertiroidismo aumenta el gasto cardíaco por mayor contractilidad y frecuencia, lo que da HTA sistólica aislada. En el hipotiroidismo aumenta la RVP por menor respuesta vasodilatadora, lo que da HTA diastólica con bradicardia."
+     ]
+    },
+    {
+     "pergunta": "En el síndrome de Cushing, ¿cómo aumenta el cortisol la resistencia vascular periférica?",
+     "opcoes": [
+      "Disminuye los receptores α1",
+      "Aumenta la expresión de receptores α1-adrenérgicos en el músculo liso vascular, con mayor respuesta a catecolaminas",
+      "Aumenta el óxido nítrico",
+      "Bloquea la angiotensina II"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El cortisol aumenta los receptores α1-adrenérgicos del músculo liso vascular y potencia la respuesta a catecolaminas. También eleva el angiotensinógeno, la actividad simpática y reduce el óxido nítrico y la prostaciclina."
+     ]
+    },
+    {
+     "pergunta": "En el exceso de cortisol, ¿por qué aparece retención de sodio y expansión de volumen?",
+     "opcoes": [
+      "El cortisol se une a receptores mineralocorticoides cuando satura o falla su inactivación renal por 11β-HSD2",
+      "El cortisol inhibe la aldosterona",
+      "El cortisol aumenta el ANP",
+      "El cortisol bloquea los receptores de LDL"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Normalmente la 11β-HSD2 renal inactiva el cortisol. En exceso, o si esa inactivación es deficiente, el cortisol se une al receptor mineralocorticoide y produce retención de sodio y aumento del volumen."
+     ]
+    },
+    {
+     "pergunta": "En la enfermedad renal parenquimatosa, ¿cuál es el mecanismo central de la HTA por retención de sodio?",
+     "opcoes": [
+      "Al haber menos nefronas, cada una debe excretar más sodio; se produce sobrecarga de sodio y expansión de volumen",
+      "Aumento del número de nefronas",
+      "Aumento de las prostaglandinas vasodilatadoras",
+      "Disminución de la renina"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Con menos nefronas funcionantes, cada una debe excretar más sodio, lo que causa sobrecarga de sodio y expansión de volumen. A esto se suman la activación del SRAA por isquemia renal, menos vasodilatadores, más vasoconstrictores e hiperactividad simpática."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con HTA presenta hipercalcemia y PTH elevada. ¿Cómo contribuye esta alteración a la HTA?",
+     "opcoes": [
+      "El calcio produce vasodilatación y baja la renina",
+      "El aumento de calcio causa vasoconstricción y aumenta la renina",
+      "El calcio aumenta la natriuresis",
+      "La PTH disminuye el gasto cardíaco"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En el hiperparatiroidismo, el aumento de calcio favorece la vasoconstricción y eleva la renina. Se estudia con PTH y calcemia. En la ERC, el hiperparatiroidismo secundario también aumenta el calcio intracelular del músculo liso vascular y la RVP."
+     ]
+    }
+   ],
+   "flashcards": []
+  },
+  {
+   "id": "fisio-arritmias",
+   "tema": "Cardiovascular",
+   "titulo": "Arritmias",
+   "icone": "coracao",
+   "origem": "importado",
+   "materiais": [
+    {
+     "nome": "Material de clase – Dr. Luis Paniagua",
+     "tipo": "aula"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "¿Cuál es la función fisiológica del retraso de aproximadamente 0,1 segundos que ocurre en el nodo auriculoventricular?",
+     "opcoes": [
+      "Acelerar la despolarización ventricular",
+      "Permitir el llenado ventricular manteniendo la sincronía aurícula-ventrículo",
+      "Generar la onda T",
+      "Aumentar la frecuencia del nodo sinusal"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El NAV, ubicado en el tabique interauricular cerca del triángulo de Koch, retrasa el impulso unos 0,1 s para que las aurículas terminen de llenar los ventrículos antes de su contracción. En el ECG ese retraso corresponde al intervalo PR."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con bloqueo AV completo presenta un ritmo de escape ventricular de 32 lpm con QRS ancho. ¿Qué estructura está actuando como marcapasos?",
+     "opcoes": [
+      "Nodo sinusal",
+      "Nodo AV",
+      "Fibras de Purkinje (marcapasos terciario)",
+      "Tracto de Bachmann"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Jerarquía de marcapasos: nodo sinusal 60-100 lpm, nodo AV 40-60 lpm y fibras de Purkinje 20-40 lpm. Una frecuencia de 32 lpm con QRS ancho indica un escape desde Purkinje, que actúa cuando fallan el NSA y el NAV."
+     ]
+    },
+    {
+     "pergunta": "Un ECG muestra PR de 240 ms y cada onda P va seguida de un QRS. ¿Qué trastorno es?",
+     "opcoes": [
+      "Bloqueo AV de primer grado",
+      "Bloqueo AV de segundo grado Mobitz I",
+      "Bloqueo AV de segundo grado Mobitz II",
+      "Bloqueo AV completo"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El bloqueo AV de primer grado es un retraso de la conducción AV (PR > 200 ms) sin pérdida de latidos: todas las P se conducen."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con feocromocitoma presenta taquicardia y extrasístoles. ¿Qué efectos tiene la noradrenalina sobre el sistema de conducción?",
+     "opcoes": [
+      "↓ automatismo, ↓ conductividad y ↓ excitabilidad vía M₂",
+      "↑ automatismo, ↑ conductividad y ↑ excitabilidad vía receptores β₁",
+      "Solo ↓ conductividad AV",
+      "Bloqueo de los canales rápidos de sodio"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El simpático, por noradrenalina sobre receptores β₁, aumenta el automatismo (taquicardia sinusal), la conductividad (acelera el NAV y el His-Purkinje) y la excitabilidad, lo que puede provocar arritmias."
+     ]
+    },
+    {
+     "pergunta": "Un exceso marcado de tono parasimpático, ¿qué consecuencias eléctricas puede producir?",
+     "opcoes": [
+      "Taquicardia ventricular polimórfica",
+      "Bradicardia sinusal, bloqueos AV e incluso asistolia",
+      "Acortamiento del QT por hipercalcemia",
+      "Aumento de la excitabilidad ventricular"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La acetilcolina actúa sobre receptores M₂ y disminuye el automatismo (bradicardia sinusal), la conductividad AV (puede causar bloqueos) y la excitabilidad. En exceso puede producir asistolia."
+     ]
+    },
+    {
+     "pergunta": "En la hiperpotasemia grave, ¿en qué orden aparecen típicamente los cambios en el ECG?",
+     "opcoes": [
+      "Onda U → QT largo → torsades",
+      "Onda T picuda → ensanchamiento del QRS → parada cardiaca",
+      "ST en cuchara → QT corto → TV bidireccional",
+      "QRS estrecho → taquicardia sinusal"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hiperpotasemia reduce el potencial de membrana en reposo y dificulta la despolarización. Primero aparece la onda T picuda, luego se ensancha el QRS y puede terminar en bloqueos y parada cardiaca en diástole."
+     ]
+    },
+    {
+     "pergunta": "¿Qué alteración del calcio prolonga el QT y aumenta el riesgo de torsades de pointes?",
+     "opcoes": [
+      "Hipercalcemia",
+      "Hipocalcemia",
+      "Calcio normal con hiperpotasemia",
+      "Hipercalcemia intracelular por digital"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hipocalcemia prolonga el QT y aumenta el riesgo de torsades de pointes. La hipercalcemia, en cambio, acorta el QT."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con isquemia miocárdica presenta un foco ventricular que dispara de forma espontánea. ¿Qué mecanismo arritmogénico es?",
+     "opcoes": [
+      "Aumento del automatismo: células no marcapasos adquieren automaticidad patológica",
+      "Disminución del automatismo sinusal",
+      "Bloqueo AV de primer grado",
+      "Posdespolarizaciones tardías por digital"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En el aumento del automatismo, células auriculares o ventriculares que no son marcapasos adquieren automaticidad patológica. Las causas incluyen isquemia, hipoxia, estrés adrenérgico e hipokalemia."
+     ]
+    },
+    {
+     "pergunta": "Una paciente de 70 años inicia atenolol y diltiazem y presenta bradicardia con pausas sinusales. ¿Qué mecanismo explica el cuadro?",
+     "opcoes": [
+      "Disminución del automatismo sinusal por fármacos",
+      "Reentrada nodal AV",
+      "Aumento del automatismo ventricular",
+      "Posdespolarizaciones tempranas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La disminución del automatismo es un fallo del nodo sinusal que produce bradicardia o pausas. Sus causas incluyen fibrosis nodal por envejecimiento, hipotiroidismo y fármacos como betabloqueadores y antagonistas del calcio."
+     ]
+    },
+    {
+     "pergunta": "Una mujer de 28 años tiene frecuencia sinusal de 115 lpm en reposo, sin fiebre, anemia, ansiedad ni hipertiroidismo, con ondas P de morfología sinusal. ¿Cuál es el diagnóstico más probable?",
+     "opcoes": [
+      "Taquicardia auricular focal",
+      "Taquicardia sinusal inapropiada",
+      "Flutter auricular",
+      "Taquicardia por reentrada nodal"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La taquicardia sinusal inapropiada es una frecuencia sinusal mayor de 100 lpm en reposo sin causa que la justifique. Se atribuye a una alteración del automatismo sinusal o a un aumento del tono simpático. Las ondas P son sinusales."
+     ]
+    },
+    {
+     "pergunta": "¿Qué característica distingue a la taquicardia auricular focal de la taquicardia sinusal inapropiada?",
+     "opcoes": [
+      "Ondas P idénticas a las sinusales",
+      "Ondas P distintas a las sinusales e inicio y terminación bruscos",
+      "Frecuencia menor de 60 lpm",
+      "Ausencia de ondas P y QRS ancho"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La taquicardia auricular focal se origina en un foco ectópico auricular (por ejemplo, orejuela derecha o venas pulmonares), por actividad automática o micro-reentrada. Sus ondas P difieren de las sinusales según el foco y empieza y termina de forma brusca."
+     ]
+    },
+    {
+     "pergunta": "En el síndrome del seno enfermo, ¿qué patrón puede observarse en el Holter?",
+     "opcoes": [
+      "Solo taquicardia ventricular sostenida",
+      "Bradicardia sinusal, pausas sinusales o alternancia taquicardia-bradicardia",
+      "QT largo con torsades",
+      "Bloqueo de rama izquierda aislado"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El síndrome del seno enfermo es una disfunción del nodo sinusal que altera la formación y conducción del impulso. Se manifiesta con bradicardia sinusal, pausas o episodios de taquicardia-bradicardia."
+     ]
+    },
+    {
+     "pergunta": "¿Cuáles son los tres requisitos para que se produzca un circuito de reentrada?",
+     "opcoes": [
+      "Hiperpotasemia, hipocalcemia y QT corto",
+      "Dos vías con propiedades distintas, bloqueo unidireccional en una de ellas y recuperación de la excitabilidad de la vía bloqueada",
+      "Aumento del automatismo, digital y ejercicio",
+      "Bloqueo bidireccional de ambas vías"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La reentrada necesita dos vías de conducción con propiedades distintas (una rápida y otra lenta), bloqueo unidireccional en una de ellas y recuperación de la excitabilidad en la vía bloqueada. Así el impulso circula en un circuito cerrado."
+     ]
+    },
+    {
+     "pergunta": "Un paciente presenta ondas F en “dientes de sierra”. ¿Dónde se localiza típicamente el circuito de reentrada del flutter auricular?",
+     "opcoes": [
+      "Nodo AV con doble vía",
+      "Aurícula derecha, con circuito típico en relación con la cresta terminal",
+      "Cicatriz ventricular posinfarto",
+      "Venas pulmonares en el ventrículo izquierdo"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Según la clase, el flutter auricular es una reentrada en la aurícula derecha con circuito típico en la cresta terminal. La doble vía nodal corresponde a la TRNAV y la cicatriz a la TV posinfarto."
+     ]
+    },
+    {
+     "pergunta": "¿En qué fase del potencial de acción ocurren las posdespolarizaciones tempranas (EAD) y cuál es su mecanismo?",
+     "opcoes": [
+      "Fase 4; liberación espontánea de Ca²⁺ por RyR2",
+      "Fases 2-3; prolongación del potencial de acción con reactivación de canales de Ca²⁺ o Na⁺",
+      "Fase 0; bloqueo de canales de Na⁺",
+      "Fase 1; pérdida de función de SCN5A"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las EAD ocurren en las fases 2 o 3, durante la repolarización. La prolongación del potencial de acción permite que se reactiven canales de Ca²⁺ o Na⁺. Sus causas son el QT largo (congénito o por fármacos), la hipokalemia y la hipomagnesemia."
+     ]
+    },
+    {
+     "pergunta": "¿Qué caracteriza a la torsade de pointes?",
+     "opcoes": [
+      "Taquicardia ventricular monomórfica sostenida por cicatriz",
+      "Taquicardia ventricular polimórfica con morfología en “punta de torsión”, autolimitada, que puede degenerar en fibrilación ventricular",
+      "Taquicardia auricular con bloqueo 2:1",
+      "Bradicardia con QRS ancho"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La torsade de pointes es una arritmia ventricular polimórfica y autolimitada, con QRS que “giran” alrededor de la línea de base. Puede degenerar en fibrilación ventricular y causar muerte súbita. Es la consecuencia típica de las EAD."
+     ]
+    },
+    {
+     "pergunta": "Un adolescente presenta síncope y taquicardia ventricular desencadenados por el ejercicio, con ECG basal normal. Se sospecha taquicardia ventricular catecolaminérgica (CPVT). ¿Qué mecanismo comparte con la intoxicación digitálica?",
+     "opcoes": [
+      "Posdespolarizaciones tardías por sobrecarga de Ca²⁺ y liberación espontánea por RyR2",
+      "Posdespolarizaciones tempranas por QT largo",
+      "Reentrada en la doble vía nodal",
+      "Disminución del automatismo sinusal"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Las posdespolarizaciones tardías (DAD) ocurren en la fase 4. La acumulación intracelular de Ca²⁺ provoca su liberación espontánea desde el retículo sarcoplásmico (RyR2) y genera una corriente despolarizante (Iti). Sus causas son la intoxicación digitálica y la CPVT."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con intoxicación digitálica grave presenta una taquicardia ventricular en la que el eje del QRS alterna latido a latido. ¿Cómo se llama esta arritmia?",
+     "opcoes": [
+      "Torsade de pointes",
+      "Taquicardia ventricular bidireccional, patognomónica de intoxicación digitálica",
+      "Flutter auricular",
+      "Taquicardia sinusal inapropiada"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La taquicardia ventricular bidireccional es patognomónica de la intoxicación digitálica. Otros signos de toxicidad grave son las extrasístoles en bigeminismo o trigeminismo, la taquicardia auricular con bloqueo AV y la fibrilación ventricular."
+     ]
+    },
+    {
+     "pergunta": "¿Qué hallazgo del ECG corresponde a efecto digitálico o toxicidad leve?",
+     "opcoes": [
+      "Elevación del ST en V1-V3",
+      "Depresión del ST “en cuchara” con QT acortado",
+      "Onda T picuda con QRS ancho",
+      "QT prolongado con onda U"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los signos tempranos del digital son bradicardia sinusal (por aumento del tono vagal), PR prolongado, T aplanada o invertida, depresión del ST en cuchara y QT acortado por hipercalcemia intracelular."
+     ]
+    },
+    {
+     "pergunta": "¿Por qué el bloqueo AV de segundo grado Mobitz II es más peligroso que el Mobitz I?",
+     "opcoes": [
+      "Porque se debe a fatiga progresiva del nodo AV",
+      "Porque es un fallo súbito de la conducción, sin alargamiento previo del PR, con riesgo de bloqueo completo",
+      "Porque nunca produce síntomas",
+      "Porque acelera la conducción AV"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En el Mobitz I (Wenckebach) hay fatiga progresiva del nodo AV: el PR se alarga hasta que una P no conduce. En el Mobitz II la conducción falla de forma súbita con PR constante, y el riesgo de progresar a bloqueo completo es mayor."
+     ]
+    },
+    {
+     "pergunta": "Un ECG muestra QRS ancho con patrón de R monofásica en V6. ¿Qué trastorno de conducción es?",
+     "opcoes": [
+      "Bloqueo de rama derecha",
+      "Bloqueo de rama izquierda",
+      "Bloqueo AV de primer grado",
+      "Síndrome de Brugada"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los bloqueos de rama son un retraso o interrupción en el sistema His-Purkinje. El bloqueo de rama izquierda da QRS ancho con R monofásica en V6; el de rama derecha da QRS ancho con patrón rSR’ en V1."
+     ]
+    },
+    {
+     "pergunta": "¿Qué explica el bloqueo de rama izquierda desde el punto de vista fisiopatológico?",
+     "opcoes": [
+      "Retraso o interrupción de la conducción en el sistema His-Purkinje izquierdo; el ventrículo izquierdo se activa tarde a través del músculo",
+      "Fallo del nodo sinusal",
+      "Reentrada auricular",
+      "Aumento del automatismo de Purkinje"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Al interrumpirse la rama izquierda, el impulso llega al ventrículo izquierdo a través del miocardio, que conduce más lento que el sistema especializado. Por eso el QRS se ensancha."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con infarto agudo de miocardio pierde el pulso y el monitor muestra una actividad eléctrica caótica sin complejos identificables. ¿Cuál es el mecanismo de esta arritmia?",
+     "opcoes": [
+      "Múltiples ondas de reentrada caóticas que impiden una contracción efectiva",
+      "Un foco auricular único",
+      "Fatiga progresiva del nodo AV",
+      "Disminución del automatismo sinusal"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la fibrilación ventricular, múltiples ondas de reentrada caóticas impiden una contracción coordinada y el gasto cardíaco efectivo cae a cero. Sus causas incluyen isquemia aguda, síndrome de Brugada y QT largo."
+     ]
+    },
+    {
+     "pergunta": "Un hombre de 35 años sin cardiopatía estructural, con antecedente familiar de muerte súbita, tiene elevación del ST en V1-V3. ¿Qué defecto molecular es más probable?",
+     "opcoes": [
+      "Mutación de RyR2",
+      "Defecto en canales de Na⁺ (SCN5A) con pérdida de función en fase 1",
+      "Mutación del receptor de LDL",
+      "Exceso de PCSK9"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El síndrome de Brugada se debe a un defecto de los canales de Na⁺ (SCN5A) con pérdida de función en la fase 1 del potencial de acción. En el ECG hay elevación del ST en precordiales derechas (V1-V3) y el riesgo es FV y muerte súbita."
+     ]
+    },
+    {
+     "pergunta": "¿Cuál es la ubicación del nodo sinusal?",
+     "opcoes": [
+      "Tabique interauricular, cerca del triángulo de Koch",
+      "Aurícula derecha, cerca de la desembocadura de la vena cava superior",
+      "Tabique interventricular",
+      "Subendocardio de ambos ventrículos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El nodo sinusal está en la aurícula derecha, cerca de la desembocadura de la vena cava superior, y es el marcapasos primario (60-100 lpm). El triángulo de Koch corresponde al nodo AV y el subendocardio a las fibras de Purkinje."
+     ]
+    }
+   ],
+   "flashcards": []
+  },
+  {
+   "id": "fisio-valvulopatias",
+   "tema": "Cardiovascular",
+   "titulo": "Valvulopatías",
+   "icone": "coracao",
+   "origem": "importado",
+   "materiais": [
+    {
+     "nome": "Material de clase – Dr. Luis Paniagua",
+     "tipo": "aula"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "¿Cuál es la causa más frecuente de estenosis mitral y qué lesión anatómica produce?",
+     "opcoes": [
+      "Degeneración calcífica; calcificación del anillo",
+      "Fiebre reumática; fibrosis y fusión de valvas y cuerdas tendinosas",
+      "Endocarditis; perforación valvular",
+      "Infarto; rotura del músculo papilar"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La fiebre reumática causa alrededor del 90% de las estenosis mitrales, sobre todo en países en desarrollo. La inflamación valvular crónica produce fibrosis y fusión de las valvas y cuerdas tendinosas. La degeneración calcífica es más frecuente en ancianos."
+     ]
+    },
+    {
+     "pergunta": "Una mujer con estenosis mitral presenta disnea de esfuerzo que progresa a disnea en reposo. ¿Cuál es la secuencia fisiopatológica?",
+     "opcoes": [
+      "↑ presión en AI → hipertensión venosa pulmonar → congestión pulmonar",
+      "↓ presión en AI → hipoperfusión pulmonar",
+      "Sobrecarga de presión del VI → hipertrofia concéntrica",
+      "Regurgitación aórtica → sobrecarga de volumen del VI"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El estrechamiento mitral dificulta el paso de sangre de la AI al VI. La presión de la AI aumenta y se transmite a las venas pulmonares, lo que causa congestión pulmonar (disnea y, en casos graves, edema agudo de pulmón)."
+     ]
+    },
+    {
+     "pergunta": "En la estenosis mitral, ¿a qué se debe la hemoptisis?",
+     "opcoes": [
+      "Infarto pulmonar por embolia arterial",
+      "Ruptura de venas bronquiales por hipertensión venosa pulmonar",
+      "Tuberculosis asociada",
+      "Rotura de músculo papilar"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hipertensión venosa pulmonar se transmite a las venas bronquiales, que pueden romperse y causar hemoptisis."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con estenosis mitral de larga evolución desarrolla ascitis, hepatomegalia y edemas. ¿Qué secuencia lo explica?",
+     "opcoes": [
+      "Hipertensión arterial pulmonar → sobrecarga del ventrículo derecho → insuficiencia cardíaca derecha",
+      "Hipertrofia concéntrica del VI → bajo gasto",
+      "Regurgitación aórtica → dilatación del VI",
+      "Disminución de la presión pulmonar"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "A largo plazo, la congestión venosa pulmonar lleva a hipertensión arterial pulmonar. Esto sobrecarga el ventrículo derecho hasta la insuficiencia cardíaca derecha, con edemas, hepatomegalia y ascitis. El VI está “protegido” en la estenosis mitral pura."
+     ]
+    },
+    {
+     "pergunta": "Una paciente con estenosis mitral reumática en ritmo sinusal presenta un rumor diastólico con refuerzo presistólico. Tiempo después desarrolla fibrilación auricular. ¿Qué hallazgo auscultatorio desaparece?",
+     "opcoes": [
+      "El chasquido de apertura",
+      "El refuerzo presistólico, porque depende de la contracción auricular",
+      "El S1",
+      "El soplo holosistólico"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El refuerzo presistólico del rumor mitral se debe a la contracción auricular al final de la diástole. En la fibrilación auricular no hay contracción auricular eficaz y el refuerzo desaparece."
+     ]
+    },
+    {
+     "pergunta": "¿Qué hallazgos auscultatorios son típicos de la estenosis mitral?",
+     "opcoes": [
+      "Soplo holosistólico irradiado a la axila con S3",
+      "Chasquido de apertura después del S2 y rumor diastólico en el ápex, mejor en decúbito lateral izquierdo",
+      "Soplo sistólico en meseta irradiado a las carótidas",
+      "Soplo diastólico decreciente en el borde esternal izquierdo"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la estenosis mitral se oye un chasquido de apertura después del S2 (más audible en el ápex) y un rumor diastólico que se escucha mejor en decúbito lateral izquierdo. El S1 está reforzado si la válvula aún es flexible."
+     ]
+    },
+    {
+     "pergunta": "En la estenosis mitral, ¿por qué el S1 reforzado puede disminuir con la evolución?",
+     "opcoes": [
+      "Por la aparición de insuficiencia aórtica",
+      "Porque la válvula se calcifica y pierde flexibilidad",
+      "Por hipertrofia concéntrica del VI",
+      "Por bloqueo de rama derecha"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El S1 está reforzado mientras la válvula es flexible. Cuando se calcifica, pierde movilidad y la intensidad del S1 disminuye."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con estenosis mitral presenta P2 aumentado y una onda V yugular prominente. ¿Qué indican estos signos?",
+     "opcoes": [
+      "Hipertensión pulmonar con insuficiencia tricuspídea secundaria",
+      "Insuficiencia aórtica aguda",
+      "Estenosis aórtica grave",
+      "Taponamiento cardíaco"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El P2 aumentado (componente pulmonar del S2) refleja hipertensión pulmonar. La onda V yugular prominente se debe a insuficiencia tricuspídea secundaria por sobrecarga del ventrículo derecho."
+     ]
+    },
+    {
+     "pergunta": "Un hombre con prolapso de válvula mitral (degeneración mixomatosa) presenta de forma brusca disnea intensa y edema agudo de pulmón. ¿Cuál es la causa más probable?",
+     "opcoes": [
+      "Rotura de cuerdas tendinosas con insuficiencia mitral aguda",
+      "Estenosis mitral reumática",
+      "Calcificación del anillo mitral",
+      "Estenosis aórtica calcificada"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Entre las causas de insuficiencia mitral aguda están la rotura de cuerdas tendinosas (por degeneración mixomatosa o endocarditis), el infarto con isquemia o rotura de músculo papilar, la endocarditis y el traumatismo torácico."
+     ]
+    },
+    {
+     "pergunta": "¿Por qué la insuficiencia mitral aguda produce edema agudo de pulmón y shock, mientras que la crónica puede ser asintomática durante años?",
+     "opcoes": [
+      "En la aguda, la aurícula izquierda no ha tenido tiempo de dilatarse y su presión sube bruscamente",
+      "En la aguda, el flujo regurgitante es menor",
+      "En la crónica, la válvula se cierra mejor con el tiempo",
+      "En la aguda, aumenta la fracción de eyección efectiva"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la insuficiencia mitral aguda, la AI y el VI no se han adaptado: el volumen regurgitado eleva bruscamente la presión auricular, con congestión pulmonar y caída del gasto anterógrado (shock). En la crónica, la dilatación compensatoria amortigua la sobrecarga."
+     ]
+    },
+    {
+     "pergunta": "Un paciente presenta un click mesosistólico seguido de un soplo meso-telesistólico en el foco mitral. ¿Qué diagnóstico sugiere?",
+     "opcoes": [
+      "Prolapso de la válvula mitral",
+      "Estenosis mitral reumática",
+      "Insuficiencia aórtica crónica",
+      "Estenosis aórtica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El prolapso mitral produce un click seguido de un soplo meso-telesistólico. La insuficiencia mitral habitual da un soplo holosistólico en el foco mitral irradiado a la axila izquierda."
+     ]
+    },
+    {
+     "pergunta": "En la insuficiencia mitral crónica se ausculta un S3. ¿Qué refleja?",
+     "opcoes": [
+      "Sobrecarga de volumen del VI",
+      "Hipertrofia concéntrica por sobrecarga de presión",
+      "Estenosis aórtica asociada",
+      "Calcificación valvular"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El S3 en la insuficiencia mitral refleja la sobrecarga de volumen del VI: en la diástole el ventrículo recibe el flujo anterógrado más el volumen regurgitado."
+     ]
+    },
+    {
+     "pergunta": "En la insuficiencia mitral, ¿por qué aumenta el volumen del ventrículo izquierdo en la diástole?",
+     "opcoes": [
+      "Porque recibe el retorno venoso pulmonar normal más el volumen que regurgitó a la AI en la sístole",
+      "Porque la válvula aórtica no cierra",
+      "Porque disminuye el retorno venoso",
+      "Porque la AI se contrae menos"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la sístole, parte de la sangre refluye a la AI, que recibe además el retorno venoso pulmonar. En la diástole todo ese volumen vuelve al VI y produce sobrecarga de volumen."
+     ]
+    },
+    {
+     "pergunta": "En la fase compensada de la insuficiencia mitral crónica, ¿qué mecanismo permite mantener el flujo anterógrado?",
+     "opcoes": [
+      "Dilatación excéntrica del VI según la ley de Frank-Starling, con hipertrofia y aumento del gasto total",
+      "Hipertrofia concéntrica sin dilatación",
+      "Disminución del volumen telediastólico",
+      "Cierre progresivo de la válvula"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El VI se dilata de forma excéntrica para manejar el mayor volumen (Frank-Starling), se hipertrofia y aumenta su gasto total. Así mantiene el flujo anterógrado aunque parte se pierda en la regurgitación."
+     ]
+    },
+    {
+     "pergunta": "En la descompensación de la insuficiencia mitral crónica, ¿qué ocurre con el ventrículo izquierdo?",
+     "opcoes": [
+      "Se dilata progresivamente y disminuye su fracción de eyección",
+      "Se reduce su cavidad",
+      "Aumenta su distensibilidad sin consecuencias",
+      "Desarrolla hipertrofia concéntrica pura"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Con el tiempo, la sobrecarga crónica causa dilatación progresiva y caída de la fracción de eyección. Aparecen congestión pulmonar, hipertensión pulmonar con fallo derecho y fibrilación auricular por dilatación de la AI."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con miocardiopatía dilatada desarrolla insuficiencia mitral. ¿Cuál es el mecanismo?",
+     "opcoes": [
+      "La dilatación del VI distorsiona el aparato mitral y la válvula no coapta",
+      "Fusión reumática de comisuras",
+      "Calcificación de la válvula aórtica",
+      "Rotura de cuerdas por traumatismo"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La dilatación del VI (miocardiopatía dilatada, insuficiencia cardíaca) es una causa de insuficiencia mitral crónica: el anillo y los músculos papilares se separan y las valvas no cierran bien."
+     ]
+    },
+    {
+     "pergunta": "Un hombre de 34 años presenta estenosis aórtica calcificada. ¿Cuál es la causa más probable a esa edad?",
+     "opcoes": [
+      "Degeneración calcífica senil",
+      "Válvula aórtica bicúspide congénita",
+      "Insuficiencia mitral crónica",
+      "Hipertensión pulmonar"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La válvula bicúspide está presente en alrededor del 1-2% de la población y se calcifica precozmente en adultos jóvenes. En mayores de 65 años predomina la estenosis calcificada degenerativa, asociada a HTA, diabetes y dislipidemia."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con estenosis aórtica tiene una fracción de eyección normal pero presiones de llenado elevadas y disnea. ¿Qué alteración lo explica?",
+     "opcoes": [
+      "Disfunción diastólica por un VI hipertrófico y rígido",
+      "Dilatación excéntrica del VI",
+      "Aumento de la distensibilidad ventricular",
+      "Sobrecarga de volumen por regurgitación"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La hipertrofia concéntrica vuelve al VI rígido y dificulta su llenado: disfunción diastólica. Las presiones de llenado suben y causan congestión aunque la fracción de eyección esté conservada."
+     ]
+    },
+    {
+     "pergunta": "En la estenosis aórtica, ¿por qué la isquemia afecta especialmente al subendocardio?",
+     "opcoes": [
+      "Porque la presión intraventricular elevada comprime la microcirculación y reduce la perfusión coronaria, mientras la masa hipertrófica demanda más oxígeno",
+      "Porque disminuye la demanda de oxígeno",
+      "Porque las coronarias se dilatan en exceso",
+      "Porque baja la presión sistólica del VI"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El VI genera presiones altas que reducen la perfusión coronaria, sobre todo en el subendocardio. Al mismo tiempo, la hipertrofia aumenta la demanda de oxígeno. El desbalance entre oferta y demanda causa angina aun con coronarias normales."
+     ]
+    },
+    {
+     "pergunta": "En la estenosis aórtica sintomática no tratada, ¿qué síntoma se asocia a la menor supervivencia media?",
+     "opcoes": [
+      "Angina (3-5 años)",
+      "Síncope (3-5 años)",
+      "Insuficiencia cardíaca (2-3 años)",
+      "Palpitaciones (10 años)"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Cuando aparecen síntomas, la supervivencia media sin tratamiento es de 2-3 años si hay insuficiencia cardíaca y de 3-5 años si hay angina o síncope. La tríada clásica es disnea, angina y síncope."
+     ]
+    },
+    {
+     "pergunta": "En la exploración de un paciente con estenosis aórtica grave, ¿qué hallazgos son esperables?",
+     "opcoes": [
+      "Pulso colapsante y presión diferencial amplia",
+      "Pulsos débiles y tardíos (parvus et tardus), S2 disminuido y soplo sistólico en meseta en el 2.º espacio intercostal derecho irradiado a carótidas",
+      "Chasquido de apertura y rumor diastólico",
+      "Click mesosistólico"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La estenosis aórtica produce un soplo sistólico áspero en meseta (crescendo-decrescendo) en el foco aórtico irradiado a carótidas, S2 disminuido o ausente por rigidez valvular, pulsus parvus et tardus y latido apical sostenido."
+     ]
+    },
+    {
+     "pergunta": "Un usuario de drogas intravenosas con fiebre presenta de forma súbita edema agudo de pulmón, hipotensión y un soplo diastólico. ¿Qué causa de insuficiencia aórtica aguda es la más probable?",
+     "opcoes": [
+      "Endocarditis infecciosa con destrucción valvular",
+      "Síndrome de Marfan",
+      "Espondilitis anquilosante",
+      "Válvula bicúspide degenerativa"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La insuficiencia aórtica aguda es una emergencia hemodinámica. Sus causas son la endocarditis infecciosa (destrucción valvular), la disección aórtica y el traumatismo torácico. Marfan, la bicúspide y las enfermedades autoinmunes causan la forma crónica."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con insuficiencia aórtica crónica presenta movimiento de la cabeza sincrónico con el latido y PA de 160/40 mmHg. ¿Cómo se llama ese signo y qué lo explica?",
+     "opcoes": [
+      "Signo de Musset; circulación hiperdinámica por gran volumen latido y reflujo diastólico",
+      "Signo de Hill; estenosis mitral",
+      "Pulsus parvus et tardus; obstrucción aórtica",
+      "Signo de Homans; TVP"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El signo de Musset es el balanceo de la cabeza con cada latido. Junto con el pulso de Corrigan (colapsante) y la presión diferencial amplia, refleja la hiperdinamia de la insuficiencia aórtica: gran volumen sistólico que luego refluye en la diástole."
+     ]
+    },
+    {
+     "pergunta": "En la insuficiencia aórtica crónica, además del soplo diastólico, puede auscultarse un soplo sistólico. ¿A qué se debe?",
+     "opcoes": [
+      "Es funcional, por el aumento del flujo aórtico",
+      "A una estenosis mitral asociada",
+      "A la rotura de un músculo papilar",
+      "A una comunicación interventricular"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El VI eyecta un volumen aumentado (el normal más el regurgitado), lo que genera un soplo sistólico funcional en el foco aórtico sin que exista estenosis."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con insuficiencia aórtica crónica refiere palpitaciones y angina sin lesiones coronarias. ¿Qué explica estos síntomas?",
+     "opcoes": [
+      "Palpitaciones por aumento del volumen latido; angina por isquemia subendocárdica asociada a la hipertrofia",
+      "Palpitaciones por bloqueo AV; angina por espasmo coronario",
+      "Ambos por estenosis mitral",
+      "Ambos por hipotiroidismo"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la insuficiencia aórtica crónica, el gran volumen latido causa palpitaciones. La hipertrofia aumenta la demanda de oxígeno y la presión diastólica baja reduce la perfusión coronaria, lo que produce isquemia subendocárdica y angina."
+     ]
+    }
+   ],
+   "flashcards": []
+  },
+  {
+   "id": "fisio-acido-base",
+   "tema": "Equilibrio ácido-base",
+   "titulo": "Ácido-base",
+   "icone": "gota",
+   "origem": "importado",
+   "materiais": [
+    {
+     "nome": "Material de clase – Dr. Luis Paniagua",
+     "tipo": "aula"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "¿Cuál es el rango normal del pH arterial y qué indica un pH de 7,30?",
+     "opcoes": [
+      "7,25-7,35; alcalosis",
+      "7,35-7,45; acidosis",
+      "7,40-7,50; acidosis",
+      "7,35-7,45; alcalosis"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El pH arterial normal está entre 7,35 y 7,45, ligeramente alcalino. Un pH < 7,35 indica acidosis (exceso de H⁺) y un pH > 7,45 indica alcalosis."
+     ]
+    },
+    {
+     "pergunta": "¿Qué órgano regula cada componente del equilibrio ácido-base y con qué velocidad?",
+     "opcoes": [
+      "Riñones regulan la PCO₂ en minutos; pulmones el HCO₃⁻ en días",
+      "Riñones regulan el HCO₃⁻ en horas o días; pulmones la PCO₂ en minutos u horas",
+      "Ambos regulan solo el HCO₃⁻",
+      "El hígado regula la PCO₂"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El componente metabólico (HCO₃⁻) lo controlan los riñones, en horas o días. El componente respiratorio (PCO₂) lo controlan los pulmones, en minutos u horas. La compensación intenta normalizar el pH, pero no corrige la causa primaria."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con diarrea profusa presenta pH 7,28, HCO₃⁻ 14 mEq/L, Na⁺ 138, Cl⁻ 114. ¿Qué tipo de acidosis tiene?",
+     "opcoes": [
+      "Acidosis metabólica con anión gap elevado",
+      "Acidosis metabólica con anión gap normal (hiperclorémica) por pérdida de HCO₃⁻",
+      "Acidosis respiratoria aguda",
+      "Alcalosis metabólica"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "AG = Na⁺ − (Cl⁻ + HCO₃⁻) = 138 − (114 + 14) = 10 mEq/L, normal (8-12). La diarrea pierde HCO₃⁻ y el Cl⁻ sube: acidosis hiperclorémica con AG normal."
+     ]
+    },
+    {
+     "pergunta": "Un diabético tipo 1 presenta pH 7,18, HCO₃⁻ 8 mEq/L, Na⁺ 136 y Cl⁻ 98. ¿Cuál es el anión gap y qué indica?",
+     "opcoes": [
+      "10 mEq/L; pérdida de bicarbonato",
+      "30 mEq/L; acumulación de ácidos no medidos (cetoacidosis)",
+      "20 mEq/L; acidosis respiratoria",
+      "5 mEq/L; hipoalbuminemia"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "AG = 136 − (98 + 8) = 30 mEq/L, elevado (>12). Indica ácidos no medidos: en la cetoacidosis diabética son los cetoácidos (la D de MUDPILES)."
+     ]
+    },
+    {
+     "pergunta": "¿Cuál de las siguientes causas produce acidosis metabólica con anión gap NORMAL?",
+     "opcoes": [
+      "Intoxicación por metanol",
+      "Acidosis láctica por shock",
+      "Acidosis tubular renal",
+      "Intoxicación por salicilatos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La acidosis tubular renal (tipos 1, 2 y 4), la diarrea, las fístulas pancreáticas o biliares y la acetazolamida causan acidosis con AG normal por pérdida de HCO₃⁻. Metanol, láctica y salicilatos están en MUDPILES (AG elevado)."
+     ]
+    },
+    {
+     "pergunta": "Un hombre ingiere anticongelante y presenta acidosis metabólica grave con anión gap muy elevado. ¿Qué tóxico de MUDPILES es el responsable?",
+     "opcoes": [
+      "Isoniazida",
+      "Etilenglicol",
+      "Paraldehído",
+      "Hierro"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El anticongelante contiene etilenglicol (la E de MUDPILES). MUDPILES: Metanol, Uremia, Diabetes (cetoacidosis), Paraldehído, INH o hierro, Láctica, Etilenglicol, Salicilatos."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con acidosis metabólica tiene HCO₃⁻ de 12 mEq/L. Según la fórmula de Winter, ¿qué PCO₂ indica una compensación respiratoria adecuada?",
+     "opcoes": [
+      "40 mmHg",
+      "24-28 mmHg",
+      "44-46 mmHg",
+      "50-55 mmHg"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "PCO₂ esperada = (1,5 × HCO₃⁻) + 8 ± 2 = (1,5 × 12) + 8 = 26 mmHg (rango 24-28). Si la PCO₂ real cae en ese rango, la compensación es adecuada."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con acidosis metabólica (HCO₃⁻ 12 mEq/L) presenta PCO₂ de 40 mmHg. ¿Cómo se interpreta?",
+     "opcoes": [
+      "Compensación respiratoria adecuada",
+      "Acidosis respiratoria concomitante (trastorno mixto)",
+      "Alcalosis respiratoria concomitante",
+      "Alcalosis metabólica pura"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La PCO₂ esperada es 24-28 mmHg. Una PCO₂ real de 40, mayor que la esperada, indica que el paciente no ventila lo suficiente: hay una acidosis respiratoria concomitante, es decir, un trastorno mixto."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con cetoacidosis diabética y sepsis por gramnegativos tiene HCO₃⁻ de 10 mEq/L y PCO₂ de 14 mmHg. ¿Qué trastorno presenta?",
+     "opcoes": [
+      "Acidosis metabólica simple bien compensada",
+      "Acidosis metabólica + alcalosis respiratoria",
+      "Acidosis metabólica + acidosis respiratoria",
+      "Alcalosis metabólica + alcalosis respiratoria"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "PCO₂ esperada = 1,5 × 10 + 8 = 23 ± 2 (21-25). Una PCO₂ de 14 es menor que la esperada: hay alcalosis respiratoria añadida, aquí por la hiperventilación de la sepsis. Es el ejemplo de la clase de acidosis metabólica + alcalosis respiratoria."
+     ]
+    },
+    {
+     "pergunta": "Una paciente con vómitos persistentes presenta pH 7,52 y HCO₃⁻ 34 mEq/L. ¿Cuál es el mecanismo principal?",
+     "opcoes": [
+      "Pérdida de HCO₃⁻ por el tubo digestivo",
+      "Pérdida de HCl gástrico con aumento del HCO₃⁻ plasmático",
+      "Hiperventilación",
+      "Retención de CO₂"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los vómitos o la aspiración gástrica pierden HCl. Por cada H⁺ secretado al estómago, la célula parietal envía un HCO₃⁻ a la sangre, que se eleva: alcalosis metabólica."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con alcalosis metabólica tiene HCO₃⁻ de 34 mEq/L. ¿Cuál es la PCO₂ esperada si la compensación es adecuada?",
+     "opcoes": [
+      "26 mmHg",
+      "40 mmHg",
+      "42-46 mmHg",
+      "55-60 mmHg"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "PCO₂ esperada = (0,7 × HCO₃⁻) + 20 ± 1,5 = (0,7 × 34) + 20 ≈ 44 mmHg (rango 42-46). La hipoventilación compensatoria eleva la PCO₂; un valor fuera de ese rango sugiere un trastorno mixto."
+     ]
+    },
+    {
+     "pergunta": "¿Por qué el uso de diuréticos de asa o tiazidas produce alcalosis metabólica?",
+     "opcoes": [
+      "Porque aumentan la pérdida de HCO₃⁻ en orina",
+      "Por mayor excreción de H⁺ en orina y contracción de volumen, que aumenta la reabsorción renal de HCO₃⁻",
+      "Porque causan hiperventilación",
+      "Porque generan cetoácidos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los diuréticos de asa y tiazídicos aumentan la excreción urinaria de H⁺. Además, la contracción del volumen extracelular estimula la reabsorción renal de HCO₃⁻, lo que perpetúa la alcalosis."
+     ]
+    },
+    {
+     "pergunta": "Un politraumatizado recibe transfusión masiva y desarrolla alcalosis metabólica. ¿Cuál es el mecanismo?",
+     "opcoes": [
+      "El citrato de la sangre transfundida se metaboliza a HCO₃⁻",
+      "La sangre transfundida contiene HCl",
+      "La transfusión causa hipoventilación",
+      "La transfusión causa diarrea"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El citrato que anticoagula los hemoderivados se metaboliza a HCO₃⁻: es una ganancia de álcali, igual que la administración excesiva de bicarbonato o antiácidos."
+     ]
+    },
+    {
+     "pergunta": "Un joven es encontrado somnoliento tras consumir heroína, con frecuencia respiratoria de 6/min, pH 7,22 y PCO₂ 65 mmHg. ¿Cuál es el trastorno y el tratamiento específico?",
+     "opcoes": [
+      "Alcalosis respiratoria; reinhalación de CO₂",
+      "Acidosis respiratoria por depresión del SNC; naloxona y soporte ventilatorio",
+      "Acidosis metabólica; bicarbonato",
+      "Alcalosis metabólica; suero salino"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La depresión del SNC por opioides causa hipoventilación alveolar, retención de CO₂ y acidosis respiratoria. Se trata con naloxona (flumazenil si son benzodiacepinas) y ventilación mecánica si la PCO₂ > 50 con acidosis marcada o deterioro neurológico."
+     ]
+    },
+    {
+     "pergunta": "En una acidosis respiratoria con PCO₂ de 60 mmHg, ¿qué HCO₃⁻ se espera en la forma aguda y en la crónica?",
+     "opcoes": [
+      "Aguda 26 mEq/L; crónica 32 mEq/L",
+      "Aguda 32 mEq/L; crónica 26 mEq/L",
+      "Ambas 24 mEq/L",
+      "Aguda 20 mEq/L; crónica 14 mEq/L"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La PCO₂ subió 20 mmHg. En la aguda, el HCO₃⁻ sube 1 mEq/L por cada 10 mmHg: 24 + 2 = 26. En la crónica (2-5 días, compensación renal) sube 4 por cada 10: 24 + 8 = 32."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con hipercapnia grave presenta cefalea, confusión y asterixis. ¿Por qué aparecen los síntomas neurológicos?",
+     "opcoes": [
+      "Porque el CO₂ cruza la barrera hematoencefálica y produce vasodilatación cerebral; con PCO₂ > 70 mmHg puede haber edema cerebral",
+      "Por hipocalcemia iónica",
+      "Por vasoconstricción cerebral",
+      "Por hipoglucemia"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El CO₂ atraviesa la barrera hematoencefálica, acidifica el LCR y produce vasodilatación cerebral: cefalea, confusión y letargo. Con PCO₂ > 70 mmHg puede haber edema cerebral, y en casos graves asterixis."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con EPOC e hipercapnia crónica está en exacerbación. ¿Qué precaución es correcta en su manejo?",
+     "opcoes": [
+      "Administrar oxígeno a alto flujo para normalizar rápidamente la saturación",
+      "Oxigenoterapia controlada y evitar corregir bruscamente la hipercapnia por riesgo de alcalosis posthipercápnica",
+      "Dar bicarbonato a todos los pacientes",
+      "Restringir la ventilación no invasiva"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la EPOC crónica se usa oxígeno controlado, porque la hiperoxia puede deprimir la respiración, y BiPAP en las exacerbaciones. Si la PCO₂ se corrige rápido, persiste el HCO₃⁻ elevado de la compensación renal y aparece alcalosis posthipercápnica."
+     ]
+    },
+    {
+     "pergunta": "Una estudiante en un ataque de pánico presenta hormigueo en labios y manos y espasmo carpopedal. ¿Cuál es el mecanismo de estos síntomas?",
+     "opcoes": [
+      "Hipercalcemia por acidosis",
+      "Alcalosis respiratoria que disminuye el calcio iónico libre",
+      "Hiperpotasemia",
+      "Retención de CO₂"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hiperventilación psicógena baja la PCO₂ y causa alcalosis respiratoria. La alcalosis aumenta la unión del calcio a la albúmina y disminuye el calcio iónico: parestesias, tetania y espasmos carpopedales. Se maneja con reinhalación de CO₂ y ansiolíticos si hace falta."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con alcalosis respiratoria grave presenta tetania y convulsiones. ¿Qué tratamiento urgente indica la clase?",
+     "opcoes": [
+      "Bicarbonato IV",
+      "Gluconato de calcio IV",
+      "Naloxona",
+      "Diurético de asa"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la alcalosis respiratoria, las convulsiones o la tetania requieren calcio IV (gluconato de calcio). Además se trata la causa (oxígeno en hipoxemia, antibióticos en sepsis, reinhalación en ansiedad)."
+     ]
+    },
+    {
+     "pergunta": "Una gasometría de una embarazada de 30 semanas muestra PCO₂ de 30 mmHg y pH 7,46. ¿Qué explica este hallazgo?",
+     "opcoes": [
+      "La progesterona estimula el centro respiratorio y produce alcalosis respiratoria",
+      "El útero comprime el diafragma y retiene CO₂",
+      "Hay acidosis metabólica por cetosis",
+      "Hay alcalosis metabólica por vómitos"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En el embarazo, la progesterona estimula el centro respiratorio, aumenta la ventilación y baja la PCO₂: alcalosis respiratoria. Otras causas no hipóxicas son la ansiedad, el dolor, la fiebre, la sepsis y los salicilatos."
+     ]
+    },
+    {
+     "pergunta": "Un alpinista lleva una semana a gran altitud con PCO₂ de 25 mmHg. ¿Qué HCO₃⁻ espera con compensación crónica?",
+     "opcoes": [
+      "24 mEq/L, sin cambio",
+      "Alrededor de 19 mEq/L",
+      "Alrededor de 30 mEq/L",
+      "Alrededor de 10 mEq/L"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hipoxemia por altitud causa alcalosis respiratoria. En la forma crónica, el riñón baja el HCO₃⁻ 5 mEq/L por cada 10 mmHg de descenso de la PCO₂: la PCO₂ bajó 15, así que 24 − 7,5 ≈ 19 mEq/L. En la aguda solo bajaría 2 por cada 10."
+     ]
+    },
+    {
+     "pergunta": "Un paciente en paro cardiorrespiratorio tiene pH 7,02, HCO₃⁻ 14 mEq/L y PCO₂ 60 mmHg. ¿Qué trastorno presenta?",
+     "opcoes": [
+      "Acidosis metabólica simple",
+      "Acidosis metabólica (láctica) + acidosis respiratoria (hipoventilación)",
+      "Alcalosis metabólica + acidosis respiratoria",
+      "Acidosis respiratoria crónica compensada"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "HCO₃⁻ bajo y PCO₂ alta a la vez: los dos componentes empujan hacia la acidosis, por eso el pH es muy bajo (< 7,20). En el paro hay acidosis láctica por hipoperfusión e hipoventilación."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con EPOC (hipercapnia crónica) empieza a tomar furosemida. Su gasometría muestra pH 7,42, PCO₂ 60 mmHg y HCO₃⁻ 38 mEq/L. ¿Cómo se interpreta?",
+     "opcoes": [
+      "Gasometría normal",
+      "Acidosis respiratoria + alcalosis metabólica (efectos contrapuestos que normalizan el pH)",
+      "Acidosis metabólica pura",
+      "Alcalosis respiratoria aguda"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Con PCO₂ 60 crónica, el HCO₃⁻ esperado es 32. Un HCO₃⁻ de 38 es mayor: el diurético añadió una alcalosis metabólica por pérdida de H⁺. Los dos trastornos se contraponen y el pH queda casi normal, con HCO₃⁻ y PCO₂ altos."
+     ]
+    },
+    {
+     "pergunta": "Un paciente con vómitos persistentes y dolor intenso que lo hace hiperventilar presenta pH 7,62. ¿Qué valores de HCO₃⁻ y PCO₂ espera?",
+     "opcoes": [
+      "HCO₃⁻ alto y PCO₂ baja (alcalosis metabólica + alcalosis respiratoria)",
+      "HCO₃⁻ bajo y PCO₂ alta",
+      "HCO₃⁻ bajo y PCO₂ baja",
+      "HCO₃⁻ normal y PCO₂ normal"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Los vómitos causan alcalosis metabólica (HCO₃⁻ alto) y el dolor causa hiperventilación con alcalosis respiratoria (PCO₂ baja). Ambos alcalinizan y el pH sube por encima de 7,50."
+     ]
+    },
+    {
+     "pergunta": "En la alcalosis, ¿por qué es frecuente la hipopotasemia, que predispone a arritmias?",
+     "opcoes": [
+      "Por pérdida de K⁺ en las heces",
+      "Por intercambio K⁺/H⁺: el H⁺ sale de la célula y el K⁺ entra",
+      "Por destrucción celular",
+      "Por exceso de aldosterona en todos los casos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la alcalosis, las células liberan H⁺ al plasma para amortiguar y, a cambio, captan K⁺: baja el potasio sérico. También hay paso de fosfato al interior celular (hipofosfatemia). Ambos favorecen las arritmias."
+     ]
+    }
+   ],
+   "flashcards": []
+  },
+  {
+   "id": "fisio-cuestionario-del-profesor",
+   "tema": "Repaso",
+   "titulo": "Cuestionario del profesor",
+   "icone": "cerebro",
+   "origem": "importado",
+   "materiais": [
+    {
+     "nome": "Material de clase – Dr. Luis Paniagua",
+     "tipo": "aula"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "1. Un hombre de 72 años consulta por mareos y episodios de fatiga. El electrocardiograma muestra una frecuencia cardíaca de 42 lpm, con ondas P sinusales antes de cada complejo QRS. No presenta alteraciones electrolíticas y se sospecha fibrosis degenerativa del tejido de conducción. ¿Qué mecanismo fisiopatológico explica mejor el cuadro?",
+     "opcoes": [
+      "Aumento de la velocidad de conducción a través del nodo AV.",
+      "Disminución de la automaticidad del nodo sinoauricular.",
+      "Generación de impulsos rápidos en las fibras de Purkinje.",
+      "Presencia de un circuito de reentrada auricular."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Hay bradicardia sinusal (P sinusal antes de cada QRS) por fallo del nodo sinusal. La fibrosis nodal del envejecimiento es una causa de disminución del automatismo, junto con el hipotiroidismo y los fármacos (betabloqueadores, antagonistas del calcio)."
+     ]
+    },
+    {
+     "pergunta": "2. Durante una cirugía, un paciente presenta bradicardia transitoria después de una intensa estimulación vagal. ¿Cuál es el mecanismo responsable de la disminución de la frecuencia cardíaca?",
+     "opcoes": [
+      "Estimulación de receptores β₁ con aumento de la corriente de calcio.",
+      "Activación muscarínica M₂ que disminuye la automaticidad sinusal.",
+      "Aumento de la liberación de noradrenalina en el nodo sinusal.",
+      "Aceleración de la conducción a través del haz de His."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El vago libera acetilcolina, que activa receptores muscarínicos M₂ y disminuye el automatismo sinusal (bradicardia), la conductividad AV y la excitabilidad. Las demás opciones son efectos simpáticos."
+     ]
+    },
+    {
+     "pergunta": "3. Una mujer de 64 años con enfermedad renal crónica presenta debilidad muscular. El potasio sérico es de 7,1 mEq/L y el ECG evidencia ondas T picudas y ensanchamiento del QRS. ¿Qué explica mejor los trastornos de conducción?",
+     "opcoes": [
+      "Hiperpolarización intensa con incremento de la velocidad de conducción.",
+      "Despolarización sostenida de la membrana que inactiva canales rápidos de sodio.",
+      "Acortamiento aislado del potencial de acción sin cambios en la excitabilidad.",
+      "Estimulación de los receptores β₁ por el aumento del potasio."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hiperpotasemia vuelve menos negativo el potencial de reposo (despolarización sostenida). Esto inactiva parte de los canales rápidos de Na⁺, enlentece la conducción y ensancha el QRS, hasta bloqueos y parada en diástole."
+     ]
+    },
+    {
+     "pergunta": "4. Un paciente que recibe diuréticos por hipertensión presenta palpitaciones. El laboratorio muestra potasio de 2,8 mEq/L y el ECG evidencia ondas U prominentes. ¿Cuál es la consecuencia electrofisiológica más probable?",
+     "opcoes": [
+      "Disminución completa de la excitabilidad ventricular.",
+      "Mayor predisposición a extrasístoles y arritmias ventriculares.",
+      "Bloqueo mecánico del flujo entre aurículas y ventrículos.",
+      "Aumento exclusivo de la conducción auriculoventricular."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hipopotasemia aumenta la excitabilidad miocárdica y predispone a extrasístoles, taquicardia ventricular y fibrilación ventricular. La onda U prominente es su signo típico en el ECG."
+     ]
+    },
+    {
+     "pergunta": "5. Un joven presenta episodios bruscos de palpitaciones que comienzan y terminan repentinamente. El estudio electrofisiológico identifica dos vías funcionales dentro de la región nodal AV, con diferentes períodos refractarios. ¿Qué mecanismo explica la taquicardia?",
+     "opcoes": [
+      "Bloqueo completo de la conducción auriculoventricular.",
+      "Reentrada del impulso a través de vías con propiedades distintas.",
+      "Supresión permanente del automatismo sinusal.",
+      "Despolarización simultánea de todas las fibras de Purkinje."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Es una taquicardia por reentrada nodal AV (TRNAV). La reentrada requiere dos vías con propiedades distintas (rápida y lenta), bloqueo unidireccional en una y recuperación de su excitabilidad."
+     ]
+    },
+    {
+     "pergunta": "6. Una mujer de 58 años consulta por palpitaciones recurrentes. Su ECG muestra una taquicardia regular con ondas P de morfología diferente a la sinusal. Se identifica un foco eléctrico anormal en la aurícula derecha. ¿Cuál es la alteración más probable?",
+     "opcoes": [
+      "Taquicardia auricular focal.",
+      "Fibrilación ventricular.",
+      "Bloqueo AV de tercer grado.",
+      "Bradicardia sinusal por estimulación vagal."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La taquicardia auricular focal nace de un foco ectópico auricular (automático o por micro-reentrada). Sus ondas P son distintas a las sinusales según dónde esté el foco, y empieza y termina de forma brusca."
+     ]
+    },
+    {
+     "pergunta": "7. Un paciente de 76 años presenta síncopes ocasionales. El Holter registra episodios de bradicardia intensa alternados con períodos de taquiarritmia auricular. ¿Qué alteración subyacente explica mejor estos hallazgos?",
+     "opcoes": [
+      "Disfunción del nodo sinusal.",
+      "Estenosis de la válvula aórtica como único mecanismo.",
+      "Bloqueo aislado de la rama derecha.",
+      "Aumento persistente de la automaticidad ventricular."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La alternancia taquicardia-bradicardia es típica del síndrome del seno enfermo, una disfunción del nodo sinusal que también puede dar bradicardia o pausas sinusales."
+     ]
+    },
+    {
+     "pergunta": "8. Un paciente presenta mareos durante un control médico. El ECG muestra prolongación progresiva del intervalo PR hasta que una onda P no se conduce, seguido de la repetición de la secuencia. ¿Qué mecanismo explica este hallazgo?",
+     "opcoes": [
+      "Fallo repentino de una conducción previamente estable sin prolongación del PR.",
+      "Deterioro progresivo de la conducción AV hasta producir un impulso bloqueado.",
+      "Pérdida completa y permanente de la comunicación entre aurículas y ventrículos.",
+      "Despolarización ventricular independiente desde el inicio del registro."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Es un bloqueo AV de segundo grado Mobitz I (Wenckebach): fatiga progresiva del nodo AV, el PR se alarga hasta que una P no conduce y la secuencia se repite. El fallo súbito sin alargamiento del PR corresponde al Mobitz II."
+     ]
+    },
+    {
+     "pergunta": "9. Una mujer de 69 años presenta presíncope. El ECG evidencia ondas P regulares, intervalos PR constantes en los latidos conducidos y ausencia súbita de algunos complejos QRS. ¿Cuál es la alteración más probable?",
+     "opcoes": [
+      "Bloqueo AV de primer grado.",
+      "Bloqueo AV de segundo grado Mobitz I.",
+      "Bloqueo AV de segundo grado Mobitz II.",
+      "Taquicardia sinusal inapropiada."
+     ],
+     "correta": 2,
+     "explicacao": [
+      "PR constante con caída súbita de QRS es un Mobitz II: fallo súbito de la conducción, con riesgo de progresar a bloqueo completo. En el Mobitz I el PR se alarga antes de la P bloqueada."
+     ]
+    },
+    {
+     "pergunta": "10. Un paciente de 80 años llega por síncope. El ECG registra actividad auricular de 85 lpm y ventricular de 34 lpm, sin relación constante entre ondas P y complejos QRS. ¿Cuál es la interpretación fisiopatológica?",
+     "opcoes": [
+      "Disociación auriculoventricular por bloqueo completo de la conducción.",
+      "Aceleración fisiológica del nodo sinusal.",
+      "Conducción auriculoventricular conservada con retraso leve.",
+      "Circuito de reentrada limitado a la aurícula izquierda."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Es un bloqueo AV de tercer grado: no hay conducción AV y aurículas y ventrículos laten de forma independiente (disociación AV). Los 34 lpm corresponden a un escape ventricular."
+     ]
+    },
+    {
+     "pergunta": "11. Un hombre con antecedente de infarto de miocardio presenta taquicardia ventricular monomórfica sostenida. La resonancia cardíaca demuestra una cicatriz miocárdica extensa. ¿Cuál es el mecanismo más probable?",
+     "opcoes": [
+      "Reentrada alrededor de regiones cicatriciales con conducción lenta.",
+      "Incremento uniforme de la velocidad de propagación del impulso.",
+      "Estimulación parasimpática exclusiva del nodo AV.",
+      "Desaparición del período refractario en todas las células cardíacas."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La cicatriz posinfarto crea zonas de conducción lenta y bloqueo que forman circuitos anómalos de reentrada. Es el ejemplo de la clase de TV por reentrada."
+     ]
+    },
+    {
+     "pergunta": "12. Una paciente que utiliza un fármaco capaz de prolongar el QT presenta episodios de taquicardia ventricular polimórfica. El laboratorio muestra hipomagnesemia. ¿Cuál es el mecanismo electrofisiológico más relacionado?",
+     "opcoes": [
+      "Posdespolarizaciones tempranas durante la repolarización.",
+      "Bloqueo mecánico del nodo sinusal.",
+      "Ausencia de automatismo de las células ventriculares.",
+      "Disminución de la duración del potencial de acción ventricular."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El QT largo y la hipomagnesemia prolongan el potencial de acción y favorecen las posdespolarizaciones tempranas (fases 2-3) por reactivación de canales de Ca²⁺ o Na⁺. El resultado es la torsade de pointes."
+     ]
+    },
+    {
+     "pergunta": "13. Un adulto mayor tratado con digoxina desarrolla náuseas, alteraciones visuales y extrasístoles ventriculares frecuentes. ¿Cuál es el mecanismo que mejor explica la aparición de estas arritmias?",
+     "opcoes": [
+      "Disminución de la concentración intracelular de calcio.",
+      "Postdespolarizaciones tardías secundarias a sobrecarga intracelular de calcio.",
+      "Desaparición de la actividad del retículo sarcoplásmico.",
+      "Bloqueo de la liberación espontánea de calcio en fase 4."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La digoxina aumenta el Ca²⁺ intracelular. El retículo sarcoplásmico lo libera de forma espontánea (RyR2) en la fase 4 y genera una corriente despolarizante: posdespolarizaciones tardías."
+     ]
+    },
+    {
+     "pergunta": "14. Durante un control electrocardiográfico se observa que todos los impulsos auriculares llegan a los ventrículos, pero el intervalo PR permanece en 0,26 segundos. El trastorno de conducción corresponde a un bloqueo auriculoventricular de ______ grado.",
+     "opcoes": [
+      "Primer grado",
+      "Segundo grado Mobitz I",
+      "Segundo grado Mobitz II",
+      "Tercer grado"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "PR > 200 ms (aquí 260 ms) sin pérdida de latidos es un bloqueo AV de primer grado: todas las P se conducen, pero con retraso."
+     ]
+    },
+    {
+     "pergunta": "15. En un paciente con fibrilación ventricular, la activación eléctrica caótica impide una contracción mecánica coordinada. Como consecuencia inmediata, el gasto cardíaco efectivo se vuelve prácticamente ______.",
+     "opcoes": [
+      "Nulo (cero)",
+      "Normal",
+      "Aumentado",
+      "Reducido a la mitad"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la fibrilación ventricular, múltiples ondas de reentrada caóticas impiden una contracción efectiva. El gasto cardíaco es prácticamente nulo y el paciente pierde el pulso (paro cardíaco)."
+     ]
+    },
+    {
+     "pergunta": "16. Un ECG muestra un QRS de 150 ms con patrón rSR' en V1. El trastorno es compatible con bloqueo de rama ______ del haz de His.",
+     "opcoes": [
+      "Derecha",
+      "Izquierda",
+      "Fascículo anterior izquierdo aislado",
+      "Ninguna; es un bloqueo AV"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El bloqueo de rama derecha da QRS ancho con patrón rSR’ en V1. El de rama izquierda da QRS ancho con R monofásica en V6."
+     ]
+    },
+    {
+     "pergunta": "17. Una mujer de 46 años, con antecedente de fiebre reumática, presenta disnea progresiva y episodios de hemoptisis. La ecocardiografía revela estrechamiento del orificio mitral y dilatación de la aurícula izquierda. ¿Qué alteración inicial explica mejor la sintomatología?",
+     "opcoes": [
+      "Aumento de la presión auricular izquierda con transmisión retrógrada hacia las venas pulmonares.",
+      "Disminución de la presión auricular izquierda durante la diástole.",
+      "Sobrecarga de presión primaria del ventrículo izquierdo.",
+      "Regurgitación sistólica desde la aorta hacia el ventrículo izquierdo."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la estenosis mitral, la presión de la AI sube y se transmite a las venas pulmonares: congestión (disnea) y ruptura de venas bronquiales (hemoptisis)."
+     ]
+    },
+    {
+     "pergunta": "18. Un paciente con estenosis mitral de larga evolución desarrolla edema de miembros inferiores, hepatomegalia e ingurgitación yugular. ¿Qué proceso explica mejor la aparición de estos hallazgos?",
+     "opcoes": [
+      "Hipertrofia aislada del ventrículo izquierdo.",
+      "Hipertensión pulmonar crónica y sobrecarga del ventrículo derecho.",
+      "Reducción persistente de la presión en la circulación pulmonar.",
+      "Disminución del retorno venoso sistémico por dilatación arterial."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "A largo plazo, la estenosis mitral produce hipertensión arterial pulmonar, que sobrecarga el ventrículo derecho y lleva a insuficiencia cardíaca derecha: edemas, hepatomegalia e ingurgitación yugular."
+     ]
+    },
+    {
+     "pergunta": "19. Una paciente con estenosis mitral presenta palpitaciones y ritmo irregular. El ECG confirma fibrilación auricular. ¿Qué modificación estructural favoreció el desarrollo de esta arritmia?",
+     "opcoes": [
+      "Hipertrofia concéntrica del ventrículo izquierdo.",
+      "Dilatación de la aurícula izquierda por aumento crónico de presión.",
+      "Disminución del diámetro de la aurícula derecha.",
+      "Calcificación aislada de la válvula pulmonar."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La presión elevada y crónica de la AI la dilata, y la aurícula dilatada es el sustrato de la fibrilación auricular, frecuente en la estenosis mitral."
+     ]
+    },
+    {
+     "pergunta": "20. Un hombre de 57 años presenta fatiga y disnea de esfuerzo. Durante la auscultación se identifica un soplo holosistólico en el ápex irradiado hacia la axila izquierda. ¿Qué alteración hemodinámica explica mejor este hallazgo?",
+     "opcoes": [
+      "Flujo retrógrado del ventrículo izquierdo hacia la aurícula izquierda durante la sístole.",
+      "Obstrucción del flujo entre aurícula y ventrículo izquierdos durante la diástole.",
+      "Reflujo de sangre desde la aorta hacia el ventrículo izquierdo.",
+      "Obstrucción del flujo sanguíneo sistólico hacia la aorta."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El soplo holosistólico apical irradiado a la axila es el de la insuficiencia mitral: reflujo del VI a la AI durante la sístole."
+     ]
+    },
+    {
+     "pergunta": "21. Una paciente con insuficiencia mitral crónica presenta en la ecocardiografía dilatación progresiva del ventrículo izquierdo. Durante años mantuvo un gasto cardíaco relativamente conservado. ¿Qué mecanismo adaptativo explica mejor esta evolución?",
+     "opcoes": [
+      "Hipertrofia concéntrica secundaria a sobrecarga exclusiva de presión.",
+      "Remodelado excéntrico por sobrecarga crónica de volumen.",
+      "Reducción del volumen de llenado ventricular.",
+      "Disminución permanente del retorno venoso pulmonar."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La sobrecarga de volumen produce dilatación excéntrica (Frank-Starling) con hipertrofia, lo que mantiene el flujo anterógrado durante años. La hipertrofia concéntrica es propia de la sobrecarga de presión (estenosis aórtica)."
+     ]
+    },
+    {
+     "pergunta": "22. Un paciente desarrolla disnea intensa e hipotensión pocas horas después de un infarto agudo de miocardio. La ecocardiografía muestra rotura de un músculo papilar e insuficiencia mitral aguda grave. ¿Qué explica el rápido deterioro hemodinámico?",
+     "opcoes": [
+      "Adaptación gradual y completa de la aurícula izquierda a una sobrecarga de volumen.",
+      "Elevación brusca de la presión auricular izquierda y congestión pulmonar.",
+      "Disminución del flujo retrógrado hacia la aurícula izquierda.",
+      "Aumento exclusivo de la resistencia vascular sistémica sin compromiso pulmonar."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la insuficiencia mitral aguda la AI no está adaptada: su presión sube bruscamente, con edema agudo de pulmón, y cae el gasto anterógrado, con shock cardiogénico."
+     ]
+    },
+    {
+     "pergunta": "23. Un hombre de 74 años presenta episodios de síncope al caminar, angina de esfuerzo y disnea progresiva. Se ausculta un soplo sistólico eyectivo irradiado a las carótidas. ¿Cuál es el principal mecanismo responsable del síncope?",
+     "opcoes": [
+      "Incapacidad de incrementar adecuadamente el gasto cardíaco ante el esfuerzo por obstrucción aórtica.",
+      "Regurgitación diastólica de sangre hacia la aurícula izquierda.",
+      "Disminución importante de la resistencia al flujo de salida ventricular.",
+      "Aumento directo del retorno venoso cerebral."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la estenosis aórtica el gasto cardíaco no puede aumentar con el esfuerzo por la obstrucción fija, y aparece hipoperfusión cerebral (síncope). La tríada es disnea, angina y síncope."
+     ]
+    },
+    {
+     "pergunta": "24. Un paciente con estenosis aórtica grave presenta hipertrofia de la pared del ventrículo izquierdo sin dilatación inicial de su cavidad. ¿Qué estímulo hemodinámico es responsable de esta adaptación?",
+     "opcoes": [
+      "Sobrecarga de volumen por regurgitación diastólica.",
+      "Sobrecarga de presión por resistencia a la eyección ventricular.",
+      "Disminución sostenida de la poscarga.",
+      "Aumento del flujo sanguíneo hacia la aurícula izquierda."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El VI debe generar más presión para vencer la válvula estrecha. La sobrecarga de presión produce hipertrofia concéntrica: pared gruesa sin dilatación inicial."
+     ]
+    },
+    {
+     "pergunta": "25. Un paciente con estenosis aórtica presenta angina pese a no tener obstrucciones coronarias significativas. El ecocardiograma demuestra hipertrofia ventricular izquierda importante. ¿Cuál es la explicación fisiopatológica más probable?",
+     "opcoes": [
+      "Disminución del consumo de oxígeno miocárdico.",
+      "Mayor demanda miocárdica de oxígeno asociada a perfusión subendocárdica insuficiente.",
+      "Aumento ilimitado de la reserva coronaria.",
+      "Disminución de la presión intraventricular durante la sístole."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hipertrofia aumenta la demanda de oxígeno, y la presión intraventricular alta reduce la perfusión subendocárdica. Ese desbalance produce angina aunque las coronarias sean normales."
+     ]
+    },
+    {
+     "pergunta": "26. Una mujer de 66 años con estenosis aórtica presenta disnea de esfuerzo, aunque conserva una fracción de eyección de 62 %. ¿Qué alteración explica mejor sus síntomas?",
+     "opcoes": [
+      "Disfunción diastólica por reducción de la distensibilidad ventricular.",
+      "Ausencia completa de hipertrofia ventricular.",
+      "Incremento de la distensibilidad del ventrículo izquierdo.",
+      "Disminución de las presiones de llenado de la circulación pulmonar."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El VI hipertrófico se vuelve rígido y llena mal (disfunción diastólica). Las presiones de llenado suben y causan congestión pulmonar con fracción de eyección conservada."
+     ]
+    },
+    {
+     "pergunta": "27. Un paciente de 59 años presenta palpitaciones y disnea progresiva. La presión arterial es de 165/45 mmHg. Se ausculta un soplo diastólico decreciente en el borde esternal izquierdo. ¿Qué alteración produce estos hallazgos?",
+     "opcoes": [
+      "Regurgitación de sangre desde la aorta hacia el ventrículo izquierdo durante la diástole.",
+      "Flujo retrógrado desde el ventrículo izquierdo hacia la aurícula izquierda en sístole.",
+      "Obstrucción del flujo auriculoventricular izquierdo en diástole.",
+      "Aumento de la resistencia al vaciamiento ventricular derecho."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Soplo diastólico decreciente en el borde esternal izquierdo con presión diferencial amplia (165/45) es una insuficiencia aórtica: reflujo de la aorta al VI en la diástole."
+     ]
+    },
+    {
+     "pergunta": "28. En un paciente con insuficiencia aórtica crónica se observa dilatación ventricular izquierda y aumento progresivo de la masa miocárdica. ¿Cuál es el principal factor que desencadena esta remodelación?",
+     "opcoes": [
+      "Sobrecarga de volumen causada por el retorno diastólico de sangre al ventrículo izquierdo.",
+      "Disminución persistente del volumen telediastólico.",
+      "Obstrucción al paso de sangre a través de la válvula mitral.",
+      "Aumento exclusivo de la presión del ventrículo derecho."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La sangre que refluye en cada diástole sobrecarga de volumen al VI, que responde con dilatación excéntrica e hipertrofia."
+     ]
+    },
+    {
+     "pergunta": "29. Un paciente con antecedente de hipertensión arterial desarrolla insuficiencia aórtica crónica por dilatación de la raíz aórtica. ¿Qué alteración anatómica explica la incompetencia valvular?",
+     "opcoes": [
+      "Separación de los puntos de coaptación de las valvas por dilatación de la raíz aórtica.",
+      "Fusión de las comisuras mitrales.",
+      "Rotura de las cuerdas tendinosas de la válvula tricúspide.",
+      "Estrechamiento de los orificios coronarios como causa directa del reflujo."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Al dilatarse la raíz aórtica (por HTA o Marfan), las valvas se separan y dejan de coaptar, aunque estén sanas. Por eso la válvula no cierra en la diástole."
+     ]
+    },
+    {
+     "pergunta": "30. Un hombre con insuficiencia aórtica crónica presenta pulso arterial amplio y colapsante, con presión diferencial elevada. Este hallazgo periférico característico se conoce como pulso de ______.",
+     "opcoes": [
+      "Corrigan",
+      "Parvus et tardus",
+      "Paradójico (Kussmaul)",
+      "Alternante"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El pulso de Corrigan (en martillo de agua) es amplio y colapsante, típico de la insuficiencia aórtica. El parvus et tardus es de la estenosis aórtica."
+     ]
+    }
+   ],
+   "flashcards": []
+  },
+  {
+   "id": "fisio-casos-clinicos",
+   "tema": "Repaso",
+   "titulo": "Casos clínicos",
+   "icone": "cerebro",
+   "origem": "importado",
+   "materiais": [
+    {
+     "nome": "Material de clase – Dr. Luis Paniagua",
+     "tipo": "aula"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "Hombre de 70 años, fumador y diabético, con dolor en la pantorrilla al caminar dos cuadras que desaparece al detenerse. Pulsos pedios disminuidos. ¿Diagnóstico?",
+     "opcoes": [
+      "Trombosis venosa profunda",
+      "Enfermedad arterial periférica con claudicación intermitente",
+      "Várices",
+      "Fenómeno de Raynaud"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Dolor muscular con el esfuerzo que cede con el reposo, en un fumador diabético con pulsos disminuidos, es claudicación intermitente por enfermedad arterial periférica aterosclerótica."
+     ]
+    },
+    {
+     "pergunta": "Mujer de 24 años: con el frío, sus dedos se ponen blancos, luego azules y después rojos y dolorosos. Entre episodios está normal. ¿Diagnóstico?",
+     "opcoes": [
+      "Fenómeno de Raynaud",
+      "Oclusión arterial aguda",
+      "Insuficiencia venosa crónica",
+      "Vasculitis ANCA+"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La secuencia blanco (vasoespasmo), azul (estasis) y rojo (reperfusión) desencadenada por el frío es el fenómeno de Raynaud. En una mujer joven sin otra enfermedad suele ser primario."
+     ]
+    },
+    {
+     "pergunta": "Mujer de 35 años, al quinto día de una cesárea y en reposo, presenta la pantorrilla izquierda hinchada, caliente y dolorosa. ¿Diagnóstico más probable?",
+     "opcoes": [
+      "Trombosis venosa profunda",
+      "Claudicación intermitente",
+      "Celulitis por várices",
+      "Fenómeno de Raynaud"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Posoperatorio, puerperio e inmovilización son factores de riesgo de TVP. El edema unilateral, caliente y doloroso de la pantorrilla es su presentación típica."
+     ]
+    },
+    {
+     "pergunta": "Cajera de 45 años que trabaja de pie, con venas dilatadas y tortuosas en las piernas, pesadez y edema que empeoran al final del día. ¿Diagnóstico?",
+     "opcoes": [
+      "Várices por insuficiencia valvular venosa",
+      "Trombosis arterial",
+      "Linfedema congénito",
+      "Enfermedad arterial periférica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Venas tortuosas visibles con edema vespertino y pesadez, en alguien con bipedestación prolongada, son várices por fallo valvular con hipertensión venosa."
+     ]
+    },
+    {
+     "pergunta": "Hombre de 35 años con nódulos en los tendones de Aquiles, arco corneal y LDL de 310 mg/dL. Su padre murió de infarto a los 45 años. ¿Diagnóstico?",
+     "opcoes": [
+      "Hipercolesterolemia familiar",
+      "Hiperquilomicronemia familiar",
+      "Hipotiroidismo",
+      "HDL bajo aislado"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Xantomas tendinosos, arco corneal, LDL muy alto y cardiopatía isquémica precoz en la familia son la hipercolesterolemia familiar (defecto del receptor de LDL, autosómica dominante)."
+     ]
+    },
+    {
+     "pergunta": "Paciente con dolor abdominal intenso irradiado a la espalda, lipasa elevada, suero lechoso y TG de 2200 mg/dL. No bebe alcohol y no tiene cálculos biliares. ¿Diagnóstico?",
+     "opcoes": [
+      "Pancreatitis aguda por hipertrigliceridemia grave",
+      "Infarto agudo de miocardio",
+      "Cólico renal",
+      "Hipercolesterolemia familiar"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Con TG > 1000 mg/dL hay riesgo de pancreatitis aguda. Sin causa biliar ni alcohólica, la hipertrigliceridemia es la causa."
+     ]
+    },
+    {
+     "pergunta": "Mujer de 45 años con HTA que no se controla con tres fármacos y potasio de 2,9 mEq/L sin diuréticos. ¿Qué sospecha?",
+     "opcoes": [
+      "Hiperaldosteronismo primario",
+      "Hipotiroidismo",
+      "Coartación de aorta",
+      "HTA esencial"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "HTA resistente con hipokalemia es hiperaldosteronismo primario hasta demostrar lo contrario. Se estudia con el cociente aldosterona/renina."
+     ]
+    },
+    {
+     "pergunta": "Hombre de 38 años con crisis de cefalea intensa, palpitaciones y sudoración profusa, con PA de 230/120 durante los episodios y normal entre ellos. ¿Qué sospecha?",
+     "opcoes": [
+      "Feocromocitoma",
+      "Crisis de ansiedad sin causa orgánica",
+      "Hipotiroidismo",
+      "Enfermedad renal crónica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Tríada cefalea, palpitaciones y sudoración con HTA paroxística es feocromocitoma hasta demostrar lo contrario. Se confirma con metanefrinas."
+     ]
+    },
+    {
+     "pergunta": "Mujer de 40 años con obesidad central, cara de luna llena, estrías violáceas en el abdomen e HTA. ¿Diagnóstico?",
+     "opcoes": [
+      "Síndrome de Cushing",
+      "Feocromocitoma",
+      "Hipertiroidismo",
+      "Hiperparatiroidismo"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Obesidad central, facies de luna llena y estrías purpúreas son el síndrome de Cushing. El cortisol eleva la PA por más RVP y retención de sodio."
+     ]
+    },
+    {
+     "pergunta": "Adolescente de 16 años con PA de 160/95 en los brazos, pulsos femorales débiles y retrasados y soplo entre los omóplatos. ¿Diagnóstico?",
+     "opcoes": [
+      "Coartación de aorta",
+      "HTA esencial",
+      "Feocromocitoma",
+      "Estenosis mitral"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "HTA en miembros superiores con pulsos femorales débiles y soplo interescapular es coartación de aorta: presión alta antes de la obstrucción y baja después."
+     ]
+    },
+    {
+     "pergunta": "Anciano de 82 años con síncope. ECG: ondas P a 80 lpm y QRS anchos a 35 lpm, sin relación entre ellos. ¿Diagnóstico?",
+     "opcoes": [
+      "Bloqueo AV completo (tercer grado)",
+      "Bloqueo AV de primer grado",
+      "Taquicardia sinusal",
+      "Fibrilación ventricular"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Aurículas y ventrículos laten cada uno a su ritmo, sin relación entre P y QRS: disociación AV por bloqueo completo, con escape ventricular lento."
+     ]
+    },
+    {
+     "pergunta": "Mujer de 80 años que toma digoxina consulta por náuseas, vómitos, visión amarillenta y palpitaciones. ¿Qué sospecha?",
+     "opcoes": [
+      "Intoxicación digitálica",
+      "Gastroenteritis viral",
+      "Hipotiroidismo",
+      "Hiperaldosteronismo"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Síntomas digestivos, alteraciones visuales (visión amarilla) y arritmias en un paciente con digoxina son intoxicación digitálica. Las arritmias se deben a posdespolarizaciones tardías por sobrecarga de Ca²⁺."
+     ]
+    },
+    {
+     "pergunta": "Paciente en hemodiálisis que faltó a dos sesiones presenta debilidad, potasio de 7,4 mEq/L y ondas T picudas en el ECG. ¿Qué alteración tiene?",
+     "opcoes": [
+      "Hiperpotasemia",
+      "Hipopotasemia",
+      "Hipocalcemia aislada",
+      "Intoxicación digitálica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Sin diálisis el riñón no elimina potasio. K⁺ > 7 con ondas T picudas es hiperpotasemia grave, que puede progresar a QRS ancho y parada cardíaca."
+     ]
+    },
+    {
+     "pergunta": "Mujer de 45 años con antecedente de fiebre reumática en la infancia presenta disnea, hemoptisis, chasquido de apertura y rumor diastólico en el ápex. ¿Diagnóstico?",
+     "opcoes": [
+      "Estenosis mitral",
+      "Estenosis aórtica",
+      "Insuficiencia aórtica",
+      "Insuficiencia mitral aguda"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Fiebre reumática más chasquido de apertura con rumor diastólico apical, disnea y hemoptisis es estenosis mitral reumática."
+     ]
+    },
+    {
+     "pergunta": "Hombre de 78 años con síncope al subir escaleras, angina de esfuerzo y soplo sistólico áspero en el foco aórtico irradiado a las carótidas. ¿Diagnóstico?",
+     "opcoes": [
+      "Estenosis aórtica",
+      "Insuficiencia mitral",
+      "Estenosis mitral",
+      "Insuficiencia aórtica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Síncope de esfuerzo, angina y disnea (la tríada) con soplo sistólico irradiado a carótidas, en un anciano, es estenosis aórtica calcificada."
+     ]
+    },
+    {
+     "pergunta": "Hombre alto, con brazos largos y diagnóstico de síndrome de Marfan, tiene PA de 160/40 mmHg, la cabeza se le mueve con cada latido y soplo diastólico en el borde esternal izquierdo. ¿Diagnóstico?",
+     "opcoes": [
+      "Insuficiencia aórtica",
+      "Estenosis aórtica",
+      "Estenosis mitral",
+      "Coartación de aorta"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Dilatación de la raíz aórtica por Marfan, presión diferencial amplia, signo de Musset y soplo diastólico decreciente son insuficiencia aórtica."
+     ]
+    },
+    {
+     "pergunta": "Estudiante de 20 años, antes de un examen, respira muy rápido y refiere hormigueo en labios y manos. ¿Qué trastorno ácido-base tiene?",
+     "opcoes": [
+      "Alcalosis respiratoria",
+      "Acidosis respiratoria",
+      "Acidosis metabólica",
+      "Alcalosis metabólica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La hiperventilación por ansiedad elimina CO₂ y produce alcalosis respiratoria. La alcalosis baja el calcio iónico y causa parestesias. Es la causa más común de alcalosis respiratoria."
+     ]
+    }
+   ],
+   "flashcards": []
+  }
+ ]
+}

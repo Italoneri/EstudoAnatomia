@@ -1,22 +1,41 @@
 # EstudoAnatomia: gerar banco de questões a partir de slides
 
-App de estudo de **Anatomía Patológica** (um único `index.html`). O usuário manda um PDF de slides da aula e pede um banco de questões. Este documento é o fluxo completo, já validado no kit `vasos-sanguineos-2`.
+App de estudo com **várias matérias** (um único `index.html`). O usuário manda um PDF de slides da aula e pede um banco de questões. Este documento é o fluxo completo, já validado no kit `vasos-sanguineos-2`.
 
-Fluxo: localizar PDF → **Etapa 1 (análise, PARAR e esperar confirmação)** → Etapa 2 (questões) → Etapa 3 (verificação e correção) → integrar no repo → commit.
+Fluxo: localizar PDF → **descobrir a matéria** → **Etapa 1 (análise, PARAR e esperar confirmação)** → Etapa 2 (questões) → Etapa 3 (verificação e correção) → integrar no repo → commit.
+
+## Matérias
+| id | Nome | Prefixo dos kits novos |
+|---|---|---|
+| `metodologia-2` | Metodología II | `meto-` |
+| `epidemiologia` | Epidemiología | `epi-` |
+| `patologia-medica` | Patología Médica | `pm-` |
+| `anatopato` | Anatomía Patológica I | sem prefixo (kits antigos: `neoplasia-1`, `cardio-2`…) |
+| `fisiopato-1` | Fisiopatología I | `fisio-` |
+| `patologia-quirurgica-1` | Patología Quirúrgica I | `pq-` |
+| `primeros-auxilios` | Primeros Auxilios | `pa-` |
+| `principios-valores` | Principios y Valores | `pv-` |
+
+- Se não estiver claro de qual matéria é o PDF, **perguntar** antes da Etapa 1.
+- O `id` do kit é a chave do progresso no navegador: precisa ser **único entre todas as matérias** (o `merge-kit.js` e o `verify-kit.js` barram repetidos). Nunca renomear o id de um kit que já existe (o usuário perde o progresso).
+- Anatomía Patológica I: a final soma P1 + P2. Temas da P1 entram como kits novos com o próprio `tema`; provas antigas de P1 seguem como `provas-anteriores-5`, `-6`…
 
 ## Onde estão as coisas
 
 | Caminho | O que é |
 |---|---|
-| `index.html` | O app. Banco embutido no bloco `const DB = { materias: [ ... ] };` |
-| `dados/anatopato.json` | O mesmo banco em JSON (fonte de verdade, idêntico ao embutido) |
+| `index.html` | O app. Banco embutido no bloco `const DB = { materias: [ ... ] };` (gerado, não editar à mão) |
+| `dados/materias.json` | Ordem das matérias na tela inicial |
+| `dados/<matéria>.json` | Banco de cada matéria (fonte de verdade; o `const DB` é a junção deles) |
+| `tools/materias.js` | Funções comuns: ler/gravar matéria, remontar o `const DB` |
 | `tools/extract_pdf.py` | Texto por página + render das páginas só-imagem |
 | `tools/kits/<id>.js` | Fonte compacta de cada kit (questões escritas à mão) |
 | `tools/build-kit.js` | Fonte compacta → JSON do kit, sorteando a posição da correta |
 | `tools/verify-kit.js` | Etapa 3: estrutura, distribuição, tamanho, duplicadas, complemento |
-| `tools/merge-kit.js` | Insere/substitui o kit em `dados/anatopato.json` e no `index.html` |
+| `tools/merge-kit.js` | Insere/substitui o kit em `dados/<matéria>.json` e remonta o `index.html` (sem argumento: só remonta) |
+| `tools/importar-quiz.js` | Traz o banco do app fisiopato-quiz para `fisiopato-1` |
 
-Kits atuais: `neoplasia-1..3`, `vasos-sanguineos-1..2`. O `tema` agrupa kits ("Neoplasia", "Vasos sanguíneos"). O app cria sozinho os cards "<Tema> – todos" e "Geral"; **nunca criar kit "todos"**.
+Ver os kits atuais no `README.md`. O `tema` agrupa kits dentro da matéria ("Neoplasia", "Vasos sanguíneos"). O app cria sozinho os cards "<Tema> – todos" e "Geral" de cada matéria; **nunca criar kit "todos"**.
 
 ## Regras do usuário (obrigatórias)
 
@@ -25,7 +44,7 @@ Kits atuais: `neoplasia-1..3`, `vasos-sanguineos-1..2`. O `tema` agrupa kits ("N
 - Campo `fonte` com arquivo e slide: `"<nome do arquivo>.pdf, slide N"`.
 - Conhecimento geral para completar uma explicação → `"complemento": true`. Usar o mínimo possível e **marcar sempre que usar**, mesmo que seja só uma frase de fisiopatologia na explicação.
 - Se um bloco não tem conteúdo para ~20 questões boas, fazer menos e dizer quantas e por quê. Melhor 12 sólidas que 20 com enchimento.
-- Questões no idioma dos slides (espanhol).
+- Questões no idioma dos slides (normalmente espanhol).
 - Se um slide contradiz a literatura, apontar na Etapa 1 e, por padrão, **não fazer questão sobre esse ponto** (decisão já aprovada pelo usuário).
 - Se outro kit já cobre um assunto (ex.: HHV8/Kaposi em `neoplasia-2`), não repetir a mesma ideia; focar no ângulo novo.
 
@@ -58,8 +77,8 @@ Campo `explicacao`: 3 bullets curtos (1–2 frases cada):
 ### Formato do JSON
 ```json
 {
-  "id": "anatopato",
-  "nome": "Anatomía Patológica",
+  "id": "<id da matéria>",
+  "nome": "<Nome da matéria>",
   "kits": [{
     "id": "<tema>-<n>",
     "tema": "<Nome do tema>",
@@ -75,7 +94,7 @@ Campo `explicacao`: 3 bullets curtos (1–2 frases cada):
   }]
 }
 ```
-Um kit por arquivo. `id` em kebab-case sem acento (`vasos-sanguineos-3`).
+Um kit por arquivo. `id` em kebab-case sem acento (`vasos-sanguineos-3`), com o prefixo da matéria nas matérias novas (`epi-vigilancia-1`).
 
 ### Etapa 3: verificação
 Rodar `tools/verify-kit.js` e mostrar: JSON válido e estrutura OK; posições 0/1/2/3 por kit e total; % correta mais longa (≤ 30%) e mais curta (~25%); sem `fonte`, duplicadas ou quase iguais; quantas `complemento: true`. Corrigir o que estiver fora da meta e rodar de novo.
@@ -101,7 +120,8 @@ python -I tools/extract_pdf.py "$SCRATCH/aula.pdf" "$SCRATCH/extract" "$SCRATCH/
 ### 3. Escrever a fonte compacta `tools/kits/<id>.js`
 Usar `tools/kits/vasos-sanguineos-2.js` como modelo:
 ```js
-const KIT = { id, tema, titulo, arquivo: "<nome exato do PDF>" };
+const KIT = { materia: "<id da matéria>", id, tema, titulo, arquivo: "<nome exato do PDF>" };
+// materia: id em dados/materias.json (sem o campo, vale "anatopato"). Opcional: icone ("hospital", "coracao", "gota", "cerebro", "pulmao")
 const BLOCOS = { 1: "Nombre del bloque", ... };
 const Q = [
   { b:1, n:"medio", s:7, x:true /* só se complemento */,
@@ -126,25 +146,25 @@ Fazer o mesmo com `Math.min` para "mais curta" e checar pistas lexicais. Editar 
 
 ### 5. Integrar e entregar
 ```bash
-node tools/merge-kit.js "$SCRATCH/<id>.json"     # atualiza dados/anatopato.json e index.html
-node tools/verify-kit.js dados/anatopato.json    # todos os kits devem passar
+node tools/merge-kit.js "$SCRATCH/<id>.json"     # atualiza dados/<matéria>.json e remonta o index.html
+node tools/verify-kit.js                         # todas as matérias; todos os kits devem passar
 ```
-- `anatopato.json` e o bloco do `index.html` usam JSON com indent de **1 espaço** e **CRLF**, sem newline final. O `merge-kit.js` preserva isso, então o diff fica só com o kit novo. Rodar duas vezes não muda nada.
-- Atualizar a tabela "Conteúdo atual" do `README.md` (Tema | Arquivo | Questões).
+- Os `dados/<matéria>.json` e o bloco do `index.html` usam JSON com indent de **1 espaço** e **CRLF**, sem newline final. O `merge-kit.js` preserva isso, então o diff fica só com o kit novo. Rodar duas vezes não muda nada.
+- Atualizar no `README.md` a tabela da matéria (Tema | Arquivo | Questões) e o total na tabela "Matérias".
 - Conferir se o JS do app ainda parseia:
   ```bash
   node -e 'const h=require("fs").readFileSync("index.html","utf8");[...h.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)].forEach(m=>new Function(m[1]));console.log("ok")'
   ```
 
 ### 6. Git
-- Branch: `feat/<id>` (sem Jira). Commit: `feat: add <tema> <n> question bank`.
+- Branch: `feat/<id>` (sem Jira). Commit: `feat: add <tema> <n> question bank` (matéria nova: `feat(<matéria>): add <tema> <n> question bank`).
 - Commitar ao terminar. Push/PR só se o usuário pedir.
 
 ### 7. Ver no navegador
 `python -m http.server 8765 --bind 127.0.0.1` em background e abrir `http://localhost:8765/`. A porta **8080 está ocupada/bloqueada** nesta máquina (WinError 10013). Alternativa sem servidor: abrir o `index.html` com duplo clique.
 
 ## Kits de "Provas anteriores"
-Questões reais de provas antigas, separadas por tema (`provas-anteriores-1..4`). Diferem dos kits de slides:
+Questões reais de provas antigas, separadas por tema (`provas-anteriores-1..4` em anatopato; em outras matérias, com prefixo: `epi-provas-1`). Diferem dos kits de slides:
 - Fonte compacta em `tools/kits/provas-anteriores-<n>.js`; nomes das provas em `tools/kits/provas-fontes.js`. `fonte` = `"<prova>, pregunta N"`.
 - Build com `node tools/build-prova.js` (não o `build-kit.js`): mantém 2 a 5 alternativas como na prova. Itens com ordem que importa ("Todas son correctas", Verdadero/Falso, intervalos de tempo) usam `o` + `k` e não são embaralhados.
 - O kit sai com `"separado": true`: o app cria "Provas anteriores – todos" e o deixa fora do "Geral". O `verify-kit.js` aplica as regras de 2–5 alternativas e de `fonte` de prova só a esses kits.

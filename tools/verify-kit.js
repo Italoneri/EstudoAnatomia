@@ -1,8 +1,13 @@
-// Valida um JSON de banco (kit avulso ou dados/anatopato.json) contra as metas do CLAUDE.md.
-// Uso: node tools/verify-kit.js <arquivo.json>
+// Valida um JSON de banco (kit avulso ou dados/<matéria>.json) contra as metas do CLAUDE.md.
+// Uso:
+//   node tools/verify-kit.js <arquivo.json>   um kit gerado pelo build ou uma matéria
+//   node tools/verify-kit.js                  todas as matérias de dados/ (e ids de kit únicos entre elas)
+// Kits com "origem": "importado" (bancos trazidos de outro app, sem slide por questão) só passam
+// pelas checagens de estrutura: pergunta, 2 a 5 alternativas, correta e explicação.
 const fs = require("fs");
+const { todasMaterias, idsRepetidos } = require("./materias");
 
-const db = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
+const bancos = process.argv[2] ? [JSON.parse(fs.readFileSync(process.argv[2], "utf8"))] : todasMaterias();
 const errors = [];
 const need = (ok, message) => { if (!ok) errors.push(message); };
 
@@ -18,6 +23,14 @@ const jaccard = (a, b) => {
   const shared = [...A].filter((x) => B.has(x)).length;
   return shared / (A.size + B.size - shared || 1);
 };
+
+function checkImportada(p, tag) {
+  const n = Array.isArray(p.opcoes) ? p.opcoes.length : 0;
+  need(typeof p.pergunta === "string" && p.pergunta.length > 10, `${tag}: pergunta`);
+  need(n >= 2 && n <= 5 && new Set(p.opcoes).size === n, `${tag}: opcoes`);
+  need(Number.isInteger(p.correta) && p.correta >= 0 && p.correta < n, `${tag}: correta`);
+  need(Array.isArray(p.explicacao) && p.explicacao.length > 0, `${tag}: explicacao`);
+}
 
 function checkPergunta(p, tag, prova) {
   const n = Array.isArray(p.opcoes) ? p.opcoes.length : 0;
@@ -56,16 +69,20 @@ function nearDuplicates(perguntas) {
 const pct = (part, whole) => `${((100 * part) / whole).toFixed(1)}%`;
 const total = { pos: [0, 0, 0, 0, 0], n: 0, longest: 0, shortest: 0, complemento: 0, incorrecta: 0, nivel: {} };
 
-need(db.id === "anatopato" && Array.isArray(db.kits), "raiz: precisa de id 'anatopato' e kits[]");
+for (const db of bancos) {
+need(typeof db.id === "string" && typeof db.nome === "string" && Array.isArray(db.kits), `raiz ${db.id}: precisa de id, nome e kits[]`);
+console.log(`\n===== ${db.nome} (${db.id}): ${db.kits.length} kits =====`);
 for (const kit of db.kits) {
   ["id", "tema", "titulo", "icone", "materiais", "perguntas", "flashcards"].forEach((f) => need(kit[f] !== undefined, `${kit.id}: falta ${f}`));
   const prova = kit.separado === true;
-  const pos = prova ? [0, 0, 0, 0, 0] : [0, 0, 0, 0];
+  const importado = kit.origem === "importado";
+  const pos = prova || importado ? [0, 0, 0, 0, 0] : [0, 0, 0, 0];
   const blocos = {};
   let longest = 0;
   let shortest = 0;
   kit.perguntas.forEach((p, i) => {
-    checkPergunta(p, `${kit.id}#${i + 1}`, prova);
+    if (importado) checkImportada(p, `${kit.id}#${i + 1}`);
+    else checkPergunta(p, `${kit.id}#${i + 1}`, prova);
     pos[p.correta]++;
     const rank = lengthRank(p);
     longest += rank.longest;
@@ -75,11 +92,11 @@ for (const kit of db.kits) {
     total.incorrecta += /INCORRECTA/.test(p.pergunta) ? 1 : 0;
     total.nivel[p.nivel] = (total.nivel[p.nivel] || 0) + 1;
   });
-  kit.flashcards.forEach((f, i) => need(f.frente && f.verso && (prova ? FONTE_PROVA : FONTE).test(f.fonte || ""), `${kit.id} flashcard#${i + 1}`));
+  kit.flashcards.forEach((f, i) => need(f.frente && f.verso && (importado || (prova ? FONTE_PROVA : FONTE).test(f.fonte || "")), `${kit.id} flashcard#${i + 1}`));
 
   const n = kit.perguntas.length;
   const near = nearDuplicates(kit.perguntas);
-  console.log(`\n[${kit.id}] ${n} questões, ${kit.flashcards.length} flashcards`);
+  console.log(`\n[${kit.id}] ${n} questões, ${kit.flashcards.length} flashcards${importado ? " (importado: só estrutura)" : ""}`);
   console.log("  blocos:", JSON.stringify(blocos));
   console.log(`  posições ${pos.map((_, i) => i).join("/")}:`, pos.join("/"), "→", pos.map((x) => pct(x, n)).join(" "));
   console.log(`  correta = mais longa: ${longest} (${pct(longest, n)}) | mais curta: ${shortest} (${pct(shortest, n)})`);
@@ -89,6 +106,8 @@ for (const kit of db.kits) {
   total.longest += longest;
   total.shortest += shortest;
 }
+}
+if (!process.argv[2]) idsRepetidos(bancos).forEach((r) => errors.push(`id de kit repetido entre matérias: ${r}`));
 
 console.log(`\n[TOTAL] ${total.n} questões | posições 0-4 ${total.pos.join("/")} | mais longa ${pct(total.longest, total.n)} | mais curta ${pct(total.shortest, total.n)}`);
 console.log(`  complemento:true = ${total.complemento} | INCORRECTA = ${total.incorrecta} (${pct(total.incorrecta, total.n)}) | níveis ${JSON.stringify(total.nivel)}`);
