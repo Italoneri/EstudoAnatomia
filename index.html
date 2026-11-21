@@ -402,7 +402,669 @@ const DB = { materias: [
  "id": "patologia-medica",
  "nome": "Patología Médica",
  "cor": "laranja",
- "kits": [],
+ "kits": [
+  {
+   "id": "pm-aparato-digestivo-1",
+   "tema": "Aparato digestivo",
+   "titulo": "Aparato digestivo 1 – Patología esofágica, gastritis y úlcera péptica",
+   "icone": "hospital",
+   "materiais": [
+    {
+     "nome": "Aparato_digestivo.pdf",
+     "tipo": "ppt"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "¿Cómo está constituida la musculatura del esófago en su tercio superior y en el 33% distal?",
+     "opcoes": [
+      "Músculo liso en el tercio superior y músculo esquelético en el tercio distal",
+      "Músculo esquelético en toda su longitud, con músculo liso solo en el esfínter inferior",
+      "Músculo esquelético en el tercio superior y músculo liso en el tercio distal del tubo",
+      "Músculo liso en toda su longitud, con músculo esquelético solo en el esfínter superior"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El tercio superior es exclusivamente músculo esquelético y el 33% distal es músculo liso; la porción intermedia mezcla ambos tipos.",
+      "El esfínter superior se forma por los constrictores de la faringe (fibras del cricofaríngeo), mientras que el EEI depende de haces diafragmáticos, la membrana frenoesofágica y la capa circular.",
+      "La opción invertida es la más tentadora, pero coloca el músculo estriado en la zona distal, que en realidad es lisa."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 3",
+     "bloco": "Anatomía e histología esofágica",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Dónde se localiza el plexo mientérico de Auerbach en la pared esofágica?",
+     "opcoes": [
+      "Entre las capas circular interna y longitudinal externa del esófago",
+      "En la submucosa, acompañando a los vasos y nervios del plexo submucoso",
+      "En la lámina propia, por debajo del epitelio escamoso estratificado",
+      "En la adventicia, que en la porción abdominal se transforma en serosa"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El plexo de Auerbach se sitúa entre las fibras musculares circulares y las longitudinales de la capa muscular.",
+      "Es el plexo mientérico, cuyas neuronas inhibitorias se pierden en la acalasia primaria.",
+      "El plexo de Meissner, y no el de Auerbach, es el que se encuentra en la submucosa; ahí está la confusión más frecuente."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 5",
+     "bloco": "Anatomía e histología esofágica",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Varón de 72 años con antecedente de ACV presenta tos y atragantamiento al intentar iniciar la deglución, con regurgitación nasofaríngea. ¿Qué tipo de disfagia presenta y cuál es su principal causa de muerte?",
+     "opcoes": [
+      "Esofágica motora; esofagitis por Cándida",
+      "Orofaríngea; aspiración broncopulmonar",
+      "Esofágica mecánica; impactación alimentaria",
+      "Orofaríngea; estenosis péptica del esófago"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Es una disfagia orofaríngea o alta: hay incapacidad para iniciar la deglución, y el ACV es su causa neurológica más frecuente.",
+      "El bolo no se propulsa de la faringe al esófago proximal; las complicaciones son tos, regurgitación nasofaríngea y aspiraciones broncopulmonares, principal causa de muerte.",
+      "La impactación alimentaria produce afagia (obstrucción esofágica completa), no este cuadro de transferencia."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 11-12",
+     "bloco": "Síntomas esofágicos y disfagia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un paciente refiere dificultad para deglutir tanto sólidos como líquidos desde el inicio del cuadro. ¿Qué mecanismo sugiere?",
+     "opcoes": [
+      "Obstáculo físico en la luz esofágica, como una estenosis benigna o un cáncer",
+      "Incapacidad para transferir el bolo desde la faringe hacia el esófago proximal",
+      "Anillo esofágico inferior de Schatzki con estrechamiento fijo del calibre",
+      "Alteración de la peristalsis o de la relajación del EEI (disfagia motora)"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La disfagia a sólidos y líquidos desde el comienzo sugiere enfermedad motora del esófago.",
+      "Se debe a alteración de la peristalsis del cuerpo esofágico o de la relajación del EEI (acalasia, espasmo distal, esclerodermia).",
+      "La disfagia mecánica, como la del anillo de Schatzki, suele iniciar solo para sólidos; la de líquidos orienta a origen orofaríngeo."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 14-15",
+     "bloco": "Síntomas esofágicos y disfagia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué alteración fisiopatológica explica la acalasia primaria?",
+     "opcoes": [
+      "Pérdida de neuronas inhibitorias de Auerbach, con déficit de óxido nítrico y VIP",
+      "Atrofia del músculo liso esofágico, con hipotonía marcada del EEI",
+      "Pérdida de neuronas del plexo de Meissner, con aumento de la motilidad del cuerpo esofágico",
+      "Hiperactividad de neuronas excitadoras que produce contracciones prematuras de gran amplitud"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la acalasia primaria hay una pérdida inflamatoria de las neuronas inhibitorias del plexo mientérico del EEI y del cuerpo esofágico.",
+      "Esto reduce el óxido nítrico (relajación del músculo liso) y el polipéptido intestinal vasoactivo (peristaltismo), de modo que el EEI no relaja.",
+      "La atrofia muscular con EEI hipotónico corresponde al patrón de aperistalsis de la esclerodermia, no a la acalasia."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 20",
+     "bloco": "Acalasia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la prueba diagnóstica de elección en la acalasia?",
+     "opcoes": [
+      "Esofagograma con bario",
+      "Endoscopia digestiva alta",
+      "Radiografía simple de tórax",
+      "Manometría esofágica"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La manometría es la prueba de elección porque confirma el diagnóstico.",
+      "Demuestra la relajación incompleta del EEI tras la deglución; la presión basal del EEI puede ser normal o elevada.",
+      "El bario (pico de pájaro) y la endoscopia (cardias puntiforme, retención de alimento) orientan, pero no confirman."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 24",
+     "bloco": "Acalasia",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Varón de 35 años con disfagia progresiva a sólidos y líquidos, regurgitación no ácida y pérdida de peso. El bario muestra esófago dilatado con la columna terminando en “pico de pájaro”. ¿Qué hallazgo manométrico esperaría?",
+     "opcoes": [
+      "Peristalsis fallida en todas las degluciones, con EEI que relaja bien",
+      "Relajación incompleta del EEI tras la deglución y presión basal normal",
+      "Contracciones prematuras de gran amplitud con relajación normal del EEI",
+      "Presión basal del EEI disminuida con peristalsis del cuerpo conservada"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El cuadro clínico y radiológico corresponde a acalasia, cuya característica cardinal es la incapacidad de relajación del EEI.",
+      "La manometría muestra relajación incompleta del EEI siguiendo a la deglución, hallazgo más relevante; el pico de pájaro marca el esfínter cerrado.",
+      "La peristalsis fallida con relajación adecuada del EEI es el patrón de esclerodermia, el distractor más cercano."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 19, 21-22, 24",
+     "bloco": "Acalasia",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre los subtipos de acalasia:",
+     "opcoes": [
+      "El tipo II es el que peor responde a cualquier modalidad de tratamiento",
+      "El tipo I se caracteriza por ausencia de peristaltismo en el 100% de las degluciones",
+      "El tipo III muestra contracciones espásticas prematuras en más del 20% de las degluciones líquidas",
+      "El tipo II predomina en mujeres y presenta presurización panesofágica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La afirmación incorrecta es que el tipo II responde peor: en realidad es el subtipo que mejor responde a cualquier tratamiento.",
+      "El que peor responde a cualquier modalidad terapéutica es el tipo III o espástico (antes llamado vigorosa).",
+      "El tipo I, de predominio masculino, tiene buena respuesta a la miotomía de Heller; el tipo II predomina en mujeres."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 25",
+     "bloco": "Acalasia",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Mujer de 50 años con episodios de dolor torácico retroesternal y disfagia intermitente. La manometría muestra contracciones prematuras de gran amplitud con relajación adecuada del EEI. ¿Cuál es el diagnóstico?",
+     "opcoes": [
+      "Acalasia de tipo I",
+      "Espasmo esofágico distal",
+      "Esclerodermia con aperistalsis",
+      "Esófago hipercontráctil por reflujo"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El espasmo esofágico distal es un trastorno episódico con múltiples contracciones prematuras de gran amplitud y duración.",
+      "Cursa con dolor torácico retroesternal (que puede simular cardiopatía isquémica) y disfagia; la relajación del EEI es adecuada, a diferencia de la acalasia.",
+      "Puede evolucionar a acalasia, por lo que esta es el distractor más tentador, pero aquí el EEI relaja bien."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 28-29, 32",
+     "bloco": "Otros trastornos motores",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En un paciente con esclerodermia y afectación esofágica, ¿qué patrón manométrico se espera?",
+     "opcoes": [
+      "Relajación incompleta del EEI junto con ausencia de peristalsis",
+      "Peristalsis fallida en todas las degluciones, con relajación adecuada del EEI",
+      "Contracciones prematuras de gran amplitud en más del 20% de las degluciones",
+      "Múltiples contracciones de gran amplitud con EEI hipertenso y relajación normal"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Se trata del patrón de peristalsis ausente: falla en el 100% de las degluciones con relajación adecuada del EEI.",
+      "La esclerodermia afecta el esófago en el 74% de los casos, con marcada atrofia del músculo liso del esófago y del EEI.",
+      "Cursa con reflujo asociado a disfagia y tratamiento sintomático; no debe confundirse con la acalasia, donde el EEI no relaja."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 31-32",
+     "bloco": "Otros trastornos motores",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cómo se explica fisiopatológicamente la ERGE?",
+     "opcoes": [
+      "Presencia de cualquier grado de reflujo, que siempre es patológico",
+      "Exceso aislado de ácido gástrico, con defensas mucosas siempre conservadas",
+      "Alteración primaria de la peristalsis del tercio superior del esófago",
+      "Desequilibrio entre los factores agresores y los defensivos de la mucosa"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La ERGE aparece cuando se excede la tolerancia del epitelio por desequilibrio entre agresores (reflujo ácido, potencia del reflujo) y defensas.",
+      "Entre los factores defensivos están el aclaramiento esofágico del ácido y la resistencia de la mucosa.",
+      "Cierto grado de RGE se considera fisiológico, por lo que el reflujo en sí no define la enfermedad."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 36",
+     "bloco": "Enfermedad por reflujo gastroesofágico",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un paciente con obstrucción pilórica desarrolla reflujo gastroesofágico. ¿Qué mecanismo lo predispone?",
+     "opcoes": [
+      "Aumento de la presión intragástrica, como ocurre en la ascitis",
+      "Contenido gástrico situado por encima del EEI, como en el decúbito",
+      "Aumento de volumen del contenido gástrico retenido en el estómago",
+      "Menor neutralización del ácido por reducción de la secreción salival"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Para que ocurra el episodio de RGE el contenido gástrico debe estar “preparado”; la obstrucción pilórica aumenta su volumen (como la gastroparesia o los estados hipersecretores).",
+      "Otras situaciones distintas son la posición del contenido (decúbito) y el aumento de presión (obesidad, embarazo, ascitis).",
+      "La saliva interviene en la cantidad de reflujo (neutralización), no en la preparación del episodio."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 37-38",
+     "bloco": "Enfermedad por reflujo gastroesofágico",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Varón de 40 años con pirosis y regurgitación ácida típicas, sin síntomas de alarma. ¿Cuál es la conducta inicial?",
+     "opcoes": [
+      "Endoscopia con biopsias de los cuatro cuadrantes",
+      "Manometría esofágica antes de indicar tratamiento",
+      "Cirugía antirreflujo como primera opción",
+      "Tratamiento empírico con IBP sin endoscopia"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Con clínica característica (pirosis con o sin regurgitación ácida) el diagnóstico de ERGE es clínico.",
+      "Esto justifica un tratamiento empírico con inhibidores de la bomba de protones.",
+      "La endoscopia se reserva para síntomas de alarma (disfagia, odinofagia, pérdida de peso, anemia, hematemesis o melenas, vómitos) o refractariedad al tratamiento."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 43-44",
+     "bloco": "Enfermedad por reflujo gastroesofágico",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál de los siguientes factores DISMINUYE la presión del esfínter esofágico inferior y favorece el reflujo?",
+     "opcoes": [
+      "Proteínas de la dieta",
+      "Grasa de la dieta",
+      "Gastrina",
+      "Metoclopramida"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La grasa (junto con chocolate, tabaco y otros) disminuye la presión del EEI.",
+      "Las proteínas, la gastrina, la motilina y la metoclopramida aumentan la presión del EEI.",
+      "Por eso la gastrina o la metoclopramida son distractores incorrectos: actúan en sentido contrario."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 40",
+     "bloco": "Enfermedad por reflujo gastroesofágico",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la causa más frecuente de dolor torácico de origen esofágico?",
+     "opcoes": [
+      "Espasmo esofágico distal",
+      "Acalasia esofágica",
+      "Esófago de Barrett",
+      "Esofagitis"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La esofagitis es la causa más frecuente de dolor torácico esofágico.",
+      "Es inflamación de la mucosa que en su forma más grave asocia úlceras; produce odinofagia y/o dolor torácico.",
+      "El espasmo distal también causa dolor torácico, pero es mucho menos frecuente."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 46",
+     "bloco": "Complicaciones de la ERGE",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué debe hacerse siempre ante una estenosis péptica antes de la dilatación endoscópica?",
+     "opcoes": [
+      "Realizar manometría para descartar acalasia",
+      "Esperar la respuesta al tratamiento antisecretor",
+      "Inyectar toxina botulínica en la zona estenótica",
+      "Tomar biopsias para descartar malignidad local"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Siempre se toman biopsias para descartar malignidad antes del tratamiento con dilatación.",
+      "Las esofagitis de repetición llevan a ulceración y fibrosis reactiva, que forman estenosis fijas y se manifiestan por disfagia.",
+      "Al ser estenosis fijas, no se modifican con el tratamiento antisecretor, por lo que esperar su respuesta no es la conducta."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 48",
+     "bloco": "Complicaciones de la ERGE",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué define histológicamente al esófago de Barrett?",
+     "opcoes": [
+      "Epitelio escamoso estratificado con atrofia de la muscular de la mucosa",
+      "Displasia de alto grado sobre el epitelio escamoso del esófago distal",
+      "Epitelio columnar con células caliciformes (metaplasia intestinal)",
+      "Epitelio columnar simple con fibrosis de la submucosa y estenosis fija"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Barrett es la presencia de epitelio columnar especializado con células caliciformes revistiendo el esófago.",
+      "El diagnóstico es histológico: endoscopia con biopsias múltiples de los cuatro cuadrantes, separadas 1-2 cm, y su único factor asociado es la exposición ácida excesiva.",
+      "La displasia es una evolución posible de la metaplasia (marcador de riesgo de malignización), no su definición."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 49, 51-52",
+     "bloco": "Complicaciones de la ERGE",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre las esofagitis por cáusticos y por radiación:",
+     "opcoes": [
+      "Los ácidos producen necrosis por licuefacción y los álcalis por coagulación en la mucosa",
+      "El daño por cáusticos depende de cantidad, concentración, tipo y tiempo de contacto",
+      "La esofagitis aguda por radiación suele ser autolimitada, con disfagia y odinofagia",
+      "Tras radio y quimioterapia pueden aparecer estenosis y fístulas en el 25-40% de los pacientes"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Está invertida: los álcalis producen necrosis por licuefacción y los ácidos por coagulación.",
+      "El daño por cáusticos depende de la cantidad, la concentración, el tipo de producto y el tiempo de contacto con el esófago.",
+      "En la lesión por radiación (tumores de pulmón, mediastino o esófago) no existen tratamientos probados para prevenir o tratar la forma aguda."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 59-60",
+     "bloco": "Otras esofagitis",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente con VIH avanzado y odinofagia. La biopsia de úlceras esofágicas gigantes muestra inclusiones en fibroblastos y células endoteliales, sin afectar el epitelio escamoso. ¿Cuál es el agente más probable?",
+     "opcoes": [
+      "Virus del herpes simple",
+      "Virus de la varicela-zóster",
+      "Citomegalovirus",
+      "Virus de Epstein-Barr"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El CMV produce úlceras gigantes y no infecta el epitelio escamoso sino fibroblastos y células endoteliales.",
+      "Por eso la biopsia se toma de la base de la úlcera; el tratamiento es ganciclovir, con foscarnet si hay resistencias.",
+      "En el herpes simple, en cambio, las biopsias del borde muestran células multinucleadas con inclusiones Cowdry tipo A."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 56-57",
+     "bloco": "Otras esofagitis",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué diferencia a la gastritis de la gastropatía?",
+     "opcoes": [
+      "La gastritis es siempre aguda y la gastropatía siempre crónica, según la clínica",
+      "La gastropatía se diagnostica por endoscopia y la gastritis solo por radiología",
+      "La gastritis afecta a la submucosa y la gastropatía únicamente al epitelio superficial",
+      "La gastritis cursa con inflamación mucosa y la gastropatía no; la biopsia las distingue"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La gastritis es lesión gástrica con inflamación de la mucosa; la gastropatía es lesión gástrica sin inflamación.",
+      "La biopsia gástrica es imprescindible para distinguirlas, porque los hallazgos endoscópicos y radiológicos pueden ser similares.",
+      "Tampoco la clínica sirve para predecir la histología, por lo que los criterios clínicos o endoscópicos no las separan."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 63",
+     "bloco": "Gastritis aguda y crónica",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Mujer de 45 años con anemia megaloblástica, déficit de vitamina B12 y anticuerpos anticélula parietal. ¿Qué tipo de gastritis crónica explica el cuadro y dónde predomina?",
+     "opcoes": [
+      "Asociada a H. pylori, con localización principal en el antro",
+      "Atrófica multifocal, con metaplasia intestinal en antro y cuerpo",
+      "Atrófica corporal difusa (tipo A), con asiento en fundus y cuerpo",
+      "Erosiva aguda por AINE, con lesiones en fundus y cuerpo"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La gastritis atrófica corporal difusa o tipo A tiene mecanismo autoinmune con destrucción de células parietales, predominio en mujeres y localización en fundus y cuerpo.",
+      "Al faltar el factor intrínseco hay déficit de B12 y anemia perniciosa; se asocia a hipoclorhidria e hipergastrinemia con riesgo de tumores neuroendocrinos.",
+      "La gastritis por H. pylori predomina en el antro y se trata con erradicación; no se asocia a anticuerpos anticélula parietal."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 66-67",
+     "bloco": "Gastritis aguda y crónica",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué distingue a una úlcera de una erosión gástrica?",
+     "opcoes": [
+      "La erosión llega hasta la muscular propia y la úlcera solo hasta la lámina propia",
+      "La úlcera sobrepasa la submucosa, mientras que la erosión no la alcanza",
+      "La úlcera tiene infiltrado de polimorfonucleares y la erosión de células mononucleares",
+      "La erosión se asienta sobre tejido de granulación y la úlcera carece de fibrosis"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La erosión es pérdida de sustancia que no alcanza la submucosa; la úlcera la sobrepasa y a veces llega a la capa muscular.",
+      "Histológicamente la úlcera es una zona de necrosis sobre tejido de granulación con células inflamatorias crónicas y cierto grado de fibrosis.",
+      "El infiltrado de polimorfonucleares define a la gastritis aguda, no a la distinción entre erosión y úlcera."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 64, 70-71",
+     "bloco": "Úlcera péptica",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un paciente tiene una úlcera duodenal que no ha cicatrizado tras 8 semanas de tratamiento médico correcto. ¿Cuál es la causa más común de esta refractariedad?",
+     "opcoes": [
+      "Tabaquismo",
+      "Mal cumplimiento del tratamiento",
+      "Consumo continuado de AINE",
+      "Estado de hipersecreción gástrica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La úlcera refractaria es la duodenal que no cicatriza en 8 semanas (o la gástrica en 12) y supone el 5-10% de las úlceras; su causa más común es el tabaquismo.",
+      "Otras causas son el mal cumplimiento, H. pylori persistente, AINE, hipersecreción y diagnóstico incorrecto (tumor, Crohn, amiloidosis, sarcoidosis).",
+      "El mal cumplimiento es la opción más tentadora, pero la más frecuente es el tabaquismo."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 73",
+     "bloco": "Úlcera péptica",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En una úlcera gástrica, ¿qué debe hacerse siempre durante la endoscopia?",
+     "opcoes": [
+      "Biopsiar solo el centro de la lesión, sin estudio citológico",
+      "Tomar biopsias únicamente si la úlcera mide más de 2 cm",
+      "Biopsiar 6-8 puntos de los bordes y cepillar el lecho para citología",
+      "Omitir las biopsias si el test del aliento para H. pylori es positivo"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "En las úlceras gástricas se toman siempre 6-8 biopsias de los bordes y cepillado del lecho para citología, con el fin de excluir lesiones malignas.",
+      "Además se hace siempre revisión endoscópica hasta la cicatrización, y el estudio de H. pylori (ureasa o histología) se añade al tratamiento erradicador.",
+      "La biopsia no depende del tamaño ni del resultado del test para H. pylori: es obligatoria."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 72, 94",
+     "bloco": "Úlcera péptica",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Por qué los IBP son los antisecretores de elección en la úlcera péptica?",
+     "opcoes": [
+      "Inhiben irreversiblemente la bomba H+/K+, vía final común de la secreción ácida",
+      "Bloquean de forma reversible los receptores H2 de la célula parietal, con menor potencia",
+      "Neutralizan el ácido ya secretado con un efecto breve y sintomático",
+      "Aumentan la secreción de pepsinógeno y la actividad de la pepsina"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Son los más potentes y efectivos como antisecretores porque se unen de forma irreversible a la ATPasa H+/K+, vía final común de secreción ácida.",
+      "Su efecto dura 24 horas, se administran idealmente 30 minutos antes de las comidas y tienen actividad contra H. pylori.",
+      "Bloquear receptores H2 es el mecanismo de ranitidina, cimetidina y famotidina, menos potentes que los IBP."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 77-78",
+     "bloco": "Tratamiento y complicaciones de la úlcera",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En la hemorragia por úlcera péptica, ¿cuál tiene mayor mortalidad y por qué?",
+     "opcoes": [
+      "La gástrica, porque cesa menos espontáneamente y afecta a más ancianos",
+      "La duodenal, porque es la causa más común de hemorragia digestiva alta (HDA)",
+      "La duodenal de cara anterior, por la cercanía de la arteria gastroduodenal",
+      "La gástrica, porque suele ser dolorosa y se diagnostica tardíamente"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La hemorragia gástrica tiene mayor mortalidad por su menor tendencia a cesar espontáneamente y por ocurrir en personas de más edad.",
+      "La úlcera duodenal es la causa más común de HDA solo porque es más frecuente, y el 80% deja de sangrar en las primeras 8 horas.",
+      "La gravedad duodenal se asocia a la cara posterior del bulbo (arteria gastroduodenal), no a la anterior; además la hemorragia suele ser indolora."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 80-81",
+     "bloco": "Tratamiento y complicaciones de la úlcera",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Según la clasificación de Forrest, ¿qué categoría tiene el menor riesgo de recidiva (2%)?",
+     "opcoes": [
+      "Tipo Ib (hemorragia en babeo)",
+      "Tipo IIa (vaso visible)",
+      "Tipo III (base de fibrina)",
+      "Tipo IIc (puntos de hematina)"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El tipo III corresponde a ausencia de signos de sangrado, con base de fibrina y recidiva de solo 2%.",
+      "El riesgo crece con la actividad hemorrágica: Ia 55%, Ib 50%, IIa 43%, IIb 22% y IIc 7%.",
+      "El tipo IIc (puntos de hematina) tiene 7% de recidiva; es el más bajo entre las lesiones con hemorragia reciente, pero no el menor de todos."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 83",
+     "bloco": "Tratamiento y complicaciones de la úlcera",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el mecanismo principal del daño gastrointestinal por AINE?",
+     "opcoes": [
+      "Inhibición de COX-2, con aumento compensador de la secreción ácida",
+      "Inhibición de COX-1, con menor síntesis de prostaglandinas protectoras",
+      "Efecto tópico sobre la mucosa por su carácter de ácidos débiles",
+      "Hipersecreción de gastrina con aumento de pepsinógeno"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El mecanismo principal es sistémico: inhibición de la COX-1, enzima constitutiva que sintetiza prostaglandinas.",
+      "Esas prostaglandinas protegen la mucosa al intervenir en la formación de moco, la secreción de bicarbonato y el flujo sanguíneo mucoso.",
+      "El efecto tópico por ácidos débiles es el segundo mecanismo, de menor peso."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 95-97",
+     "bloco": "AINE y tracto gastrointestinal",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el factor de riesgo MÁS IMPORTANTE para complicaciones gastrointestinales por AINE?",
+     "opcoes": [
+      "Historia previa de úlcera complicada (hemorragia o perforación)",
+      "Edad mayor de 60 años, el factor de riesgo más frecuente",
+      "Uso concomitante de anticoagulantes o de varios AINE a la vez",
+      "Infección por H. pylori o corticoides a dosis altas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El antecedente de enfermedad ulcerosa complicada con hemorragia o perforación es el factor de riesgo más importante.",
+      "La edad mayor de 60 años es el factor más frecuente, no el más importante.",
+      "Los anticoagulantes por sí mismos no son ulcerogénicos; la infección por H. pylori y los corticoides a dosis altas figuran más abajo en el orden de importancia."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 99",
+     "bloco": "AINE y tracto gastrointestinal",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente con molestia epigástrica y saciedad precoz. Tras endoscopia y pruebas complementarias no se halla causa que lo justifique y se excluyó H. pylori. ¿Qué tipo de dispepsia es?",
+     "opcoes": [
+      "Dispepsia orgánica, con causa identificada por pruebas",
+      "Dispepsia funcional (no ulcerosa), sin lesión orgánica",
+      "Dispepsia no investigada, sin evaluación diagnóstica previa",
+      "Dispepsia asociada a H. pylori, que mejora al erradicarlo"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Es funcional cuando, tras pruebas complementarias incluida la endoscopia, no se encuentra causa que la justifique.",
+      "Es necesario excluir la dispepsia asociada a H. pylori, que mejora con la erradicación y no recurre a los 6-12 meses.",
+      "La orgánica sí tendría causa identificada y la no investigada nunca ha sido evaluada con pruebas diagnósticas."
+     ],
+     "fonte": "Aparato_digestivo.pdf, slide 100-101",
+     "bloco": "Dispepsia",
+     "nivel": "medio",
+     "complemento": false
+    }
+   ],
+   "flashcards": [
+    {
+     "frente": "Esófago: composición muscular",
+     "verso": "Tercio superior: músculo esquelético; 33% distal: músculo liso; porción intermedia: mezcla.",
+     "fonte": "Aparato_digestivo.pdf, slide 3"
+    },
+    {
+     "frente": "Plexos de la pared esofágica",
+     "verso": "Meissner: submucosa. Auerbach (mientérico): entre capa muscular circular y longitudinal.",
+     "fonte": "Aparato_digestivo.pdf, slide 5"
+    },
+    {
+     "frente": "Disfagia orofaríngea",
+     "verso": "Incapacidad para iniciar la deglución; ACV es la causa más frecuente; la aspiración broncopulmonar es la principal causa de muerte.",
+     "fonte": "Aparato_digestivo.pdf, slide 11-12"
+    },
+    {
+     "frente": "Disfagia mecánica vs motora",
+     "verso": "Mecánica: inicia con sólidos (estenosis benigna, cáncer, anillo de Schatzki). Motora: sólidos y líquidos desde el inicio (acalasia, espasmo distal, esclerodermia).",
+     "fonte": "Aparato_digestivo.pdf, slide 14-15"
+    },
+    {
+     "frente": "Afagia",
+     "verso": "Obstrucción esofágica completa con sialorrea; causa más frecuente: impactación alimentaria.",
+     "fonte": "Aparato_digestivo.pdf, slide 9"
+    },
+    {
+     "frente": "Acalasia: concepto y fisiopatología",
+     "verso": "Incapacidad de relajación del EEI por pérdida de neuronas inhibitorias de Auerbach (menos NO y VIP).",
+     "fonte": "Aparato_digestivo.pdf, slide 19-20"
+    },
+    {
+     "frente": "Acalasia: diagnóstico",
+     "verso": "Manometría (relajación incompleta del EEI). Bario: esófago dilatado en “pico de pájaro”; sin burbuja gástrica en la radiografía.",
+     "fonte": "Aparato_digestivo.pdf, slide 22, 24"
+    },
+    {
+     "frente": "Acalasia: complicaciones",
+     "verso": "Esofagitis (Cándida), aspiración (30%) y carcinoma escamoso (2-7%).",
+     "fonte": "Aparato_digestivo.pdf, slide 26"
+    },
+    {
+     "frente": "Esclerodermia y esófago",
+     "verso": "Afecta el esófago en el 74%; peristalsis fallida en 100% de degluciones con EEI que relaja; reflujo con disfagia.",
+     "fonte": "Aparato_digestivo.pdf, slide 31"
+    },
+    {
+     "frente": "Indicaciones de endoscopia en ERGE",
+     "verso": "Síntomas de alarma (disfagia, odinofagia, pérdida de peso, anemia, hematemesis/melenas, vómitos) o refractariedad al tratamiento empírico.",
+     "fonte": "Aparato_digestivo.pdf, slide 44"
+    },
+    {
+     "frente": "Esófago de Barrett",
+     "verso": "Metaplasia intestinal con células caliciformes; asintomático hasta en 25%; neoplasia 0,5% por año; biopsias de 4 cuadrantes cada 1-2 cm.",
+     "fonte": "Aparato_digestivo.pdf, slide 49, 51-52"
+    },
+    {
+     "frente": "Gastritis aguda vs crónica",
+     "verso": "Aguda: infiltrado de PMN, erosiones que no pasan la muscularis mucosae. Crónica: células mononucleares (H. pylori, tipo A).",
+     "fonte": "Aparato_digestivo.pdf, slide 64, 66"
+    },
+    {
+     "frente": "Úlcera refractaria",
+     "verso": "Duodenal sin cicatrizar en 8 semanas, gástrica en 12; causa más común: tabaquismo.",
+     "fonte": "Aparato_digestivo.pdf, slide 73"
+    },
+    {
+     "frente": "Forrest: recidiva",
+     "verso": "Ia 55%, Ib 50%, IIa 43%, IIb 22%, IIc 7%, III 2%.",
+     "fonte": "Aparato_digestivo.pdf, slide 83"
+    },
+    {
+     "frente": "AINE: riesgo GI",
+     "verso": "Bajo: aceclofenaco, diclofenaco, ibuprofeno. Alto: piroxicam y ketorolaco.",
+     "fonte": "Aparato_digestivo.pdf, slide 98"
+    }
+   ]
+  }
+ ],
  "icone": "esteto"
 },
 {
