@@ -1,5 +1,5 @@
-const KIT = { materia: "patologia-medica", id: "pm-neumonia-1", tema: "Neumonía",
-  titulo: "Neumonía 1 – Clasificación, clínica, diagnóstico y tratamiento", arquivo: "Neumonia_1.pptx" };
+const KIT = { materia: "patologia-medica", id: "pm-neumonia-1", tema: "Aparato respiratorio",
+  titulo: "Aparato respiratorio 2 – Neumonía: clasificación, clínica, diagnóstico y tratamiento", arquivo: "Neumonia_1.pptx" };
 const BLOCOS = {"1": "Definición y clasificación", "2": "Patogenia", "3": "Etiología", "4": "Clasificación radiológica", "5": "Clínica", "6": "Gravedad e ingreso", "7": "Diagnóstico", "8": "Tratamiento", "9": "Casos clínicos", "10": "Bronquiectasia"};
 const Q = [
   {"b": 1, "n": "facil", "s": "6", "q": "En la práctica clínica, ¿en qué se apoya el diagnóstico de neumonía?", "c": "En la presentación clínica y un infiltrado radiológico", "d": ["En el aislamiento del microorganismo causal en el esputo", "En la leucocitosis acompañada de elevación de la PCR", "En el hallazgo histológico de inflamación alveolar"], "e": ["La definición es histológica y microbiológica, pero el diagnóstico se hace con clínica compatible más infiltrado radiológico.", "El diagnóstico sindrómico no exige identificar el germen; el etiológico de certeza requiere microbiología, que no siempre se justifica.", "El cultivo o la histología no son indispensables: en algunas series más del 50% de los casos queda sin diagnóstico etiológico."]},

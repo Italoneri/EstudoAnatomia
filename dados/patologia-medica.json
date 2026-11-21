@@ -3005,8 +3005,8 @@
   },
   {
    "id": "pm-epoc-1",
-   "tema": "EPOC",
-   "titulo": "EPOC 1 – Enfermedad pulmonar obstructiva crónica",
+   "tema": "Aparato respiratorio",
+   "titulo": "Aparato respiratorio 1 – EPOC: enfermedad pulmonar obstructiva crónica",
    "icone": "hospital",
    "materiais": [
     {
@@ -3589,8 +3589,8 @@
   },
   {
    "id": "pm-neumonia-1",
-   "tema": "Neumonía",
-   "titulo": "Neumonía 1 – Clasificación, clínica, diagnóstico y tratamiento",
+   "tema": "Aparato respiratorio",
+   "titulo": "Aparato respiratorio 2 – Neumonía: clasificación, clínica, diagnóstico y tratamiento",
    "icone": "hospital",
    "materiais": [
     {
@@ -4173,8 +4173,8 @@
   },
   {
    "id": "pm-asma-1",
-   "tema": "Asma",
-   "titulo": "Asma 1 – Definición, patogenia, diagnóstico y tratamiento",
+   "tema": "Aparato respiratorio",
+   "titulo": "Aparato respiratorio 3 – Asma: definición, patogenia, diagnóstico y tratamiento",
    "icone": "hospital",
    "materiais": [
     {

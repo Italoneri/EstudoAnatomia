@@ -55,9 +55,9 @@ Temas da P2 (os da P1 entram como kits novos com o próprio `tema`; o "Geral" ju
 | Cardiopatía isquémica | 1 – Síndromes coronarios (SCA) (Cardio Pato I (SCA).pdf) | 30 |
 | Hepatología | 1 – Cirrosis hepática y sus complicaciones (cirrosis_etc_.pdf) | 30 |
 | Cardiología | 1 – Insuficiencia cardíaca y arritmias (Insuf. cardiaca.pdf) | 30 |
-| EPOC | 1 – Enfermedad pulmonar obstructiva crónica (EPOC1.pptx) | 30 |
-| Neumonía | 1 – Clasificación, clínica, diagnóstico y tratamiento (Neumonia_1.pptx) | 30 |
-| Asma | 1 – Definición, patogenia, diagnóstico y tratamiento (ASMA_1.pptx) | 30 |
+| Aparato respiratorio | 1 – EPOC: enfermedad pulmonar obstructiva crónica (EPOC1.pptx) | 30 |
+| Aparato respiratorio | 2 – Neumonía: clasificación, clínica, diagnóstico y tratamiento (Neumonia_1.pptx) | 30 |
+| Aparato respiratorio | 3 – Asma: definición, patogenia, diagnóstico y tratamiento (ASMA_1.pptx) | 30 |
 
 ## Fisiopatología I
 | Tema | Kits | Questões |

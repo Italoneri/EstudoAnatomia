@@ -1,5 +1,5 @@
-const KIT = { materia: "patologia-medica", id: "pm-epoc-1", tema: "EPOC",
-  titulo: "EPOC 1 – Enfermedad pulmonar obstructiva crónica", arquivo: "EPOC1.pptx" };
+const KIT = { materia: "patologia-medica", id: "pm-epoc-1", tema: "Aparato respiratorio",
+  titulo: "Aparato respiratorio 1 – EPOC: enfermedad pulmonar obstructiva crónica", arquivo: "EPOC1.pptx" };
 const BLOCOS = {"1": "Definición y etiología", "2": "Fisiopatología", "3": "Clínica y fenotipos", "4": "Diagnóstico y diagnóstico diferencial", "5": "Evaluación y clasificación GOLD", "6": "Tratamiento de la EPOC estable", "7": "Exacerbaciones y prevención"};
 const Q = [
   {"b": 1, "n": "facil", "s": "4", "q": "¿Qué combinación de procesos origina la limitación al flujo aéreo en la EPOC?", "c": "Enfermedad de las pequeñas vías aéreas y destrucción del parénquima", "d": ["Broncoespasmo reversible e inflamación eosinofílica de la mucosa", "Fibrosis intersticial difusa y engrosamiento de los septos alveolares", "Dilatación bronquial permanente e infección bacteriana crónica"], "e": ["La limitación al flujo aéreo resulta de la mezcla de bronquiolitis obstructiva (pequeñas vías) y enfisema (destrucción parenquimatosa).", "La contribución relativa de cada componente varía de una persona a otra.", "El broncoespasmo reversible y la dilatación bronquial corresponden a asma y bronquiectasias, que son diagnósticos diferenciales y no el mecanismo de la EPOC."]},
