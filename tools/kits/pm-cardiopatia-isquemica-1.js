@@ -3,8 +3,8 @@
 const KIT = {
   materia: "patologia-medica",
   id: "pm-cardiopatia-isquemica-1",
-  tema: "Cardiopatía isquémica",
-  titulo: "Cardiopatía isquémica 1 – Síndromes coronarios (SCA)",
+  tema: "Aparato cardiovascular",
+  titulo: "Aparato cardiovascular 1 – Cardiopatía isquémica: síndromes coronarios (SCA)",
   arquivo: "Cardio Pato I (SCA).pdf",
 };
 const BLOCOS = {

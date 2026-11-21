@@ -1,5 +1,5 @@
-const KIT = { materia: "patologia-medica", id: "pm-cardiologia-1", tema: "Cardiología",
-  titulo: "Cardiología 1 – Insuficiencia cardíaca y arritmias", arquivo: "Insuf. cardiaca.pdf" };
+const KIT = { materia: "patologia-medica", id: "pm-cardiologia-1", tema: "Aparato cardiovascular",
+  titulo: "Aparato cardiovascular 2 – Insuficiencia cardíaca y arritmias", arquivo: "Insuf. cardiaca.pdf" };
 const BLOCOS = {1: "Definición, pronóstico, NYHA y estadios AHA/ACC", 2: "Clasificación por FEVI y fenotipos", 3: "Tipos de IC, precipitantes y gasto cardíaco", 4: "Manifestaciones clínicas y exploración", 5: "Diagnóstico (BNP, ECG, eco)", 6: "Tratamiento de la IC", 7: "Electrofisiología y ECG básico", 8: "Disfunción sinusal y seno carotídeo", 9: "Bloqueos auriculoventriculares", 10: "Mecanismos de taquiarritmias y extrasístoles", 11: "FA, flúter y TPSV", 12: "Taquicardia y fibrilación ventricular"};
 const Q = [
   { b:1, n:"facil", s:"13-14",

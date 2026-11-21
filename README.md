@@ -52,9 +52,9 @@ Temas da P2 (os da P1 entram como kits novos com o próprio `tema`; o "Geral" ju
 |---|---|---|
 | Aparato digestivo | 1 – Patología esofágica, gastritis y úlcera péptica (Aparato_digestivo.pdf) | 30 |
 | Aparato digestivo | 2 – Pancreatitis y hepatitis víricas y autoinmunitaria (Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf) | 30 |
-| Cardiopatía isquémica | 1 – Síndromes coronarios (SCA) (Cardio Pato I (SCA).pdf) | 30 |
+| Aparato cardiovascular | 1 – Cardiopatía isquémica: síndromes coronarios (SCA) (Cardio Pato I (SCA).pdf) | 30 |
 | Hepatología | 1 – Cirrosis hepática y sus complicaciones (cirrosis_etc_.pdf) | 30 |
-| Cardiología | 1 – Insuficiencia cardíaca y arritmias (Insuf. cardiaca.pdf) | 30 |
+| Aparato cardiovascular | 2 – Insuficiencia cardíaca y arritmias (Insuf. cardiaca.pdf) | 30 |
 | Aparato respiratorio | 1 – EPOC: enfermedad pulmonar obstructiva crónica (EPOC1.pptx) | 30 |
 | Aparato respiratorio | 2 – Neumonía: clasificación, clínica, diagnóstico y tratamiento (Neumonia_1.pptx) | 30 |
 | Aparato respiratorio | 3 – Asma: definición, patogenia, diagnóstico y tratamiento (ASMA_1.pptx) | 30 |
