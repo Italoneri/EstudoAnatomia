@@ -663,6 +663,591 @@
      "fonte": "Aparato_digestivo.pdf, slide 98"
     }
    ]
+  },
+  {
+   "id": "pm-cardiopatia-isquemica-1",
+   "tema": "Cardiopatía isquémica",
+   "titulo": "Cardiopatía isquémica 1 – Síndromes coronarios (SCA)",
+   "icone": "hospital",
+   "materiais": [
+    {
+     "nome": "Cardio Pato I (SCA).pdf",
+     "tipo": "ppt"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "Varón de 48 años consulta por dolor precordial opresivo con los esfuerzos, que cede con el reposo y dura menos de 5 minutos. ¿Cuál es el diagnóstico más probable?",
+     "opcoes": [
+      "Angina crónica estable",
+      "Angina inestable",
+      "Isquemia silente",
+      "Infarto con elevación del ST"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Los episodios de 2 a 5 min desencadenados por esfuerzo y que ceden con reposo definen la angina estable.",
+      "Traduce una isquemia miocárdica transitoria, casi siempre por aterosclerosis coronaria con obstrucción fija.",
+      "La isquemia silente no encaja porque el paciente sí tiene síntomas; el SCA exigiría dolor en reposo o de más de 10–20 min."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 6 y 17",
+     "bloco": "Casos clínicos introductorios",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Varón de 65 años con angina estable al subir 3 pisos consulta porque desde hace una semana el dolor aparece en reposo y al caminar 100 metros; la nitroglicerina alivia pero el dolor reaparece. ¿Qué cuadro presenta?",
+     "opcoes": [
+      "Angina inestable (SCASEST)",
+      "Isquemia silente",
+      "Infarto con elevación del ST",
+      "Angina microvascular crónica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El cambio de patrón (reposo, inicio reciente, crescendo) caracteriza al SCASEST, aquí como angina inestable.",
+      "El mecanismo es un trombo parcialmente oclusivo sobre una placa rota o erosionada; el IAMSEST se confirmaría solo con biomarcadores altos.",
+      "La angina estable queda descartada porque ya no tiene umbral fijo; el infarto con elevación del ST implicaría oclusión total, no subtotal."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 3 y 34",
+     "bloco": "Casos clínicos introductorios",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la causa más frecuente de isquemia del miocardio?",
+     "opcoes": [
+      "Aterosclerosis de una arteria coronaria epicárdica",
+      "Alteraciones congénitas de la anatomía coronaria",
+      "Espasmo de las arterias coronarias (angina variante)",
+      "Embolias coronarias y aneurismas de la aorta ascendente"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La causa más habitual es el ataque aterosclerótico de una arteria epicárdica que reduce el flujo a su territorio.",
+      "La obstrucción causa una perfusión insuficiente de la capa de miocardio que depende de esa arteria.",
+      "Espasmo, embolias y anomalías congénitas están en la lista etiológica, pero son causas menos frecuentes."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 11 y 13",
+     "bloco": "Definición, etiología y formas clínicas",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA: ¿cuál de las siguientes formas NO se clasifica como síndrome coronario crónico?",
+     "opcoes": [
+      "Angina crónica estable",
+      "Angina microvascular",
+      "Isquemia silente",
+      "IAM con ascenso del ST"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El infarto con ascenso del ST (transmural) pertenece a los síndromes coronarios agudos.",
+      "Los crónicos son angina estable, angina microvascular e isquemia silente.",
+      "Los otros tres distractores sí están listados como síndromes coronarios crónicos."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 12",
+     "bloco": "Definición, etiología y formas clínicas",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Según el esquema de cardiopatía isquémica, ¿con qué tipo de oclusión coronaria se relaciona el SCACEST?",
+     "opcoes": [
+      "Obstrucción parcial fija y crónica",
+      "Estenosis estable superior al 70%",
+      "Oclusión total de la arteria",
+      "Oclusión subtotal de la arteria"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El SCACEST corresponde a oclusión total; el SCASEST, a oclusión subtotal.",
+      "La obstrucción completa y brusca por rotura de placa produce el infarto agudo, a diferencia de la obstrucción parcial crónica de la angina.",
+      "La obstrucción fija ≥70% describe la angina crónica estable, que es el distractor más tentador."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 30",
+     "bloco": "Definición, etiología y formas clínicas",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la duración característica del dolor de la angina típica?",
+     "opcoes": [
+      "De 30 a 60 minutos",
+      "Más de 10 minutos",
+      "Más de 20 minutos",
+      "De 2 a 5 minutos"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El dolor anginoso típico es creciente-decreciente y dura de 2 a 5 minutos.",
+      "Esta brevedad se debe a que la isquemia es transitoria y cede al suprimir el esfuerzo.",
+      "Más de 10 min sugiere SCASEST y más de 20 min sugiere infarto (el distractor más tentador)."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 16",
+     "bloco": "Angina estable",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué rasgo describe mejor el dolor de una angina estable?",
+     "opcoes": [
+      "Umbral predecible de esfuerzo; cede con reposo en 1 a 5 minutos",
+      "Aparece en reposo, dura más de 10 minutos y es de inicio reciente",
+      "Dura más de 20 minutos y no cede con nitroglicerina",
+      "Es cada vez más intenso, duradero y frecuente que los previos"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La angina estable tiene un umbral fijo y predecible, y cede con reposo o nitroglicerina sublingual.",
+      "El esfuerzo, la emoción, una comida pesada o el frío aumentan la demanda y precipitan el episodio.",
+      "Los otros patrones (reposo, crescendo, más de 20 min) corresponden a SCASEST o infarto."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 17 y 34",
+     "bloco": "Angina estable",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿En qué grupo son más frecuentes los equivalentes anginosos como disnea, náuseas, fatiga o desmayos?",
+     "opcoes": [
+      "Pacientes con umbral anginoso fijo",
+      "Pacientes con ECG basal normal",
+      "Varones jóvenes sin comorbilidad",
+      "Ancianos y diabéticos"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Los equivalentes anginosos son más comunes en ancianos y diabéticos.",
+      "En ellos la isquemia puede manifestarse sin dolor torácico franco.",
+      "Un umbral anginoso fijo caracteriza la angina típica, no los equivalentes."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 18",
+     "bloco": "Angina estable",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿En qué proporción de pacientes con angina de pecho típica el ECG de reposo es normal?",
+     "opcoes": [
+      "Aproximadamente el 25%",
+      "Aproximadamente el 10%",
+      "Aproximadamente el 90%",
+      "Aproximadamente el 50%"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El ECG de 12 derivaciones en reposo es normal en casi la mitad de los pacientes con angina típica.",
+      "Por eso un ECG normal no descarta cardiopatía isquémica.",
+      "Los cambios dinámicos del ST y la T durante los episodios son más específicos que las anomalías basales."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 20",
+     "bloco": "Angina estable",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre los motivos para interrumpir la prueba de esfuerzo:",
+     "opcoes": [
+      "Descenso del segmento ST mayor de 0,2 mV (2 mm)",
+      "Mareo, fatiga o disnea importante",
+      "Aumento de la PA sistólica mayor de 10 mmHg",
+      "Taquiarritmias ventriculares"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El criterio de interrupción es la disminución, no el aumento, de la PA sistólica en más de 10 mmHg.",
+      "Una caída de la PA durante el esfuerzo indica mala respuesta hemodinámica ante la isquemia.",
+      "Los síntomas, la depresión del ST mayor de 0,2 mV y las taquiarritmias ventriculares sí obligan a detener la prueba."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 22",
+     "bloco": "Angina estable",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Por qué la isquemia silente es frecuente en los pacientes diabéticos?",
+     "opcoes": [
+      "Por la alteración de la microcirculación coronaria diabética",
+      "Por una neuropatía autonómica que altera la percepción del dolor",
+      "Por una menor demanda miocárdica de oxígeno por la hipertrofia",
+      "Por un mayor espasmo coronario inducido por la hiperglucemia"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La neuropatía autonómica altera la percepción del dolor y deja la isquemia sin síntomas típicos.",
+      "La isquemia existe (ECG, prueba de esfuerzo o imagen) pero no produce angina.",
+      "La hipertrofia miocárdica aumenta, no disminuye, la demanda de oxígeno."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 24 y 25",
+     "bloco": "Isquemia silente",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué se afirma sobre el riesgo de la isquemia silente?",
+     "opcoes": [
+      "Pronóstico benigno porque la ausencia de síntomas indica poca isquemia",
+      "Riesgo de IAM y muerte súbita similar o mayor que en la angina típica",
+      "Evoluciona solo a angina estable sin riesgo de infarto",
+      "Riesgo menor que en la angina típica al no haber dolor"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Se asocia a mayor riesgo de IAM, arritmias y muerte súbita, similar o incluso mayor que en la angina típica.",
+      "Parte de la razón es que estos pacientes no buscan atención médica por falta de síntomas.",
+      "Creer que ausencia de síntomas implica buen pronóstico es el error más tentador."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 27",
+     "bloco": "Isquemia silente",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el mecanismo fisiopatológico más habitual del SCASEST?",
+     "opcoes": [
+      "Trombo oclusivo total y persistente sobre una placa rota",
+      "Espasmo coronario sin lesión aterosclerótica",
+      "Estenosis fija estable que limita el flujo solo en esfuerzo",
+      "Trombo parcialmente oclusivo sobre una placa rota o erosionada"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Es un desequilibrio entre aporte y demanda de oxígeno por un trombo que ocluye parcialmente la luz.",
+      "El trombo se forma sobre una placa aterotrombótica rota o un endotelio erosionado.",
+      "La oclusión total persistente corresponde al SCACEST."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 32",
+     "bloco": "SCASEST (angina inestable e IAMSEST)",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál de estas características forma parte de la presentación típica del SCASEST?",
+     "opcoes": [
+      "Dolor siempre desencadenado por el frío",
+      "Umbral fijo y predecible de actividad",
+      "Inicio reciente, en las dos semanas previas",
+      "Dolor de 2 a 5 minutos solo con esfuerzo"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La molestia aparece en reposo o con esfuerzo mínimo (>10 min), es de inicio reciente o sigue un patrón crescendo.",
+      "Este patrón indica inestabilidad de la placa coronaria.",
+      "Un umbral fijo y episodios breves corresponden a la angina estable."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 34",
+     "bloco": "SCASEST (angina inestable e IAMSEST)",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Ante un cuadro clínico de SCASEST, ¿qué hallazgo confirma el diagnóstico de IAMSEST?",
+     "opcoes": [
+      "Biomarcadores de necrosis cardiaca anormalmente altos",
+      "Dolor retroesternal de más de 10 minutos en reposo",
+      "Inversión de la onda T en derivaciones contiguas",
+      "Descenso del segmento ST en el ECG"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El IAMSEST se confirma con signos de necrosis, es decir, biomarcadores elevados.",
+      "La troponina I o T es el marcador específico y preferido; también puede usarse CK-MB.",
+      "Los cambios del ECG o la clínica aislados no distinguen IAMSEST de angina inestable."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 34",
+     "bloco": "SCASEST (angina inestable e IAMSEST)",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un paciente con SCASEST y extensa área de isquemia miocárdica llega pálido y sudoroso. ¿Qué hallazgo de la exploración es esperable?",
+     "opcoes": [
+      "Roce pericárdico con fiebre y dolor pleurítico",
+      "Pulso paradójico con signo de Kussmaul e ingurgitación yugular",
+      "Taquicardia sinusal con S3 o S4 y estertores basales",
+      "Bradicardia con piel caliente, seca y presión arterial alta"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Una gran área isquémica produce diaforesis, piel pálida y fría, taquicardia sinusal, S3 o S4 y estertores basales.",
+      "Refleja disfunción ventricular y activación simpática.",
+      "Roce pericárdico, Kussmaul y pulso paradójico se describen en otras complicaciones del infarto, no en este cuadro."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 35",
+     "bloco": "SCASEST (angina inestable e IAMSEST)",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué cambio electrocardiográfico produce la isquemia subendocárdica?",
+     "opcoes": [
+      "Descenso del segmento ST",
+      "Ondas Q patológicas",
+      "Ondas T negativas y simétricas",
+      "Elevación convexa del segmento ST"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La isquemia subendocárdica provoca descenso del ST, con ondas T positivas, picudas y altas.",
+      "Los cambios del ST se miden a 0,04 s (un cuadrito) del punto J.",
+      "Elevación convexa del ST y T negativas simétricas son propias de la isquemia subepicárdica."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 38",
+     "bloco": "SCASEST (angina inestable e IAMSEST)",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "En un SCASEST de alto riesgo, el ECG muestra ondas T invertidas simétricas o bifásicas en V1–V4 (síndrome de Wellens). ¿Qué representa este patrón?",
+     "opcoes": [
+      "Isquemia subendocárdica difusa por aumento de la demanda",
+      "Oclusión crítica y proximal de la descendente anterior",
+      "Oclusión de la coronaria derecha con infarto inferior",
+      "Aneurisma ventricular tras un infarto previo"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El síndrome de Wellens indica una oclusión crítica y proximal de la arteria descendente anterior.",
+      "Las T invertidas precordiales (V1–V4, a veces hasta V5–V6) son más específicas en V2–V3.",
+      "El aneurisma ventricular se asocia a ST elevado persistente, no a este patrón."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 42",
+     "bloco": "SCASEST (angina inestable e IAMSEST)",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cómo se define el infarto agudo de miocardio según el material?",
+     "opcoes": [
+      "Elevación del ST mantenida más de 20 minutos con dolor",
+      "Dolor anginoso que no cede con nitroglicerina",
+      "Necrosis miocárdica en presencia de un cuadro clínico de isquemia",
+      "Obstrucción coronaria demostrada por coronariografía"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Se define IAM por evidencia de necrosis miocárdica junto a un cuadro clínico de isquemia.",
+      "La isquemia se apoya en síntomas, cambios ECG, nuevas ondas Q o nuevas alteraciones de contractilidad.",
+      "El dolor prolongado o la elevación del ST orientan, pero no definen el infarto por sí solos."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 46",
+     "bloco": "IAMCEST: clínica y exploración",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cómo explica el material que el IAM sea más frecuente a primera hora de la mañana?",
+     "opcoes": [
+      "Por la exposición al frío al abandonar la cama por la mañana",
+      "Por la mayor demanda de oxígeno que impone una comida pesada matinal",
+      "Por la caída nocturna de la presión arterial mantenida al despertar",
+      "Por activación simpática y cambios circadianos en la coagulación"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El IAM predomina por la mañana por la activación simpática y los cambios circadianos.",
+      "Esos cambios incluyen la coagulación y la actividad plaquetaria, que favorecen la trombosis.",
+      "Comida pesada y frío son desencadenantes descritos para la angina, no la explicación circadiana del infarto."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 47",
+     "bloco": "IAMCEST: clínica y exploración",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué hallazgo se describe especialmente en el IAM de localización inferior?",
+     "opcoes": [
+      "Roce pericárdico por pericarditis metainfarto",
+      "Bradicardia e hipotensión por hiperactividad parasimpática",
+      "Soplo de insuficiencia mitral de origen isquémico",
+      "Crepitantes pulmonares con extratonos"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En el IAM inferior es especialmente frecuente la hiperactividad parasimpática (bradicardia e hipotensión).",
+      "En general, el IAM puede cursar con hiperactividad simpática (taquicardia e hipertensión).",
+      "Soplo mitral, roce pericárdico y crepitantes son otras repercusiones posibles, no específicas del inferior."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 48",
+     "bloco": "IAMCEST: clínica y exploración",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente con IAM presenta crepitantes basales, tercer ruido y congestión pulmonar, sin edema agudo de pulmón ni shock. ¿Qué clase de Killip corresponde?",
+     "opcoes": [
+      "Killip III",
+      "Killip I",
+      "Killip II",
+      "Killip IV"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La clase II es la insuficiencia cardiaca leve: crepitantes, tercer ruido y congestión pulmonar.",
+      "Killip clasifica el compromiso hemodinámico clínico al ingreso y tiene valor pronóstico.",
+      "Killip III es edema agudo de pulmón y Killip IV es shock cardiogénico."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 49 y 50",
+     "bloco": "IAMCEST: clínica y exploración",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿En qué plazo es imprescindible realizar el ECG tras el primer contacto médico ante un dolor torácico?",
+     "opcoes": [
+      "En los primeros 30 minutos",
+      "En las primeras 2 horas",
+      "En los primeros 10 minutos",
+      "Tras conocer la primera troponina"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El ECG debe realizarse en los primeros 10 minutos desde el primer contacto médico.",
+      "El ECG rara vez es normal, incluso en los primeros minutos del IAM.",
+      "No se debe esperar a los biomarcadores para obtenerlo."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 52",
+     "bloco": "ECG del IAMCEST: evolución y localización",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En un paciente con IAM inferior, ¿qué derivaciones adicionales se recomiendan para evaluar el ventrículo derecho?",
+     "opcoes": [
+      "V5 y V6",
+      "V3R y V4R",
+      "aVR y aVL",
+      "V7, V8 y V9"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "V3R y V4R evalúan el infarto del ventrículo derecho, que se asocia al IAM inferior.",
+      "Las derivaciones V7, V8 y V9 se usan para evaluar la cara posterior, también asociada al inferior.",
+      "V5–V6, aVR y aVL no se mencionan como derivaciones adicionales para el VD."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 52",
+     "bloco": "ECG del IAMCEST: evolución y localización",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Varón con dolor torácico persistente y bloqueo de rama izquierda de nueva aparición. ¿Cómo se debe actuar?",
+     "opcoes": [
+      "Repetir el ECG a las 24 horas para valorar el ST",
+      "Como si el ST estuviera elevado, con reperfusión urgente",
+      "Descartar un SCACEST porque no hay elevación del segmento ST",
+      "Esperar la troponina seriada antes de tomar una decisión"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Un bloqueo de rama impide valorar el ST, por lo que se actúa como si el ST estuviera elevado.",
+      "El BRI nuevo en un IAM suele indicar afectación extensa del sistema de conducción y peor pronóstico.",
+      "La reperfusión urgente no debe esperar resultados analíticos."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 52",
+     "bloco": "ECG del IAMCEST: evolución y localización",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la secuencia electrocardiográfica típica tras la oclusión completa de una arteria coronaria epicárdica?",
+     "opcoes": [
+      "T alta y picuda, elevación del ST, T negativa y luego onda Q",
+      "Onda Q, elevación del ST, T negativa y luego T picuda",
+      "Descenso del ST, T picuda, onda Q y luego T negativa",
+      "T negativa, descenso del ST, onda Q y luego T picuda"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Primero aparece la isquemia hiperaguda (T picuda), luego la elevación del ST y después la T negativa profunda y simétrica.",
+      "Al completarse la necrosis, el ST vuelve a la línea isoeléctrica y aparecen ondas Q con pérdida de onda R.",
+      "Las ondas Q son un signo tardío, no inicial."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 53",
+     "bloco": "ECG del IAMCEST: evolución y localización",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un paciente presenta ascenso del ST en V1–V4/V5. ¿Cuál es la arteria responsable más probable?",
+     "opcoes": [
+      "Coronaria derecha",
+      "Coronaria derecha o circunfleja dominante",
+      "Circunfleja",
+      "Descendente anterior"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El IAM anterior (V1–V4/V5) se debe probablemente a la descendente anterior.",
+      "La elevación del ST permite localizar la zona afectada según las derivaciones.",
+      "Coronaria derecha o circunfleja dominante se relacionan con el IAM inferior (II, III, aVF)."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 55",
+     "bloco": "ECG del IAMCEST: evolución y localización",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el marcador de necrosis cardiaca de elección en el IAM?",
+     "opcoes": [
+      "LDH",
+      "Troponinas",
+      "GOT",
+      "CPK total"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La troponina es el marcador de elección y se correlaciona con el pronóstico.",
+      "Los test ultrasensibles detectan elevación en las primeras 2 horas y las troponinas se mantienen altas hasta 2 semanas.",
+      "CPK, GOT y LDH han caído en desuso."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 63",
+     "bloco": "Laboratorio, shock cardiogénico y manejo inicial",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la principal causa de mortalidad hospitalaria del infarto?",
+     "opcoes": [
+      "Edema agudo de pulmón",
+      "Shock cardiogénico",
+      "Pericarditis metainfarto",
+      "Rotura cardiaca con taponamiento"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El shock cardiogénico (Killip IV) es la principal causa de mortalidad hospitalaria, con mortalidad superior al 50%.",
+      "Es el grado más avanzado de insuficiencia cardiaca aguda en el infarto.",
+      "Antes de atribuirlo, hay que descartar complicaciones mecánicas, y el tratamiento enfatiza la reperfusión temprana (ACTP primaria)."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 65",
+     "bloco": "Laboratorio, shock cardiogénico y manejo inicial",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Un paciente con dolor torácico y ECG con ascenso del ST es diagnosticado de SCACEST. ¿Qué actitud corresponde respecto al laboratorio?",
+     "opcoes": [
+      "Reperfundir de urgencia sin esperar el laboratorio",
+      "Esperar la troponina antes de reperfundir al paciente",
+      "Pedir CPK, GOT y LDH seriadas para confirmar",
+      "Repetir la troponina a las 2 horas antes de actuar"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Con diagnóstico clínico y ECG precoz, la conducta es la reperfusión urgente sin esperar ninguna determinación analítica.",
+      "La troponina se determina igualmente porque se correlaciona con el pronóstico.",
+      "Esperar resultados retrasaría la reperfusión."
+     ],
+     "fonte": "Cardio Pato I (SCA).pdf, slide 63",
+     "bloco": "Laboratorio, shock cardiogénico y manejo inicial",
+     "nivel": "facil",
+     "complemento": false
+    }
+   ],
+   "flashcards": []
   }
  ],
  "icone": "esteto"
