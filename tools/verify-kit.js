@@ -73,7 +73,7 @@ for (const db of bancos) {
 need(typeof db.id === "string" && typeof db.nome === "string" && Array.isArray(db.kits), `raiz ${db.id}: precisa de id, nome e kits[]`);
 console.log(`\n===== ${db.nome} (${db.id}): ${db.kits.length} kits =====`);
 for (const kit of db.kits) {
-  ["id", "tema", "titulo", "icone", "materiais", "perguntas", "flashcards"].forEach((f) => need(kit[f] !== undefined, `${kit.id}: falta ${f}`));
+  ["id", "tema", "titulo", "icone", "materiais", "perguntas"].forEach((f) => need(kit[f] !== undefined, `${kit.id}: falta ${f}`));
   const prova = kit.separado === true;
   const importado = kit.origem === "importado";
   const pos = prova || importado ? [0, 0, 0, 0, 0] : [0, 0, 0, 0];
@@ -92,6 +92,7 @@ for (const kit of db.kits) {
     total.incorrecta += /INCORRECTA/.test(p.pergunta) ? 1 : 0;
     total.nivel[p.nivel] = (total.nivel[p.nivel] || 0) + 1;
   });
+  kit.flashcards = kit.flashcards || [];
   kit.flashcards.forEach((f, i) => need(f.frente && f.verso && (importado || (prova ? FONTE_PROVA : FONTE).test(f.fonte || "")), `${kit.id} flashcard#${i + 1}`));
 
   const n = kit.perguntas.length;

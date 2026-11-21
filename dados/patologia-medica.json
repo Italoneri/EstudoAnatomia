@@ -2418,6 +2418,590 @@
     }
    ],
    "flashcards": []
+  },
+  {
+   "id": "pm-aparato-digestivo-2",
+   "tema": "Aparato digestivo",
+   "titulo": "Aparato digestivo 2 – Pancreatitis y hepatitis víricas y autoinmunitaria",
+   "icone": "hospital",
+   "materiais": [
+    {
+     "nome": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf",
+     "tipo": "ppt"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "¿Cuáles son las dos causas más frecuentes de pancreatitis aguda?",
+     "opcoes": [
+      "Litiasis biliar y consumo de alcohol",
+      "Hipertrigliceridemia e hipercalcemia",
+      "Fármacos e infecciones virales",
+      "Traumatismo abdominal y CPRE"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La litiasis biliar y el alcohol son las etiologías más frecuentes de la pancreatitis aguda.",
+      "Además, hasta el 80% de las presuntamente idiopáticas se deben a microlitiasis, lo que refuerza el peso de la causa biliar.",
+      "Hipertrigliceridemia e hipercalcemia son causas metabólicas reconocidas, pero menos frecuentes."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 6",
+     "bloco": "Pancreatitis aguda",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué evento inicia el proceso de autodigestión en la pancreatitis aguda?",
+     "opcoes": [
+      "Activación del tripsinógeno dentro del propio páncreas",
+      "Secreción de enzimas proteolíticas ya activas hacia el duodeno",
+      "Respuesta inflamatoria sistémica con fallo de la microcirculación",
+      "Activación del tripsinógeno por la enterocinasa en la luz duodenal"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la pancreatitis aguda el tripsinógeno se activa de forma anómala dentro de la glándula, y la tripsina activa al resto de enzimas.",
+      "Esto produce autodigestión e inflamación local; solo si se descontrola se altera la microcirculación, con necrosis y respuesta sistémica.",
+      "La activación por enterocinasa en el duodeno es el proceso fisiológico normal, no el evento lesivo."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 8",
+     "bloco": "Pancreatitis aguda",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre la amilasa y la lipasa en la pancreatitis aguda:",
+     "opcoes": [
+      "Los valores de amilasa se correlacionan con la gravedad del cuadro",
+      "La amilasa se normaliza habitualmente a los 4-7 días del dolor",
+      "Una amilasemia normal no descarta la pancreatitis aguda",
+      "La lipasa es más sensible y específica que la amilasa"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "No hay relación entre los niveles de amilasa y la gravedad, por lo que no sirve para estimarla.",
+      "La elevación de amilasa o lipasa (más de 3 veces el límite normal) apoya el diagnóstico, pero una cifra normal no lo excluye.",
+      "Las otras tres opciones son ciertas; la lipasa, además, persiste elevada en suero más días que la amilasa."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 11",
+     "bloco": "Pancreatitis aguda",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Por qué se recomienda realizar la TC a las 72-96 horas del inicio de una pancreatitis aguda?",
+     "opcoes": [
+      "Porque la amilasa tarda ese tiempo en normalizarse y altera la imagen",
+      "Porque el edema pancreático solo es visible a partir del tercer día",
+      "Porque antes de ese plazo la ecografía ya ha definido la etiología",
+      "Porque las complicaciones locales tardan al menos 72 h en aparecer"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Una TC más precoz puede ser normal, porque las complicaciones locales (necrosis, pseudoquiste) tardan al menos 72 h en desarrollarse.",
+      "Por eso se solicita a partir de las 72 h, sobre todo si hay 3 o más criterios de Ranson, que indican mayor riesgo de pancreatitis grave.",
+      "La TC visualiza cambios de textura por edema desde el inicio; lo que tarda en aparecer son las complicaciones."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 12",
+     "bloco": "Pancreatitis aguda",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Mujer de 45 años con litiasis vesicular conocida consulta por 12 h de dolor epigástrico en cinturón con náuseas y vómitos, sin fiebre. Ante la sospecha de pancreatitis aguda, ¿qué prueba de imagen permite valorar si el origen es biliar?",
+     "opcoes": [
+      "Ecografía, que valora con precisión el parénquima pancreático",
+      "Amilasa sérica, cuya cifra orienta hacia el origen biliar del cuadro",
+      "Ecografía, que detecta alteraciones de vesícula y vías biliares",
+      "TC abdominal inmediata, que define si el origen del cuadro es biliar"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La ecografía abdominal detecta alteraciones de vesícula y vías biliares, y así orienta a una pancreatitis de origen biliar.",
+      "Con litiasis vesicular conocida y dolor típico en cinturón con vómitos, la causa biliar es la más probable, pues la litiasis es la etiología principal.",
+      "La ecografía no es adecuada para el parénquima pancreático, y la TC se reserva para valorar complicaciones a partir de las 72 h."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 12",
+     "bloco": "Pancreatitis aguda",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente con pancreatitis aguda que presenta insuficiencia renal que se resuelve en 36 horas, sin necrosis ni pseudoquiste. ¿Cómo se clasifica?",
+     "opcoes": [
+      "Necrotizante, porque hay fallo orgánico con evolución rápida",
+      "Leve, porque la insuficiencia renal se resolvió con rapidez",
+      "Grave, porque existe insuficiencia renal aguda asociada",
+      "Moderadamente grave, por un fallo orgánico transitorio"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Un fallo orgánico transitorio (menos de 48 h) define la pancreatitis moderadamente grave.",
+      "La gravedad depende de la duración del fallo orgánico (respiratorio, renal o shock): menos de 48 h es moderadamente grave y más de 48 h es grave.",
+      "La forma grave exigiría fallo persistente (más de 48 h), y la leve no tiene fallo orgánico alguno."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 17",
+     "bloco": "Pancreatitis aguda",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuáles son las causas más frecuentes de pancreatitis crónica?",
+     "opcoes": [
+      "Alcoholismo crónico y tabaquismo",
+      "Litiasis biliar y microlitiasis",
+      "Hipertrigliceridemia e hipercalcemia",
+      "Mutaciones hereditarias y autoinmunidad"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El alcoholismo crónico y el tabaco son las causas más frecuentes de pancreatitis crónica.",
+      "Ambos se relacionan con peor evolución y más brotes de pancreatitis, por lo que se recomienda abandonarlos.",
+      "Las formas hereditarias y autoinmunitarias son menos habituales, y la litiasis biliar es la causa típica de la forma aguda."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 21",
+     "bloco": "Pancreatitis crónica",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Por qué la maldigestión tarda años en aparecer en la pancreatitis crónica?",
+     "opcoes": [
+      "Porque la función endocrina se pierde antes que la exocrina",
+      "Porque el dolor intenso limita la ingesta y enmascara la diarrea",
+      "Porque la amilasa y la lipasa permanecen elevadas durante años",
+      "Hace falta perder más del 90% de la función exocrina"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Las manifestaciones de maldigestión solo aparecen tras perder más del 90% de la función exocrina del páncreas.",
+      "Entonces surgen pérdida de peso marcada, que contrasta con la ausencia de anorexia, y diarrea esteatorreica importante.",
+      "Amilasa y lipasa suelen ser normales en la pancreatitis crónica, y la diabetes llega con los años, al afectarse los islotes."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 22",
+     "bloco": "Pancreatitis crónica",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Varón de 50 años, alcohólico y fumador, con dolor epigástrico recurrente, pérdida de peso con apetito conservado y diarrea esteatorreica. Amilasa y lipasa normales. ¿Qué prueba es de elección para confirmar el diagnóstico?",
+     "opcoes": [
+      "Ecografía abdominal, buscando alteraciones de vesícula y vías biliares",
+      "Radiografía simple de abdomen, buscando calcificaciones pancreáticas",
+      "Determinación seriada de lipasa, para confirmar la inflamación crónica",
+      "Ecoendoscopia, buscando alteraciones del parénquima y de los conductos"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La ecoendoscopia es en la actualidad la prueba de elección para el diagnóstico de pancreatitis crónica.",
+      "Se confirma con alteraciones del parénquima (atrofia, polilobulación, líneas hiperecogénicas, calcificaciones) y ductales (dilatación del Wirsung, calcificaciones intraductales).",
+      "Visualizar calcificaciones era diagnóstico en el pasado, pero ya no es la prueba de elección; además, amilasa y lipasa suelen ser normales."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 23",
+     "bloco": "Pancreatitis crónica",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuánto dura habitualmente la fase de estado de una hepatitis aguda vírica típica?",
+     "opcoes": [
+      "Entre 1 y 2 semanas",
+      "Entre 4 y 6 meses",
+      "Entre 2 y 6 semanas",
+      "Entre 10 y 14 semanas"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La fase de estado dura entre 2 y 6 semanas, y es cuando puede aparecer ictericia evidente con hepatomegalia.",
+      "Antes viene la fase prodrómica, de 1-2 semanas, con síntomas inespecíficos; después, la fase de recuperación, que se resuelve en 2-12 semanas.",
+      "Entre 1 y 2 semanas corresponde a la fase prodrómica, que es la duración más fácil de confundir."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 28",
+     "bloco": "Hepatitis agudas víricas: generalidades",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la definición de hepatitis fulminante?",
+     "opcoes": [
+      "Encefalopatía con protrombina menor del 40% en un hígado ya cirrótico",
+      "Encefalopatía con protrombina menor del 40% en hígado previamente sano",
+      "Shock persistente e insuficiencia renal que duran más de 48 horas",
+      "Ictericia intensa con transaminasas diez veces por encima de lo normal"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hepatitis fulminante exige encefalopatía y actividad de protrombina por debajo del 40% en un hígado previamente sano.",
+      "Es más frecuente con el VHB (sobre todo en sobreinfección D o mutantes precore) y con el VHE en embarazadas.",
+      "Los criterios de fallo orgánico de más de 48 h son los de la pancreatitis aguda grave, no los de la hepatitis fulminante."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 31",
+     "bloco": "Hepatitis agudas víricas: generalidades",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la vía de transmisión casi exclusiva del VHA?",
+     "opcoes": [
+      "Percutánea, por transfusiones o material contaminado",
+      "Fecal-oral, por agua o alimentos contaminados",
+      "Perinatal, sobre todo durante el parto",
+      "Sexual, por contacto con secreciones genitales"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El VHA se transmite casi exclusivamente por vía fecal-oral, de persona a persona o por agua y alimentos contaminados.",
+      "La vía percutánea es excepcional por la breve duración de la viremia; el virus ya se excreta en heces antes de los síntomas.",
+      "Las vías percutánea, sexual y perinatal son las del VHB, no las del VHA."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 36",
+     "bloco": "Hepatitis A",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué hallazgo confirma una infección aguda por VHA?",
+     "opcoes": [
+      "IgG anti-VHA positiva en una muestra de suero",
+      "AgVHA detectado en una muestra de suero",
+      "IgM anti-HBc positiva en una muestra de suero",
+      "IgM anti-VHA positiva en una muestra de suero"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La infección aguda por VHA se diagnostica detectando IgM anti-VHA en suero, que suele permanecer positiva unos 4 meses.",
+      "La IgG anti-VHA aparece pronto pero persiste de por vida, por lo que indica infección pasada e inmunidad permanente.",
+      "El AgVHA y el ARN-VHA no se usan en la práctica clínica, y la IgM anti-HBc es un marcador del VHB."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 38",
+     "bloco": "Hepatitis A",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Señale la INCORRECTA sobre la infección por VHA:",
+     "opcoes": [
+      "Puede dar colestasis intensa y prolongada que acaba resolviéndose",
+      "No evoluciona a la cronificación, a diferencia de otros virus",
+      "En niños suele cursar con ictericia intensa y síntomas marcados",
+      "Puede seguir un curso bifásico, con empeoramiento tras mejoría"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "En niños la mayoría de las infecciones por VHA son subclínicas; en adultos es más probable que sean sintomáticas.",
+      "Sí ocurren la diarrea al final de la incubación, el curso bifásico ocasional y la colestasis prolongada que se resuelve.",
+      "La infección no se cronifica, por lo que esa opción es cierta y no la buscada."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 37",
+     "bloco": "Hepatitis A",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el primer marcador serológico que aparece en la infección por VHB?",
+     "opcoes": [
+      "AgHBs, el antígeno de superficie del virus",
+      "Anti-HBs, el anticuerpo frente a superficie",
+      "AgHBe, el antígeno que marca la replicación",
+      "IgM anti-HBc, el anticuerpo frente al core"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El AgHBs es el primer marcador en aparecer, antes de que se eleven las transaminasas, e indica presencia del virus.",
+      "Las IgM anti-HBc surgen 1-2 semanas después, y el AgHBe aparece poco después del AgHBs.",
+      "Los anti-HBs aparecen solo tras negativizarse el AgHBs, ya en la curación, y son los que indican inmunidad."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 45",
+     "bloco": "Hepatitis B",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué perfil serológico define el periodo ventana de la hepatitis B aguda?",
+     "opcoes": [
+      "AgHBs negativo, anti-HBs positivo e IgG anti-HBc positiva",
+      "AgHBs positivo, AgHBe positivo e IgM anti-HBc negativa",
+      "AgHBs negativo, anti-HBs negativo e IgM anti-HBc positiva",
+      "AgHBs positivo, anti-HBs negativo e IgM anti-HBc negativa"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El periodo ventana es el intervalo en que AgHBs y anti-HBs son negativos y solo la IgM anti-HBc es positiva.",
+      "Ocurre porque el AgHBs desaparece antes de que se desarrollen los anti-HBs, que tardan algo más como marcador de inmunidad.",
+      "AgHBs negativo con anti-HBs positivo ya es curación con inmunidad, no ventana."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 43",
+     "bloco": "Hepatitis B",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué sugiere la persistencia del AgHBe más de 8-10 semanas en una hepatitis B aguda?",
+     "opcoes": [
+      "Que la infección tiene riesgo de pasar a la cronicidad",
+      "Que existe riesgo inminente de fallo hepático fulminante",
+      "Que la infección se encuentra en el periodo ventana",
+      "Que el paciente ha desarrollado inmunidad protectora"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El AgHBe indica replicación viral, y su persistencia más de 8-10 semanas hace sospechar que la infección se cronificará.",
+      "En la curación el AgHBe desaparece y aparece el anti-HBe, que marca seroconversión y menor infectividad.",
+      "La inmunidad la indican los anti-HBs, no el AgHBe, y el periodo ventana se define por AgHBs y anti-HBs negativos."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 44",
+     "bloco": "Hepatitis B",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué riesgo de cronificación tiene la infección por VHB adquirida en el periodo neonatal?",
+     "opcoes": [
+      "Intermedio, en torno al 50%",
+      "Muy alto, alrededor del 90%",
+      "Bajo, inferior al 5%",
+      "Moderado, cercano al 20%"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Adquirida en el periodo neonatal, la infección por VHB se cronifica en cerca del 90% de los casos.",
+      "La transmisión perinatal, sobre todo durante el parto, tiene más riesgo si la madre replica, es decir, con AgHBe positivo y carga viral alta.",
+      "Un riesgo bajo no describe el periodo neonatal; el 1% de las infecciones clínicas que desarrollan hepatitis fulminante es otro dato distinto."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 46",
+     "bloco": "Hepatitis B",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Varón con AgHBs positivo desde hace 8 meses, IgG anti-HBc positiva, AgHBe positivo y transaminasas normales, sin necroinflamación ni fibrosis en la biopsia. ¿Cuál es el diagnóstico?",
+     "opcoes": [
+      "Hepatitis crónica por VHB, con necroinflamación activa",
+      "Hepatitis aguda por VHB, en periodo ventana serológico",
+      "Infección crónica por VHB, sin daño hepático asociado",
+      "Infección resuelta por VHB, con inmunidad protectora"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Con AgHBs más de 6 meses y anti-HBc IgG se define infección crónica; sin necroinflamación, fibrosis ni transaminasas elevadas, no hay daño hepático.",
+      "En la hepatitis crónica por VHB el virus replica y produce daño: transaminasas elevadas, necroinflamación y progresión de la fibrosis.",
+      "El periodo ventana y la curación se caracterizan por AgHBs negativo, algo que aquí no ocurre."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 56",
+     "bloco": "Hepatitis B",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es la pauta de la vacuna recombinante frente al VHB?",
+     "opcoes": [
+      "Tres dosis subcutáneas, a los 0, 2 y 12 meses",
+      "Dos dosis intramusculares, a los 0 y 6 meses",
+      "Una dosis intramuscular, con refuerzo a los 12 meses",
+      "Tres dosis intramusculares, a los 0, 1 y 6 meses"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La inmunoprofilaxis activa frente al VHB usa vacunas recombinantes en 3 dosis (0, 1 y 6 meses) por vía intramuscular.",
+      "Se complementa con inmunoglobulina anti-VHB en expuestos susceptibles y en recién nacidos de madres portadoras, en las primeras 12 horas.",
+      "La inmunoglobulina es la inmunoprofilaxis pasiva, no la pauta de la vacuna."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 53",
+     "bloco": "Hepatitis B",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cuál es el aspecto más alarmante de la infección por VHC?",
+     "opcoes": [
+      "La intensidad del cuadro ictérico agudo",
+      "Su elevada tendencia a la cronificación",
+      "Su elevada frecuencia de hepatitis fulminante",
+      "Su transmisión exclusivamente fecal-oral"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Lo más alarmante del VHC es su alta tendencia a la cronificación, que ocurre en el 80% de los casos.",
+      "La hepatitis aguda suele ser leve o asintomática, y la crónica avanza de forma insidiosa, con 20-35% de cirrosis.",
+      "La fase aguda es más leve que la de otros virus hepatotropos, por lo que no preocupa por ictérica ni fulminante."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 61",
+     "bloco": "Hepatitis C",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué existe como inmunoprofilaxis frente al VHC?",
+     "opcoes": [
+      "Inmunoglobulina específica tras la exposición accidental",
+      "Vacuna recombinante en tres dosis intramusculares",
+      "No hay vacuna ni inmunoglobulina postexposición",
+      "Vacuna dirigida solo a los genotipos más frecuentes"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Frente al VHC no existe vacuna ni profilaxis postexposición con inmunoglobulinas.",
+      "Por eso la prevención se basa en evitar la transmisión parenteral, que es la vía esencial.",
+      "La vacuna en tres dosis y la inmunoglobulina específica son recursos del VHB, no del VHC."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 65",
+     "bloco": "Hepatitis C",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "En un paciente con anti-VHC positivo por ELISA, ¿qué resultado descarta una infección activa?",
+     "opcoes": [
+      "ARN del VHC detectable en dos determinaciones separadas 6 meses",
+      "Transaminasas normales en dos controles consecutivos",
+      "ARN del VHC indetectable en dos determinaciones consecutivas",
+      "Nueva positividad del anticuerpo anti-VHC por ELISA repetido"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Con serología positiva, el ARN-VHC sérico indetectable en dos ocasiones consecutivas descarta infección activa.",
+      "La infección crónica exige ELISA y confirmación con ARN por PCR en al menos 2 ocasiones separadas por 6 meses.",
+      "El ELISA es solo el primer paso, y la confirmación la da el ARN por PCR."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 62",
+     "bloco": "Hepatitis C",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cómo se previene la infección por VHD en individuos susceptibles?",
+     "opcoes": [
+      "Con una vacuna específica de tres dosis frente al virus D",
+      "Vacunando a los individuos susceptibles frente al virus B",
+      "Con inmunoprofilaxis específica en los portadores crónicos del VHB",
+      "Administrando inmunoglobulina específica frente al virus D"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El VHD necesita al VHB para ser infectante, por lo que vacunar frente al VHB previene la infección por VHD.",
+      "En pacientes con infección crónica por VHB no existe inmunoprofilaxis frente al virus D, y la prevención consiste en evitar exposiciones.",
+      "No hay inmunoprofilaxis específica anti-VHD, que es el error de los otros tres distractores."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 73",
+     "bloco": "Hepatitis D",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿En qué situación la probabilidad de fallo hepático grave llega hasta el 20% y la cronificación es casi del 100%?",
+     "opcoes": [
+      "Infección por el VHE durante el tercer trimestre del embarazo",
+      "Sobreinfección D en un portador crónico del VHB",
+      "Infección aguda por el VHB sin virus D",
+      "Coinfección simultánea de los virus B y D"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la sobreinfección D sobre VHB crónico, el fallo hepático grave llega al 20% y la cronificación es prácticamente del 100%.",
+      "En la coinfección B y D la evolución a la cronicidad es la misma que para el B solo, y la mayoría se cura.",
+      "El VHE también alcanza hasta el 20% de fulminante en gestantes, pero no cronifica en inmunocompetentes."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 71",
+     "bloco": "Hepatitis D",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "Paciente con hepatitis aguda grave: AgHBs positivo, IgG anti-HBc positiva, IgM anti-HBc negativa y anticuerpos IgM anti-VHD positivos. ¿Cuál es la interpretación?",
+     "opcoes": [
+      "Sobreinfección D sobre una infección crónica por VHB",
+      "Coinfección simultánea B y D en infección aguda",
+      "Hepatitis aguda B aislada con falso positivo anti-VHD",
+      "Infección crónica por VHD en ausencia de virus B"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la sobreinfección D se encuentra IgG anti-HBc, mientras que en la coinfección aparece IgM anti-HBc.",
+      "El VHD es un virus defectivo que necesita al VHB; además, la IgM anti-VHD no implica por sí sola infección aguda, a diferencia del VHB.",
+      "Sin virus B no puede haber infección por VHD, y la IgM anti-HBc negativa descarta una infección aguda por B."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 72",
+     "bloco": "Hepatitis D",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "Mujer de 28 años en el tercer trimestre del embarazo con hepatitis aguda colestásica. ¿Qué virus se asocia a hasta un 20% de hepatitis fulminante en este contexto?",
+     "opcoes": [
+      "Virus de la hepatitis A",
+      "Virus de Epstein-Barr",
+      "Virus de la hepatitis C",
+      "Virus de la hepatitis E"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El VHE causa hepatitis fulminante en 1-2% en general, pero hasta un 20% en embarazadas, sobre todo en el tercer trimestre, con alta mortalidad.",
+      "Afecta a jóvenes-adultos con un cuadro de hepatitis colestásica y no evoluciona a la cronicidad en inmunocompetentes.",
+      "El VHC suele ser asintomático y cronifica, y la mayoría de las infecciones por VHA son subclínicas."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 78",
+     "bloco": "Hepatitis E",
+     "nivel": "dificil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Cómo se transmiten los genotipos 3 y 4 del VHE?",
+     "opcoes": [
+      "Por vía perinatal desde madres infectadas",
+      "Por carnes poco cocinadas, de origen zoonótico",
+      "Por vía parenteral con material contaminado",
+      "Por vía fecal-oral a través de agua contaminada"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los genotipos 3 y 4 son zoonosis, que se transmiten por ingesta de carnes poco cocinadas.",
+      "El VHE es un virus ARN similar al VHA, y su mecanismo de transmisión varía según el genotipo.",
+      "La vía fecal-oral por agua contaminada es el mecanismo principal, pero corresponde a los genotipos 1 y 2."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 77",
+     "bloco": "Hepatitis E",
+     "nivel": "medio",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué trastornos se asocian con frecuencia a la hepatitis autoinmunitaria?",
+     "opcoes": [
+      "Infección crónica por VHB, VHC y VHD asociada a cirrosis",
+      "Tiroiditis, diabetes tipo 1 y enfermedades reumatológicas",
+      "Litiasis vesicular, pancreatitis aguda y pancreatitis crónica",
+      "Hemocromatosis, enfermedad de Wilson y déficit de alfa-1 antitripsina"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La hepatitis autoinmunitaria se asocia con frecuencia a otros trastornos inmunológicos: tiroiditis, diabetes mellitus tipo 1 y enfermedades reumatológicas.",
+      "Es una hepatopatía necroinflamatoria crónica mediada por una reacción inmunitaria frente a autoantígenos hepatocitarios, más prevalente en mujeres.",
+      "La litiasis biliar y las pancreatitis son entidades digestivas ajenas a este contexto inmunológico."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 85",
+     "bloco": "Hepatitis autoinmunitaria",
+     "nivel": "facil",
+     "complemento": false
+    },
+    {
+     "pergunta": "¿Qué datos forman parte del diagnóstico de la hepatitis autoinmunitaria?",
+     "opcoes": [
+      "Autoanticuerpos séricos e hipergammaglobulinemia, tras excluir otras causas",
+      "AgHBs persistente más de 6 meses con anti-HBc IgG positiva",
+      "Elevación aislada de amilasa y lipasa con dolor en cinturón",
+      "Aumento de IgG4 con pseudomasas y estenosis biliares transitorias"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El diagnóstico se apoya en datos clínicos, hipergammaglobulinemia, alteraciones histológicas, autoanticuerpos y exclusión de otras hepatopatías.",
+      "Es una hepatopatía crónica y progresiva que, sin tratamiento, evoluciona a cirrosis e insuficiencia hepática.",
+      "El aumento de IgG4 con pseudomasas pertenece a la pancreatitis crónica autoinmunitaria, no a este cuadro."
+     ],
+     "fonte": "Estou_compartilhando_o_arquivo_pancreas_-hepatiti_260908_085038_1.pdf, slide 87",
+     "bloco": "Hepatitis autoinmunitaria",
+     "nivel": "medio",
+     "complemento": false
+    }
+   ]
   }
  ],
  "icone": "esteto"

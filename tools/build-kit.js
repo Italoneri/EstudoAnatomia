@@ -73,11 +73,11 @@ const kit = {
   icone: KIT.icone || "hospital",
   materiais: [{ nome: KIT.arquivo, tipo: "ppt" }],
   perguntas: Q.map((item, i) => toPergunta(item, i, positions[i])),
-  flashcards: FLASH.map((f) => ({ frente: f.f, verso: f.v, fonte: fonte(f.s) })),
 };
+if (FLASH && FLASH.length) kit.flashcards = FLASH.map((f) => ({ frente: f.f, verso: f.v, fonte: fonte(f.s) }));
 
 // KIT.materia = id da matéria em dados/materias.json (sem o campo, vale "anatopato").
 const materia = lerMateria(KIT.materia || "anatopato");
 const output = { id: materia.id, nome: materia.nome, kits: [kit] };
 fs.writeFileSync(outArg, JSON.stringify(output, null, 1) + "\n");
-console.log(`${kit.id}: ${kit.perguntas.length} questões, ${kit.flashcards.length} flashcards -> ${outArg}`);
+console.log(`${kit.id}: ${kit.perguntas.length} questões, ${(kit.flashcards || []).length} flashcards -> ${outArg}`);
