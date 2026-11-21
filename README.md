@@ -16,7 +16,7 @@ A tela inicial mostra um card por matéria; clicando, abre a matéria com os tem
 |---|---|---|
 | Metodología II | `metodologia-2` | – |
 | Epidemiología | `epidemiologia` | – |
-| Patología Médica | `patologia-medica` | 30 |
+| Patología Médica | `patologia-medica` | 60 |
 | Anatomía Patológica I | `anatopato` | 936 |
 | Fisiopatología I | `fisiopato-1` | 197 (importadas do [fisiopato-quiz](https://github.com/Italoneri/fisiopato-quiz)) |
 | Patología Quirúrgica I | `patologia-quirurgica-1` | – |
@@ -51,6 +51,7 @@ Temas da P2 (os da P1 entram como kits novos com o próprio `tema`; o "Geral" ju
 | Tema | Arquivo | Questões |
 |---|---|---|
 | Aparato digestivo | 1 – Patología esofágica, gastritis y úlcera péptica (Aparato_digestivo.pdf) | 30 |
+| Cardiopatía isquémica | 1 – Síndromes coronarios (SCA) (Cardio Pato I (SCA).pdf) | 30 |
 
 ## Fisiopatología I
 | Tema | Kits | Questões |
