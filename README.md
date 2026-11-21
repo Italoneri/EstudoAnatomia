@@ -16,7 +16,7 @@ A tela inicial mostra um card por matéria; clicando, abre a matéria com os tem
 |---|---|---|
 | Metodología II | `metodologia-2` | – |
 | Epidemiología | `epidemiologia` | – |
-| Patología Médica | `patologia-medica` | 210 |
+| Patología Médica | `patologia-medica` | 240 |
 | Anatomía Patológica I | `anatopato` | 936 |
 | Fisiopatología I | `fisiopato-1` | 197 (importadas do [fisiopato-quiz](https://github.com/Italoneri/fisiopato-quiz)) |
 | Patología Quirúrgica I | `patologia-quirurgica-1` | – |
@@ -57,6 +57,7 @@ Temas da P2 (os da P1 entram como kits novos com o próprio `tema`; o "Geral" ju
 | Cardiología | 1 – Insuficiencia cardíaca y arritmias (Insuf. cardiaca.pdf) | 30 |
 | EPOC | 1 – Enfermedad pulmonar obstructiva crónica (EPOC1.pptx) | 30 |
 | Neumonía | 1 – Clasificación, clínica, diagnóstico y tratamiento (Neumonia_1.pptx) | 30 |
+| Asma | 1 – Definición, patogenia, diagnóstico y tratamiento (ASMA_1.pptx) | 30 |
 
 ## Fisiopatología I
 | Tema | Kits | Questões |
