@@ -71,6 +71,7 @@ function toPergunta(item, index) {
     bloco: BLOCOS[item.b],
     nivel: item.n,
     complemento: Boolean(item.x),
+    ...(item.o ? { fixa: true } : {}),
   };
 }
 

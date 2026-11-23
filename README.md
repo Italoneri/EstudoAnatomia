@@ -16,7 +16,7 @@ A tela inicial mostra um card por matéria; clicando, abre a matéria com os tem
 |---|---|---|
 | Metodología II | `metodologia-2` | – |
 | Epidemiología | `epidemiologia` | – |
-| Patología Médica | `patologia-medica` | 240 |
+| Patología Médica | `patologia-medica` | 352 |
 | Anatomía Patológica I | `anatopato` | 936 |
 | Fisiopatología I | `fisiopato-1` | 197 (importadas do [fisiopato-quiz](https://github.com/Italoneri/fisiopato-quiz)) |
 | Patología Quirúrgica I | `patologia-quirurgica-1` | – |
@@ -58,6 +58,10 @@ Temas da P2 (os da P1 entram como kits novos com o próprio `tema`; o "Geral" ju
 | Aparato respiratorio | 1 – EPOC: enfermedad pulmonar obstructiva crónica (EPOC1.pptx) | 30 |
 | Aparato respiratorio | 2 – Neumonía: clasificación, clínica, diagnóstico y tratamiento (Neumonia_1.pptx) | 30 |
 | Aparato respiratorio | 3 – Asma: definición, patogenia, diagnóstico y tratamiento (ASMA_1.pptx) | 30 |
+| Provas anteriores | 1 – Aparato digestivo (fotos de provas antigas; inclui Verdadero/Falso) | 34 |
+| Provas anteriores | 2 – Hepatología (fotos de provas antigas; inclui Verdadero/Falso) | 24 |
+| Provas anteriores | 3 – Aparato cardiovascular (fotos de provas antigas; inclui Verdadero/Falso) | 30 |
+| Provas anteriores | 4 – Aparato respiratorio (fotos de provas antigas; inclui Verdadero/Falso) | 24 |
 
 ## Fisiopatología I
 | Tema | Kits | Questões |
