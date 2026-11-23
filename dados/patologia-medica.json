@@ -4754,6 +4754,2411 @@
      "complemento": false
     }
    ]
+  },
+  {
+   "id": "pm-provas-1",
+   "tema": "Provas anteriores",
+   "titulo": "Provas anteriores 1 – Aparato digestivo",
+   "icone": "hospital",
+   "separado": true,
+   "materiais": [
+    {
+     "nome": "Provas antiguas de Patología Médica (fotos)",
+     "tipo": "prova"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "La gastritis se asocia con lesión gástrica con inflamación de la mucosa, para el diagnóstico de la misma es imprescindible la realización de:",
+     "opcoes": [
+      "Endoscopia digestiva alta (EDA) con toma de biopsia",
+      "Tomografía computarizada de abdomen",
+      "Ecografía abdominal completa",
+      "Dosaje de IgA para H pylori"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El diagnóstico de gastritis es endoscópico e histológico: la EDA permite ver la mucosa y tomar biopsias.",
+      "La biopsia además confirma H. pylori (causa más frecuente) y descarta metaplasia, displasia o neoplasia.",
+      "Ecografía y TC no evalúan la mucosa gástrica; la IgA contra H. pylori solo indica contacto con la bacteria, no gastritis."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 7",
+     "bloco": "Úlcera péptica y gastritis",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "La pancreatitis crónica es un proceso inflamatorio crónico del páncreas que conduce al desarrollo de lesiones fibróticas permanentes del páncreas, esto lleva a:",
+     "opcoes": [
+      "Perdida exclusiva de la función exocrina del páncreas",
+      "Perdida exclusiva de la función endocrina del páncreas",
+      "No se produce perdida de la función del páncreas",
+      "Perdida de la función endocrina y exocrina del páncreas"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La fibrosis progresiva destruye acinos (función exocrina) e islotes (función endocrina): se pierden ambas funciones.",
+      "Primero aparece la insuficiencia exocrina (esteatorrea, déficit de vitaminas liposolubles) y luego la diabetes pancreática.",
+      "Tríada clásica avanzada: calcificaciones pancreáticas, esteatorrea y diabetes; causa más frecuente en adultos: alcohol."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 9",
+     "bloco": "Páncreas",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Los agentes etiológicos más importantes en el desarrollo de gastritis y ulcera son:",
+     "opcoes": [
+      "Infección por H Pylori y consumo de antibióticos",
+      "Dieta rica en picantes y consumo de AINEs",
+      "Infección por C. Difficile y consumo de AINEs",
+      "Consumo de AINEs e infección por H. Pylori"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Las dos causas principales de gastritis y úlcera péptica son la infección por H. pylori y el uso de AINEs.",
+      "Dieta picante, estrés y alcohol son factores agravantes, no las causas más importantes.",
+      "C. difficile causa colitis, no úlcera; los antibióticos son parte del tratamiento (erradicación), no una causa."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 10",
+     "bloco": "Úlcera péptica y gastritis",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Para diferenciar clínicamente la EC de la CU podemos observar con más frecuencia:",
+     "opcoes": [
+      "Mayor frecuencia de diarrea sanguinolenta en la EC",
+      "Ambos presentan diarrea sanguinolenta con igual frecuencia",
+      "Mayor frecuencia de diarrea sanguinolenta en la CU",
+      "Ninguno se presenta habitualmente con diarrea sanguinolenta"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La colitis ulcerosa (CU) afecta recto y colon de forma continua y la diarrea sanguinolenta es la regla.",
+      "En la enfermedad de Crohn (EC) la diarrea suele ser sin sangre; predominan dolor abdominal y pérdida de peso.",
+      "Crohn: cualquier segmento del tubo digestivo, lesiones salteadas, transmural, fístulas y granulomas; CU: solo mucosa."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 11",
+     "bloco": "Intestino",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "La Enfermedad Celíaca (EC) se define como una enteropatía autoinmune, de curso crónico, en la que la exposición a un desencadenante ambiental (el gluten) produce una lesión inmunomediada del epitelio intestinal en individuos genéticamente predispuestos. Para su diagnóstico; ¿qué prueba laboratorial tiene utilidad por su alta sensibilidad?",
+     "opcoes": [
+      "Anticuerpos anti endomisio IgA, IgG",
+      "Estudio seriado de Heces con coprofuncional",
+      "Anticuerpos antitransglutaminasa IgA, IgG",
+      "Anticuerpos antigliadina IgA"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Los anticuerpos antitransglutaminasa tisular IgA son la prueba serológica de elección por su alta sensibilidad.",
+      "Antiendomisio IgA es muy específico pero menos sensible; antigliadina tiene baja precisión diagnóstica.",
+      "La confirmación es la biopsia duodenal (atrofia vellositaria); conviene medir IgA total para descartar déficit de IgA."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 12",
+     "bloco": "Intestino",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Acude a la urgencia un paciente varón de 54 años, por dolor epigástrico de inicio brusco, como antecedente refiere consumo crónico de Aines e historia de melena en los últimos días por lo que se realiza una EDA donde se observa a nivel duodenal signos de un sangrado reciente aun con un vaso visible; usted clasifica esta lesión como:",
+     "opcoes": [
+      "HDA Forrest Ia",
+      "HDA Forrest IIa",
+      "HDA Forrest Ib",
+      "HDA Forrest IIb"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Forrest: Ia chorro arterial, Ib babeo, IIa vaso visible, IIb coágulo adherido, IIc mancha plana, III base limpia.",
+      "El caso describe sangrado reciente con vaso visible sin sangrado activo: Forrest IIa.",
+      "Forrest IIa tiene alto riesgo de resangrado: requiere terapia endoscópica más IBP en dosis altas."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 14",
+     "bloco": "Hemorragia digestiva alta",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Es INCORRECTO acerca del Síndrome de Intestino Irritable (SII)",
+     "opcoes": [
+      "Se asocia a cuadros diarreicos crónicos funcionales",
+      "El diagnostico se realiza por exclusión",
+      "Su prevalencia ha ido en aumento en las últimas décadas",
+      "La presencia de signos de alarma como pérdida de peso o rectorragia refuerza el diagnostico de SII"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Los signos de alarma (pérdida de peso, rectorragia, anemia, fiebre, inicio después de los 50 años) alejan el SII y obligan a descartar causa orgánica.",
+      "El SII se diagnostica por criterios clínicos (Roma IV) tras descartar organicidad, por eso se lo llama diagnóstico de exclusión.",
+      "Las alternativas b, c y d son afirmaciones correctas; la pregunta pide la INCORRECTA."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 15",
+     "bloco": "Intestino",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Acerca del Síndrome del intestino irritable (SII) NO es correcto:",
+     "opcoes": [
+      "El dolor abdominal se relacionando con la defecación",
+      "Para su diagnostico se debe realizar la detección de calprotectina en heces",
+      "Los pacientes con SII no suelen presentar perdida de peso",
+      "La diarrea del SII no se presenta durante el sueño"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En el SII la calprotectina fecal es normal: se usa para diferenciar enfermedad inflamatoria intestinal del SII, no para diagnosticar SII.",
+      "Diagnóstico clínico por criterios de Roma IV: dolor abdominal recurrente relacionado con la defecación y cambio en frecuencia o forma de las heces.",
+      "La diarrea del SII no suele ser nocturna ni causar pérdida de peso; si ocurren, buscar causa orgánica."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p03), pregunta 2",
+     "bloco": "Intestino",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Mujer de 50 años, se presenta con dolor epigástrico de 3 semanas de evolución, que cede en el postprandio inmediato, para reaparecer unas 3 horas después. A la exploración física solo se encontró dolor en epigastrio a la palpación profunda. Se realiza una endoscopia digestiva alta donde se observa una ulcera a nivel duodenal. Acerca de este tipo de ulcera podemos afirmar:",
+     "opcoes": [
+      "Se producen exclusivamente por la infección por H, Pylori",
+      "El tratamiento de elección es la dieta",
+      "Las ulceras duodenales son raras por lo que hay que investigar cáncer gastrico",
+      "Su riesgo de sangrado es menor que las ulceras gástricas"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Úlcera duodenal: dolor epigástrico 2–3 horas después de comer o nocturno, que alivia con alimento; casi siempre benigna.",
+      "Se asocia a H. pylori (~90 %) pero no de forma exclusiva: los AINEs son la otra causa principal.",
+      "Tratamiento: erradicación de H. pylori + IBP, no dieta; a diferencia de la úlcera gástrica, rara vez obliga a descartar cáncer. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p03), pregunta 4",
+     "bloco": "Úlcera péptica y gastritis",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Cuando endoscópicamente se observa hemorragia arterial en chorro tiene un riesgo de resangrado del 85-100% y corresponde según la clasificación de Forrest a:",
+     "opcoes": [
+      "I a",
+      "II a",
+      "III",
+      "II b",
+      "II c"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Hemorragia arterial en chorro = Forrest Ia (sangrado activo pulsátil).",
+      "Es la categoría de mayor riesgo de resangrado (85–100 % sin tratamiento) y exige hemostasia endoscópica urgente.",
+      "IIa vaso visible, IIb coágulo adherido, IIc mancha plana, III base limpia (riesgo muy bajo)."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p03), pregunta 5",
+     "bloco": "Hemorragia digestiva alta",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Presentan una asociación bien establecida con la ERGE EXCEPTO:",
+     "opcoes": [
+      "Laringitis por reflujo",
+      "Asma por reflujo",
+      "Acalasia por reflujo",
+      "Tos por reflujo"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La ERGE se asocia con manifestaciones extraesofágicas: tos crónica, laringitis, asma y erosión dental.",
+      "La acalasia es un trastorno motor en que el EEI no relaja: dificulta el paso del alimento, no favorece el reflujo.",
+      "En la acalasia el síntoma clave es la disfagia para sólidos y líquidos con regurgitación."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p03), pregunta 7",
+     "bloco": "Esófago",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Para confirmar el diagnóstico de acalasia, la prueba que se debe realizar es:",
+     "opcoes": [
+      "Manometría esofágica",
+      "Endoscopia digestiva alta",
+      "Ecografía abdominal",
+      "Biopsia esofágica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La manometría esofágica es la prueba de elección: muestra relajación incompleta del EEI tras la deglución y aperistalsis.",
+      "Se hace endoscopia para descartar pseudoacalasia (cáncer) y el esofagograma baritado muestra 'pico de pájaro'.",
+      "La biopsia esofágica no confirma acalasia y la ecografía abdominal no aporta."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p07), pregunta 26",
+     "bloco": "Esófago",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Se denomina enfermedad por reflujo gastroesofágico (ERGE) a el paso del contenido gástrico (reflujo ácido) o intestinal (reflujo alcalino) al esófago con o sin síntomas acompañantes y sin lesiones histopatológicos.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El reflujo gastroesofágico puede ser fisiológico; ERGE es cuando el reflujo causa síntomas molestos o complicaciones.",
+      "La definición del enunciado ('sin síntomas y sin lesiones') describe reflujo fisiológico, no enfermedad.",
+      "Complicaciones: esofagitis, estenosis péptica, esófago de Barrett y adenocarcinoma."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p05), pregunta 22",
+     "bloco": "Esófago",
+     "nivel": "medio",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "Ante la ausencia de un factor ambiental desencadenante (dieta con gluten) aunque el individuo tenga predisposición genética, no se desarrollara la enfermedad Celiaca.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Hacen falta tres factores: gluten, predisposición genética (HLA-DQ2/DQ8) y respuesta inmune anormal.",
+      "Sin exposición al gluten no se expresa la enfermedad aunque exista predisposición.",
+      "La predisposición genética es necesaria pero no suficiente: muchas personas con HLA-DQ2/DQ8 nunca la desarrollan."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p05), pregunta 23",
+     "bloco": "Intestino",
+     "nivel": "facil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "Se habla de un ulcera refractario cuando una ulcera duodenal no ha cicatrizado en 8 semanas, o una ulcera gástrica que no lo ha hecho en 12 semanas de tratamiento médico correcto.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Úlcera refractaria: duodenal sin cicatrizar a las 8 semanas o gástrica a las 12 semanas, con tratamiento correcto.",
+      "Causas a revisar: H. pylori persistente, AINEs, tabaquismo, Zollinger-Ellison y Crohn.",
+      "En la úlcera gástrica refractaria siempre hay que biopsiar para descartar cáncer."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p05), pregunta 24",
+     "bloco": "Úlcera péptica y gastritis",
+     "nivel": "medio",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "Un valor de amilasemia normal, descarta el diagnóstico de pancreatitis aguda.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Una amilasa normal no descarta pancreatitis aguda: puede normalizarse pronto o ser normal en hipertrigliceridemia.",
+      "La lipasa es más sensible y específica y se mantiene elevada más tiempo.",
+      "Diagnóstico: 2 de 3 criterios (dolor abdominal típico, amilasa o lipasa > 3 veces lo normal, imagen compatible)."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p05), pregunta 25",
+     "bloco": "Páncreas",
+     "nivel": "facil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "El tratamiento médico de elección en las ulceras pépticas son los inhibidores de la bomba de protones.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Los IBP son el tratamiento de elección: inhiben la bomba H⁺/K⁺-ATPasa y cicatrizan la úlcera en 4–8 semanas.",
+      "Si hay H. pylori se agrega terapia de erradicación con antibióticos.",
+      "Hay que suspender los AINEs; antiH2 y antiácidos son alternativas menos eficaces."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p05), pregunta 27",
+     "bloco": "Úlcera péptica y gastritis",
+     "nivel": "facil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "Diarrea funcional es aquella en la que no se encuentra una causa estructural ni bioquímica que la justifique. No se asocia a malabsorción ni a enfermedades graves y no tiene mayor transcendencia que la de la molestia que la diarrea ocasiona a los pacientes. Un ejemplo de este tipo de diarrea es la asociada a la enfermedad de Crohn.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La diarrea funcional (por ejemplo, SII) no tiene causa estructural ni bioquímica demostrable.",
+      "La enfermedad de Crohn es orgánica (inflamación transmural, úlceras) y puede causar malabsorción: no es ejemplo de diarrea funcional.",
+      "Datos de alarma que sugieren organicidad: pérdida de peso, sangre, fiebre, diarrea nocturna y anemia."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p05), pregunta 28",
+     "bloco": "Intestino",
+     "nivel": "dificil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "En el contexto del cambio de los hábitos intestinales, el estreñimiento puede ser un signo de cáncer colorrectal.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Un cambio reciente del hábito intestinal (estreñimiento o diarrea) puede ser signo de cáncer colorrectal, sobre todo después de los 50 años.",
+      "Otros signos de alarma: rectorragia, anemia ferropénica, pérdida de peso y masa abdominal.",
+      "Los tumores del colon izquierdo tienden a obstruir (estreñimiento); los del derecho suelen dar anemia."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p05), pregunta 29",
+     "bloco": "Intestino",
+     "nivel": "facil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "Ante todo paciente con sospecha clínica de Enfermedad Celíaca, inicialmente se solicitará la IgA total y el Ac antitransglutaminasa IgA.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Ante sospecha de celiaquía se solicita IgA total + anticuerpos antitransglutaminasa tisular IgA.",
+      "Se mide la IgA total porque el déficit de IgA es más frecuente en celíacos y da falsos negativos; en ese caso se usan anticuerpos IgG.",
+      "Luego se confirma con biopsia duodenal, con el paciente consumiendo gluten."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p05), pregunta 30",
+     "bloco": "Intestino",
+     "nivel": "dificil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "Paciente de sexo femenino de 38 años de edad, conocida portadora de litiasis biliar, acude a la urgencia por cuadro de 8 horas de evolución de dolor abdominal en hemiabdomen superior (en cinturón) que se acompaña de vómitos en un comienzo, al examen físico se palpa abdomen blando depresible, doloroso a la palpación profunda en hemiabdomen superior; resto del examen físico normal ¿Cuál sería su sospecha diagnostica y que análisis le resultaría más útil para confirmar el diagnostico?",
+     "opcoes": [
+      "Litiasis vesicular – Ecografía abdominal",
+      "Hepatitis Aguda a virus A - IgM/IgG para VHA",
+      "Pancreatitis crónica – TC de abdomen",
+      "Pancreatitis aguda - Amilasa/Lipasa"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Dolor en cinturón en hemiabdomen superior + vómitos en paciente con litiasis biliar = pancreatitis aguda biliar.",
+      "Se confirma con lipasa (o amilasa) > 3 veces el límite superior normal.",
+      "La ecografía se pide para ver la litiasis biliar, pero la pregunta pide el análisis que confirma el diagnóstico."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p08), pregunta 22",
+     "bloco": "Páncreas",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Es correcto acerca de enfermedad por reflujo gastroesofágico (ERGE)",
+     "opcoes": [
+      "Se manifiesta clínicamente por pirosis, dolor torácico y odinofagia",
+      "Se asocia frecuentemente como una complicación de la acalasia",
+      "La ERGE se asocia a esófago de Barret que constituye una lesión preneoplásica del cáncer de estomago",
+      "Se produce por una hipertonía del esfínter esofágico inferior (EEI)"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Síntomas típicos: pirosis y regurgitación; también dolor torácico y odinofagia cuando hay esofagitis.",
+      "El mecanismo es la hipotonía o las relajaciones transitorias del EEI, no la hipertonía.",
+      "El esófago de Barrett es lesión premaligna del adenocarcinoma de esófago (no de estómago) y no es complicación de la acalasia."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p08), pregunta 28",
+     "bloco": "Esófago",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Recibe este nombre por su mecanismo fisiopatológico, ya que, debido a una ausencia de absorción, ciertos solutos aumentan su concentración en la luz intestinal y esto atrae agua del enterocito a la luz intestinal desencadenando la diarrea. Este concepto se corresponde con:",
+     "opcoes": [
+      "Diarrea inflamatoria",
+      "Diarrea secretora",
+      "Diarrea Osmótica",
+      "Diarrea funcional"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "En la diarrea osmótica, solutos no absorbibles retienen agua en la luz intestinal y arrastran agua desde el enterocito.",
+      "Causas típicas: intolerancia a la lactosa, laxantes osmóticos (lactulosa, magnesio), sorbitol y malabsorción.",
+      "Clave diagnóstica: cede con el ayuno y tiene brecha osmolar fecal aumentada (> 125 mOsm/kg); la secretora persiste con el ayuno."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p12), pregunta 16",
+     "bloco": "Intestino",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "La diarrea crónica con productos patológicos (sangre, moco o pus) se asocia preferentemente a:",
+     "opcoes": [
+      "Alteraciones de la motilidad secundarias a trastornos nerviosos",
+      "Enfermedades inflamatorias como la CU y la EC",
+      "Presencia de solutos no absorbibles en la luz intestinal",
+      "Alteraciones funcionales como en el SII"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Sangre, moco o pus en las heces indican inflamación o lesión de la mucosa: diarrea inflamatoria (CU, Crohn, infecciones invasivas).",
+      "La diarrea osmótica se debe a solutos no absorbibles y la funcional (SII) no cursa con sangre ni pus.",
+      "Suele acompañarse de fiebre, dolor abdominal, pérdida de peso y calprotectina fecal elevada."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p12), pregunta 18",
+     "bloco": "Intestino",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Con respecto a los AINEs y las ulceras pépticas, no todos ellos presentan igual poder gastrolesivo. Los AINEs que afectan con más intensidad a la mucosa gástrica son:",
+     "opcoes": [
+      "AINEs con actividad COX-1",
+      "AINEs con actividad COX-2",
+      "El poder gastrolesivo de los AINEs no depende de su actividad COX sino de su acidez",
+      "Ninguna respuesta es correcta"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Los AINEs con actividad COX-1 inhiben las prostaglandinas que protegen la mucosa gástrica.",
+      "Los inhibidores selectivos de COX-2 (celecoxib) son menos gastrolesivos.",
+      "El daño es sobre todo por inhibición sistémica de prostaglandinas, no por la acidez del fármaco; se previene con IBP."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p12), pregunta 21",
+     "bloco": "Úlcera péptica y gastritis",
+     "nivel": "medio",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "Acerca del esófago de Barret es correcto:",
+     "opcoes": [
+      "El factor asociado al esófago de Barret es el reflujo gastroesofágico",
+      "Es una complicación frecuente de la acalasia",
+      "Se asocia en la mayoría de los casos a infección por H, Pilory",
+      "A mayor sintomatología de reflujo se presentan más lesiones histológicas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El esófago de Barrett es metaplasia intestinal del epitelio esofágico causada por reflujo gastroesofágico crónico.",
+      "Es lesión premaligna del adenocarcinoma de esófago; se vigila con endoscopia y biopsias.",
+      "No se asocia a H. pylori ni a acalasia, y la intensidad de los síntomas no predice la gravedad de las lesiones."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p15), pregunta 8",
+     "bloco": "Esófago",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Mujer de 37 años, acude por presentar desde hace 1 año periodos intermitentes de evacuaciones diarreicas (2 a 3 por día) con moco y sin sangre, acompañadas de distensión abdominal y dolor cólico que ceden al defecar, nunca la despierta por la noche y niega pérdida de peso. Su sospecha diagnostica es:",
+     "opcoes": [
+      "Enfermedad de Crohn",
+      "Síndrome del intestino irritable",
+      "Diarrea Osmotica",
+      "Colitis Ulcerativa"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Diarrea intermitente con moco y sin sangre, distensión y dolor cólico que mejora al defecar, sin síntomas nocturnos ni pérdida de peso = SII.",
+      "Criterios de Roma IV: dolor abdominal recurrente relacionado con la defecación y cambios en la frecuencia o forma de las heces.",
+      "Colitis ulcerosa y Crohn cursan con sangre, fiebre, pérdida de peso o síntomas nocturnos; la diarrea osmótica cede con el ayuno."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p15), pregunta 10",
+     "bloco": "Intestino",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Son criterios para el diagnóstico de pancreatitis aguda EXCEPTO:",
+     "opcoes": [
+      "Elevación de amilasa y/o lipasa mayor de tres veces el límite superior de la normalidad.",
+      "Antecedente de litiasis vesicular",
+      "Prueba de imagen con datos compatibles con PA (habitualmente TC abdominal",
+      "Dolor abdominal típico en hemiabdomen superior (en cinturón)"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El diagnóstico de pancreatitis aguda requiere 2 de 3 criterios: dolor abdominal típico, lipasa/amilasa > 3 veces el límite superior y hallazgos de imagen compatibles.",
+      "El antecedente de litiasis biliar es un factor etiológico, no un criterio diagnóstico.",
+      "La lipasa es más específica que la amilasa; la TC con contraste se reserva para dudas diagnósticas o complicaciones."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p15), pregunta 14",
+     "bloco": "Páncreas",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Paciente de 37 años de edad con historia de dolor epigástrico recurrente tipo ardoroso, el cual mejora con la ingesta alimentario y consumo de antiácidos y suele despertarle por las noches, no ha perdido peso. El diagnostico mas probable entre los siguientes es:",
+     "opcoes": [
+      "Ulcera duodenal",
+      "Enfermedad por reflujo gastroesofagica",
+      "Pancreatitis cronica",
+      "Ulcera gaastrica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Dolor ardoroso epigástrico que mejora con la ingesta o los antiácidos y despierta por la noche, sin pérdida de peso = úlcera duodenal.",
+      "En la úlcera gástrica el dolor empeora poco después de comer y puede haber pérdida de peso.",
+      "La ERGE da pirosis; la pancreatitis crónica cursa con dolor irradiado a la espalda, esteatorrea y diabetes."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p15), pregunta 15",
+     "bloco": "Úlcera péptica y gastritis",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Acerca de la Pancreatitis es correcto:",
+     "opcoes": [
+      "La causa más frecuente de la pancreatitis crónica es la litiasis biliar",
+      "Cuando existe un fallo orgánico transitorio y/o complicaciones locales/sistémicas se considera como pancreatitis moderadamente grave",
+      "La necrosis y el pseudoquiste son complicaciones esperadas en la pancreatitis crónica",
+      "Si no se trata apropiadamente la pancreatitis aguda se cronifica"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Atlanta revisada: leve (sin fallo orgánico), moderadamente grave (fallo transitorio < 48 h y/o complicaciones locales o sistémicas) y grave (fallo persistente > 48 h).",
+      "Necrosis y pseudoquiste son complicaciones de la pancreatitis aguda, no 'esperadas' en la crónica.",
+      "La pancreatitis aguda no se 'cronifica' por falta de tratamiento; la causa más frecuente de la crónica es el alcohol, no la litiasis."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p20), pregunta 20",
+     "bloco": "Páncreas",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Para el diagnóstico de pancreatitis crónica el método más útil es:",
+     "opcoes": [
+      "TAC de abdomen",
+      "Ecografía abdominal",
+      "Determinación de amilasa y lipasa",
+      "Todas son correctas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En la pancreatitis crónica la TC muestra calcificaciones, dilatación ductal y atrofia; la ecoendoscopia es más sensible en fases tempranas.",
+      "La ecografía abdominal es menos sensible por el gas intestinal.",
+      "Amilasa y lipasa suelen ser normales en la fase crónica, por lo que no sirven para diagnosticarla. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p20), pregunta 22",
+     "bloco": "Páncreas",
+     "nivel": "facil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "Para el desarrollo de enfermedad celiaca es necesario:",
+     "opcoes": [
+      "Un desencadenante ambiental (el gluten)",
+      "Predisposición genética",
+      "El establecimiento de una respuesta inmunológica aberrante que tiene como final la lesión del epitelio intestinal.",
+      "Todas las respuestas son correctas"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La enfermedad celíaca requiere tres factores: gluten (desencadenante ambiental), predisposición genética (HLA-DQ2/DQ8) y respuesta inmunológica aberrante.",
+      "La respuesta inmune termina en lesión del epitelio intestinal (atrofia vellositaria, hiperplasia de criptas y linfocitosis intraepitelial).",
+      "Como las tres condiciones son necesarias, 'todas las respuestas son correctas'."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p23), pregunta 28",
+     "bloco": "Intestino",
+     "nivel": "medio",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "De las siguientes, la causa más frecuente de pancreatitis aguda es:",
+     "opcoes": [
+      "Infección viral",
+      "Post operatorio",
+      "Litiasis biliar",
+      "La presencia de cirrosis hepática"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La litiasis biliar es la causa más frecuente de pancreatitis aguda; el alcohol es la segunda.",
+      "Otras causas: hipertrigliceridemia, post-CPRE, fármacos, hipercalcemia y trauma.",
+      "En la pancreatitis crónica de adultos la causa más frecuente es el alcohol."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p28), pregunta 2",
+     "bloco": "Páncreas",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Ante una disfagia a sólidos y líquidos, usted orientaría su estudio a:",
+     "opcoes": [
+      "Disfagia esofágica motora",
+      "Disfagia por ERGE",
+      "Disfagia orofaríngea",
+      "Disfagia esofágica mecánica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Disfagia a sólidos y líquidos desde el inicio orienta a causa motora esofágica (acalasia, espasmo esofágico, esclerodermia).",
+      "Disfagia solo a sólidos y progresiva orienta a causa mecánica (estenosis, cáncer).",
+      "La disfagia orofaríngea ocurre al iniciar la deglución, con tos o aspiración; se estudia con videofluoroscopía."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p28), pregunta 4",
+     "bloco": "Esófago",
+     "nivel": "facil",
+     "complemento": true
+    }
+   ],
+   "flashcards": [
+    {
+     "frente": "La gastritis se asocia con lesión gástrica con inflamación de la mucosa, para el diagnóstico de la misma es imprescindible la realización de:",
+     "verso": "Endoscopia digestiva alta (EDA) con toma de biopsia",
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 7"
+    },
+    {
+     "frente": "La pancreatitis crónica es un proceso inflamatorio crónico del páncreas que conduce al desarrollo de lesiones fibróticas permanentes del páncreas, esto lleva a:",
+     "verso": "Perdida de la función endocrina y exocrina del páncreas",
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 9"
+    },
+    {
+     "frente": "Los agentes etiológicos más importantes en el desarrollo de gastritis y ulcera son:",
+     "verso": "Consumo de AINEs e infección por H. Pylori",
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 10"
+    },
+    {
+     "frente": "Para diferenciar clínicamente la EC de la CU podemos observar con más frecuencia:",
+     "verso": "Mayor frecuencia de diarrea sanguinolenta en la CU",
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 11"
+    },
+    {
+     "frente": "La Enfermedad Celíaca (EC) se define como una enteropatía autoinmune, de curso crónico, en la que la exposición a un desencadenante ambiental (el gluten) produce una lesión inmunomediada del epitelio intestinal en individuos genéticamente predispuestos. Para su diagnóstico; ¿qué prueba laboratorial tiene utilidad por su alta sensibilidad?",
+     "verso": "Anticuerpos antitransglutaminasa IgA, IgG",
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 12"
+    },
+    {
+     "frente": "Acude a la urgencia un paciente varón de 54 años, por dolor epigástrico de inicio brusco, como antecedente refiere consumo crónico de Aines e historia de melena en los últimos días por lo que se realiza una EDA donde se observa a nivel duodenal signos de un sangrado reciente aun con un vaso visible; usted clasifica esta lesión como:",
+     "verso": "HDA Forrest IIa",
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 14"
+    },
+    {
+     "frente": "Es INCORRECTO acerca del Síndrome de Intestino Irritable (SII)",
+     "verso": "La presencia de signos de alarma como pérdida de peso o rectorragia refuerza el diagnostico de SII",
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 15"
+    },
+    {
+     "frente": "Para confirmar el diagnóstico de acalasia, la prueba que se debe realizar es:",
+     "verso": "Manometría esofágica",
+     "fonte": "Prueba antigua de Patología Médica (foto p07), pregunta 26"
+    },
+    {
+     "frente": "Es correcto acerca de enfermedad por reflujo gastroesofágico (ERGE)",
+     "verso": "Se manifiesta clínicamente por pirosis, dolor torácico y odinofagia",
+     "fonte": "Prueba antigua de Patología Médica (foto p08), pregunta 28"
+    },
+    {
+     "frente": "Recibe este nombre por su mecanismo fisiopatológico, ya que, debido a una ausencia de absorción, ciertos solutos aumentan su concentración en la luz intestinal y esto atrae agua del enterocito a la luz intestinal desencadenando la diarrea. Este concepto se corresponde con:",
+     "verso": "Diarrea Osmótica",
+     "fonte": "Prueba antigua de Patología Médica (foto p12), pregunta 16"
+    },
+    {
+     "frente": "Acerca del esófago de Barret es correcto:",
+     "verso": "El factor asociado al esófago de Barret es el reflujo gastroesofágico",
+     "fonte": "Prueba antigua de Patología Médica (foto p15), pregunta 8"
+    },
+    {
+     "frente": "De las siguientes, la causa más frecuente de pancreatitis aguda es:",
+     "verso": "Litiasis biliar",
+     "fonte": "Prueba antigua de Patología Médica (foto p28), pregunta 2"
+    },
+    {
+     "frente": "Ante una disfagia a sólidos y líquidos, usted orientaría su estudio a:",
+     "verso": "Disfagia esofágica motora",
+     "fonte": "Prueba antigua de Patología Médica (foto p28), pregunta 4"
+    }
+   ]
+  },
+  {
+   "id": "pm-provas-2",
+   "tema": "Provas anteriores",
+   "titulo": "Provas anteriores 2 – Hepatología",
+   "icone": "hospital",
+   "separado": true,
+   "materiais": [
+    {
+     "nome": "Provas antiguas de Patología Médica (fotos)",
+     "tipo": "prova"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "De los tipos de virus hepatotropos, el que de forma aislada presenta mayor riesgo de cronificarse es:",
+     "opcoes": [
+      "VHC",
+      "VHD",
+      "VHB",
+      "VHA"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El VHC cronifica en ~70–85 % de los infectados: es el virus hepatotropo con mayor riesgo de cronicidad.",
+      "El VHB cronifica en ~5 % de los adultos (hasta ~90 % si la infección es perinatal); el VHA nunca cronifica.",
+      "El VHD no existe de forma aislada: solo infecta junto con el VHB (coinfección o sobreinfección)."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 8",
+     "bloco": "Hepatitis virales",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Acude a la consulta un paciente del sexo masculino de 47 años conocido portador de cirrosis hepática en tratamiento con espironolactona 100 mg/día, furosemida 40 mg/día, refiriendo dolor abdominal, aumento del perímetro abdominal y sensación febril, el paciente se encuentra lucido, ubicado en tiempo y espacio sin signos de encefalopatía. Usted sospecha que el mismo presenta una complicación de la cirrosis. ¿Qué estudio de los citados sería el más adecuado para evaluar al paciente?",
+     "opcoes": [
+      "Endoscopia digestiva alta para descartar sangrado de varices esofágicas",
+      "Ecografía hepática para evaluar el hígado y la porta",
+      "Paracentesis diagnostica para descartar PBE",
+      "Evaluar presencia de Asterixis para descartar encefalopatía"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Cirrótico con ascitis, dolor abdominal y fiebre: sospechar peritonitis bacteriana espontánea (PBE).",
+      "Se confirma con paracentesis diagnóstica: más de 250 PMN/mm³ en el líquido ascítico.",
+      "Sin encefalopatía ni sangrado, la EDA, la asterixis y la ecografía no responden a la sospecha principal."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 13",
+     "bloco": "Cirrosis y complicaciones",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Acude a la consulta un paciente que desea viajar a una zona endémica para hepatitis D. ¿Que vacuna de las siguientes le recomendaría aplicarse?",
+     "opcoes": [
+      "Vacuna contra VHC",
+      "Vacuna contra VHE",
+      "Vacuna contra VHB",
+      "Vacuna contra VHA"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El VHD es defectivo: solo infecta a quien tiene VHB (usa el HBsAg como envoltura).",
+      "No existe vacuna contra el VHD, pero la vacuna contra el VHB previene también la hepatitis D.",
+      "No hay vacuna contra el VHC y las vacunas contra VHA o VHE no protegen contra la hepatitis D."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p03), pregunta 1",
+     "bloco": "Hepatitis virales",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Un paciente que presenta HBsAg+, Anti HBs negativo, Anti HBc IgM+, HBeAg + y Anti HBe negativo. ¿Cuál es la interpretación? Señale la respuesta correcta: Hepatitis B...",
+     "opcoes": [
+      "crónica de alta infectividad (replicación)",
+      "aguda de alta infectividad (replicación)",
+      "aguda de baja infectividad(replicación)",
+      "crónica de baja infectividad (replicación)"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "HBsAg+ con anti-HBc IgM+ indica infección aguda por VHB (anti-HBs aún negativo).",
+      "HBeAg+ refleja replicación viral activa y alta infectividad.",
+      "En la infección crónica el anti-HBc IgM suele ser negativo con IgG positivo; en la curada, HBsAg− con anti-HBs+ y anti-HBc IgG+."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p03), pregunta 3",
+     "bloco": "Hepatitis virales",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Varón de 49 años, con diagnóstico de cirrosis hepática de etiología alcohólica, inicia hace 1 semana con insomnio, cambios súbitos del estado de ánimo y desorientación, la exploración física revela desorientación en tiempo y espacio, asterixis y rueda dentada. ¿Cuál es el diagnóstico más probable, en este paciente?",
+     "opcoes": [
+      "Síndrome de abstinencia alcohólica",
+      "Encefalopatía hepática Portosistémica",
+      "Está iniciando un estado psicótico.",
+      "Intoxicación alcohólica aguda"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Cirrosis + desorientación, cambios del ánimo e insomnio (inversión del ciclo sueño-vigilia) = encefalopatía hepática portosistémica.",
+      "La asterixis (flapping) y la rigidez en rueda dentada son signos típicos.",
+      "Precipitantes: HDA, infección, sedantes, deshidratación y estreñimiento; tratamiento: lactulosa y rifaximina."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p03), pregunta 6",
+     "bloco": "Encefalopatía hepática",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Mujer de 25 años, empleada de limpieza en un laboratorio de análisis clínicos, se presenta con hiporexia, náuseas, mialgias, cefalea y coluria de 4 días de evolución, hace 3 semanas su hijo de 4 años presento un cuadro similar pero sin coluria. A la Exploración física hipertermia de 38 °C y hepatomegalia dolorosa. Su sospecha diagnostica y la vía más probable de adquisición de esta enfermedad es:",
+     "opcoes": [
+      "Hepatitis A - Ingestión de alimentos contaminados",
+      "Hepatitis A - Contagio por su hijo vía fecal-oral",
+      "Hepatitis B o D - Por transmisión sexual",
+      "Hepatitis B o C - Por haber tocado material contaminado"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Transmisión fecal-oral con incubación de 15–50 días (media ~28): el hijo con cuadro similar 3 semanas antes explica el contagio.",
+      "En niños pequeños la hepatitis A suele ser leve o anictérica (sin coluria) y pasa inadvertida.",
+      "VHB y VHC exigen exposición a sangre o fluidos; trabajar en un laboratorio no explica el cuadro familiar."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 29",
+     "bloco": "Hepatitis virales",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Mujer de 35 años de edad, con vida sexual activa, hace dos semanas presento cuadro gripal y desde entonces presenta malestar general, febrícula y adinamia. Recibió tratamiento con acetaminofen, sin notar mejoría, una semana después, presenta hiporexia y nauseas, ayer presenta coluria, Ud. solicita marcadores para hepatitis, que reportan: AntiHAV-IgG (-), AntiHAV-IgM (-), HBsAg (+), AntiHBcIgM (+), AntiHBcIgG (-), anti HVC (-) y PCR RNA VHC (-). Su paciente tiene:",
+     "opcoes": [
+      "Hepatitis B crónica sin haber tenido Hepatitis A",
+      "Hepatitis B aguda con Hepatitis A",
+      "Hepatitis B aguda sin haber tenido Hepatitis A",
+      "Hepatitis B curada sin haber tenido Hepatitis A"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "HBsAg+ con anti-HBc IgM+ = hepatitis B aguda.",
+      "Anti-HAV IgM e IgG negativos descartan hepatitis A actual o pasada; anti-VHC y PCR-VHC negativos descartan C.",
+      "Crónica: HBsAg+ por más de 6 meses con anti-HBc IgG+; curada: HBsAg− con anti-HBs+ y anti-HBc IgG+."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 30",
+     "bloco": "Hepatitis virales",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Mujer de 19 años de edad, con antecedente de hemotransfusión por eritroblastosis fetal, desde hace 3 meses presenta malestar general, hiporexia, astenia y adinamia, una semana antes, presentó náusea y vómitos por lo que la manejaron como “gastroenteritis” como continua sintiéndose mal, su prima le dijo que se hiciera unos “marcadores para hepatitis”. Los cuales reportan: antiHAV-IgG(+), antiHAV-IgM(+), HBsAg(-), antiHBsAg(+), antiHBcIgM(-), antiHBcIgG(-) y antiHAD (-) Usted le informa que lo que tiene es:",
+     "opcoes": [
+      "Vacuna de Hepatitis B y Hepatitis A en resolución",
+      "Hepatitis A aguda con Hepatitis B pasada",
+      "Hepatitis A aguda con memoria de Hepatitis B y D",
+      "Hepatitis A aguda con Hepatitis D crónica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Anti-HAV IgM+ = hepatitis A aguda (el IgG+ acompaña la respuesta inmune).",
+      "Anti-HBs aislado (HBsAg−, anti-HBc IgM e IgG negativos) = inmunidad por vacuna contra hepatitis B.",
+      "Una infección pasada por VHB tendría anti-HBc IgG+; aquí es negativo, por eso no es 'hepatitis B pasada'."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 31",
+     "bloco": "Hepatitis virales",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "La hepatitis fulminante puede aparecer en un hígado previamente sano, más frecuentemente en las infecciones por hepatitis B con sobreinfección D y con la E en embarazadas. ¿Qué parámetros se tienen en cuenta para hacer este diagnóstico?",
+     "opcoes": [
+      "Encefalopatía hepática e Ictericia a expensas de la Bilirrubina directa",
+      "Ascitis, ictericia y hemorragia por varices esofágicas",
+      "Hipoalbuminemia, Ictericia y circulación colateral",
+      "Encefalopatía hepática y descenso del TP por debajo del 40%"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Hepatitis fulminante (insuficiencia hepática aguda): encefalopatía hepática + coagulopatía (TP < 40 %) en un hígado previamente sano.",
+      "Se asocia a VHB (con sobreinfección D), VHE en embarazadas, paracetamol y otras causas.",
+      "Ascitis, circulación colateral e hipoalbuminemia son propias de cirrosis crónica, no de fallo hepático agudo."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p07), pregunta 25",
+     "bloco": "Hepatitis virales",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "El procedimiento terapéutico de elección actualmente recomendado en el sangrado agudo por varices esofágicas es:",
+     "opcoes": [
+      "Dilatación con balón",
+      "Cirugía desvascularizante",
+      "Colocación de Senstaken-Blakemore",
+      "Ligadura endoscópica con bandas elásticas"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El tratamiento endoscópico de elección en el sangrado agudo por várices es la ligadura con bandas elásticas.",
+      "Se asocia a fármacos vasoactivos (terlipresina u octreótido) y antibiótico profiláctico.",
+      "Sengstaken-Blakemore es rescate temporal; TIPS o cirugía se reservan para casos refractarios."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p05), pregunta 20",
+     "bloco": "Cirrosis y complicaciones",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "La hemorragia digestiva alta (HDA) por varices esofágicas es la causa de HDA más frecuente en los cirróticos, con un manejo óptimo, menos del 1% de los pacientes mueren después del primer episodio.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las várices son la causa más frecuente de HDA en cirróticos, pero la mortalidad tras el primer episodio es ~15–20 % a 6 semanas, no < 1 %.",
+      "La mortalidad se relaciona con la gravedad hepática (Child-Pugh) y el resangrado precoz.",
+      "Prevención: betabloqueantes no selectivos y/o ligadura endoscópica."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p05), pregunta 26",
+     "bloco": "Cirrosis y complicaciones",
+     "nivel": "medio",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "Indique la situación clínica que, en relación con la infección por virus de la hepatitis B, presenta un paciente de 5 años procedente de Nigeria, con exploración física normal y con la siguiente serología frente a hepatitis B: HBsAg + / ANTI-HBs – / HbeAg – / ANTI-HBe + / ANTI-HBc IgM – / ANTI-HBc IgG + / DNA VHB +:",
+     "opcoes": [
+      "Infección crónica.",
+      "Infección aguda.",
+      "Paciente curado",
+      "Paciente vacunado."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "HBsAg+ con anti-HBc IgM negativo e IgG positivo indica infección crónica, no aguda.",
+      "HBeAg− con anti-HBe+ y ADN-VHB+ corresponde a hepatitis crónica HBeAg negativa.",
+      "En zonas endémicas como Nigeria la infección ocurre en la etapa perinatal o primera infancia, con riesgo de cronificar de hasta ~90 %."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p07), pregunta 27",
+     "bloco": "Hepatitis virales",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Una de las siguientes afirmaciones referidas a los virus de la hepatitis NO es correcta. Indíquela:",
+     "opcoes": [
+      "La aparición del anti-HBsAg marca la curación en la hepatitis B",
+      "La detección del HBsAg durante más de seis meses indica un estado de infección crónica.",
+      "El VHE es un virus defectivo que usa el antígeno de superficie del VHB como su proteína de envoltura.",
+      "En contraste con el VHB y VHC, la transmisión por sangre del VHA es poco común, porque la viremia es breve y de bajo título."
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El virus defectivo que usa el HBsAg como envoltura es el VHD (delta), no el VHE.",
+      "El VHE tiene transmisión fecal-oral y puede causar forma fulminante en embarazadas.",
+      "Anti-HBs indica curación o inmunidad; HBsAg por más de 6 meses define infección crónica."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p07), pregunta 30",
+     "bloco": "Hepatitis virales",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "LA prueba laboratorial que utilizaría para screening ( tamizaje o filtro) de infección por el virus de hepatitis B seria:",
+     "opcoes": [
+      "AcHBs",
+      "Ac HBe",
+      "HBsAg + AcHBs",
+      "HBsAg"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El HBsAg es el marcador de tamizaje de infección activa por VHB (aguda o crónica).",
+      "Anti-HBs indica inmunidad por vacuna o infección pasada; no detecta infección activa.",
+      "HBeAg y anti-HBe valoran replicación y fase de la enfermedad, no son pruebas de tamizaje."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p08), pregunta 21",
+     "bloco": "Hepatitis virales",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Son situaciones que agravan una encefalopatía hepática en un paciente cirrótico EXCEPTO:",
+     "opcoes": [
+      "Uso de sedantes como las benzodiazepinas",
+      "La presencia de diarrea por lactulosa",
+      "Insuficiencia renal aguda por uso de diuréticos",
+      "El desarrollo concomitante de Hemorragia digestiva alta"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Precipitantes de encefalopatía: sedantes y benzodiacepinas, HDA, infección, insuficiencia renal, deshidratación y estreñimiento.",
+      "La lactulosa es el tratamiento: la diarrea que provoca es el efecto esperado (2–3 deposiciones blandas al día).",
+      "Solo la diarrea excesiva con deshidratación podría agravar el cuadro; la mera presencia de diarrea por lactulosa indica buen efecto."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p08), pregunta 27",
+     "bloco": "Encefalopatía hepática",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "La Asterixis consiste en la pérdida momentánea de la postura, especialmente manifiesta en la extensión de los dedos y de la muñeca. Clínicamente se expresa como breves sacudidas de las extremidades, con inicio y final brusco del cese involuntario de la contracción muscular. Este signo clínico, en los pacientes cirróticos, se asocia a:",
+     "opcoes": [
+      "Encefalopatía hepática",
+      "Peritonitis bacteriana espontanea",
+      "Ascitis",
+      "Hemorragia digestiva por varices esofágicas"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La asterixis (flapping tremor) es la pérdida momentánea del tono postural y es típica de la encefalopatía hepática.",
+      "Se busca con los brazos extendidos y las muñecas en dorsiflexión: aparecen sacudidas bruscas.",
+      "También aparece en uremia e hipercapnia; en el cirrótico indica encefalopatía de grado intermedio."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p12), pregunta 20",
+     "bloco": "Encefalopatía hepática",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "En la cirrosis Hepática, son consecuencias de la Hipertensión portal EXCEPTO:",
+     "opcoes": [
+      "Presentación de circulación en cabeza de medusa",
+      "Alteración del TP por disminución de factores de coagulación dependientes de la Vitamina K",
+      "Hiperesplenismo",
+      "Desarrollo de varices esofágicas"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Consecuencias de la hipertensión portal: esplenomegalia con hiperesplenismo, várices esofágicas, circulación colateral (cabeza de medusa) y ascitis.",
+      "La alteración del TP por déficit de factores de coagulación depende de la insuficiencia hepatocelular (síntesis hepática), no de la hipertensión portal.",
+      "El hiperesplenismo causa trombocitopenia por secuestro esplénico, mientras que el TP prolongado refleja función hepática."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p12), pregunta 22",
+     "bloco": "Cirrosis y complicaciones",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Acerca de la peritonitis bacteriana espontánea (PBE) es correcto:",
+     "opcoes": [
+      "En caso de PBE se debe realizar una paracentesis evacuadora drenando la totalidad del líquido ascítico",
+      "El diagnostico se basa en la medición de albumina y factores de coagulación en el líquido ascítico",
+      "Es imprescindible la detección de un germen en el cultivo de líquido ascítico para iniciar tratamiento",
+      "La presencia de más de 250 PMN por mm3 es fundamental para el diagnostico"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "PBE: infección del líquido ascítico sin foco intraabdominal; se diagnostica con ≥ 250 PMN/mm³ en la paracentesis.",
+      "El cultivo puede ser negativo (ascitis neutrocítica): no hay que esperarlo para iniciar antibiótico.",
+      "No se hace paracentesis evacuadora total; se asocia albúmina intravenosa y se suspenden diuréticos nefrotóxicos."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p12), pregunta 23",
+     "bloco": "Cirrosis y complicaciones",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Paciente de sexo masculino de 29 años, con datos histológicos de hepatitis crónica en la biopsia hepática y los datos analíticos siguientes: GOT y GPT 2 veces por encima del límite alto de la normalidad, bilirrubina 0,2 mg/dl; serología virus de la hépatites B: AgHBs (-), AcHBs (+), AcHBc (+). Anticuerpos anti-virus C (+); ceruloplasmina y Cu+ sérico normales. ¿Cuál es, entre las siguientes, la causa más probable de la hepatitis crónica?",
+     "opcoes": [
+      "Infección por el virus de la hepatitis C.",
+      "Infección por el virus de la hepatitis B.",
+      "Enfermedad de Wilson."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Hepatitis crónica en la biopsia con anti-HCV+ sugiere infección por VHC (se confirma con PCR/ARN-VHC).",
+      "HBsAg− con anti-HBs+ y anti-HBc+ indica infección pasada resuelta por VHB, no hepatitis B crónica.",
+      "Ceruloplasmina y cobre sérico normales descartan enfermedad de Wilson."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p12), pregunta 24",
+     "bloco": "Hepatitis virales",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Varón de 51 años de edad, con vida sexual activa y adicto a heroína IV, hace dos semanas presento cuadro gripal y desde entonces presenta malestar general, febrícula, astenia y adinamia. Tomo acetaminofen, sin notar mejoría, una semana después, presenta hiporexia por la no mejoría del cuadro acudió a consulta, usted, solicita marcadores virales. El laboratorio reporta: antiHAV-IgG(+), antiHAV-IgM(-), HBsAg(-), antiHBsAg(+), antiHBcIgM(-), antiHBcIgG(+), antiHVC (+) y PCR RNA VHC (+). Su paciente tiene:",
+     "opcoes": [
+      "Hepatitis C y memoria para Hepatitis A y B",
+      "Hepatitis B y C agudas sin haber tenido Hepatitis A",
+      "Hepatitis B aguda sin haber tenido Hepatitis A o C",
+      "Hepatitis A pasada con Hepatitis B y C crónicas",
+      "Hepatitis A y C agudas con Hepatitis B crónica"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Anti-HCV+ con PCR-ARN VHC+ indica infección activa por VHC; el consumo de drogas IV es factor de riesgo.",
+      "HBsAg− con anti-HBs+ y anti-HBc IgG+ indica hepatitis B pasada resuelta (memoria inmunológica).",
+      "Anti-HAV IgG+ con IgM− indica hepatitis A pasada o vacunación, no infección aguda. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p15), pregunta 12",
+     "bloco": "Hepatitis virales",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "La prueba laboratorial que utilizaría para diferenciar entre una hepatitis aguda y una crónica es:",
+     "opcoes": [
+      "Ac HBc",
+      "AcHBs",
+      "AcHBe",
+      "HBsAg"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Para distinguir hepatitis B aguda de crónica se usa el anti-HBc IgM: positivo en la fase aguda y negativo en la crónica.",
+      "El HBsAg está positivo en ambas; el anti-HBs indica inmunidad o curación; el anti-HBe refleja la fase de replicación.",
+      "La cronicidad se define por HBsAg+ durante más de 6 meses. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p20), pregunta 19",
+     "bloco": "Hepatitis virales",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Mujer de 35 años de edad, con vida sexual activa, hace dos semanas presento cuadro gripal y desde entonces presenta malestar general, febrícula, cefalea y adinamia. Recibió tratamiento con acetaminofen, sin notar mejoría, una semana después, presenta hiporexia y nauseas, ayer presenta coluria, Ud. solicita marcadores para hepatitis, que reportan: AntiHAV-IgG (+), AntiHAV-IgM (-), HBsAg (-), AntiHBs (+)AntiHBcIgM (-), AntiHBcIgG (+), anti HVC (+) y PCR RNA VHC (+). Su paciente tiene:",
+     "opcoes": [
+      "Hepatitis B curada, hepatitis C Hepatitis A pasada",
+      "Hepatitis B aguda, Hepatitis C crónica, sin haber tenido Hepatitis A",
+      "Hepatitis B y C crónica sin haber tenido Hepatitis A",
+      "Hepatitis B aguda con Hepatitis A y C pasada"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "HBsAg− con anti-HBs+ y anti-HBc IgG+ (IgM−) = hepatitis B curada.",
+      "Anti-HAV IgG+ con IgM− = hepatitis A pasada o vacunación.",
+      "Anti-HCV+ con PCR-ARN VHC+ = hepatitis C con infección activa."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p20), pregunta 25",
+     "bloco": "Hepatitis virales",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "En la valoración funcional de la Cirrosis hepática se tiene en cuenta:",
+     "opcoes": [
+      "Circulación colateral por hipertensión portal",
+      "Presencia de más de 250 PMN/mm3 en el líquido ascítico",
+      "Hemorragia digestiva alta, encefalopatía, peritonitis bacteriana espontanea",
+      "Encefalopatía, ascitis, albumina, bilirrubina y tiempo de protrombina"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La valoración funcional de la cirrosis se hace con Child-Pugh: bilirrubina, albúmina, tiempo de protrombina, ascitis y encefalopatía.",
+      "Child-Pugh clasifica en A (5–6 puntos), B (7–9) y C (10–15), con pronóstico decreciente.",
+      "MELD (bilirrubina, INR, creatinina y sodio) se usa para priorizar el trasplante hepático."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p28), pregunta 1",
+     "bloco": "Cirrosis y complicaciones",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Un hombre de 67 años, diagnosticado de cirrosis hepática y bebedor activo, ingresa por cuadro de distensión abdominal progresiva con malestar difuso, de dos semanas de evolución. No refiere fiebre ni otros síntomas. A la exploración destaca matidez cambiante a la percusión abdominal, con ausencia de edemas. Se realiza una paracentesis diagnóstica, encontrando un líquido ligeramente turbio, con 2300 células/mL, de las cuales 30% son linfocitos, 60% polimorfonucleares y 10% hematíes. ¿Cuál es la primera medida terapéutica que pautaría en este paciente de forma inmediata?",
+     "opcoes": [
+      "Paracentesis evacuadora.",
+      "Tratamiento diurético con espironolactona oral.",
+      "Tratamiento con una cefalosporina de tercera generación.",
+      "Restricción de sal y líquidos."
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Más de 250 PMN/mm³ confirma PBE: aquí hay ~1380 PMN/mm³ (60 % de 2300 células/mL), por lo que se trata de inmediato.",
+      "Tratamiento: cefalosporina de 3.ª generación (ceftriaxona o cefotaxima) más albúmina intravenosa.",
+      "Paracentesis evacuadora y restricción de sal no son la primera medida; se suspenden diuréticos si hay deterioro renal."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p28), pregunta 3",
+     "bloco": "Cirrosis y complicaciones",
+     "nivel": "medio",
+     "complemento": true
+    }
+   ],
+   "flashcards": [
+    {
+     "frente": "De los tipos de virus hepatotropos, el que de forma aislada presenta mayor riesgo de cronificarse es:",
+     "verso": "VHC",
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 8"
+    },
+    {
+     "frente": "Acude a la consulta un paciente del sexo masculino de 47 años conocido portador de cirrosis hepática en tratamiento con espironolactona 100 mg/día, furosemida 40 mg/día, refiriendo dolor abdominal, aumento del perímetro abdominal y sensación febril, el paciente se encuentra lucido, ubicado en tiempo y espacio sin signos de encefalopatía. Usted sospecha que el mismo presenta una complicación de la cirrosis. ¿Qué estudio de los citados sería el más adecuado para evaluar al paciente?",
+     "verso": "Paracentesis diagnostica para descartar PBE",
+     "fonte": "Prueba antigua de Patología Médica (foto p01), pregunta 13"
+    },
+    {
+     "frente": "Un paciente que presenta HBsAg+, Anti HBs negativo, Anti HBc IgM+, HBeAg + y Anti HBe negativo. ¿Cuál es la interpretación? Señale la respuesta correcta: Hepatitis B...",
+     "verso": "aguda de alta infectividad (replicación)",
+     "fonte": "Prueba antigua de Patología Médica (foto p03), pregunta 3"
+    },
+    {
+     "frente": "Varón de 49 años, con diagnóstico de cirrosis hepática de etiología alcohólica, inicia hace 1 semana con insomnio, cambios súbitos del estado de ánimo y desorientación, la exploración física revela desorientación en tiempo y espacio, asterixis y rueda dentada. ¿Cuál es el diagnóstico más probable, en este paciente?",
+     "verso": "Encefalopatía hepática Portosistémica",
+     "fonte": "Prueba antigua de Patología Médica (foto p03), pregunta 6"
+    },
+    {
+     "frente": "Mujer de 25 años, empleada de limpieza en un laboratorio de análisis clínicos, se presenta con hiporexia, náuseas, mialgias, cefalea y coluria de 4 días de evolución, hace 3 semanas su hijo de 4 años presento un cuadro similar pero sin coluria. A la Exploración física hipertermia de 38 °C y hepatomegalia dolorosa. Su sospecha diagnostica y la vía más probable de adquisición de esta enfermedad es:",
+     "verso": "Hepatitis A - Contagio por su hijo vía fecal-oral",
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 29"
+    },
+    {
+     "frente": "Mujer de 19 años de edad, con antecedente de hemotransfusión por eritroblastosis fetal, desde hace 3 meses presenta malestar general, hiporexia, astenia y adinamia, una semana antes, presentó náusea y vómitos por lo que la manejaron como “gastroenteritis” como continua sintiéndose mal, su prima le dijo que se hiciera unos “marcadores para hepatitis”. Los cuales reportan: antiHAV-IgG(+), antiHAV-IgM(+), HBsAg(-), antiHBsAg(+), antiHBcIgM(-), antiHBcIgG(-) y antiHAD (-) Usted le informa que lo que tiene es:",
+     "verso": "Vacuna de Hepatitis B y Hepatitis A en resolución",
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 31"
+    },
+    {
+     "frente": "La hepatitis fulminante puede aparecer en un hígado previamente sano, más frecuentemente en las infecciones por hepatitis B con sobreinfección D y con la E en embarazadas. ¿Qué parámetros se tienen en cuenta para hacer este diagnóstico?",
+     "verso": "Encefalopatía hepática y descenso del TP por debajo del 40%",
+     "fonte": "Prueba antigua de Patología Médica (foto p07), pregunta 25"
+    },
+    {
+     "frente": "El procedimiento terapéutico de elección actualmente recomendado en el sangrado agudo por varices esofágicas es:",
+     "verso": "Ligadura endoscópica con bandas elásticas",
+     "fonte": "Prueba antigua de Patología Médica (foto p05), pregunta 20"
+    },
+    {
+     "frente": "Paciente de sexo masculino de 29 años, con datos histológicos de hepatitis crónica en la biopsia hepática y los datos analíticos siguientes: GOT y GPT 2 veces por encima del límite alto de la normalidad, bilirrubina 0,2 mg/dl; serología virus de la hépatites B: AgHBs (-), AcHBs (+), AcHBc (+). Anticuerpos anti-virus C (+); ceruloplasmina y Cu+ sérico normales. ¿Cuál es, entre las siguientes, la causa más probable de la hepatitis crónica?",
+     "verso": "Infección por el virus de la hepatitis C.",
+     "fonte": "Prueba antigua de Patología Médica (foto p12), pregunta 24"
+    },
+    {
+     "frente": "En la valoración funcional de la Cirrosis hepática se tiene en cuenta:",
+     "verso": "Encefalopatía, ascitis, albumina, bilirrubina y tiempo de protrombina",
+     "fonte": "Prueba antigua de Patología Médica (foto p28), pregunta 1"
+    }
+   ]
+  },
+  {
+   "id": "pm-provas-3",
+   "tema": "Provas anteriores",
+   "titulo": "Provas anteriores 3 – Aparato cardiovascular",
+   "icone": "hospital",
+   "separado": true,
+   "materiais": [
+    {
+     "nome": "Provas antiguas de Patología Médica (fotos)",
+     "tipo": "prova"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "Una mujer de 59 años con antecedentes personales de cáncer de mama intervenida hace 8 meses y osteoporosis, sufre una caída y tiene una fractura de cuello de fémur derecho. Es intervenida quirúrgicamente y permanece ingresada en reposo con yeso durante 10 días. A la semana siguiente de su alta nota de forma súbita falta de aire que la lleva a consultar a su médico de cabecera que nota que su pantorrilla derecha tiene edema y dolor a la palpación. La sospecha diagnostica en esta paciente es de:",
+     "opcoes": [
+      "Tromboembolismo pulmonar",
+      "Endocarditis infecciosa",
+      "Infarto agudo de miocardio",
+      "Insuficiencia cardiaca"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Factores de riesgo de TVP/TEP: cirugía ortopédica, inmovilización con yeso, cáncer y fractura de fémur.",
+      "Disnea súbita + edema y dolor en pantorrilla = trombosis venosa profunda con embolia pulmonar.",
+      "Diagnóstico: angio-TC pulmonar (D-dímero si la probabilidad es baja); tratamiento: anticoagulación."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 32",
+     "bloco": "Tromboembolismo y edema agudo de pulmón",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Corresponde a un mecanismo productor de HTA:",
+     "opcoes": [
+      "Retención de sodio y agua por acción de la vasopresina",
+      "Bloqueo del SRAA por daño renal",
+      "Disminución de la frecuencia cardiaca por efecto de los beta bloqueantes",
+      "Estimulación simpática por activación del sistema nervioso autónomo"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La activación simpática aumenta frecuencia cardiaca, gasto cardiaco y resistencia periférica, y eleva la PA.",
+      "El SRAA contribuye a la HTA cuando está activado; bloquearlo (IECA/ARA II) es tratamiento, no mecanismo.",
+      "Los betabloqueantes bajan la FC y la PA (efecto terapéutico); la vasopresina retiene agua, el sodio lo retiene la aldosterona."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 33",
+     "bloco": "Hipertensión arterial",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Acerca de la medición de la presión arterial es CORRECTO:",
+     "opcoes": [
+      "La realización de MAPA es indispensable para el diagnóstico de HTA",
+      "Para el diagnóstico de HTA es necesario una única medición mayor a 180 mmHg de sistólica",
+      "El automonitoreo de la PA (AMPA) consiste en la medición seriada de la PA en el consultorio durante al menos 3 consultas",
+      "La medida de la presión debe realizarse con el paciente sentado, relajado y en más de una oportunidad"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La PA se mide con el paciente sentado y relajado (tras ~5 min de reposo), en más de una ocasión.",
+      "Una sola cifra elevada no basta para el diagnóstico, salvo HTA grave con daño de órgano blanco.",
+      "MAPA es el monitoreo de 24 h y AMPA el automonitoreo domiciliario; ayudan a confirmar el diagnóstico pero no son indispensables."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 34",
+     "bloco": "Hipertensión arterial",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Paciente de sexo masculino de 45 años de edad, acude por cuadro de dolor retroesternal tipo opresivo que apareció ante la subida de una colina, el mismo cuadro dura aproximadamente 5 minutos y cedió con el reposo, refiere que ya tuvo cuadros similares con anterioridad; se le practica un ECG que resulta normal. El cuadro clínico probable y el método auxiliar de diagnóstico más útil para hacer el diagnostico seria:",
+     "opcoes": [
+      "SCA - ECG",
+      "SCA - Ecocardiograma",
+      "Angina estable - Ergometría",
+      "Angina inestable - Cateterismo"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Dolor opresivo retroesternal con el esfuerzo, de ~5 min, que cede con el reposo y ECG basal normal = angina estable.",
+      "El estudio útil es la prueba de esfuerzo (ergometría) para provocar isquemia.",
+      "Angina inestable o SCA (dolor en reposo, prolongado o de reciente comienzo) requiere internación, ECG seriado y troponinas, no ergometría."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 35",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Un hombre de 51 años de edad acude al servicio de urgencias por presentar dolor torácico irradiado a miembro superior izquierdo y espalda, de 90 minutos de duración, asociado a mal estado general, sudoración y signos de deficiente perfusión periférica. A la auscultación presenta ritmo de galope, tercer ruido; y crepitantes en ambas bases pulmonares PA: 140/90, FC: 88x'. En el ECG destaca supradesnivel del ST en DII, DIII, y aVF. El diagnostico que usted sospecha es:",
+     "opcoes": [
+      "SCA con elevación del ST killip III",
+      "IAM con elevación del ST killip IV",
+      "SCA con elevación del ST Killip II",
+      "IAM con elevación del ST Killip I"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Killip II: estertores en menos de la mitad de los campos pulmonares o S3, con presión arterial conservada.",
+      "Killip III: edema agudo de pulmón; Killip IV: shock cardiogénico (PAS < 90 mmHg con hipoperfusión).",
+      "Aquí hay S3 y crepitantes basales con PA 140/90, sin hipotensión: Killip II con elevación del ST. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 36",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Con respecto al paciente anterior, la cara que se encuentra afectada es:",
+     "opcoes": [
+      "Anterior",
+      "Inferior",
+      "Lateral",
+      "Septal"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Elevación del ST en DII, DIII y aVF = pared inferior (arteria coronaria derecha en ~80 % de los casos).",
+      "Anterior: V1–V4 (descendente anterior); lateral: I, aVL, V5–V6; septal: V1–V2.",
+      "En IAM inferior hay que pedir derivaciones derechas (V3R–V4R) para descartar compromiso del ventrículo derecho."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 37",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Presenta un ritmo irregularmente irregular con ausencias de ondas P, asociándose a déficit de pulso por una conducción auricular variable y presenta un riesgo aumentado de tromboembolia sistémico. La presente definición se corresponde con más exactitud con:",
+     "opcoes": [
+      "Extrasístole auricular",
+      "Bloqueo AV de 1er grado",
+      "Fibrilación ventricular",
+      "Fibrilación auricular"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "FA: ritmo irregularmente irregular, sin ondas P y con QRS irregulares.",
+      "Déficit de pulso: el pulso es más lento que la frecuencia cardiaca porque algunos latidos no generan pulso eficaz.",
+      "Riesgo de tromboembolia sistémica (ACV): se estima con CHA₂DS₂-VASc y se anticoagula."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p14), pregunta 11",
+     "bloco": "Arritmias",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "El biomarcador con mayor sensibilidad para la confirmación de la necrosis miocárdica es:",
+     "opcoes": [
+      "pro BNP",
+      "Troponina I y T",
+      "CK total y CK MB",
+      "Dimero D"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Las troponinas I y T cardíacas son los biomarcadores más sensibles y específicos de necrosis miocárdica.",
+      "Se elevan a las 3–6 h y pueden permanecer elevadas hasta 10–14 días; se miden en serie.",
+      "CK-MB es menos sensible; BNP/proBNP valoran insuficiencia cardiaca y el dímero D sirve para sospecha de trombosis o TEP."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p14), pregunta 12",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Es CORRECTO acerca de la Endocarditis:",
+     "opcoes": [
+      "Ante Hemocultivos negativos se descarta el diagnóstico de endocarditis bacteriana",
+      "El agente etiológico más frecuente en las endocarditis subaguda es el S. Aureus",
+      "La principal localización de las vegetaciones es sobre la arteria pulmonar",
+      "Puede presentar complicaciones locales como a distancia secundarias a embolismo séptico"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "La endocarditis puede dar complicaciones locales (abscesos, insuficiencia valvular) y a distancia por émbolos sépticos.",
+      "Hemocultivos negativos no la descartan (antibiótico previo, HACEK, Coxiella, Bartonella); la subaguda suele ser por estreptococos viridans y la aguda por S. aureus.",
+      "Las vegetaciones se localizan sobre las válvulas (mitral y aórtica más frecuentes), no sobre la arteria pulmonar."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p14), pregunta 13",
+     "bloco": "Endocarditis infecciosa",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "¿En cuál de los siguientes pacientes recomendaría tratamiento profiláctico por endocarditis infecciosa?",
+     "opcoes": [
+      "Paciente con valvulopatía reumática al que se le realizará colonoscopia",
+      "Portador de válvula protésica que será sometido a sondaje urinario",
+      "Paciente con patología valvular que será sometido a procedimiento dental",
+      "A todo paciente que será sometido a un procedimiento dental"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "La profilaxis antibiótica se indica solo en pacientes de alto riesgo: prótesis valvular, endocarditis previa y ciertas cardiopatías congénitas.",
+      "Se indica para procedimientos dentales que manipulan la encía o la región periapical, no para todos los pacientes.",
+      "No se recomienda para sondaje urinario ni colonoscopia, ni en valvulopatía reumática sin prótesis. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p14), pregunta 14",
+     "bloco": "Endocarditis infecciosa",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Lo llaman a la urgencia por un paciente de 68 años con cuadro de hipertensión de larga data en tratamiento con valsartan 160 mg/día + Amlodipino 10mg/día, el mismo no refiere otra patología de base. El motivo de consulta se da porque la misma se controló la presión antes de dormir y encontró la misma en 180/100. Le realiza un ECG que resulta normal y al interrogatorio dirigido no presento compromiso de órgano diana. Acerca de la HTA de este paciente podemos afirmar:",
+     "opcoes": [
+      "Corresponde a una urgencia hipertensiva",
+      "Se debe realizar un descenso rápido de la PA con drogas endovenosas",
+      "Corresponde a una emergencia hipertensiva",
+      "Corresponde a una HTA maligna y es de mal pronóstico"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Urgencia hipertensiva: PA muy elevada (≥ 180/110 mmHg) sin daño agudo de órgano blanco.",
+      "Se trata con antihipertensivos orales y descenso gradual en 24–48 h; no requiere descenso rápido con drogas endovenosas.",
+      "Emergencia hipertensiva: PA elevada con daño agudo de órgano (encefalopatía, edema agudo de pulmón, disección, IAM) y exige tratamiento IV en cuidados intensivos."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p14), pregunta 15",
+     "bloco": "Hipertensión arterial",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Una paciente de 38 años sin antecedentes de cardiopatía ni problemas broncopulmonares conocidos acude al servicio de Urgencias por presentar palpitaciones rápidas y regulares de comienzo brusco. La TA es de 110/80 mmHg, el pulso es regular a 195 lpm y la saturación arterial de O2, respirando aire ambiente, es de 96%. El ECG muestra una taquicardia regular de QRS estrecho a 195 lpm. Con mayor probabilidad la arritmia que presenta es:",
+     "opcoes": [
+      "Extrasístole auricular",
+      "Taquicardia ventricular",
+      "Extrasístole ventricular",
+      "Taquicardia paroxística supraventricular"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Palpitaciones regulares de inicio y fin bruscos, con ~150–220 lpm y QRS estrecho = taquicardia paroxística supraventricular (reentrada nodal).",
+      "Primer paso: maniobras vagales; luego adenosina IV; cardioversión eléctrica si hay inestabilidad.",
+      "La taquicardia ventricular tiene QRS ancho y las extrasístoles son latidos aislados, no una taquicardia sostenida."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p14), pregunta 16",
+     "bloco": "Arritmias",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Acerca de la clasificación de la Insuficiencia cardiaca es INCORRECTO:",
+     "opcoes": [
+      "La principal causa asociada a una IC aguda es lo HTA",
+      "Los síntomas nos permiten clasificar la IC en derecha e izquierda",
+      "La IC con FEVI preservada es más frecuente en ancianos y obesos"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La IC se clasifica por síntomas (derecha/izquierda), por FEVI (reducida, levemente reducida o preservada), por evolución (aguda/crónica) y por capacidad funcional (NYHA).",
+      "La principal causa de IC aguda es la cardiopatía isquémica (SCA); la HTA es el factor de riesgo más frecuente de IC crónica.",
+      "La IC con FEVI preservada predomina en ancianos, mujeres, obesos e hipertensos. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p14), pregunta 17",
+     "bloco": "Insuficiencia cardiaca",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Un paciente de 50 años con antecedentes de tabaquismo, dislipidemia y diabetes consulta por presentar desde hace 36 horas episodios repetidos de dolor torácico opresivo con sudoración. El último y más prolongado tuvo una duración de 45 minutos. El ECG muestra descenso persistente del ST de 2 mm en derivaciones DII, DIII y aVF. Señale la afirmación más correcta:",
+     "opcoes": [
+      "Se debe solicitar Troponina I e iniciar medidas anti isquémicas pues corresponde a un SCASEST",
+      "Se debe solicitar una ergometría para el diagnóstico pues se trata de una angina estable",
+      "Corresponde inequívocamente a un IAM por lo que no se necesita ningún otro marcador",
+      "Se debe realizar terapia de reperfusión coronaria pues se corresponde con una oclusión coronaria completa"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "Dolor torácico prolongado con descenso persistente del ST es un síndrome coronario agudo sin elevación del ST (SCASEST).",
+      "Se pide troponina para distinguir IAM sin elevación del ST de angina inestable y se inician antiisquémicos y antitrombóticos.",
+      "La reperfusión urgente se reserva al SCA con elevación del ST; la ergometría está contraindicada en SCA activo."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p17), pregunta 38",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Para la valoración de una Insuficiencia cardiaca, resulta más útil:",
+     "opcoes": [
+      "Realización de espirometría de urgencia",
+      "Electrocardiogramas seriados + Troponina I",
+      "Determinación de BNP o proBNP",
+      "Determinación de Troponina I"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "BNP y NT-proBNP son los biomarcadores más útiles en insuficiencia cardiaca: ayudan a diagnosticar, descartar (alto valor predictivo negativo) y dar pronóstico.",
+      "La troponina evalúa daño miocárdico (isquemia), no insuficiencia cardiaca.",
+      "Pueden elevarse en edad avanzada, insuficiencia renal y FA; el ecocardiograma confirma y mide la FEVI."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p17), pregunta 39",
+     "bloco": "Insuficiencia cardiaca",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "La causa más frecuente de hipertensión secundaria es:",
+     "opcoes": [
+      "Consumo excesivo de cloruro de sodio",
+      "Enfermedad Renal",
+      "Hiperaldosteronismo primario",
+      "Feocromocitoma"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "La enfermedad renal (parenquimatosa y renovascular) es la causa más frecuente de HTA secundaria.",
+      "El hiperaldosteronismo primario es la causa endocrina más común; el feocromocitoma es raro.",
+      "Sospechar HTA secundaria en jóvenes, HTA resistente a 3 fármacos, hipopotasemia sin diuréticos o soplo abdominal."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p17), pregunta 40",
+     "bloco": "Hipertensión arterial",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Los Bloqueos AV de 1er y segundo grado impiden la correcta evaluación del ECG para el diagnóstico de IAM.",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Los bloqueos AV de 1.º y 2.º grado no impiden interpretar el segmento ST ni el QRS: el ECG sigue siendo útil para diagnosticar IAM.",
+      "Dificultan el diagnóstico el bloqueo completo de rama izquierda, el ritmo de marcapasos y el síndrome de WPW.",
+      "Un bloqueo AV en el IAM inferior es frecuente y suele ser transitorio (aumento del tono vagal). (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p17), pregunta 46",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "facil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "La arritmia irregularmente irregular con ausencia de ondas P que se asocia a un aumento de fenómenos ateroTromboticos es la Fibrilación auricular",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La FA es la arritmia irregularmente irregular sin ondas P.",
+      "El estasis en la aurícula izquierda (orejuela) favorece trombos y embolias, sobre todo ACV.",
+      "Tratamiento: control de frecuencia o de ritmo y anticoagulación según CHA₂DS₂-VASc."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p17), pregunta 48",
+     "bloco": "Arritmias",
+     "nivel": "facil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "Se confirma la necrosis miocárdica por la presencia en sangre de Troponina I",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La elevación de troponina I con curva de ascenso y descenso confirma daño miocárdico; con clínica isquémica, IAM.",
+      "Es más sensible y específica que la CK-MB.",
+      "Puede elevarse sin IAM (miocarditis, TEP, insuficiencia renal, sepsis): hay que correlacionar con la clínica."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p17), pregunta 49",
+     "bloco": "Cardiopatía isquémica",
+     "nivel": "facil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "El principal agente etiológico de las endocarditis subaguda es el S. Aureus",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Endocarditis subaguda: típicamente Streptococcus del grupo viridans en válvulas previamente dañadas.",
+      "Endocarditis aguda: S. aureus, de curso fulminante, incluso en válvulas sanas.",
+      "S. aureus es también el agente más frecuente en usuarios de drogas IV."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p17), pregunta 50",
+     "bloco": "Endocarditis infecciosa",
+     "nivel": "facil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "Para el manejo del edema agudo de pulmón, es fundamental:",
+     "opcoes": [
+      "Oxígeno + Diuréticos + Venodilatadores",
+      "Oxígeno + antibióticos",
+      "Oxígeno + salbutamol + corticoides",
+      "Oxígeno + antimuscarínicos + salbutamol"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "En el edema agudo de pulmón cardiogénico: oxígeno, diuréticos de asa (furosemida) y vasodilatadores (nitratos).",
+      "Se coloca al paciente sentado; en casos graves, ventilación no invasiva (CPAP/BiPAP).",
+      "Salbutamol, corticoides y antibióticos no son tratamiento del edema agudo de pulmón cardiogénico."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 12",
+     "bloco": "Tromboembolismo y edema agudo de pulmón",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Le envían a la consulta de hipertensión arterial los siguientes pacientes. Señale en cuál NO sospecharía una hipertensión secundaria:",
+     "opcoes": [
+      "Hipertensión arterial con hipopotasemia en un hombre de 50 años que no toma fármacos.",
+      "Mujer de 55 años con índice de masa corporal 28 y dislipemia.",
+      "Mujer de 25 años con un soplo abdominal.",
+      "Mujer de 78 años que desde hace 3 meses no se controla con 3 fármacos."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Sospechar HTA secundaria en: HTA en joven con soplo abdominal (estenosis de arteria renal), hipopotasemia sin diuréticos (hiperaldosteronismo) y HTA resistente.",
+      "Mujer de 55 años con sobrepeso y dislipemia es el perfil típico de HTA esencial.",
+      "HTA resistente: no controlada con 3 fármacos a dosis plenas, incluido un diurético."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p20), pregunta 21",
+     "bloco": "Hipertensión arterial",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Paciente de sexo femenino de 52 años de edad con antecedente de encamamiento post cirugía de fractura de cadera derecha hace aproximadamente 10 días. Acude a la urgencia por cuadro de disnea de inicio brusco y se constata al examen físico edema de pantorrilla derecha. Electrocardiograma con patrón S1Q3T3. Que prueba le orientaría a la confirmación diagnóstica de un TEP",
+     "opcoes": [
+      "Ecodoppler de miembro inferior",
+      "Angio TAC de vasos pulmonares",
+      "Dosaje de dímero D en sangre",
+      "Todas las respuestas son correctas"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Cirugía de cadera reciente, disnea súbita y edema de pantorrilla: alta sospecha de TEP (S1Q3T3 es un hallazgo ECG clásico pero poco sensible).",
+      "La prueba de confirmación de elección es la angio-TC de arterias pulmonares.",
+      "El dímero D sirve para descartar TEP si la probabilidad clínica es baja; el ecodoppler de miembros inferiores apoya la TVP pero no confirma el TEP."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p22), pregunta 4",
+     "bloco": "Tromboembolismo y edema agudo de pulmón",
+     "nivel": "medio",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "Hombre de 60 años con antecedentes de hipertensión arterial y dislipemia ha sido recientemente diagnosticado de insuficiencia cardiaca. Tras realizar las pruebas pertinentes se objetiva baja fracción de eyección del ventrículo izquierdo (32%). Acerca de este paciente es INCORRECTO:",
+     "opcoes": [
+      "La disnea progresiva es uno de los síntomas más frecuentes en esta condición",
+      "Se asociaría principalmente a la insuficiencia cardiaca izquierda con importante ingurgitación yugular",
+      "El tratamiento de elección se da con antagonistas de la SGLT2, ARA II/IECA, beta bloqueantes y antagonistas de la aldosterona",
+      "Los principales síntomas retrógrados serían los de congestión pulmonar"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la IC con FEVI reducida (32 %) predomina la disfunción sistólica izquierda, con síntomas retrógrados de congestión pulmonar (disnea, ortopnea).",
+      "La ingurgitación yugular importante es un signo de congestión sistémica (IC derecha), no de la insuficiencia izquierda aislada.",
+      "Tratamiento de la IC con FEVI reducida: cuatro pilares (iSGLT2, IECA/ARA II/ARNI, betabloqueantes y antagonistas de la aldosterona). (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p22), pregunta 5",
+     "bloco": "Insuficiencia cardiaca",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Son causas de Hemocultivos negativos en la endocarditis infecciosa:",
+     "opcoes": [
+      "Microorganismos de difícil cultivo",
+      "Antibioticoterapia previa",
+      "Endocarditis derecha",
+      "Todas son correctas"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Causas de endocarditis con hemocultivos negativos: antibiótico previo y microorganismos de difícil cultivo (HACEK, Coxiella, Bartonella, hongos).",
+      "El enunciado también incluye la endocarditis derecha como causa, según el material del curso.",
+      "Ante la sospecha se amplían las serologías y la PCR, y el ecocardiograma sigue siendo clave dentro de los criterios de Duke. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p22), pregunta 6",
+     "bloco": "Endocarditis infecciosa",
+     "nivel": "facil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "La detección en el ECG de un PR mayor a 0.20 ms es característico de:",
+     "opcoes": [
+      "Bloqueo AV de 1er grado",
+      "Bloqueo AV de 2do grado Mobitz 1",
+      "Bloqueo AV de 3er grado",
+      "Bloqueo AV de 2do grado Mobitz 2"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "PR prolongado (> 0,20 s; el enunciado dice 'ms' por error) = bloqueo AV de 1.er grado.",
+      "Mobitz I: PR que se alarga progresivamente hasta que cae un QRS; Mobitz II: PR fijo con caída súbita de un QRS.",
+      "BAV de 3.er grado: disociación completa entre ondas P y complejos QRS."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p22), pregunta 7",
+     "bloco": "Arritmias",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "La tensión arterial:",
+     "opcoes": [
+      "Permanece inalterada durante el día si el sujeto está tranquilo.",
+      "Mejora si se reduce el consumo de cloruro de sodio por debajo de 5 g diarios.",
+      "Si está alta es un factor de riesgo mayor para el desarrollo de insuficiencia cardiaca y no para el ictus.",
+      "Está regulada exclusivamente por los riñones."
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Reducir el consumo de sal por debajo de 5 g/día disminuye la presión arterial.",
+      "La PA tiene variación circadiana (baja durante el sueño) y la HTA es el principal factor de riesgo de ictus, además de IC e IAM.",
+      "La PA no está regulada solo por los riñones: participan el sistema nervioso simpático, el SRAA, el endotelio y el gasto cardiaco. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p22), pregunta 8",
+     "bloco": "Hipertensión arterial",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Paciente de sexo masculino de 58 años de edad, acude por cuadro de 2 semanas de evolución de fiebre sin predominio de horario que se acompañan de astenia e inapetencia. Al examen físico, soplo sistólico más audible en foco mitral ¿Qué estudio solicitaría para hacer su diagnóstico?",
+     "opcoes": [
+      "Dímero D",
+      "TAC de tórax",
+      "Ecocardiograma y hemocultivos",
+      "Determinación de pro BNP"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Fiebre prolongada con astenia y soplo sistólico en foco mitral sugiere endocarditis infecciosa.",
+      "Estudios iniciales: hemocultivos (al menos 3 pares antes del antibiótico) y ecocardiograma.",
+      "El diagnóstico se apoya en los criterios de Duke; el proBNP, la TC de tórax y el dímero D no confirman endocarditis."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p22), pregunta 9",
+     "bloco": "Endocarditis infecciosa",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Mujer de 63 años de edad que ingresa por cuadro de disnea progresiva hasta hacerse en reposo, ortopnea y aumento de 4 kg de peso. En la exploración física se aprecia presión arterial de 150/84 mm Hg, frecuencia cardiaca 100 latidos/minuto, aumento de la presión venosa yugular, crepitantes en ambas bases y edemas maleolares. Tratamiento habitual: enalapril 5 mg cada 12 horas, furosemida 80 mg al día. El estado funcional de la paciente según la NYHA de la paciente es:",
+     "opcoes": [
+      "Clase funcional IV",
+      "Clase funcional I",
+      "Clase funcional III",
+      "Clase funcional II"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "NYHA: I sin limitación; II síntomas con esfuerzo habitual; III síntomas con esfuerzos leves; IV síntomas en reposo.",
+      "La paciente tiene disnea hasta en reposo y ortopnea, con congestión (yugular, crepitantes, edemas): corresponde a clase IV.",
+      "No confundir NYHA (funcional, cambia con el tratamiento) con los estadios ACC/AHA (A–D, estructurales). (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p22), pregunta 10",
+     "bloco": "Insuficiencia cardiaca",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "En un paciente con fiebre prolongada y hemocultivos positivos se confirma el diagnóstico de endocaridtis",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Fiebre prolongada con hemocultivos positivos no confirma endocarditis: puede haber bacteriemia sin afectación valvular.",
+      "El diagnóstico se basa en los criterios de Duke: hemocultivos típicos más evidencia ecocardiográfica de compromiso endocárdico, entre otros.",
+      "Se necesita ecocardiograma (transtorácico y, si hace falta, transesofágico) para demostrar vegetaciones o abscesos."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p30), pregunta 37",
+     "bloco": "Endocarditis infecciosa",
+     "nivel": "medio",
+     "complemento": true,
+     "fixa": true
+    }
+   ],
+   "flashcards": [
+    {
+     "frente": "Una mujer de 59 años con antecedentes personales de cáncer de mama intervenida hace 8 meses y osteoporosis, sufre una caída y tiene una fractura de cuello de fémur derecho. Es intervenida quirúrgicamente y permanece ingresada en reposo con yeso durante 10 días. A la semana siguiente de su alta nota de forma súbita falta de aire que la lleva a consultar a su médico de cabecera que nota que su pantorrilla derecha tiene edema y dolor a la palpación. La sospecha diagnostica en esta paciente es de:",
+     "verso": "Tromboembolismo pulmonar",
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 32"
+    },
+    {
+     "frente": "Corresponde a un mecanismo productor de HTA:",
+     "verso": "Estimulación simpática por activación del sistema nervioso autónomo",
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 33"
+    },
+    {
+     "frente": "Paciente de sexo masculino de 45 años de edad, acude por cuadro de dolor retroesternal tipo opresivo que apareció ante la subida de una colina, el mismo cuadro dura aproximadamente 5 minutos y cedió con el reposo, refiere que ya tuvo cuadros similares con anterioridad; se le practica un ECG que resulta normal. El cuadro clínico probable y el método auxiliar de diagnóstico más útil para hacer el diagnostico seria:",
+     "verso": "Angina estable - Ergometría",
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 35"
+    },
+    {
+     "frente": "Con respecto al paciente anterior, la cara que se encuentra afectada es:",
+     "verso": "Inferior",
+     "fonte": "Prueba antigua de Patología Médica (foto p04), pregunta 37"
+    },
+    {
+     "frente": "Presenta un ritmo irregularmente irregular con ausencias de ondas P, asociándose a déficit de pulso por una conducción auricular variable y presenta un riesgo aumentado de tromboembolia sistémico. La presente definición se corresponde con más exactitud con:",
+     "verso": "Fibrilación auricular",
+     "fonte": "Prueba antigua de Patología Médica (foto p14), pregunta 11"
+    },
+    {
+     "frente": "Es CORRECTO acerca de la Endocarditis:",
+     "verso": "Puede presentar complicaciones locales como a distancia secundarias a embolismo séptico",
+     "fonte": "Prueba antigua de Patología Médica (foto p14), pregunta 13"
+    },
+    {
+     "frente": "Lo llaman a la urgencia por un paciente de 68 años con cuadro de hipertensión de larga data en tratamiento con valsartan 160 mg/día + Amlodipino 10mg/día, el mismo no refiere otra patología de base. El motivo de consulta se da porque la misma se controló la presión antes de dormir y encontró la misma en 180/100. Le realiza un ECG que resulta normal y al interrogatorio dirigido no presento compromiso de órgano diana. Acerca de la HTA de este paciente podemos afirmar:",
+     "verso": "Corresponde a una urgencia hipertensiva",
+     "fonte": "Prueba antigua de Patología Médica (foto p14), pregunta 15"
+    },
+    {
+     "frente": "Una paciente de 38 años sin antecedentes de cardiopatía ni problemas broncopulmonares conocidos acude al servicio de Urgencias por presentar palpitaciones rápidas y regulares de comienzo brusco. La TA es de 110/80 mmHg, el pulso es regular a 195 lpm y la saturación arterial de O2, respirando aire ambiente, es de 96%. El ECG muestra una taquicardia regular de QRS estrecho a 195 lpm. Con mayor probabilidad la arritmia que presenta es:",
+     "verso": "Taquicardia paroxística supraventricular",
+     "fonte": "Prueba antigua de Patología Médica (foto p14), pregunta 16"
+    },
+    {
+     "frente": "Un paciente de 50 años con antecedentes de tabaquismo, dislipidemia y diabetes consulta por presentar desde hace 36 horas episodios repetidos de dolor torácico opresivo con sudoración. El último y más prolongado tuvo una duración de 45 minutos. El ECG muestra descenso persistente del ST de 2 mm en derivaciones DII, DIII y aVF. Señale la afirmación más correcta:",
+     "verso": "Se debe solicitar Troponina I e iniciar medidas anti isquémicas pues corresponde a un SCASEST",
+     "fonte": "Prueba antigua de Patología Médica (foto p17), pregunta 38"
+    },
+    {
+     "frente": "Para la valoración de una Insuficiencia cardiaca, resulta más útil:",
+     "verso": "Determinación de BNP o proBNP",
+     "fonte": "Prueba antigua de Patología Médica (foto p17), pregunta 39"
+    },
+    {
+     "frente": "La causa más frecuente de hipertensión secundaria es:",
+     "verso": "Enfermedad Renal",
+     "fonte": "Prueba antigua de Patología Médica (foto p17), pregunta 40"
+    },
+    {
+     "frente": "Para el manejo del edema agudo de pulmón, es fundamental:",
+     "verso": "Oxígeno + Diuréticos + Venodilatadores",
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 12"
+    },
+    {
+     "frente": "La detección en el ECG de un PR mayor a 0.20 ms es característico de:",
+     "verso": "Bloqueo AV de 1er grado",
+     "fonte": "Prueba antigua de Patología Médica (foto p22), pregunta 7"
+    }
+   ]
+  },
+  {
+   "id": "pm-provas-4",
+   "tema": "Provas anteriores",
+   "titulo": "Provas anteriores 4 – Aparato respiratorio",
+   "icone": "hospital",
+   "separado": true,
+   "materiais": [
+    {
+     "nome": "Provas antiguas de Patología Médica (fotos)",
+     "tipo": "prova"
+    }
+   ],
+   "perguntas": [
+    {
+     "pergunta": "Mujer de 38 años, no fumadora, diagnosticada previamente de rinitis atópica que acude por cuadro de dos meses consistente en tos y sibilantes intermitentes de predominio nocturno. Espirometría dentro de la normalidad con prueba broncodilatadora negativa. Rx de tórax normal. ¿Cuál de las siguientes pruebas solicitaría a continuación?",
+     "opcoes": [
+      "Rx de senos paranasales.",
+      "Test cutáneo de alergia",
+      "TAC torácico.",
+      "Test de provocación bronquial"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Tos y sibilancias nocturnas con espirometría normal sugieren asma: se confirma demostrando hiperreactividad bronquial.",
+      "El test de provocación bronquial (metacolina o ejercicio) es el paso siguiente cuando espirometría y prueba broncodilatadora son normales.",
+      "El test cutáneo detecta atopia pero no confirma asma; la Rx de senos y la TC no aportan."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p08), pregunta 19",
+     "bloco": "Asma",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Mujer de 39 años de edad con cuadro de varios días de evolución de tos no productiva + febrícula + dolores articulares y cefalea. Se realiza una Rx de torax donde no se observan condensaciones, pero si aumento del patrón intersticial. Este cuadro clínico se corresponde con más exactitud a:",
+     "opcoes": [
+      "Neumonía Intrahospitalaria",
+      "Neumonía Típica",
+      "Neumonía atípica",
+      "Neumonía asociada a cuidados medicos"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Tos no productiva, febrícula, artralgias, cefalea y Rx con patrón intersticial sin condensación = neumonía atípica.",
+      "Agentes: Mycoplasma pneumoniae, Chlamydophila y Legionella; la típica (neumococo) da tos productiva, fiebre alta y condensación.",
+      "Tratamiento: macrólidos, doxiciclina o fluoroquinolonas (los betalactámicos no cubren atípicos)."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p08), pregunta 20",
+     "bloco": "Neumonía",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Acude al servicio de urgencia un varón de 58 años por un cuadro de dificultad respiratoria de 2 días de evolución que se acompaña de tos con expectoración amarillenta, acompaña al cuadro fiebre graduada en 38°C. Signos vitales: PA: 140/70; FC: 89x'; FR: 32 x'. Laboratorio al ingreso: GB: 16.000 (N: 89); Urea: 89-; Cr: 2.3mg/dL, resto normal. Al examen físico, lúcido, ubicado en tiempo y espacio. Se auscultan crepitantes en campo medio derecho. Ante estos datos la sospecha diagnostica seria:",
+     "opcoes": [
+      "NAC CURB 65 - 3",
+      "NAC CURB 65 - 2",
+      "NAC CURB 65 - 1",
+      "NAC CURB 65 - 4"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "CURB-65 suma 1 punto por: Confusión, Urea > 42 mg/dL, Frecuencia respiratoria ≥ 30, PA baja (PAS < 90 o PAD ≤ 60) y edad ≥ 65.",
+      "Aquí: FR 32 (+1) y urea elevada (+1) = 2 puntos; edad 58, PA 140/70 y sin confusión no suman.",
+      "Con 2 puntos el riesgo es moderado: internación en sala común. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p09), pregunta 1",
+     "bloco": "Neumonía",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Acude al servicio de urgencia un varón de 68 años por un cuadro de dificultad respiratoria de 2 días de evolución que se acompaña de tos con expectoración amarillenta, acompaña al cuadro fiebre graduada en 38°C. Signos vitales: PA: 110/70; FC: 89x'; FR: 32 x'. Laboratorio al ingreso: GB: 16.000 (N: 89); Urea: 35 (VN: 12-54); Cr: 0.9mg/dL, resto normal. Al examen físico, lúcido, ubicado en tiempo y espacio. Se auscultan crepitantes en campo medio derecho. Ante estos datos la sospecha diagnostica seria:",
+     "opcoes": [
+      "NAC CURB 65 – 2",
+      "NAC CURB 65 – 3",
+      "NAC CURB 65 – 1",
+      "NAC CURB 65 – 4"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "CURB-65: Confusión, Urea > 42 mg/dL, FR ≥ 30, PA baja (PAS < 90 o PAD ≤ 60) y edad ≥ 65 años.",
+      "Aquí suma: edad 68 (+1) y FR 32 (+1); urea 35 normal, PA 110/70 normal y lúcido = 2 puntos.",
+      "CURB-65 de 2 corresponde a riesgo moderado."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p10), pregunta 1",
+     "bloco": "Neumonía",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Con respecto al paciente previamente citado, la conducta más apropiada sería:",
+     "opcoes": [
+      "Manejo ambulatorio por ser de bajo riesgo",
+      "Internación en sala común por riesgo moderado",
+      "Internación en terapia por alto riesgo",
+      "Observación en la urgencia y tras estabilización manejo domiciliario"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "CURB-65 de 0–1: manejo ambulatorio; de 2: internación (sala común u observación); de 3 o más: neumonía grave, considerar UTI.",
+      "El paciente tiene 2 puntos: corresponde internación en sala común por riesgo moderado.",
+      "Siempre individualizar con saturación de oxígeno, comorbilidades y soporte social."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p09), pregunta 2",
+     "bloco": "Neumonía",
+     "nivel": "dificil",
+     "complemento": true
+    },
+    {
+     "pergunta": "El agente etiológico más frecuente de las neumonías es:",
+     "opcoes": [
+      "Klebsiela pneumoniae",
+      "Streptococcus neumoniae",
+      "Streptococcus pyogenes",
+      "Staphilococcus aureus"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Streptococcus pneumoniae (neumococo) es la causa más frecuente de neumonía adquirida en la comunidad.",
+      "S. aureus y Klebsiella son más frecuentes en neumonía nosocomial, alcohólicos o tras influenza.",
+      "S. pyogenes es una causa poco frecuente de neumonía."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p09), pregunta 3",
+     "bloco": "Neumonía",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "De los siguientes, se asocia con más frecuencia al desarrollo de Neumonías Nosocomiales:",
+     "opcoes": [
+      "Streptococcus Pneumoniae",
+      "Klebsiella Pneumoniae",
+      "Pseudomona Aeruginosa",
+      "Streptococcus pyogenes"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "En la neumonía nosocomial predominan bacilos gramnegativos (Pseudomonas aeruginosa, Klebsiella, Acinetobacter) y S. aureus.",
+      "Se define como la que aparece 48 horas o más tras la internación; la asociada a ventilador es la más grave.",
+      "S. pneumoniae es típico de la neumonía adquirida en la comunidad. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p10), pregunta 3",
+     "bloco": "Neumonía",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Es CORRECTO acerca de las Neumonías",
+     "opcoes": [
+      "El diagnostico se realiza por la clínica + laboratorio + Rx de torax",
+      "La diseminación hematógena es la principal vía de contagio",
+      "Los gérmenes causantes son de fácil identificación por lo que se debe aguardar los cultivos para el tratamiento",
+      "Las neumonías atípicas se diferencian de las típicas por presentar condensaciones en la Rx de torax"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El diagnóstico de neumonía se basa en clínica + laboratorio + Rx de tórax (infiltrado o condensación).",
+      "No se debe esperar el cultivo para empezar antibióticos: el tratamiento inicial es empírico.",
+      "La vía principal es la aspiración/inhalación, no la diseminación hematógena; las atípicas dan infiltrado intersticial, no condensación."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p09), pregunta 4",
+     "bloco": "Neumonía",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Usted le realiza una espirometría a un paciente que refiere sibilancias ocasionales, el mismo presenta un patrón obstructivo con reversibilidad tras la administración de un Beta adrenérgico. El diagnóstico más probable en este paciente es:",
+     "opcoes": [
+      "EPOC",
+      "Enfisema",
+      "Asma",
+      "Bronquitis crónica"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "Sibilancias ocasionales + patrón obstructivo reversible con beta-2 agonista = asma.",
+      "Reversibilidad: aumento del VEF1 ≥ 12 % y ≥ 200 mL tras el broncodilatador.",
+      "EPOC: obstrucción poco o nada reversible; enfisema y bronquitis crónica son fenotipos de EPOC."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p09), pregunta 5",
+     "bloco": "Asma",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Se asocia principalmente a factores alérgicos y por tanto se relaciona con niveles elevados de IgE el asma...............",
+     "opcoes": [
+      "Intrínseca",
+      "Extrínseca",
+      "Persistente",
+      "Cardiaca"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Asma extrínseca (alérgica/atópica): IgE elevada, inicio en la infancia, desencadenada por alérgenos y con antecedentes de atopia.",
+      "Asma intrínseca: sin atopia, inicio en adultos, IgE normal; se asocia a AAS/AINEs, sinusitis y pólipos nasales.",
+      "'Persistente' es una clasificación de gravedad, no de etiología."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p09), pregunta 6",
+     "bloco": "Asma",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Teniendo en cuenta la relación entre la ventilación y perfusión en el asma, es CORRECTO:",
+     "opcoes": [
+      "Aumenta la relación ventilación perfusión por presentar un patrón obstructivo",
+      "Disminuye la relación ventilación perfusión manifestándose con cianosis",
+      "La relación ventilación perfusión no se altera pues la hipoventilación se compensa con uso de músculos accesorios",
+      "Ninguna respuesta es correcta"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la obstrucción bronquial hay alvéolos perfundidos pero poco ventilados: disminuye la relación V/Q (efecto shunt).",
+      "Esto produce hipoxemia y, en crisis graves, cianosis; al inicio hay hiperventilación con PaCO₂ baja.",
+      "Si la PaCO₂ 'se normaliza' durante una crisis, indica fatiga muscular y gravedad. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p10), pregunta 6",
+     "bloco": "Asma",
+     "nivel": "medio",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "Es correcto acerca del asma EXCEPTO:",
+     "opcoes": [
+      "En el asma intrínseca se suele observar una fuerte asociación con el consumo de ASS",
+      "En algunos casos el ejercicio puede ser el único factor desencadenante",
+      "La triada clínica clásica es la de disnea, tos productiva, e infecciones frecuentes",
+      "Se caracteriza por una inflamación crónica con un patrón obstructivo no reversible y progresivo"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El asma es una obstrucción reversible (espontáneamente o con tratamiento) con inflamación crónica; no es irreversible ni progresiva.",
+      "La obstrucción no reversible y progresiva es típica de la EPOC.",
+      "La alternativa d también es falsa: la tríada clásica del asma es disnea, tos y sibilancias. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p09), pregunta 7",
+     "bloco": "Asma",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "La negatividad de una prueba broncodilatadora descarta el diagnóstico de ASMA en un/a paciente:",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Una prueba broncodilatadora negativa no descarta asma: en la fase intercrisis la espirometría puede ser normal.",
+      "En ese caso se confirma con test de provocación bronquial (metacolina) o con la variabilidad del flujo espiratorio pico.",
+      "La reversibilidad (aumento del VEF1 ≥ 12 % y ≥ 200 mL) apoya el diagnóstico, pero su ausencia no lo excluye. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p17), pregunta 41",
+     "bloco": "Asma",
+     "nivel": "medio",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "El diagnostico etiológico es fundamental y debe aguardarse el mismo para iniciar el tratamiento de un cuadro de Neumonía adquirido en la comunidad:",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "En la neumonía adquirida en la comunidad el tratamiento antibiótico es empírico y se inicia sin esperar el diagnóstico etiológico.",
+      "El retraso del antibiótico empeora el pronóstico, sobre todo en neumonía grave.",
+      "Cuando es posible se toman hemocultivos y esputo antes del antibiótico, pero no se espera su resultado."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p17), pregunta 42",
+     "bloco": "Neumonía",
+     "nivel": "facil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "El origen principal de los trombos causantes de Embolismo pulmonar son: los trombos asociados a catéteres",
+     "opcoes": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "El origen principal de los trombos del TEP es el sistema venoso profundo de los miembros inferiores (TVP proximal).",
+      "Los trombos por catéteres venosos centrales son una causa menos frecuente.",
+      "Tríada de Virchow: estasis venosa, hipercoagulabilidad y daño endotelial."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p17), pregunta 47",
+     "bloco": "Tromboembolismo y edema agudo de pulmón",
+     "nivel": "facil",
+     "complemento": true,
+     "fixa": true
+    },
+    {
+     "pergunta": "En el tratamiento del asma se debe realizar:",
+     "opcoes": [
+      "Utilizar para el mantenimiento beta adrenérgicos de acción prolongada",
+      "Inicialmente solo beta adrenérgicos de acción corta (salbutamol) para el rescate",
+      "Se debe asociar corticoides inhalados + beta adrenérgicos para el manejo de crisis",
+      "Los fármacos antimuscarínicos son los de primera elección"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El tratamiento del asma combina antiinflamatorio (corticoide inhalado) y broncodilatador beta-2 agonista.",
+      "Los beta-2 de acción larga (LABA) nunca deben usarse solos como mantenimiento: se asocian a corticoide inhalado.",
+      "Los antimuscarínicos (tiotropio) son complementarios en asma grave, no de primera elección. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 8",
+     "bloco": "Asma",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "El principal factor de riesgo para el desarrollo del EPOC es:",
+     "opcoes": [
+      "Atopia",
+      "Hiperreactividad asociada a IgE",
+      "Tabaquismo",
+      "Déficit de alfa -1-antitripsina"
+     ],
+     "correta": 2,
+     "explicacao": [
+      "El tabaquismo es el principal factor de riesgo de EPOC (~80–90 % de los casos).",
+      "Otros: humo de biomasa, exposición laboral, contaminación y déficit de alfa-1-antitripsina (raro, enfisema basal en jóvenes).",
+      "La atopia y la hiperreactividad asociada a IgE son rasgos del asma."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 9",
+     "bloco": "EPOC",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Son patologías asociadas al EPOC, EXCEPTO:",
+     "opcoes": [
+      "Asma cardiaca",
+      "Enfisema",
+      "Bronquitis crónica",
+      "Hipertensión pulmonar"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "El EPOC engloba bronquitis crónica y enfisema, y puede complicarse con hipertensión pulmonar y cor pulmonale.",
+      "El asma cardiaca es disnea por insuficiencia ventricular izquierda, no una patología asociada al EPOC.",
+      "No confundir asma cardiaca (congestión pulmonar) con asma bronquial."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 10",
+     "bloco": "EPOC",
+     "nivel": "facil",
+     "complemento": true
+    },
+    {
+     "pergunta": "Evalúa la espirómetria de un paciente EPOC donde se observa una espirometría con patrón obstructivo con una FEV1 de 68% post broncodilatador sobre el valor teórico. La clasificación a la que pertenece este paciente es:",
+     "opcoes": [
+      "EPOC muy grave",
+      "EPOC leve",
+      "EPOC grave",
+      "EPOC moderado"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "GOLD según VEF1 posbroncodilatador: leve ≥ 80 %, moderado 50–79 %, grave 30–49 %, muy grave < 30 %.",
+      "Un VEF1 de 68 % corresponde a EPOC moderado.",
+      "El diagnóstico exige VEF1/CVF posbroncodilatador < 0,7."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 11",
+     "bloco": "EPOC",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "¿Cuál es el índice más empleado para establecer la gravedad de la EPOC?",
+     "opcoes": [
+      "Cantidad de paquetes de cigarrillos fumados por año",
+      "Grado de disnea.",
+      "Índice de masa corporal.",
+      "Volumen espiratorio forzado en el primer segundo (FEV1)"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "El VEF1 es el índice más usado para graduar la obstrucción y la gravedad espirométrica del EPOC.",
+      "Se complementa con disnea (mMRC), síntomas y exacerbaciones; BODE integra IMC, obstrucción, disnea y ejercicio.",
+      "Los paquetes-año miden exposición al tabaco, no gravedad."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 13",
+     "bloco": "EPOC",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Es traído por sus familiares un adulto mayor con cuadro de fiebre y dificultad respiratoria, le realiza rápidamente una Rx de torax donde se observa el campo medio ocupado con broncograma aéreo. Los familiares refieren que es nuevo pues el mismo estuvo internado por infección urinaria hasta hace 72 horas y no presentaba nada a nivel pulmonar. El manejo de este paciente requiere:",
+     "opcoes": [
+      "Antibioticoterapia empírica cubriendo gérmenes habituales",
+      "No requiere cobertura antibiótica",
+      "Antibioticoterapia empírica cubriendo gérmenes atípicos",
+      "Antibioticoterapia empírica cubriendo gérmenes nosocomiales"
+     ],
+     "correta": 3,
+     "explicacao": [
+      "Un adulto mayor internado hasta hace 72 h que desarrolla neumonía tiene riesgo de gérmenes resistentes (neumonía asociada a cuidados de salud o nosocomial precoz).",
+      "Se indica antibioticoterapia empírica de amplio espectro con cobertura de Pseudomonas, S. aureus y gramnegativos.",
+      "Los gérmenes habituales o atípicos corresponden a la neumonía adquirida en la comunidad. (Respuesta a confirmar con el material del curso.)"
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 16",
+     "bloco": "Neumonía",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Paciente de sexo masculino de 80 años con historia de secuelas de Ictus isquémico, presenta episodio de disnea brusca tras acceso de tos mientras se encontraba alimentando. La evaluación revela un paciente lucido con déficit motor secular [sic], frecuencia respiratoria de 32 x', PA: 110/70 mmHg, SatO2: 94%, Glucemia capilar 158; laboratorialmente se constata: GB: 16.000 (N: 80%), Urea y resto de parámetros laboratoriales normales. El diagnóstico más acertado del paciente es:",
+     "opcoes": [
+      "Neumonía atípica",
+      "Neumonía por broncoaspiracion",
+      "Neumonía Intrahospitalaria",
+      "Neumonía adquirida en la comunidad"
+     ],
+     "correta": 1,
+     "explicacao": [
+      "Anciano con secuela de ictus y disnea brusca tras tos mientras come: neumonía por broncoaspiración.",
+      "La disfagia neurológica es el principal factor de riesgo; suele afectar segmentos basales y posteriores del pulmón derecho.",
+      "Se trata con cobertura para anaerobios y gramnegativos (por ejemplo amoxicilina-clavulánico) y se previene evaluando la deglución."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 17",
+     "bloco": "Neumonía",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "En la exploración funcional de un paciente con enfermedad pulmonar obstructiva crónica, son esperables todos los hallazgos MENOS uno:",
+     "opcoes": [
+      "Volúmenes pulmonares disminuidos.",
+      "Cociente FEV1/FVC inferior al 0,7.",
+      "Prueba broncodilatadora negativa.",
+      "FEV1 menor del 80%."
+     ],
+     "correta": 0,
+     "explicacao": [
+      "EPOC: obstrucción con VEF1/CVF posbroncodilatador < 0,7 y VEF1 reducido.",
+      "Hay atrapamiento aéreo: aumentan el volumen residual y la capacidad pulmonar total (hiperinsuflación); volúmenes disminuidos sugieren patrón restrictivo.",
+      "La reversibilidad con broncodilatador es escasa o nula (prueba negativa), a diferencia del asma."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 18",
+     "bloco": "EPOC",
+     "nivel": "medio",
+     "complemento": true
+    },
+    {
+     "pergunta": "Acerca del tromboembolismo pulmonar (TEP) es correcto EXCEPTO:",
+     "opcoes": [
+      "Se anomalía electrocardiografica más frecuente es el patrón S1Q3T3",
+      "En los pacientes encamados el riesgo de TEP se encuentra aumentado",
+      "El principal origen de los trombos es de venas profundas de los miembros inferiores",
+      "El tromboemolismo crónico predispone a hipertensión pulmonar"
+     ],
+     "correta": 0,
+     "explicacao": [
+      "La anomalía ECG más frecuente en el TEP es la taquicardia sinusal con cambios inespecíficos del ST-T; el patrón S1Q3T3 es clásico pero poco frecuente.",
+      "El principal origen de los trombos son las venas profundas de los miembros inferiores y el reposo prolongado aumenta el riesgo.",
+      "El tromboembolismo crónico puede causar hipertensión pulmonar tromboembólica crónica."
+     ],
+     "fonte": "Prueba antigua de Patología Médica (foto p27), pregunta 30",
+     "bloco": "Tromboembolismo y edema agudo de pulmón",
+     "nivel": "medio",
+     "complemento": true
+    }
+   ],
+   "flashcards": [
+    {
+     "frente": "Mujer de 38 años, no fumadora, diagnosticada previamente de rinitis atópica que acude por cuadro de dos meses consistente en tos y sibilantes intermitentes de predominio nocturno. Espirometría dentro de la normalidad con prueba broncodilatadora negativa. Rx de tórax normal. ¿Cuál de las siguientes pruebas solicitaría a continuación?",
+     "verso": "Test de provocación bronquial",
+     "fonte": "Prueba antigua de Patología Médica (foto p08), pregunta 19"
+    },
+    {
+     "frente": "Mujer de 39 años de edad con cuadro de varios días de evolución de tos no productiva + febrícula + dolores articulares y cefalea. Se realiza una Rx de torax donde no se observan condensaciones, pero si aumento del patrón intersticial. Este cuadro clínico se corresponde con más exactitud a:",
+     "verso": "Neumonía atípica",
+     "fonte": "Prueba antigua de Patología Médica (foto p08), pregunta 20"
+    },
+    {
+     "frente": "Acude al servicio de urgencia un varón de 68 años por un cuadro de dificultad respiratoria de 2 días de evolución que se acompaña de tos con expectoración amarillenta, acompaña al cuadro fiebre graduada en 38°C. Signos vitales: PA: 110/70; FC: 89x'; FR: 32 x'. Laboratorio al ingreso: GB: 16.000 (N: 89); Urea: 35 (VN: 12-54); Cr: 0.9mg/dL, resto normal. Al examen físico, lúcido, ubicado en tiempo y espacio. Se auscultan crepitantes en campo medio derecho. Ante estos datos la sospecha diagnostica seria:",
+     "verso": "NAC CURB 65 – 2",
+     "fonte": "Prueba antigua de Patología Médica (foto p10), pregunta 1"
+    },
+    {
+     "frente": "El principal factor de riesgo para el desarrollo del EPOC es:",
+     "verso": "Tabaquismo",
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 9"
+    },
+    {
+     "frente": "Evalúa la espirómetria de un paciente EPOC donde se observa una espirometría con patrón obstructivo con una FEV1 de 68% post broncodilatador sobre el valor teórico. La clasificación a la que pertenece este paciente es:",
+     "verso": "EPOC moderado",
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 11"
+    },
+    {
+     "frente": "¿Cuál es el índice más empleado para establecer la gravedad de la EPOC?",
+     "verso": "Volumen espiratorio forzado en el primer segundo (FEV1)",
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 13"
+    },
+    {
+     "frente": "Paciente de sexo masculino de 80 años con historia de secuelas de Ictus isquémico, presenta episodio de disnea brusca tras acceso de tos mientras se encontraba alimentando. La evaluación revela un paciente lucido con déficit motor secular [sic], frecuencia respiratoria de 32 x', PA: 110/70 mmHg, SatO2: 94%, Glucemia capilar 158; laboratorialmente se constata: GB: 16.000 (N: 80%), Urea y resto de parámetros laboratoriales normales. El diagnóstico más acertado del paciente es:",
+     "verso": "Neumonía por broncoaspiracion",
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 17"
+    },
+    {
+     "frente": "En la exploración funcional de un paciente con enfermedad pulmonar obstructiva crónica, son esperables todos los hallazgos MENOS uno:",
+     "verso": "Volúmenes pulmonares disminuidos.",
+     "fonte": "Prueba antigua de Patología Médica (foto p18), pregunta 18"
+    }
+   ]
   }
  ],
  "icone": "esteto"
